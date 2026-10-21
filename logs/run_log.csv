@@ -30,3 +30,5 @@ timestamp_local,level,message
 2026-10-21T09:38:36-04:00,INFO,009 tiktok no programado: limite plan gratuito Buffer (9 programados); queda producido y alojado para la siguiente ejecucion
 2026-10-21T09:38:36-04:00,WARN,ejecucion concurrente detectada: 007 ya producido/programado por otra sesion (commits 399f888/ec4fced); se descarto el 007 local y no se re-alojo media-007
 2026-10-21T09:38:36-04:00,INFO,metricas: 001 ya capturado hoy 09:05; 002-004 aun <24 h desde envio; sin capturas nuevas
+2026-10-21T09:39:31-04:00,INFO,"ejecucion manual 'validacion 007': 007 ya producido (QA PASS, evidence/007 completa), alojado en media-007 y programado YT 6ad8bb9d88865f7e6d31b9f4 / TT 6ad8bb9f0811076dd03ce382 (2026-10-22 09:00). Segun RUNBOOK 3f no se publica de nuevo; no se re-aloja media-007 porque sobrescribiria el archivo de posts ya programados"
+2026-10-21T09:39:31-04:00,INFO,009 tiktok sigue pendiente: 9 programados (limite plan gratuito); lo programara la ejecucion de 13:37
