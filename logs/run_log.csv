@@ -9,3 +9,4 @@ timestamp_local,level,message
 2026-10-21T09:04:46-04:00,INFO,006 tiktok 6ad8b85c0c5e774bdfb13e84 scheduled 
 2026-10-21T09:04:46-04:00,ERROR,004 tiktok create_post (shareNow) denegado por el clasificador de permisos de la sesion; no se creo post; pendiente para la siguiente ejecucion
 2026-10-21T09:05:07-04:00,INFO,metrics appended for 2 posts
+2026-10-21T09:06:43-04:00,INFO,004 tiktok 6ad8b8c688865f7e6d30d1cf sending 

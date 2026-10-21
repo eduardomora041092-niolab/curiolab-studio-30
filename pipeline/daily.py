@@ -59,7 +59,8 @@ def published_platforms(v):
     return sorted(p for p, x in v["posts"].items() if x.get("status") in ("sent", "scheduled", "sending"))
 
 def cmd_status(args):
-    day = dt.date.fromisoformat(args[1]) if len(args) > 1 and args[0] in ("--date", "--through") else now_local().date()
+    # default: everything due through TOMORROW (one day of production slack); publishing respects the Buffer limit
+    day = dt.date.fromisoformat(args[1]) if len(args) > 1 and args[0] in ("--date", "--through") else now_local().date() + dt.timedelta(days=1)
     cal = {r["id"]: r for r in load(CAL)}; st = state(); out = []
     for vid, r in cal.items():
         if dt.date.fromisoformat(r["fecha"]) > day: continue
@@ -121,9 +122,12 @@ def cmd_caption(args):
     tags = "#CurioLab #ComoFunciona #Curiosidades #Ciencia" if r["categoria"] == "Mecanismo" else "#CurioLab #Ciencia #Curiosidades #Naturaleza"
     text = f"{r['gancho']} {r['titulo']}\n\nExplicado en menos de 35 segundos.\n\n{tags} #Shorts"
     due = dt.datetime.combine(dt.date.fromisoformat(r["fecha"]), dt.time.fromisoformat(SLOT_TIMES[r["slot"]]), TZ)
-    mode = "customScheduled" if due > now_local() + dt.timedelta(minutes=20) else "shareNow"
+    # never "shareNow": the background session's safety check blocked an immediate publish on 2026-10-21;
+    # overdue videos are scheduled 15 minutes ahead instead (scheduled posts were allowed).
+    earliest = (now_local() + dt.timedelta(minutes=15)).replace(second=0, microsecond=0)
+    due = max(due, earliest); mode = "customScheduled"
     print(json.dumps({"id": vid, "text": text, "youtube_title": r["titulo"][:100], "youtube_categoryId": "27",
-                      "asset_title": f"CurioLab_{vid}.mp4", "mode": mode, "dueAt": due.isoformat() if mode == "customScheduled" else None,
+                      "asset_title": f"CurioLab_{vid}.mp4", "mode": mode, "dueAt": due.isoformat(),
                       "channels": CHANNELS, "organizationId": ORG}, ensure_ascii=False, indent=1))
 
 def cmd_record(args):

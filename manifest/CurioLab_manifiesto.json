@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T09:05-04:00",
+ "actualizado": "2026-10-21T09:06-04:00",
  "estados": {
   "PUBLISHED": 3,
   "PRODUCED": 3,
@@ -125,6 +125,12 @@
      "status": "sent",
      "url": "https://www.youtube.com/watch?v=q2ngb_4iQXc",
      "recorded": "2026-10-21T09:04:45-04:00"
+    },
+    "tiktok": {
+     "post_id": "6ad8b8c688865f7e6d30d1cf",
+     "status": "sending",
+     "url": "",
+     "recorded": "2026-10-21T09:06:43-04:00"
     }
    },
    "qa": {

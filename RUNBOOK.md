@@ -1,6 +1,6 @@
 # CurioLab Studio 30 — RUNBOOK de la ejecución diaria
 
-Lo ejecuta una sesión programada de Claude en la nube, dos veces al día (06:37 y 12:37, America/New_York).
+Lo ejecuta una sesión programada de Claude en la nube, dos veces al día (06:37 y 13:37, America/New_York).
 La segunda ejecución solo recupera lo que haya fallado en la primera. Todo es idempotente: repetir la
 ejecución nunca debe crear publicaciones duplicadas.
 
@@ -28,7 +28,8 @@ ejecución nunca debe crear publicaciones duplicadas.
 - `ACTIVE`: continúa.
 
 ## 2. Lista de trabajo
-`python3 pipeline/daily.py status` → vídeos con fecha ≤ hoy a los que les falta alguna plataforma.
+`python3 pipeline/daily.py status` → vídeos con fecha ≤ MAÑANA a los que les falta alguna plataforma
+(se produce con un día de antelación; los de mañana se programan para su hora, nunca antes).
 Si el mensaje de la ejecución pide adelantar la producción, usa `status --through AAAA-MM-DD`. Los vídeos
 futuros se programan para su hora con `customScheduled`; nunca se publican antes.
 Procésalos del más antiguo al más reciente, con un máximo de 6 por ejecución.
@@ -68,12 +69,16 @@ si vuelve a fallar, registra el error y pasa al siguiente vídeo. Después mira 
    pidiendo `id status externalLink assets{... on VideoAsset{video{title}}}`. Si hay un post cuyo
    `video.title` sea `CurioLab_NNN.mp4` y su estado no sea `error`, **no publiques**: regístralo con
    `daily.py record` y continúa.
-2. `python3 pipeline/daily.py caption NNN` → texto, título, modo y `dueAt`.
-3. `create_post` por canal con `schedulingType: automatic`, `mode` y `dueAt` del paso anterior, y
+2. Límite del plan gratuito de Buffer: 10 publicaciones programadas en total. Cuenta los posts con
+   status `scheduled` de la organización. Si hay 9 o más, NO crees más: el vídeo queda producido y alojado,
+   y la siguiente ejecución lo programará. Eso no es un error.
+3. `python3 pipeline/daily.py caption NNN` → texto, título y `dueAt`. El modo es siempre `customScheduled`:
+   no uses nunca `shareNow`, porque el control de seguridad de la sesión lo bloqueó el 21-oct.
+4. `create_post` por canal con `schedulingType: automatic`, `mode` y `dueAt` del paso anterior, y
    `assets: [{video:{url:<media_url>, metadata:{title:"CurioLab_NNN.mp4"}}}]`.
    - YouTube: `metadata.youtube = {title, categoryId:"27", privacy:"public", madeForKids:false, isAiGenerated:true}`.
    - TikTok: `metadata.tiktok = {isAiGenerated:true}`.
-4. `python3 pipeline/daily.py record NNN <youtube|tiktok> <post_id> <status> [externalLink]`.
+5. `python3 pipeline/daily.py record NNN <youtube|tiktok> <post_id> <status> [externalLink]`.
 
 ## 4. Conciliación
 Para cada post registrado como `scheduled` o `sending`, consulta su estado actual y su `externalLink`
@@ -94,6 +99,8 @@ Para los posts `sent` hace más de 24 h, llama a `get_post` con `includeMetrics:
    errores).
 4. Mensaje final:
    - Si todo fue bien: `✅ CurioLab <fecha>: NNN, NNN, NNN publicados/programados (YT y TT)`.
+   - Si una acción la bloquea el control de seguridad de la sesión, no intentes rodearlo: regístrala y
+     repórtala.
    - Si algo falló: `❌ CurioLab ERROR <fecha>: <qué falló>`, y además crea en Drive
      `CurioLab_ERROR_<fecha>.txt` con el detalle. El aviso llega al teléfono y al correo del dueño.
 
