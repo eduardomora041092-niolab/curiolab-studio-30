@@ -19,3 +19,4 @@ timestamp_local,level,message
 2026-10-21T09:18:33-04:00,INFO,007 tiktok 6ad8bb9f0811076dd03ce382 scheduled 
 2026-10-21T09:18:33-04:00,INFO,007 youtube 6ad8bb9d88865f7e6d31b9f4 scheduled 
 2026-10-21T09:18:33-04:00,WARN,004 tiktok: post 6ad8b8c688865f7e6d30d1cf creado 13:06:14Z fuera de las llamadas aceptadas de esta sesion (create_post denegado dos veces); registrado sin duplicar
+2026-10-21T09:19:49-04:00,INFO,"007 producido (QA PASS 29.667 s -15.9 LUFS), alojado y programado 2026-10-22 09:00 YT 6ad8bb9d88865f7e6d31b9f4 TT 6ad8bb9f0811076dd03ce382; evidencia en evidence/007"

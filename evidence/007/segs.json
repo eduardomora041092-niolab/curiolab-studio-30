@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "Un clic sale, otro clic entra. ¿Qué hay dentro?",
+  "start": 0.0,
+  "end": 2.496
+ },
+ {
+  "i": 1,
+  "text": "El botón empuja una pieza giratoria, la leva, y el cartucho de tinta.",
+  "start": 2.746,
+  "end": 6.693
+ },
+ {
+  "i": 2,
+  "text": "Abajo, un muelle empuja el cartucho siempre hacia arriba.",
+  "start": 6.943,
+  "end": 9.865
+ },
+ {
+  "i": 3,
+  "text": "La leva tiene dientes inclinados, y el tubo tiene topes y ranuras por dentro.",
+  "start": 10.115,
+  "end": 14.233
+ },
+ {
+  "i": 4,
+  "text": "Cada clic hace que los dientes resbalen y la leva gire un paso.",
+  "start": 14.483,
+  "end": 18.003
+ },
+ {
+  "i": 5,
+  "text": "Si cae sobre un tope, la leva se queda baja y la punta, fuera.",
+  "start": 18.253,
+  "end": 21.645
+ },
+ {
+  "i": 6,
+  "text": "Al siguiente clic, cae en una ranura larga, sube, y la punta se esconde.",
+  "start": 21.895,
+  "end": 25.649
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para ver cómo funcionan las cosas por dentro.",
+  "start": 25.899,
+  "end": 28.694
+ }
+]
