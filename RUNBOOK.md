@@ -32,10 +32,15 @@ ejecución nunca debe crear publicaciones duplicadas.
 (se produce con un día de antelación; los de mañana se programan para su hora, nunca antes).
 Si el mensaje de la ejecución pide adelantar la producción, usa `status --through AAAA-MM-DD`. Los vídeos
 futuros se programan para su hora con `customScheduled`; nunca se publican antes.
-Procésalos del más antiguo al más reciente, con un máximo de 6 por ejecución.
+Procésalos del más antiguo al más reciente. `status` limita a 3 los vídeos NUEVOS (sin guion) por ejecución:
+se produce como mucho un día de calendario por ejecución, y cada ID se publica una sola vez por canal.
 
 ## 3. Por cada vídeo pendiente
-### 3a. Guion y escenas (solo si `needs` contiene `spec`)
+### 3a. Investigación (solo si `needs` contiene `spec`)
+Verifica el mecanismo o fenómeno con 1–2 búsquedas web y guarda `evidence/NNN/research.md` con: los hechos
+que vas a afirmar, las fuentes (URL) y lo que decidiste NO afirmar por dudoso. No uses créditos de vidIQ.
+
+### 3b. Guion y escenas
 Crea `template/videos/vNNN.py` siguiendo el formato de `v002.py`–`v006.py`:
 - Docstring con la **ficha científica**: el mecanismo o fenómeno explicado en 3–6 frases. Solo
   conocimiento consolidado de libro de texto. Sin cifras salvo que sean seguras; si dudas, generaliza.
@@ -46,7 +51,7 @@ Crea `template/videos/vNNN.py` siguiendo el formato de `v002.py`–`v006.py`:
   marcas, personajes conocidos ni personas reales.
 - `KEYWORDS`: palabras clave en minúscula que se resaltan en los subtítulos.
 
-### 3b. Previsualización y revisión visual
+### 3c. Previsualización y revisión visual
 `python3 template/build.py template/videos/vNNN.py --preview` y **mira** `work/NNN/preview_sheet.png`
 con la herramienta Read. Comprueba en cada fotograma:
 - (a) la imagen corresponde a la frase del subtítulo;
@@ -55,15 +60,18 @@ con la herramienta Read. Comprueba en cada fotograma:
 - (d) los textos se leen y no hay glifos vacíos (□).
 Corrige y repite, como máximo 3 veces.
 
-### 3c. Render y QA automático
+### 3d. Render y QA automático
 `python3 pipeline/daily.py render NNN` (código de salida 0 = QA PASS). Si falla, corrige y reintenta una vez;
 si vuelve a fallar, registra el error y pasa al siguiente vídeo. Después mira `work/NNN/final_sheet.png`
 (un fotograma por frase, extraído del MP4 final) para confirmar la sincronía.
 
-### 3d. Alojamiento público
+Al terminar el QA, `evidence/NNN/` debe contener qa.json, segs.json, preview_sheet.png, final_sheet.png y
+research.md. Escribe en `evidence/NNN/visual_review.md` qué comprobaste en cada fotograma y qué corregiste.
+
+### 3e. Alojamiento público
 `python3 pipeline/daily.py host NNN` → imprime la URL pública verificada (HTTP 200 y tamaño correcto).
 
-### 3e. Publicación (sin duplicados)
+### 3f. Publicación (sin duplicados)
 1. Comprueba si ya existe: `execute_query` en Buffer:
    `posts(first:100, input:{organizationId:"6ad737f3bb7377f2534a518d", filter:{channelIds:[<canal>]}})`
    pidiendo `id status externalLink assets{... on VideoAsset{video{title}}}`. Si hay un post cuyo
@@ -72,8 +80,9 @@ si vuelve a fallar, registra el error y pasa al siguiente vídeo. Después mira 
 2. Límite del plan gratuito de Buffer: 10 publicaciones programadas en total. Cuenta los posts con
    status `scheduled` de la organización. Si hay 9 o más, NO crees más: el vídeo queda producido y alojado,
    y la siguiente ejecución lo programará. Eso no es un error.
-3. `python3 pipeline/daily.py caption NNN` → texto, título y `dueAt`. El modo es siempre `customScheduled`:
-   no uses nunca `shareNow`, porque el control de seguridad de la sesión lo bloqueó el 21-oct.
+3. `python3 pipeline/daily.py caption NNN` → texto, título, modo y `dueAt`. Si la hora del calendario es
+   futura, se programa para esa hora (`customScheduled`); si ya pasó, `shareNow`. No cambies el modo ni la
+   hora para esquivar un control de seguridad.
 4. `create_post` por canal con `schedulingType: automatic`, `mode` y `dueAt` del paso anterior, y
    `assets: [{video:{url:<media_url>, metadata:{title:"CurioLab_NNN.mp4"}}}]`.
    - YouTube: `metadata.youtube = {title, categoryId:"27", privacy:"public", madeForKids:false, isAiGenerated:true}`.
