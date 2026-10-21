@@ -19,6 +19,11 @@ ejecución nunca debe crear publicaciones duplicadas.
    sin push no se pueden alojar vídeos nuevos (paso 3d), pero sí publicar los que ya tengan `media_url`.
 2. `./setup.sh` (instala kokoro-onnx y descarga los modelos de voz desde GitHub; todo gratuito).
 
+## 0b. Bloqueo de ejecución
+`python3 pipeline/daily.py lock acquire`. Si devuelve `BUSY`, hay otra ejecución en curso: termina sin
+hacer nada, con el mensaje "⏸ CurioLab: otra ejecución en curso". Al final de TODA ejecución, también si falla,
+ejecuta `python3 pipeline/daily.py lock release`.
+
 ## 1. Guarda de fechas
 `python3 pipeline/daily.py guard`
 - `ENDED`: desactiva la tarea programada "CurioLab — producción diaria" con `update_trigger`

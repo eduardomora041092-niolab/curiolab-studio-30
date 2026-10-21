@@ -151,6 +151,26 @@ def cmd_metrics(args):
                 w.writerow([now_local().isoformat(timespec="seconds"), r["video_id"], r["platform"], r["post_id"], m["type"], m["value"]])
     log("INFO", f"metrics appended for {len(rows)} posts")
 
+def cmd_lock(args):
+    """lock acquire|release — one run at a time. The lock lives in the repo (pipeline/lock.json), so a
+    second session sees it after cloning; a lock older than 2 h is considered stale."""
+    action = args[0]; p = f"{REPO}/pipeline/lock.json"
+    git = lambda *a: subprocess.run(["git", "-C", REPO, *a], capture_output=True, text=True)
+    git("pull", "-q", "--rebase", "origin", "main")
+    cur = load(p)
+    if action == "acquire":
+        if cur and (now_local() - dt.datetime.fromisoformat(cur["since"])) < dt.timedelta(hours=2):
+            print(f"BUSY since {cur['since']}"); log("WARN", f"run skipped: lock held since {cur['since']}"); sys.exit(4)
+        save(p, {"since": now_local().isoformat(timespec="seconds")})
+    else:
+        if os.path.exists(p): os.remove(p)
+    git("add", "-A", "pipeline/lock.json")
+    git("-c", "user.name=CurioLab bot", "-c", "user.email=noreply@anthropic.com", "commit", "-qm", f"lock {action}")
+    r = git("push", "-q", "origin", "main")
+    if r.returncode != 0 and action == "acquire":
+        print("BUSY (push rejected)"); sys.exit(4)
+    print("OK")
+
 def cmd_log(args):
     log(args[0], " ".join(args[1:]))
 
@@ -185,4 +205,4 @@ def cmd_export(_):
 
 if __name__ == "__main__":
     {"guard": cmd_guard, "status": cmd_status, "render": cmd_render, "host": cmd_host, "caption": cmd_caption,
-     "record": cmd_record, "metrics": cmd_metrics, "log": cmd_log, "export": cmd_export}[sys.argv[1]](sys.argv[2:])
+     "record": cmd_record, "lock": cmd_lock, "metrics": cmd_metrics, "log": cmd_log, "export": cmd_export}[sys.argv[1]](sys.argv[2:])
