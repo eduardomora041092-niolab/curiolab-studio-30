@@ -1,0 +1,711 @@
+{
+ "videos": {
+  "001": {
+   "estado": "PUBLISHED",
+   "posts": {
+    "youtube": {
+     "post_id": "6ad753635008aca7fa263030",
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/u-S9uGKSzUI",
+     "recorded": "2026-10-21T07:55:00-04:00",
+     "source": "Buffer externalLink"
+    },
+    "tiktok": {
+     "post_id": "6ad753635008aca7fa26302f",
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7698713658666355982",
+     "recorded": "2026-10-21T07:55:00-04:00",
+     "source": "Buffer externalLink"
+    }
+   },
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "002": {
+   "estado": "PUBLISHED",
+   "posts": {
+    "youtube": {
+     "post_id": "6ad7ccf79feaa86de0616a26",
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/tUx8zhQw0E8",
+     "recorded": "2026-10-21T07:55:00-04:00",
+     "source": "Buffer externalLink"
+    },
+    "tiktok": {
+     "post_id": "6ad7ccf79feaa86de0616a25",
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7698847412705561870",
+     "recorded": "2026-10-21T07:55:00-04:00",
+     "source": "Buffer externalLink"
+    }
+   },
+   "qa": {
+    "all_pass": true,
+    "duration_s": 32.233,
+    "lufs": -15.7,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    }
+   },
+   "media_url": null,
+   "errors": []
+  },
+  "003": {
+   "estado": "PUBLISHED",
+   "posts": {
+    "youtube": {
+     "post_id": "6ad7cf9094397e2edacdbb8d",
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/hHoH21L5Na8",
+     "recorded": "2026-10-21T07:55:00-04:00",
+     "source": "Buffer externalLink"
+    },
+    "tiktok": {
+     "post_id": "6ad7cf9094397e2edacdbb8c",
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7698850266602343693",
+     "recorded": "2026-10-21T07:55:00-04:00",
+     "source": "Buffer externalLink"
+    }
+   },
+   "qa": {
+    "all_pass": true,
+    "duration_s": 31.533,
+    "lufs": -15.5,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    }
+   },
+   "media_url": null,
+   "errors": []
+  },
+  "004": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "005": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "006": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "007": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "008": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "009": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "010": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "011": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "012": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "013": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "014": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "015": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "016": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "017": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "018": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "019": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "020": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "021": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "022": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "023": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "024": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "025": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "026": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "027": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "028": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "029": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "030": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "031": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "032": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "033": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "034": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "035": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "036": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "037": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "038": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "039": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "040": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "041": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "042": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "043": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "044": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "045": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "046": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "047": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "048": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "049": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "050": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "051": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "052": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "053": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "054": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "055": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "056": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "057": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "058": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "059": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "060": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "061": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "062": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "063": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "064": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "065": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "066": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "067": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "068": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "069": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "070": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "071": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "072": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "073": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "074": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "075": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "076": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "077": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "078": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "079": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "080": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "081": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "082": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "083": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "084": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "085": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "086": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "087": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "088": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "089": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "090": {
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  }
+ }
+}

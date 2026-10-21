@@ -1,0 +1,5 @@
+models/
+work/
+out/
+__pycache__/
+*.tmp
