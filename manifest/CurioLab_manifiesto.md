@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-21T09:19-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-21T09:38-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 83
-- **PRODUCED**: 3
+- **PLANNED**: 81
+- **PRODUCED**: 5
 - **PUBLISHED**: 4
 
 ## Vídeos con actividad
@@ -19,6 +19,8 @@ Actualizado: 2026-10-21T09:19-04:00 (America/New_York) · Costo real: US$0
 | 005 | 2026-10-21 | ¿Cómo escribe un bolígrafo? | PRODUCED | — | — | PASS 29.7 s -15.9 LUFS |
 | 006 | 2026-10-21 | ¿Por qué el mar es salado? | PRODUCED | — | — | PASS 28.767 s -15.7 LUFS |
 | 007 | 2026-10-22 | ¿Cómo funciona el clic de un bolígrafo? | PRODUCED | — | — | PASS 29.667 s -15.9 LUFS |
+| 008 | 2026-10-22 | ¿Cómo funciona la cisterna del inodoro? | PRODUCED | — | — | PASS 26.833 s -15.6 LUFS |
+| 009 | 2026-10-22 | ¿Cómo se forma un arcoíris? | PRODUCED | — | — | PASS 27.3 s -15.6 LUFS |
 
 ## Calendario completo
 
@@ -29,8 +31,8 @@ Actualizado: 2026-10-21T09:19-04:00 (America/New_York) · Costo real: US$0
 - 005 · 2026-10-21 · Mecanismo · ¿Cómo escribe un bolígrafo? · PRODUCED
 - 006 · 2026-10-21 · Ciencia · ¿Por qué el mar es salado? · PRODUCED
 - 007 · 2026-10-22 · Mecanismo · ¿Cómo funciona el clic de un bolígrafo? · PRODUCED
-- 008 · 2026-10-22 · Mecanismo · ¿Cómo funciona la cisterna del inodoro? · PLANNED
-- 009 · 2026-10-22 · Ciencia · ¿Cómo se forma un arcoíris? · PLANNED
+- 008 · 2026-10-22 · Mecanismo · ¿Cómo funciona la cisterna del inodoro? · PRODUCED
+- 009 · 2026-10-22 · Ciencia · ¿Cómo se forma un arcoíris? · PRODUCED
 - 010 · 2026-10-23 · Mecanismo · ¿Cómo enfría un refrigerador? · PLANNED
 - 011 · 2026-10-23 · Mecanismo · ¿Cómo calienta un microondas? · PLANNED
 - 012 · 2026-10-23 · Ciencia · ¿Por qué vemos el rayo antes de oír el trueno? · PLANNED

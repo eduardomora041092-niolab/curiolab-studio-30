@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "Siempre se llena justo hasta el mismo nivel. ¿Cómo lo sabe?",
+  "start": 0.0,
+  "end": 3.179
+ },
+ {
+  "i": 1,
+  "text": "La palanca levanta una tapa de goma en el fondo.",
+  "start": 3.429,
+  "end": 6.309
+ },
+ {
+  "i": 2,
+  "text": "Y el agua cae de golpe hacia la taza.",
+  "start": 6.559,
+  "end": 8.777
+ },
+ {
+  "i": 3,
+  "text": "Al bajar el agua, baja el flotador y se abre la válvula de entrada.",
+  "start": 9.027,
+  "end": 12.547
+ },
+ {
+  "i": 4,
+  "text": "La tapa se cierra y el tanque vuelve a llenarse.",
+  "start": 12.797,
+  "end": 15.507
+ },
+ {
+  "i": 5,
+  "text": "El flotador sube con el agua y, al llegar al nivel, cierra la válvula.",
+  "start": 15.757,
+  "end": 19.383
+ },
+ {
+  "i": 6,
+  "text": "Si algo falla, un tubo de rebose envía el exceso a la taza.",
+  "start": 19.633,
+  "end": 22.94
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para descubrir cómo funcionan las cosas.",
+  "start": 23.19,
+  "end": 25.835
+ }
+]

@@ -20,3 +20,13 @@ timestamp_local,level,message
 2026-10-21T09:18:33-04:00,INFO,007 youtube 6ad8bb9d88865f7e6d31b9f4 scheduled 
 2026-10-21T09:18:33-04:00,WARN,004 tiktok: post 6ad8b8c688865f7e6d30d1cf creado 13:06:14Z fuera de las llamadas aceptadas de esta sesion (create_post denegado dos veces); registrado sin duplicar
 2026-10-21T09:19:49-04:00,INFO,"007 producido (QA PASS 29.667 s -15.9 LUFS), alojado y programado 2026-10-22 09:00 YT 6ad8bb9d88865f7e6d31b9f4 TT 6ad8bb9f0811076dd03ce382; evidencia en evidence/007"
+2026-10-21T09:32:47-04:00,INFO,008 QA all_pass=True
+2026-10-21T09:34:11-04:00,INFO,008 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-008/CurioLab_008.mp4
+2026-10-21T09:34:32-04:00,INFO,008 youtube 6ad8bf5db535ec9954c27e11 scheduled 
+2026-10-21T09:34:32-04:00,INFO,008 tiktok 6ad8bf62d4269b1b7a6ae390 scheduled 
+2026-10-21T09:34:50-04:00,INFO,009 QA all_pass=True
+2026-10-21T09:38:17-04:00,INFO,009 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-009/CurioLab_009.mp4
+2026-10-21T09:38:36-04:00,INFO,009 youtube 6ad8c054b535ec9954c2b23e scheduled 
+2026-10-21T09:38:36-04:00,INFO,009 tiktok no programado: limite plan gratuito Buffer (9 programados); queda producido y alojado para la siguiente ejecucion
+2026-10-21T09:38:36-04:00,WARN,ejecucion concurrente detectada: 007 ya producido/programado por otra sesion (commits 399f888/ec4fced); se descarto el 007 local y no se re-alojo media-007
+2026-10-21T09:38:36-04:00,INFO,metricas: 001 ya capturado hoy 09:05; 002-004 aun <24 h desde envio; sin capturas nuevas
