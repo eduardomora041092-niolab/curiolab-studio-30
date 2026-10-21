@@ -17,7 +17,10 @@ ejecución nunca debe crear publicaciones duplicadas.
    Si existe la herramienta `add_repo`, úsala antes con owner `eduardomora041092-niolab`, repo `curiolab-studio-30`
    y access "push". Comprueba la escritura con `git push --dry-run origin main`. Si falla, anota el error exacto:
    sin push no se pueden alojar vídeos nuevos (paso 3d), pero sí publicar los que ya tengan `media_url`.
-2. `./setup.sh` (instala kokoro-onnx y descarga los modelos de voz desde GitHub; todo gratuito).
+2. `./setup.sh`: instala SOLO las dependencias de `requirements.txt` (PyPI, versiones fijadas) y los modelos
+   Kokoro v1.0 del release oficial, comprobando su SHA-256. Está autorizado por el dueño; ver `DEPENDENCIAS.md`.
+   Si el control de seguridad lo deniega o falla, NO lo intentes de otra forma: registra el motivo exacto con
+   `daily.py log ERROR`, sáltate la producción (3a–3e), sigue con la publicación de lo ya alojado y termina con ❌.
 
 ## 0b. Bloqueo de ejecución
 `python3 pipeline/daily.py lock acquire`. Si devuelve `BUSY`, hay otra ejecución en curso: termina sin
