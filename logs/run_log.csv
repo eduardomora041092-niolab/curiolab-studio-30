@@ -10,3 +10,5 @@ timestamp_local,level,message
 2026-10-21T09:04:46-04:00,ERROR,004 tiktok create_post (shareNow) denegado por el clasificador de permisos de la sesion; no se creo post; pendiente para la siguiente ejecucion
 2026-10-21T09:05:07-04:00,INFO,metrics appended for 2 posts
 2026-10-21T09:06:43-04:00,INFO,004 tiktok 6ad8b8c688865f7e6d30d1cf sending 
+2026-10-21T09:07:19-04:00,INFO,004 tiktok 6ad8b8c688865f7e6d30d1cf sent https://tiktok.com/@curiolabstudio30/video/7699106706197843213
+2026-10-21T09:07:19-04:00,INFO,004 youtube 6ad8b83b0c5e774bdfb12ea1 sent https://www.youtube.com/watch?v=q2ngb_4iQXc

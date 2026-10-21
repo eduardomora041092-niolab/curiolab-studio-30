@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-21T09:06-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-21T09:07-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 84
-- **PRODUCED**: 3
-- **PUBLISHED**: 3
+- **PRODUCED**: 2
+- **PUBLISHED**: 4
 
 ## Vídeos con actividad
 
@@ -15,7 +15,7 @@ Actualizado: 2026-10-21T09:06-04:00 (America/New_York) · Costo real: US$0
 | 001 | 2026-10-20 | ¿Cómo funciona una cremallera por dentro? | PUBLISHED | https://www.youtube.com/shorts/u-S9uGKSzUI | https://tiktok.com/@curiolabstudio30/video/7698713658666355982 | verificado (fase anterior) |
 | 002 | 2026-10-20 | ¿Por qué un termo mantiene el café caliente? | PUBLISHED | https://www.youtube.com/shorts/tUx8zhQw0E8 | https://tiktok.com/@curiolabstudio30/video/7698847412705561870 | PASS 32.233 s -15.7 LUFS |
 | 003 | 2026-10-20 | ¿Por qué el cielo es azul? | PUBLISHED | https://www.youtube.com/shorts/hHoH21L5Na8 | https://tiktok.com/@curiolabstudio30/video/7698850266602343693 | PASS 31.533 s -15.5 LUFS |
-| 004 | 2026-10-21 | ¿Cómo abre una llave una cerradura? | PRODUCED | https://www.youtube.com/watch?v=q2ngb_4iQXc | — | PASS 31.267 s -15.7 LUFS |
+| 004 | 2026-10-21 | ¿Cómo abre una llave una cerradura? | PUBLISHED | https://www.youtube.com/watch?v=q2ngb_4iQXc | https://tiktok.com/@curiolabstudio30/video/7699106706197843213 | PASS 31.267 s -15.7 LUFS |
 | 005 | 2026-10-21 | ¿Cómo escribe un bolígrafo? | PRODUCED | — | — | PASS 29.7 s -15.9 LUFS |
 | 006 | 2026-10-21 | ¿Por qué el mar es salado? | PRODUCED | — | — | PASS 28.767 s -15.7 LUFS |
 
@@ -24,7 +24,7 @@ Actualizado: 2026-10-21T09:06-04:00 (America/New_York) · Costo real: US$0
 - 001 · 2026-10-20 · Mecanismo · ¿Cómo funciona una cremallera por dentro? · PUBLISHED
 - 002 · 2026-10-20 · Mecanismo · ¿Por qué un termo mantiene el café caliente? · PUBLISHED
 - 003 · 2026-10-20 · Ciencia · ¿Por qué el cielo es azul? · PUBLISHED
-- 004 · 2026-10-21 · Mecanismo · ¿Cómo abre una llave una cerradura? · PRODUCED
+- 004 · 2026-10-21 · Mecanismo · ¿Cómo abre una llave una cerradura? · PUBLISHED
 - 005 · 2026-10-21 · Mecanismo · ¿Cómo escribe un bolígrafo? · PRODUCED
 - 006 · 2026-10-21 · Ciencia · ¿Por qué el mar es salado? · PRODUCED
 - 007 · 2026-10-22 · Mecanismo · ¿Cómo funciona el clic de un bolígrafo? · PLANNED

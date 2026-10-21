@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-10-21T09:06-04:00",
+ "actualizado": "2026-10-21T09:07-04:00",
  "estados": {
-  "PUBLISHED": 3,
-  "PRODUCED": 3,
+  "PUBLISHED": 4,
+  "PRODUCED": 2,
   "PLANNED": 84
  },
  "costo_real_usd": 0,
@@ -118,19 +118,19 @@
    "fecha": "2026-10-21",
    "titulo": "¿Cómo abre una llave una cerradura?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ad8b83b0c5e774bdfb12ea1",
      "status": "sent",
      "url": "https://www.youtube.com/watch?v=q2ngb_4iQXc",
-     "recorded": "2026-10-21T09:04:45-04:00"
+     "recorded": "2026-10-21T09:07:19-04:00"
     },
     "tiktok": {
      "post_id": "6ad8b8c688865f7e6d30d1cf",
-     "status": "sending",
-     "url": "",
-     "recorded": "2026-10-21T09:06:43-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7699106706197843213",
+     "recorded": "2026-10-21T09:07:19-04:00"
     }
    },
    "qa": {
