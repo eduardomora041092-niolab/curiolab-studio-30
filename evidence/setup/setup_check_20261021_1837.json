@@ -1,0 +1,39 @@
+{
+ "started": "2026-10-21T18:36:44+00:00",
+ "steps": {
+  "install": {
+   "ok": true,
+   "seconds": 20.8,
+   "detail": {
+    "kokoro-onnx": "0.6.1",
+    "onnxruntime": "1.29.0",
+    "phonemizer": "3.4.0",
+    "espeakng-loader": "0.2.4",
+    "soundfile": "0.14.0",
+    "pillow": "12.3.0",
+    "numpy": "2.5.3"
+   }
+  },
+  "load_model": {
+   "ok": true,
+   "seconds": 2.0,
+   "detail": {
+    "voices_es": [
+     "ef_dora",
+     "em_alex",
+     "em_santa"
+    ]
+   }
+  },
+  "voice": {
+   "ok": true,
+   "seconds": 1.7,
+   "detail": {
+    "seconds": 2.56,
+    "sample_rate": 24000,
+    "peak": 0.553,
+    "file": "evidence/setup/voice_sample.wav"
+   }
+  }
+ }
+}
