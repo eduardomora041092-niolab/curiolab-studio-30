@@ -1,9 +1,9 @@
 {
- "repo_url": null,
- "media_raw_base": null,
+ "repo_url": "https://github.com/eduardomora041092-niolab/curiolab-studio-30",
+ "media_raw_base": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30",
  "drive_folder_id": "1TBANuVlSLiGgyTtx3yWWSwSuGtfKIVGV",
  "timezone": "America/New_York",
  "experiment_start": "2026-10-20",
  "experiment_end": "2026-11-18",
- "notes": "repo_url y media_raw_base se rellenan cuando exista el repositorio público de GitHub (p. ej. https://raw.githubusercontent.com/<usuario>/curiolab-studio-30/main)"
+ "notes": "Cada MP4 vive en una rama huérfana media-NNN; URL = media_raw_base/media-NNN/CurioLab_NNN.mp4"
 }

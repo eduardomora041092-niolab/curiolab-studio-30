@@ -59,7 +59,7 @@ def published_platforms(v):
     return sorted(p for p, x in v["posts"].items() if x.get("status") in ("sent", "scheduled", "sending"))
 
 def cmd_status(args):
-    day = dt.date.fromisoformat(args[1]) if len(args) > 1 and args[0] == "--date" else now_local().date()
+    day = dt.date.fromisoformat(args[1]) if len(args) > 1 and args[0] in ("--date", "--through") else now_local().date()
     cal = {r["id"]: r for r in load(CAL)}; st = state(); out = []
     for vid, r in cal.items():
         if dt.date.fromisoformat(r["fecha"]) > day: continue
@@ -90,23 +90,28 @@ def cmd_render(args):
     sys.exit(0 if qa["all_pass"] else 2)
 
 def cmd_host(args):
-    """Publish the MP4 in the public media repo and verify Buffer can download it."""
-    vid = args[0]; cfg = load(CONFIG, {})
-    if not cfg.get("media_raw_base"):
-        print("BLOCKED: pipeline/config.json has no media_raw_base (public GitHub repo not configured)"); sys.exit(3)
-    src = f"{REPO}/out/CurioLab_{vid}.mp4"; os.makedirs(f"{REPO}/media", exist_ok=True)
-    dst = f"{REPO}/media/CurioLab_{vid}.mp4"; shutil.copy2(src, dst)
-    subprocess.run(["git", "-C", REPO, "add", dst], check=True)
-    subprocess.run(["git", "-C", REPO, "commit", "-m", f"media: CurioLab_{vid}.mp4"], check=False)
-    subprocess.run(["git", "-C", REPO, "push"], check=True)
-    url = f"{cfg['media_raw_base'].rstrip('/')}/media/CurioLab_{vid}.mp4"
-    size = os.path.getsize(dst); ok = False
-    for _ in range(12):
-        h = subprocess.run(["curl", "-sSIL", "--max-time", "20", url], capture_output=True, text=True).stdout.lower()
-        if " 200" in h and f"content-length: {size}" in h: ok = True; break
-        subprocess.run(["sleep", "10"])
+    """Publish the MP4 as a one-file orphan branch `media-NNN` (no fetch needed, clone of main stays small)
+    and verify the public raw URL serves the exact file size."""
+    vid = args[0]; cfg = load(CONFIG, {}); repo_url = cfg.get("repo_url"); base = cfg.get("media_raw_base")
+    if not repo_url or not base:
+        print("BLOCKED: pipeline/config.json needs repo_url and media_raw_base"); sys.exit(3)
+    src = f"{REPO}/out/CurioLab_{vid}.mp4"; size = os.path.getsize(src)
+    branch = f"media-{vid}"; url = f"{base.rstrip('/')}/{branch}/CurioLab_{vid}.mp4"
+    def verify():
+        h = subprocess.run(["curl", "-sSIL", "--max-time", "30", url], capture_output=True, text=True).stdout.lower()
+        return " 200" in h and f"content-length: {size}" in h
+    if not verify():
+        tmp = f"/tmp/curiolab_media_{vid}"; shutil.rmtree(tmp, ignore_errors=True); os.makedirs(tmp)
+        g = lambda *a: subprocess.run(["git", "-C", tmp, *a], check=True, capture_output=True, text=True)
+        g("init", "-q"); g("checkout", "-q", "--orphan", branch); shutil.copy2(src, f"{tmp}/CurioLab_{vid}.mp4")
+        g("add", f"CurioLab_{vid}.mp4")
+        g("-c", "user.name=CurioLab bot", "-c", "user.email=noreply@anthropic.com", "commit", "-qm", f"media CurioLab_{vid}.mp4")
+        g("push", "-q", "-f", repo_url, f"{branch}:refs/heads/{branch}")
+        for _ in range(18):
+            if verify(): break
+            subprocess.run(["sleep", "10"])
     st = state()
-    if ok:
+    if verify():
         st["videos"][vid]["media_url"] = url; save(STATE, st); log("INFO", f"{vid} hosted {url}"); print(url)
     else:
         log("ERROR", f"{vid} public URL not verified {url}"); print("FAILED " + url); sys.exit(1)
@@ -148,8 +153,8 @@ def cmd_export(_):
         r["youtube_url"] = v["posts"].get("youtube", {}).get("url", "")
         r["tiktok_url"] = v["posts"].get("tiktok", {}).get("url", "")
         r["buffer_post_ids"] = "; ".join(f"{p}:{x['post_id']}" for p, x in v["posts"].items())
-        mp4 = f"{REPO}/out/CurioLab_{r['id']}.mp4"
-        if os.path.exists(mp4): r["archivo"] = mp4
+        r["archivo"] = v.get("media_url") or ""
+        if v["estado"] == "PUBLISHED": r["notas"] = ""
     with open(f"{REPO}/calendar/CurioLab_calendario_90.csv", "w", newline="", encoding="utf-8-sig") as fh:
         w = csv.DictWriter(fh, fieldnames=list(cal[0].keys())); w.writeheader(); w.writerows(cal)
     counts = {}

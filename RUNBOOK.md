@@ -13,8 +13,10 @@ ejecución nunca debe crear publicaciones duplicadas.
 - Ventana del experimento: del 2026-10-20 al 2026-11-18 (America/New_York).
 
 ## 0. Preparación
-1. `git clone <REPO_URL> curiolab && cd curiolab` (la URL está en `pipeline/config.json` → `repo_url`).
-   Para hacer push, adjunta el repositorio con la herramienta `add_repo` (access "push").
+1. `git clone --depth 1 --single-branch -b main https://github.com/eduardomora041092-niolab/curiolab-studio-30 curiolab && cd curiolab`.
+   Si existe la herramienta `add_repo`, úsala antes con owner `eduardomora041092-niolab`, repo `curiolab-studio-30`
+   y access "push". Comprueba la escritura con `git push --dry-run origin main`. Si falla, anota el error exacto:
+   sin push no se pueden alojar vídeos nuevos (paso 3d), pero sí publicar los que ya tengan `media_url`.
 2. `./setup.sh` (instala kokoro-onnx y descarga los modelos de voz desde GitHub; todo gratuito).
 
 ## 1. Guarda de fechas
@@ -27,6 +29,8 @@ ejecución nunca debe crear publicaciones duplicadas.
 
 ## 2. Lista de trabajo
 `python3 pipeline/daily.py status` → vídeos con fecha ≤ hoy a los que les falta alguna plataforma.
+Si el mensaje de la ejecución pide adelantar la producción, usa `status --through AAAA-MM-DD`. Los vídeos
+futuros se programan para su hora con `customScheduled`; nunca se publican antes.
 Procésalos del más antiguo al más reciente, con un máximo de 6 por ejecución.
 
 ## 3. Por cada vídeo pendiente
@@ -83,7 +87,8 @@ Para los posts `sent` hace más de 24 h, llama a `get_post` con `includeMetrics:
 
 ## 6. Cierre
 1. `python3 pipeline/daily.py export`.
-2. `git add -A && git commit -m "run <fecha> <hora>" && git push`.
+2. `git add -A && git commit -m "run <fecha> <hora>" && git push origin main`. Si el push falla, sube
+   `pipeline/state.json` a Drive como `CurioLab_state_<fecha>_<hora>.json` y trata la ejecución como ❌.
 3. Copia de seguridad en Google Drive, carpeta `1TBANuVlSLiGgyTtx3yWWSwSuGtfKIVGV`: crea
    `CurioLab_run_<fecha>_<hora>.txt` con el resumen (vídeos procesados, IDs de publicación, enlaces,
    errores).
