@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-21T09:05-04:00",
+ "actualizado": "2026-10-21T09:18-04:00",
  "estados": {
-  "PUBLISHED": 3,
+  "PUBLISHED": 4,
   "PRODUCED": 3,
-  "PLANNED": 84
+  "PLANNED": 83
  },
  "costo_real_usd": 0,
  "videos": {
@@ -118,13 +118,19 @@
    "fecha": "2026-10-21",
    "titulo": "¿Cómo abre una llave una cerradura?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ad8b83b0c5e774bdfb12ea1",
      "status": "sent",
-     "url": "https://www.youtube.com/watch?v=q2ngb_4iQXc",
-     "recorded": "2026-10-21T09:04:45-04:00"
+     "url": "https://www.youtube.com/shorts/q2ngb_4iQXc",
+     "recorded": "2026-10-21T09:18:33-04:00"
+    },
+    "tiktok": {
+     "post_id": "6ad8b8c688865f7e6d30d1cf",
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7699106706197843213",
+     "recorded": "2026-10-21T09:18:33-04:00"
     }
    },
    "qa": {
@@ -229,10 +235,39 @@
    "fecha": "2026-10-22",
    "titulo": "¿Cómo funciona el clic de un bolígrafo?",
    "categoria": "Mecanismo",
-   "estado": "PLANNED",
-   "posts": {},
-   "qa": null,
-   "media_url": null,
+   "estado": "PRODUCED",
+   "posts": {
+    "youtube": {
+     "post_id": "6ad8bb9d88865f7e6d31b9f4",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-21T09:18:33-04:00"
+    },
+    "tiktok": {
+     "post_id": "6ad8bb9f0811076dd03ce382",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-21T09:18:33-04:00"
+    }
+   },
+   "qa": {
+    "all_pass": true,
+    "duration_s": 29.667,
+    "lufs": -15.9,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    }
+   },
+   "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-007/CurioLab_007.mp4",
    "errors": []
   },
   "008": {
