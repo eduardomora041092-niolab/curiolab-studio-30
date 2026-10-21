@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-10-21T09:39-04:00",
+ "actualizado": "2026-10-21T13:40-04:00",
  "estados": {
-  "PUBLISHED": 4,
-  "PRODUCED": 5,
+  "PUBLISHED": 5,
+  "PRODUCED": 4,
   "PLANNED": 81
  },
  "costo_real_usd": 0,
@@ -157,19 +157,19 @@
    "fecha": "2026-10-21",
    "titulo": "¿Cómo escribe un bolígrafo?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ad8b8530c5e774bdfb13c70",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-21T09:04:45-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/K6yaKiidoro",
+     "recorded": "2026-10-21T13:40:02-04:00"
     },
     "tiktok": {
      "post_id": "6ad8b857333aa279085301e6",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-21T09:04:45-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7699167198429924622",
+     "recorded": "2026-10-21T13:40:02-04:00"
     }
    },
    "qa": {
@@ -320,6 +320,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-10-21T09:38:36-04:00"
+    },
+    "tiktok": {
+     "post_id": "6ad8f8e75f06a50228137568",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-21T13:39:57-04:00"
     }
    },
    "qa": {

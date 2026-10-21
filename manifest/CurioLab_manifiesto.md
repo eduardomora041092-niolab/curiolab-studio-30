@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-21T09:39-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-21T13:40-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 81
-- **PRODUCED**: 5
-- **PUBLISHED**: 4
+- **PRODUCED**: 4
+- **PUBLISHED**: 5
 
 ## Vídeos con actividad
 
@@ -16,7 +16,7 @@ Actualizado: 2026-10-21T09:39-04:00 (America/New_York) · Costo real: US$0
 | 002 | 2026-10-20 | ¿Por qué un termo mantiene el café caliente? | PUBLISHED | https://www.youtube.com/shorts/tUx8zhQw0E8 | https://tiktok.com/@curiolabstudio30/video/7698847412705561870 | PASS 32.233 s -15.7 LUFS |
 | 003 | 2026-10-20 | ¿Por qué el cielo es azul? | PUBLISHED | https://www.youtube.com/shorts/hHoH21L5Na8 | https://tiktok.com/@curiolabstudio30/video/7698850266602343693 | PASS 31.533 s -15.5 LUFS |
 | 004 | 2026-10-21 | ¿Cómo abre una llave una cerradura? | PUBLISHED | https://www.youtube.com/shorts/q2ngb_4iQXc | https://tiktok.com/@curiolabstudio30/video/7699106706197843213 | PASS 31.267 s -15.7 LUFS |
-| 005 | 2026-10-21 | ¿Cómo escribe un bolígrafo? | PRODUCED | — | — | PASS 29.7 s -15.9 LUFS |
+| 005 | 2026-10-21 | ¿Cómo escribe un bolígrafo? | PUBLISHED | https://www.youtube.com/shorts/K6yaKiidoro | https://tiktok.com/@curiolabstudio30/video/7699167198429924622 | PASS 29.7 s -15.9 LUFS |
 | 006 | 2026-10-21 | ¿Por qué el mar es salado? | PRODUCED | — | — | PASS 28.767 s -15.7 LUFS |
 | 007 | 2026-10-22 | ¿Cómo funciona el clic de un bolígrafo? | PRODUCED | — | — | PASS 29.667 s -15.9 LUFS |
 | 008 | 2026-10-22 | ¿Cómo funciona la cisterna del inodoro? | PRODUCED | — | — | PASS 26.833 s -15.6 LUFS |
@@ -28,7 +28,7 @@ Actualizado: 2026-10-21T09:39-04:00 (America/New_York) · Costo real: US$0
 - 002 · 2026-10-20 · Mecanismo · ¿Por qué un termo mantiene el café caliente? · PUBLISHED
 - 003 · 2026-10-20 · Ciencia · ¿Por qué el cielo es azul? · PUBLISHED
 - 004 · 2026-10-21 · Mecanismo · ¿Cómo abre una llave una cerradura? · PUBLISHED
-- 005 · 2026-10-21 · Mecanismo · ¿Cómo escribe un bolígrafo? · PRODUCED
+- 005 · 2026-10-21 · Mecanismo · ¿Cómo escribe un bolígrafo? · PUBLISHED
 - 006 · 2026-10-21 · Ciencia · ¿Por qué el mar es salado? · PRODUCED
 - 007 · 2026-10-22 · Mecanismo · ¿Cómo funciona el clic de un bolígrafo? · PRODUCED
 - 008 · 2026-10-22 · Mecanismo · ¿Cómo funciona la cisterna del inodoro? · PRODUCED

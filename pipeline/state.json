@@ -135,19 +135,19 @@
    "errors": []
   },
   "005": {
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ad8b8530c5e774bdfb13c70",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-21T09:04:45-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/K6yaKiidoro",
+     "recorded": "2026-10-21T13:40:02-04:00"
     },
     "tiktok": {
      "post_id": "6ad8b857333aa279085301e6",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-21T09:04:45-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7699167198429924622",
+     "recorded": "2026-10-21T13:40:02-04:00"
     }
    },
    "qa": {
@@ -286,6 +286,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-10-21T09:38:36-04:00"
+    },
+    "tiktok": {
+     "post_id": "6ad8f8e75f06a50228137568",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-21T13:39:57-04:00"
     }
    },
    "qa": {

@@ -33,3 +33,8 @@ timestamp_local,level,message
 2026-10-21T09:39:31-04:00,INFO,"ejecucion manual 'validacion 007': 007 ya producido (QA PASS, evidence/007 completa), alojado en media-007 y programado YT 6ad8bb9d88865f7e6d31b9f4 / TT 6ad8bb9f0811076dd03ce382 (2026-10-22 09:00). Segun RUNBOOK 3f no se publica de nuevo; no se re-aloja media-007 porque sobrescribiria el archivo de posts ya programados"
 2026-10-21T09:39:31-04:00,INFO,009 tiktok sigue pendiente: 9 programados (limite plan gratuito); lo programara la ejecucion de 13:37
 2026-10-21T09:39:54-04:00,WARN,run skipped: lock held since 2026-10-21T09:39:52-04:00
+2026-10-21T13:39:57-04:00,INFO,009 tiktok 6ad8f8e75f06a50228137568 scheduled 
+2026-10-21T13:40:02-04:00,INFO,005 youtube 6ad8b8530c5e774bdfb13c70 sent https://www.youtube.com/shorts/K6yaKiidoro
+2026-10-21T13:40:02-04:00,INFO,005 tiktok 6ad8b857333aa279085301e6 sent https://tiktok.com/@curiolabstudio30/video/7699167198429924622
+2026-10-21T13:40:11-04:00,ERROR,"setup.sh (instalar kokoro-onnx + descargar modelos de GitHub) denegado por el control de seguridad de la sesion [Code from External]; no se reintento. 009 ya tenia render+QA PASS y media_url, por lo que no fue necesario"
+2026-10-21T13:40:11-04:00,INFO,"009 tiktok programado 6ad8f8e75f06a50228137568 (2026-10-22 18:00 ET); 005 conciliado PUBLISHED; metricas: 001 ya capturado hoy, 002-003 <24h"
