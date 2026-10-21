@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T09:00-04:00",
+ "actualizado": "2026-10-21T09:04-04:00",
  "estados": {
   "PUBLISHED": 3,
   "PRODUCED": 3,
@@ -119,7 +119,14 @@
    "titulo": "¿Cómo abre una llave una cerradura?",
    "categoria": "Mecanismo",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6ad8b83b0c5e774bdfb12ea1",
+     "status": "sent",
+     "url": "https://www.youtube.com/watch?v=q2ngb_4iQXc",
+     "recorded": "2026-10-21T09:04:45-04:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 31.267,
@@ -145,7 +152,20 @@
    "titulo": "¿Cómo escribe un bolígrafo?",
    "categoria": "Mecanismo",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6ad8b8530c5e774bdfb13c70",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-21T09:04:45-04:00"
+    },
+    "tiktok": {
+     "post_id": "6ad8b857333aa279085301e6",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-21T09:04:45-04:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 29.7,
@@ -171,7 +191,20 @@
    "titulo": "¿Por qué el mar es salado?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6ad8b8590e8e6c40c7d02237",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-21T09:04:46-04:00"
+    },
+    "tiktok": {
+     "post_id": "6ad8b85c0c5e774bdfb13e84",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-21T09:04:46-04:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 28.767,

@@ -2,3 +2,9 @@ timestamp_local,level,message
 2026-10-21T08:58:23-04:00,INFO,004 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-004/CurioLab_004.mp4
 2026-10-21T08:59:34-04:00,INFO,005 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-005/CurioLab_005.mp4
 2026-10-21T09:00:40-04:00,INFO,006 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-006/CurioLab_006.mp4
+2026-10-21T09:04:45-04:00,INFO,004 youtube 6ad8b83b0c5e774bdfb12ea1 sent https://www.youtube.com/watch?v=q2ngb_4iQXc
+2026-10-21T09:04:45-04:00,INFO,005 youtube 6ad8b8530c5e774bdfb13c70 scheduled 
+2026-10-21T09:04:45-04:00,INFO,005 tiktok 6ad8b857333aa279085301e6 scheduled 
+2026-10-21T09:04:46-04:00,INFO,006 youtube 6ad8b8590e8e6c40c7d02237 scheduled 
+2026-10-21T09:04:46-04:00,INFO,006 tiktok 6ad8b85c0c5e774bdfb13e84 scheduled 
+2026-10-21T09:04:46-04:00,ERROR,004 tiktok create_post (shareNow) denegado por el clasificador de permisos de la sesion; no se creo post; pendiente para la siguiente ejecucion
