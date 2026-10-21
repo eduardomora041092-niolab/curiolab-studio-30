@@ -26,6 +26,7 @@ CHANNELS = {"youtube": "6ad73b1a778b240e2f677dbf", "tiktok": "6ad739bd778b240e2f
 ORG = "6ad737f3bb7377f2534a518d"
 SLOT_TIMES = {1: "09:00", 2: "13:00", 3: "18:00"}   # local publish times per daily slot
 CONFIG = f"{REPO}/pipeline/config.json"
+MAX_NEW_PER_RUN = 3   # at most 3 new videos (one calendar day) produced per run
 
 def now_local():
     return dt.datetime.now(TZ)
@@ -59,7 +60,8 @@ def published_platforms(v):
     return sorted(p for p, x in v["posts"].items() if x.get("status") in ("sent", "scheduled", "sending"))
 
 def cmd_status(args):
-    day = dt.date.fromisoformat(args[1]) if len(args) > 1 and args[0] in ("--date", "--through") else now_local().date()
+    # default: everything due through TOMORROW (one day of production slack); publishing respects the Buffer limit
+    day = dt.date.fromisoformat(args[1]) if len(args) > 1 and args[0] in ("--date", "--through") else now_local().date() + dt.timedelta(days=1)
     cal = {r["id"]: r for r in load(CAL)}; st = state(); out = []
     for vid, r in cal.items():
         if dt.date.fromisoformat(r["fecha"]) > day: continue
@@ -68,6 +70,7 @@ def cmd_status(args):
         if not missing: continue
         spec = os.path.exists(f"{REPO}/template/videos/v{vid}.py")
         mp4 = os.path.exists(f"{REPO}/out/CurioLab_{vid}.mp4")
+        if not spec and sum(1 for o in out if "spec" in o["needs"]) >= MAX_NEW_PER_RUN: continue
         out.append({"id": vid, "fecha": r["fecha"], "slot": r["slot"], "titulo": r["titulo"], "categoria": r["categoria"],
                     "gancho": r["gancho"], "concepto_visual": r["concepto_visual"], "estado": v["estado"],
                     "needs": [n for n, c in (("spec", not spec), ("render", not (mp4 and v["qa"] and v["qa"]["all_pass"])),
@@ -85,6 +88,9 @@ def cmd_render(args):
         v["errors"].append(f"{now_local().isoformat(timespec='seconds')} render failed rc={r.returncode}")
         save(STATE, st); log("ERROR", f"{vid} render failed"); sys.exit(1)
     v["qa"] = {k: qa[k] for k in ("all_pass", "duration_s", "lufs", "checks")}
+    ev = f"{REPO}/evidence/{vid}"; os.makedirs(ev, exist_ok=True)   # evidence kept in the repo
+    for f in ("qa.json", "segs.json", "final_sheet.png", "preview_sheet.png"):
+        if os.path.exists(f"{REPO}/work/{vid}/{f}"): shutil.copy2(f"{REPO}/work/{vid}/{f}", f"{ev}/{f}")
     if qa["all_pass"] and v["estado"] == "PLANNED": v["estado"] = "PRODUCED"
     save(STATE, st); log("INFO" if qa["all_pass"] else "ERROR", f"{vid} QA all_pass={qa['all_pass']}")
     sys.exit(0 if qa["all_pass"] else 2)
@@ -121,7 +127,9 @@ def cmd_caption(args):
     tags = "#CurioLab #ComoFunciona #Curiosidades #Ciencia" if r["categoria"] == "Mecanismo" else "#CurioLab #Ciencia #Curiosidades #Naturaleza"
     text = f"{r['gancho']} {r['titulo']}\n\nExplicado en menos de 35 segundos.\n\n{tags} #Shorts"
     due = dt.datetime.combine(dt.date.fromisoformat(r["fecha"]), dt.time.fromisoformat(SLOT_TIMES[r["slot"]]), TZ)
-    mode = "customScheduled" if due > now_local() + dt.timedelta(minutes=20) else "shareNow"
+    # Calendar slot in the future -> scheduled for that slot (normal design). Slot already passed -> shareNow.
+    # If a safety check denies an action, it is recorded and reported; it is never worked around.
+    mode = "customScheduled" if due > now_local() + dt.timedelta(minutes=5) else "shareNow"
     print(json.dumps({"id": vid, "text": text, "youtube_title": r["titulo"][:100], "youtube_categoryId": "27",
                       "asset_title": f"CurioLab_{vid}.mp4", "mode": mode, "dueAt": due.isoformat() if mode == "customScheduled" else None,
                       "channels": CHANNELS, "organizationId": ORG}, ensure_ascii=False, indent=1))
