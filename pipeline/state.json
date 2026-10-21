@@ -99,23 +99,71 @@
    "errors": []
   },
   "004": {
-   "estado": "PLANNED",
+   "estado": "PRODUCED",
    "posts": {},
-   "qa": null,
+   "qa": {
+    "all_pass": true,
+    "duration_s": 31.267,
+    "lufs": -15.7,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    }
+   },
    "media_url": null,
    "errors": []
   },
   "005": {
-   "estado": "PLANNED",
+   "estado": "PRODUCED",
    "posts": {},
-   "qa": null,
+   "qa": {
+    "all_pass": true,
+    "duration_s": 29.7,
+    "lufs": -15.9,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    }
+   },
    "media_url": null,
    "errors": []
   },
   "006": {
-   "estado": "PLANNED",
+   "estado": "PRODUCED",
    "posts": {},
-   "qa": null,
+   "qa": {
+    "all_pass": true,
+    "duration_s": 28.767,
+    "lufs": -15.7,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    }
+   },
    "media_url": null,
    "errors": []
   },

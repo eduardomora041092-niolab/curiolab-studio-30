@@ -1,55 +1,61 @@
 {
- "proyecto": "CurioLab Studio 30 (AI SHORTS 30)",
- "generado": "2026-10-20T08:12:13",
- "resumen_estados": {
-  "PUBLISHED": 1,
-  "PRODUCED": 2,
-  "PLANNED": 87
+ "actualizado": "2026-10-21T08:00-04:00",
+ "estados": {
+  "PUBLISHED": 3,
+  "PRODUCED": 3,
+  "PLANNED": 84
  },
  "costo_real_usd": 0,
- "creditos_vidiq_usados_en_produccion": 0,
- "creditos_vidiq_usados_en_investigacion": 20,
- "herramientas": {
-  "investigacion": "vidIQ (trending_videos, keyword_research, outliers, instagram_tiktok_outlier_search) — 20 créditos del plan, US$0",
-  "produccion": "Python 3 + Pillow + NumPy (animación), Kokoro ONNX v1.0 voz em_alex (narración local), ffmpeg libx264/aac (montaje y loudness)",
-  "distribucion": "Buffer (organización 'My organization' 6ad737f3bb7377f2534a518d); canales YouTube 6ad73b1a778b240e2f677dbf y TikTok 6ad739bd778b240e2f677654"
- },
- "rutas": {
-  "calendario_csv": "/home/claude/curiolab/calendar/CurioLab_calendario_90.csv",
-  "plantilla_motor": "/home/claude/curiolab/template/engine.py",
-  "plantilla_build": "/home/claude/curiolab/template/build.py",
-  "specs_videos": "/home/claude/curiolab/template/videos/",
-  "salidas_mp4": "/home/claude/curiolab/out/",
-  "fuente_video_001": "/home/claude/v001/render.py (archivado, no modificado)",
-  "modelos_voz": "/home/claude/v001/models/"
- },
- "entregables": [
-  {
-   "id": "001",
+ "videos": {
+  "001": {
    "fecha": "2026-10-20",
-   "categoria": "Mecanismo",
    "titulo": "¿Cómo funciona una cremallera por dentro?",
-   "estado": "PUBLISHED",
-   "archivo": "/home/claude/v001/CurioLab_001_FINAL.mp4",
-   "buffer_post_ids": "youtube:6ad753635008aca7fa263030; tiktok:6ad753635008aca7fa26302f",
-   "youtube_url": "",
-   "tiktok_url": "",
-   "notas": "Buffer status=sent (YT 2026-10-20 11:41:25Z, TT 11:42:04Z). URL pública no expuesta por Buffer."
-  },
-  {
-   "id": "002",
-   "fecha": "2026-10-20",
    "categoria": "Mecanismo",
+   "estado": "PUBLISHED",
+   "posts": {
+    "youtube": {
+     "post_id": "6ad753635008aca7fa263030",
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/u-S9uGKSzUI",
+     "recorded": "2026-10-21T07:55:00-04:00",
+     "source": "Buffer externalLink"
+    },
+    "tiktok": {
+     "post_id": "6ad753635008aca7fa26302f",
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7698713658666355982",
+     "recorded": "2026-10-21T07:55:00-04:00",
+     "source": "Buffer externalLink"
+    }
+   },
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "002": {
+   "fecha": "2026-10-20",
    "titulo": "¿Por qué un termo mantiene el café caliente?",
-   "estado": "PRODUCED",
-   "archivo": "/home/claude/curiolab/out/CurioLab_002.mp4",
-   "buffer_post_ids": "",
-   "youtube_url": "",
-   "tiktok_url": "",
-   "notas": "QA técnico PASS. Pendiente de aprobación.",
+   "categoria": "Mecanismo",
+   "estado": "PUBLISHED",
+   "posts": {
+    "youtube": {
+     "post_id": "6ad7ccf79feaa86de0616a26",
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/tUx8zhQw0E8",
+     "recorded": "2026-10-21T07:55:00-04:00",
+     "source": "Buffer externalLink"
+    },
+    "tiktok": {
+     "post_id": "6ad7ccf79feaa86de0616a25",
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7698847412705561870",
+     "recorded": "2026-10-21T07:55:00-04:00",
+     "source": "Buffer externalLink"
+    }
+   },
    "qa": {
     "all_pass": true,
-    "duracion_s": 32.233,
+    "duration_s": 32.233,
     "lufs": -15.7,
     "checks": {
      "resolution_1080x1920": true,
@@ -62,24 +68,35 @@
      "segments_ordered": true,
      "narration_ends_before_video": true,
      "loudness_-17_to_-12_LUFS": true
-    },
-    "sync_sheet": "/home/claude/curiolab/work/002/final_sheet.png"
-   }
+    }
+   },
+   "media_url": null,
+   "errors": []
   },
-  {
-   "id": "003",
+  "003": {
    "fecha": "2026-10-20",
-   "categoria": "Ciencia",
    "titulo": "¿Por qué el cielo es azul?",
-   "estado": "PRODUCED",
-   "archivo": "/home/claude/curiolab/out/CurioLab_003.mp4",
-   "buffer_post_ids": "",
-   "youtube_url": "",
-   "tiktok_url": "",
-   "notas": "QA técnico PASS. Pendiente de aprobación.",
+   "categoria": "Ciencia",
+   "estado": "PUBLISHED",
+   "posts": {
+    "youtube": {
+     "post_id": "6ad7cf9094397e2edacdbb8d",
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/hHoH21L5Na8",
+     "recorded": "2026-10-21T07:55:00-04:00",
+     "source": "Buffer externalLink"
+    },
+    "tiktok": {
+     "post_id": "6ad7cf9094397e2edacdbb8c",
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7698850266602343693",
+     "recorded": "2026-10-21T07:55:00-04:00",
+     "source": "Buffer externalLink"
+    }
+   },
    "qa": {
     "all_pass": true,
-    "duracion_s": 31.533,
+    "duration_s": 31.533,
     "lufs": -15.5,
     "checks": {
      "resolution_1080x1920": true,
@@ -92,98 +109,928 @@
      "segments_ordered": true,
      "narration_ends_before_video": true,
      "loudness_-17_to_-12_LUFS": true
-    },
-    "sync_sheet": "/home/claude/curiolab/work/003/final_sheet.png"
-   }
+    }
+   },
+   "media_url": null,
+   "errors": []
+  },
+  "004": {
+   "fecha": "2026-10-21",
+   "titulo": "¿Cómo abre una llave una cerradura?",
+   "categoria": "Mecanismo",
+   "estado": "PRODUCED",
+   "posts": {},
+   "qa": {
+    "all_pass": true,
+    "duration_s": 31.267,
+    "lufs": -15.7,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    }
+   },
+   "media_url": null,
+   "errors": []
+  },
+  "005": {
+   "fecha": "2026-10-21",
+   "titulo": "¿Cómo escribe un bolígrafo?",
+   "categoria": "Mecanismo",
+   "estado": "PRODUCED",
+   "posts": {},
+   "qa": {
+    "all_pass": true,
+    "duration_s": 29.7,
+    "lufs": -15.9,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    }
+   },
+   "media_url": null,
+   "errors": []
+  },
+  "006": {
+   "fecha": "2026-10-21",
+   "titulo": "¿Por qué el mar es salado?",
+   "categoria": "Ciencia",
+   "estado": "PRODUCED",
+   "posts": {},
+   "qa": {
+    "all_pass": true,
+    "duration_s": 28.767,
+    "lufs": -15.7,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    }
+   },
+   "media_url": null,
+   "errors": []
+  },
+  "007": {
+   "fecha": "2026-10-22",
+   "titulo": "¿Cómo funciona el clic de un bolígrafo?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "008": {
+   "fecha": "2026-10-22",
+   "titulo": "¿Cómo funciona la cisterna del inodoro?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "009": {
+   "fecha": "2026-10-22",
+   "titulo": "¿Cómo se forma un arcoíris?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "010": {
+   "fecha": "2026-10-23",
+   "titulo": "¿Cómo enfría un refrigerador?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "011": {
+   "fecha": "2026-10-23",
+   "titulo": "¿Cómo calienta un microondas?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "012": {
+   "fecha": "2026-10-23",
+   "titulo": "¿Por qué vemos el rayo antes de oír el trueno?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "013": {
+   "fecha": "2026-10-24",
+   "titulo": "¿Cómo sabe la tostadora cuándo parar?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "014": {
+   "fecha": "2026-10-24",
+   "titulo": "¿Cómo dobla una grapa la grapadora?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "015": {
+   "fecha": "2026-10-24",
+   "titulo": "¿Por qué el hielo flota?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "016": {
+   "fecha": "2026-10-25",
+   "titulo": "¿Cómo se abre un paraguas?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "017": {
+   "fecha": "2026-10-25",
+   "titulo": "¿Por qué la cinta métrica vuelve sola?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "018": {
+   "fecha": "2026-10-25",
+   "titulo": "¿Qué causa las mareas?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "019": {
+   "fecha": "2026-10-26",
+   "titulo": "¿Cómo funciona un candado de combinación?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "020": {
+   "fecha": "2026-10-26",
+   "titulo": "¿Cómo mide el tiempo un reloj mecánico?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "021": {
+   "fecha": "2026-10-26",
+   "titulo": "¿Por qué la Luna cambia de forma?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "022": {
+   "fecha": "2026-10-27",
+   "titulo": "¿Cómo suena una tecla de piano?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "023": {
+   "fecha": "2026-10-27",
+   "titulo": "¿Por qué el cinturón se bloquea en un frenazo?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "024": {
+   "fecha": "2026-10-27",
+   "titulo": "¿Por qué existen las estaciones?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "025": {
+   "fecha": "2026-10-28",
+   "titulo": "¿Cómo se infla un airbag tan rápido?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "026": {
+   "fecha": "2026-10-28",
+   "titulo": "¿Cómo frena un coche con frenos de disco?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "027": {
+   "fecha": "2026-10-28",
+   "titulo": "¿Por qué los gatos suelen caer de pie?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "028": {
+   "fecha": "2026-10-29",
+   "titulo": "¿Cómo detecta el humo un detector?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "029": {
+   "fecha": "2026-10-29",
+   "titulo": "¿Cómo sabe la pantalla dónde la tocas?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "030": {
+   "fecha": "2026-10-29",
+   "titulo": "¿Por qué burbujea un refresco?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "031": {
+   "fecha": "2026-10-30",
+   "titulo": "¿Cómo convierte un altavoz electricidad en sonido?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "032": {
+   "fecha": "2026-10-30",
+   "titulo": "¿Cómo convierte un micrófono tu voz en electricidad?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "033": {
+   "fecha": "2026-10-30",
+   "titulo": "¿Por qué crece el pan?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "034": {
+   "fecha": "2026-10-31",
+   "titulo": "¿Cómo gira un motor eléctrico?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "035": {
+   "fecha": "2026-10-31",
+   "titulo": "¿Cómo genera luz la dinamo de una bicicleta?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "036": {
+   "fecha": "2026-10-31",
+   "titulo": "¿Por qué se empaña el espejo del baño?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "037": {
+   "fecha": "2026-11-01",
+   "titulo": "¿Cómo produce luz un LED?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "038": {
+   "fecha": "2026-11-01",
+   "titulo": "¿Cómo calienta una placa de inducción?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "039": {
+   "fecha": "2026-11-01",
+   "titulo": "¿Qué son las auroras boreales?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "040": {
+   "fecha": "2026-11-02",
+   "titulo": "¿Por qué cocina más rápido una olla a presión?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "041": {
+   "fecha": "2026-11-02",
+   "titulo": "¿Cómo funciona una cafetera italiana?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "042": {
+   "fecha": "2026-11-02",
+   "titulo": "¿Cómo brillan las luciérnagas?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "043": {
+   "fecha": "2026-11-03",
+   "titulo": "¿Cómo hace chispa un encendedor de clic?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "044": {
+   "fecha": "2026-11-03",
+   "titulo": "¿Cómo apaga el fuego un extintor?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "045": {
+   "fecha": "2026-11-03",
+   "titulo": "¿Cómo cambia de color un camaleón?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "046": {
+   "fecha": "2026-11-04",
+   "titulo": "¿Cómo funciona el picaporte de una puerta?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "047": {
+   "fecha": "2026-11-04",
+   "titulo": "¿Cómo funciona un pulverizador de gatillo?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "048": {
+   "fecha": "2026-11-04",
+   "titulo": "¿Cómo se forma el granizo?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "049": {
+   "fecha": "2026-11-05",
+   "titulo": "¿Cómo sale el líquido de un aerosol?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "050": {
+   "fecha": "2026-11-05",
+   "titulo": "¿Cómo mezcla agua fría y caliente un grifo monomando?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "051": {
+   "fecha": "2026-11-05",
+   "titulo": "¿Por qué vemos siempre la misma cara de la Luna?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "052": {
+   "fecha": "2026-11-06",
+   "titulo": "¿Por qué las tijeras cortan?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "053": {
+   "fecha": "2026-11-06",
+   "titulo": "¿Cómo funciona un cortaúñas?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "054": {
+   "fecha": "2026-11-06",
+   "titulo": "¿Por qué erupciona un volcán?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "055": {
+   "fecha": "2026-11-07",
+   "titulo": "¿Cómo funciona un inflador de bicicleta?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "056": {
+   "fecha": "2026-11-07",
+   "titulo": "¿Cómo funciona la válvula de un neumático?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "057": {
+   "fecha": "2026-11-07",
+   "titulo": "¿Por qué ocurren los terremotos?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "058": {
+   "fecha": "2026-11-08",
+   "titulo": "¿Cómo funciona una escalera mecánica?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "059": {
+   "fecha": "2026-11-08",
+   "titulo": "¿Por qué gira el brazo del lavavajillas?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "060": {
+   "fecha": "2026-11-08",
+   "titulo": "¿Por qué la sal derrite el hielo?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "061": {
+   "fecha": "2026-11-09",
+   "titulo": "¿Cómo convierte un panel solar la luz en electricidad?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "062": {
+   "fecha": "2026-11-09",
+   "titulo": "¿Cómo se recarga una batería de litio?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "063": {
+   "fecha": "2026-11-09",
+   "titulo": "¿Por qué la cebolla te hace llorar?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "064": {
+   "fecha": "2026-11-10",
+   "titulo": "¿Cómo carga el móvil sin cables?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "065": {
+   "fecha": "2026-11-10",
+   "titulo": "¿Cómo sabe el GPS dónde estás?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "066": {
+   "fecha": "2026-11-10",
+   "titulo": "¿Por qué brillan los ojos de los gatos en la oscuridad?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "067": {
+   "fecha": "2026-11-11",
+   "titulo": "¿Cómo lee un escáner el código de barras?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "068": {
+   "fecha": "2026-11-11",
+   "titulo": "¿Cómo funciona un abrelatas?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "069": {
+   "fecha": "2026-11-11",
+   "titulo": "¿Por qué titilan las estrellas?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "070": {
+   "fecha": "2026-11-12",
+   "titulo": "¿Cómo cambia de marcha una bicicleta?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "071": {
+   "fecha": "2026-11-12",
+   "titulo": "¿Cómo sabe una puerta automática que llegas?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "072": {
+   "fecha": "2026-11-12",
+   "titulo": "¿Por qué los copos de nieve tienen seis puntas?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "073": {
+   "fecha": "2026-11-13",
+   "titulo": "¿Cómo imprime una impresora de tinta?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "074": {
+   "fecha": "2026-11-13",
+   "titulo": "¿Cómo cancelan el ruido unos auriculares?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "075": {
+   "fecha": "2026-11-13",
+   "titulo": "¿Cómo se forma una nube?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "076": {
+   "fecha": "2026-11-14",
+   "titulo": "¿Cómo funciona un mando a distancia?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "077": {
+   "fecha": "2026-11-14",
+   "titulo": "¿Por qué un ascensor necesita contrapeso?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "078": {
+   "fecha": "2026-11-14",
+   "titulo": "¿Por qué cambian de color las hojas en otoño?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "079": {
+   "fecha": "2026-11-15",
+   "titulo": "¿Por qué la rueda de la bici gira sin pedalear?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "080": {
+   "fecha": "2026-11-15",
+   "titulo": "¿Cómo funciona un sacacorchos de alas?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "081": {
+   "fecha": "2026-11-15",
+   "titulo": "¿Qué es el eco?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "082": {
+   "fecha": "2026-11-16",
+   "titulo": "¿Cómo muele un molinillo de pimienta?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "083": {
+   "fecha": "2026-11-16",
+   "titulo": "¿Cómo sube el agua una bomba manual?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "084": {
+   "fecha": "2026-11-16",
+   "titulo": "¿Por qué el agua hierve antes en la montaña?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "085": {
+   "fecha": "2026-11-17",
+   "titulo": "¿Cómo funciona un secador de pelo?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "086": {
+   "fecha": "2026-11-17",
+   "titulo": "¿Cómo aspira una aspiradora?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "087": {
+   "fecha": "2026-11-17",
+   "titulo": "¿Cómo flota un barco de acero?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "088": {
+   "fecha": "2026-11-18",
+   "titulo": "¿Cómo funciona una tecla de teclado mecánico?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "089": {
+   "fecha": "2026-11-18",
+   "titulo": "¿Cómo se ajusta una llave inglesa?",
+   "categoria": "Mecanismo",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
+  },
+  "090": {
+   "fecha": "2026-11-18",
+   "titulo": "¿Cómo trepa un gecko por el cristal?",
+   "categoria": "Ciencia",
+   "estado": "PLANNED",
+   "posts": {},
+   "qa": null,
+   "media_url": null,
+   "errors": []
   }
- ],
- "planificados": [
-  "004",
-  "005",
-  "006",
-  "007",
-  "008",
-  "009",
-  "010",
-  "011",
-  "012",
-  "013",
-  "014",
-  "015",
-  "016",
-  "017",
-  "018",
-  "019",
-  "020",
-  "021",
-  "022",
-  "023",
-  "024",
-  "025",
-  "026",
-  "027",
-  "028",
-  "029",
-  "030",
-  "031",
-  "032",
-  "033",
-  "034",
-  "035",
-  "036",
-  "037",
-  "038",
-  "039",
-  "040",
-  "041",
-  "042",
-  "043",
-  "044",
-  "045",
-  "046",
-  "047",
-  "048",
-  "049",
-  "050",
-  "051",
-  "052",
-  "053",
-  "054",
-  "055",
-  "056",
-  "057",
-  "058",
-  "059",
-  "060",
-  "061",
-  "062",
-  "063",
-  "064",
-  "065",
-  "066",
-  "067",
-  "068",
-  "069",
-  "070",
-  "071",
-  "072",
-  "073",
-  "074",
-  "075",
-  "076",
-  "077",
-  "078",
-  "079",
-  "080",
-  "081",
-  "082",
-  "083",
-  "084",
-  "085",
-  "086",
-  "087",
-  "088",
-  "089",
-  "090"
- ]
+ }
 }
