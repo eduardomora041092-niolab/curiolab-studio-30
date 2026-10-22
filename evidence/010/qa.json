@@ -1,0 +1,77 @@
+{
+ "id": "010",
+ "file": "/home/claude/curiolab-studio-30/curiolab/out/CurioLab_010.mp4",
+ "duration_s": 29.3,
+ "lufs": -15.6,
+ "video": {
+  "codec_name": "h264",
+  "codec_type": "video",
+  "width": 1080,
+  "height": 1920,
+  "r_frame_rate": "30/1"
+ },
+ "checks": {
+  "resolution_1080x1920": true,
+  "fps_30": true,
+  "video_h264": true,
+  "audio_aac": true,
+  "duration_25_35s": true,
+  "duration_matches_narration": true,
+  "one_scene_per_line": true,
+  "segments_ordered": true,
+  "narration_ends_before_video": true,
+  "loudness_-17_to_-12_LUFS": true
+ },
+ "all_pass": true,
+ "sync_sheet": "/home/claude/curiolab-studio-30/curiolab/work/010/final_sheet.png",
+ "segments": [
+  {
+   "i": 0,
+   "text": "Tu nevera no crea frío: saca el calor de dentro.",
+   "start": 0.0,
+   "end": 2.752
+  },
+  {
+   "i": 1,
+   "text": "Por un circuito cerrado circula un líquido refrigerante.",
+   "start": 3.002,
+   "end": 6.223
+  },
+  {
+   "i": 2,
+   "text": "Dentro, en el evaporador, el refrigerante hierve y absorbe calor.",
+   "start": 6.473,
+   "end": 10.1
+  },
+  {
+   "i": 3,
+   "text": "El compresor aprieta ese gas, que sube de presión y se calienta.",
+   "start": 10.35,
+   "end": 13.87
+  },
+  {
+   "i": 4,
+   "text": "Atrás, en el condensador, suelta ese calor y vuelve a ser líquido.",
+   "start": 14.12,
+   "end": 17.768
+  },
+  {
+   "i": 5,
+   "text": "Una válvula estrecha le baja la presión, y sale muy frío.",
+   "start": 18.018,
+   "end": 21.133
+  },
+  {
+   "i": 6,
+   "text": "Por eso, la nevera calienta un poco la cocina mientras enfría por dentro.",
+   "start": 21.383,
+   "end": 25.265
+  },
+  {
+   "i": 7,
+   "text": "Sígueme para ver cómo funcionan las cosas por dentro.",
+   "start": 25.515,
+   "end": 28.31
+  }
+ ]
+}

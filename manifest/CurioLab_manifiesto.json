@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-22T06:39-04:00",
+ "actualizado": "2026-10-22T14:10-04:00",
  "estados": {
-  "PUBLISHED": 6,
-  "PRODUCED": 3,
-  "PLANNED": 81
+  "PUBLISHED": 8,
+  "PRODUCED": 4,
+  "PLANNED": 78
  },
  "costo_real_usd": 0,
  "videos": {
@@ -235,19 +235,19 @@
    "fecha": "2026-10-22",
    "titulo": "¿Cómo funciona el clic de un bolígrafo?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ad8bb9d88865f7e6d31b9f4",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-21T09:18:33-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/89J0Vr4HUCQ",
+     "recorded": "2026-10-22T14:10:22-04:00"
     },
     "tiktok": {
      "post_id": "6ad8bb9f0811076dd03ce382",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-21T09:18:33-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7699477033830616333",
+     "recorded": "2026-10-22T14:10:22-04:00"
     }
    },
    "qa": {
@@ -274,19 +274,19 @@
    "fecha": "2026-10-22",
    "titulo": "¿Cómo funciona la cisterna del inodoro?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ad8bf5db535ec9954c27e11",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-21T09:34:32-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/5QS_mlGWUD0",
+     "recorded": "2026-10-22T14:10:22-04:00"
     },
     "tiktok": {
      "post_id": "6ad8bf62d4269b1b7a6ae390",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-21T09:34:32-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7699538967401630990",
+     "recorded": "2026-10-22T14:10:22-04:00"
     }
    },
    "qa": {
@@ -352,30 +352,117 @@
    "fecha": "2026-10-23",
    "titulo": "¿Cómo enfría un refrigerador?",
    "categoria": "Mecanismo",
-   "estado": "PLANNED",
-   "posts": {},
-   "qa": null,
-   "media_url": null,
+   "estado": "PRODUCED",
+   "posts": {
+    "youtube": {
+     "post_id": "6ada4ebcad1fc1b5527c41cf",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-22T13:58:51-04:00"
+    },
+    "tiktok": {
+     "post_id": "6ada4ec177984f39b2aefc59",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-22T13:58:51-04:00"
+    }
+   },
+   "qa": {
+    "all_pass": true,
+    "duration_s": 29.3,
+    "lufs": -15.6,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    }
+   },
+   "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-010/CurioLab_010.mp4",
    "errors": []
   },
   "011": {
    "fecha": "2026-10-23",
    "titulo": "¿Cómo calienta un microondas?",
    "categoria": "Mecanismo",
-   "estado": "PLANNED",
-   "posts": {},
-   "qa": null,
-   "media_url": null,
+   "estado": "PRODUCED",
+   "posts": {
+    "youtube": {
+     "post_id": "6ada517c77984f39b2afebc1",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-22T14:10:22-04:00"
+    },
+    "tiktok": {
+     "post_id": "6ada517e399af6f1f72c40b2",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-22T14:10:22-04:00"
+    }
+   },
+   "qa": {
+    "all_pass": true,
+    "duration_s": 30.0,
+    "lufs": -15.6,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    }
+   },
+   "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-011/CurioLab_011.mp4",
    "errors": []
   },
   "012": {
    "fecha": "2026-10-23",
    "titulo": "¿Por qué vemos el rayo antes de oír el trueno?",
    "categoria": "Ciencia",
-   "estado": "PLANNED",
-   "posts": {},
-   "qa": null,
-   "media_url": null,
+   "estado": "PRODUCED",
+   "posts": {
+    "youtube": {
+     "post_id": "6ada51819a8a68d3cd732c86",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-22T14:10:22-04:00"
+    },
+    "tiktok": {
+     "post_id": "6ada5184399af6f1f72c42f6",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-22T14:10:22-04:00"
+    }
+   },
+   "qa": {
+    "all_pass": true,
+    "duration_s": 28.2,
+    "lufs": -15.6,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    }
+   },
+   "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-012/CurioLab_012.mp4",
    "errors": []
   },
   "013": {

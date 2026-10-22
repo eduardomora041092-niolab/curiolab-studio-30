@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "Tu microondas calienta la comida sin calentar el aire.",
+  "start": 0.0,
+  "end": 3.093
+ },
+ {
+  "i": 1,
+  "text": "El magnetrón fabrica ondas invisibles: las microondas.",
+  "start": 3.343,
+  "end": 6.565
+ },
+ {
+  "i": 2,
+  "text": "Rebotan en las paredes de metal hasta llegar a la comida.",
+  "start": 6.815,
+  "end": 9.844
+ },
+ {
+  "i": 3,
+  "text": "Las moléculas de agua tienen un lado positivo y otro negativo.",
+  "start": 10.094,
+  "end": 13.635
+ },
+ {
+  "i": 4,
+  "text": "Las ondas las hacen girar de un lado a otro, miles de millones de veces por segundo.",
+  "start": 13.885,
+  "end": 18.237
+ },
+ {
+  "i": 5,
+  "text": "Al chocar con sus vecinas, ese movimiento se convierte en calor.",
+  "start": 18.487,
+  "end": 22.114
+ },
+ {
+  "i": 6,
+  "text": "El plato gira porque las ondas dejan zonas calientes y frías.",
+  "start": 22.364,
+  "end": 25.969
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para ver cómo funcionan las cosas por dentro.",
+  "start": 26.219,
+  "end": 29.014
+ }
+]

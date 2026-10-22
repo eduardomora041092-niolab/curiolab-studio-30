@@ -43,3 +43,22 @@ timestamp_local,level,message
 2026-10-22T06:39:22-04:00,INFO,006 tiktok 6ad8b85c0c5e774bdfb13e84 sent https://tiktok.com/@curiolabstudio30/video/7699244361149582606
 2026-10-22T06:39:47-04:00,INFO,metrics appended for 6 posts
 2026-10-22T06:39:47-04:00,INFO,conciliacion: 006 PUBLISHED (YT+TT sent); 007/008/009 siguen scheduled (hoy 09:00/13:00/18:00 ET); 010-012 sin producir por setup denegado; scheduled en Buffer: 6
+2026-10-22T13:38:49-04:00,INFO,setup.sh ok (dependencias y modelos Kokoro verificados SHA-256)
+2026-10-22T13:54:10-04:00,INFO,010 QA all_pass=True
+2026-10-22T13:57:57-04:00,INFO,010 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-010/CurioLab_010.mp4
+2026-10-22T13:58:51-04:00,INFO,010 youtube 6ada4ebcad1fc1b5527c41cf scheduled 
+2026-10-22T13:58:51-04:00,INFO,010 tiktok 6ada4ec177984f39b2aefc59 scheduled 
+2026-10-22T14:06:28-04:00,INFO,012 QA all_pass=True
+2026-10-22T14:07:15-04:00,INFO,011 QA all_pass=True
+2026-10-22T14:08:43-04:00,INFO,011 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-011/CurioLab_011.mp4
+2026-10-22T14:09:50-04:00,INFO,012 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-012/CurioLab_012.mp4
+2026-10-22T14:10:22-04:00,INFO,011 youtube 6ada517c77984f39b2afebc1 scheduled 
+2026-10-22T14:10:22-04:00,INFO,011 tiktok 6ada517e399af6f1f72c40b2 scheduled 
+2026-10-22T14:10:22-04:00,INFO,012 youtube 6ada51819a8a68d3cd732c86 scheduled 
+2026-10-22T14:10:22-04:00,INFO,012 tiktok 6ada5184399af6f1f72c42f6 scheduled 
+2026-10-22T14:10:22-04:00,INFO,007 youtube 6ad8bb9d88865f7e6d31b9f4 sent https://www.youtube.com/shorts/89J0Vr4HUCQ
+2026-10-22T14:10:22-04:00,INFO,007 tiktok 6ad8bb9f0811076dd03ce382 sent https://tiktok.com/@curiolabstudio30/video/7699477033830616333
+2026-10-22T14:10:22-04:00,INFO,008 youtube 6ad8bf5db535ec9954c27e11 sent https://www.youtube.com/shorts/5QS_mlGWUD0
+2026-10-22T14:10:22-04:00,INFO,008 tiktok 6ad8bf62d4269b1b7a6ae390 sent https://tiktok.com/@curiolabstudio30/video/7699538967401630990
+2026-10-22T14:10:48-04:00,INFO,metrics appended for 4 posts
+2026-10-22T14:10:55-04:00,INFO,"010/011/012 producidos (QA PASS 29.3/30.0/28.2 s, -15.6 LUFS), alojados y programados 2026-10-23 09:00/13:00/18:00 ET en YT y TT; 007 y 008 conciliados PUBLISHED; 009 sigue scheduled (hoy 18:00); metricas 004-005 capturadas; scheduled en Buffer: 8"

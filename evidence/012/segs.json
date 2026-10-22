@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "Cuenta los segundos entre el rayo y el trueno, y sabrás la distancia.",
+  "start": 0.0,
+  "end": 3.755
+ },
+ {
+  "i": 1,
+  "text": "El rayo calienta el aire de golpe; al expandirse, suena el trueno.",
+  "start": 4.005,
+  "end": 7.461
+ },
+ {
+  "i": 2,
+  "text": "La luz y el sonido nacen a la vez, pero viajan muy distinto.",
+  "start": 7.711,
+  "end": 11.06
+ },
+ {
+  "i": 3,
+  "text": "La luz llega casi al instante.",
+  "start": 11.31,
+  "end": 13.294
+ },
+ {
+  "i": 4,
+  "text": "El sonido es mucho más lento: tarda unos tres segundos por kilómetro.",
+  "start": 13.544,
+  "end": 17.491
+ },
+ {
+  "i": 5,
+  "text": "Divide los segundos entre tres y tendrás los kilómetros.",
+  "start": 17.741,
+  "end": 20.983
+ },
+ {
+  "i": 6,
+  "text": "Y si oyes truenos, la tormenta está cerca: busca refugio.",
+  "start": 21.233,
+  "end": 24.604
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para más curiosidades de la ciencia.",
+  "start": 24.854,
+  "end": 27.201
+ }
+]
