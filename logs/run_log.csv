@@ -62,3 +62,5 @@ timestamp_local,level,message
 2026-10-22T14:10:22-04:00,INFO,008 tiktok 6ad8bf62d4269b1b7a6ae390 sent https://tiktok.com/@curiolabstudio30/video/7699538967401630990
 2026-10-22T14:10:48-04:00,INFO,metrics appended for 4 posts
 2026-10-22T14:10:55-04:00,INFO,"010/011/012 producidos (QA PASS 29.3/30.0/28.2 s, -15.6 LUFS), alojados y programados 2026-10-23 09:00/13:00/18:00 ET en YT y TT; 007 y 008 conciliados PUBLISHED; 009 sigue scheduled (hoy 18:00); metricas 004-005 capturadas; scheduled en Buffer: 8"
+2026-10-22T16:26:59-04:00,INFO,"editorial: cambios {'target_max_s': (None, 28.0), 'hook_max_words': (None, 9), 'caption_cta': (None, True)} aplican desde 013"
+2026-10-22T16:28:17-04:00,INFO,"corrección operativa: cola dinámica de Buffer (queue), conciliación con enlace público, reglas editoriales por métricas (editorial, aplican desde 013), verificación de ciclo (cycle), ejecución extra 18:37; tests offline 9/9 PASS"

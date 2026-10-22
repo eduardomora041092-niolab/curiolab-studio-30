@@ -1,0 +1,10 @@
+# CurioLab — instantánea de Buffer para `daily.py queue`. Solo lectura.
+# NOTA: no mezclar needs_approval con otros estados en el filtro: Buffer devuelve una lista vacía (comprobado 2026-10-22).
+query Snap($org: OrganizationId!, $since: DateTime!, $channels: [ChannelId!]!) {
+  account { organizations { id limits { scheduledPosts } } }
+  limits: dailyPostingLimits(input: {channelIds: $channels}) { channelId isAtLimit limit scheduled sent }
+  open: posts(first: 100, input: {organizationId: $org, filter: {status: [scheduled, sending]}}) { pageInfo { hasNextPage } edges { node { ...F } } }
+  errors: posts(first: 100, input: {organizationId: $org, filter: {status: [error]}}) { pageInfo { hasNextPage } edges { node { ...F } } }
+  recent: posts(first: 100, input: {organizationId: $org, filter: {channelIds: $channels, dueAt: {start: $since}}, sort: [{field: dueAt, direction: asc}]}) { pageInfo { hasNextPage } edges { node { ...F } } }
+}
+fragment F on Post { id channelId status dueAt sentAt externalLink error { message } assets { ... on VideoAsset { video { title durationMs } } } }

@@ -1,0 +1,28 @@
+{
+ "generated": "2026-10-22T16:26:59-04:00",
+ "limit": 10,
+ "safety_margin": 1,
+ "occupied": 8,
+ "free_after_plan": 1,
+ "per_channel_today": [
+  {
+   "channelId": "6ad73b1a778b240e2f677dbf",
+   "scheduled": 1,
+   "sent": 2,
+   "limit": 10,
+   "isAtLimit": false
+  },
+  {
+   "channelId": "6ad739bd778b240e2f677654",
+   "scheduled": 1,
+   "sent": 2,
+   "limit": 25,
+   "isAtLimit": false
+  }
+ ],
+ "reconciled": [],
+ "create": [],
+ "waiting": [],
+ "blocked": [],
+ "warnings": []
+}

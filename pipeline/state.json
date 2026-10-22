@@ -20,7 +20,8 @@
    },
    "qa": null,
    "media_url": null,
-   "errors": []
+   "errors": [],
+   "duration_ms": 28833
   },
   "002": {
    "estado": "PUBLISHED",
@@ -58,7 +59,8 @@
     }
    },
    "media_url": null,
-   "errors": []
+   "errors": [],
+   "duration_ms": 32233
   },
   "003": {
    "estado": "PUBLISHED",
@@ -96,7 +98,8 @@
     }
    },
    "media_url": null,
-   "errors": []
+   "errors": [],
+   "duration_ms": 31533
   },
   "004": {
    "estado": "PUBLISHED",
@@ -132,7 +135,8 @@
     }
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-004/CurioLab_004.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 31267
   },
   "005": {
    "estado": "PUBLISHED",
@@ -168,7 +172,8 @@
     }
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-005/CurioLab_005.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 29700
   },
   "006": {
    "estado": "PUBLISHED",
@@ -204,7 +209,8 @@
     }
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-006/CurioLab_006.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 28767
   },
   "007": {
    "estado": "PUBLISHED",
@@ -240,7 +246,8 @@
     }
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-007/CurioLab_007.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 29667
   },
   "008": {
    "estado": "PUBLISHED",
@@ -276,7 +283,8 @@
     }
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-008/CurioLab_008.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 26833
   },
   "009": {
    "estado": "PRODUCED",
@@ -312,7 +320,8 @@
     }
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-009/CurioLab_009.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 27300
   },
   "010": {
    "estado": "PRODUCED",
@@ -348,7 +357,8 @@
     }
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-010/CurioLab_010.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 29300
   },
   "011": {
    "estado": "PRODUCED",
@@ -384,7 +394,8 @@
     }
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-011/CurioLab_011.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 30000
   },
   "012": {
    "estado": "PRODUCED",
@@ -420,7 +431,8 @@
     }
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-012/CurioLab_012.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 28200
   },
   "013": {
    "estado": "PLANNED",

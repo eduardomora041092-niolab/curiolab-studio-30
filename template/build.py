@@ -57,7 +57,8 @@ def qa(spec, segs, mp4, work):
 def main():
     spec = load_spec(sys.argv[1]); work = f"{ROOT}/work/{spec.ID}"; os.makedirs(work, exist_ok=True); os.makedirs(f"{ROOT}/out", exist_ok=True)
     segs_p, wav = f"{work}/segs.json", f"{work}/narr.wav"
-    if not os.path.exists(segs_p) or json.load(open(segs_p))[0]["text"] != spec.LINES[0] or len(json.load(open(segs_p))) != len(spec.LINES):
+    # regenerate narration whenever ANY line changed (previously only the first line was compared)
+    if not os.path.exists(segs_p) or [s["text"] for s in json.load(open(segs_p))] != list(spec.LINES):
         segs = E.tts(spec.LINES, spec.VOICE, spec.SPEED, wav, segs_p)
     segs = json.load(open(segs_p))
     if "--preview" in sys.argv:

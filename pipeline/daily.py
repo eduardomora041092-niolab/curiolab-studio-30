@@ -13,6 +13,7 @@ Claude itself, and their results are written back here with `record` / `log`.
   python3 daily.py metrics FILE.json           -> appends Buffer per-post metrics to metrics.csv
   python3 daily.py log LEVEL MESSAGE           -> appends to logs/run_log.csv
   python3 daily.py export                      -> regenerates calendar CSV + manifest (MD/JSON)
+  python3 daily.py snapshot-query | queue SNAP.json | editorial | cycle   -> see queue_editorial.py
 """
 import csv, datetime as dt, json, os, shutil, subprocess, sys
 from zoneinfo import ZoneInfo
@@ -76,7 +77,9 @@ def cmd_status(args):
                     "needs": [n for n, c in (("spec", not spec), ("render", not (mp4 and v["qa"] and v["qa"]["all_pass"])),
                                              ("host", not v["media_url"]), ("publish", True)) if c],
                     "missing_platforms": missing, "overdue": dt.date.fromisoformat(r["fecha"]) < day})
-    print(json.dumps({"date": day.isoformat(), "pending": out}, ensure_ascii=False, indent=1))
+    ed = load(f"{REPO}/pipeline/editorial.json", {}) or {}
+    print(json.dumps({"date": day.isoformat(), "editorial_rules": ed.get("rules"), "editorial_reasons": ed.get("reasons"),
+                      "pending": out}, ensure_ascii=False, indent=1))
 
 def cmd_render(args):
     vid = args[0]; spec = f"{REPO}/template/videos/v{vid}.py"
@@ -88,6 +91,15 @@ def cmd_render(args):
         v["errors"].append(f"{now_local().isoformat(timespec='seconds')} render failed rc={r.returncode}")
         save(STATE, st); log("ERROR", f"{vid} render failed"); sys.exit(1)
     v["qa"] = {k: qa[k] for k in ("all_pass", "duration_s", "lufs", "checks")}
+    # editorial rules derived from metrics (pipeline/editorial.json); they apply from rules.applies_from onwards
+    import importlib.util, queue_editorial as QE
+    sp = importlib.util.spec_from_file_location("spec", spec); mod = importlib.util.module_from_spec(sp); sp.loader.exec_module(mod)
+    ok, info = QE.editorial_check(vid, mod.LINES, qa["duration_s"])
+    if ok is not None:
+        v["qa"]["editorial"] = info; v["qa"]["editorial_pass"] = ok
+        qa["editorial"] = info; qa["all_pass"] = qa["all_pass"] and ok; v["qa"]["all_pass"] = qa["all_pass"]
+        json.dump(qa, open(f"{REPO}/work/{vid}/qa.json", "w"), ensure_ascii=False, indent=1)
+        print(f"EDITORIAL {'PASS' if ok else 'FAIL'} {json.dumps(info, ensure_ascii=False)}")
     ev = f"{REPO}/evidence/{vid}"; os.makedirs(ev, exist_ok=True)   # evidence kept in the repo
     for f in ("qa.json", "segs.json", "final_sheet.png", "preview_sheet.png"):
         if os.path.exists(f"{REPO}/work/{vid}/{f}"): shutil.copy2(f"{REPO}/work/{vid}/{f}", f"{ev}/{f}")
@@ -122,17 +134,24 @@ def cmd_host(args):
     else:
         log("ERROR", f"{vid} public URL not verified {url}"); print("FAILED " + url); sys.exit(1)
 
-def cmd_caption(args):
-    vid = args[0]; r = {x["id"]: x for x in load(CAL)}[vid]
+CTA_LINE = "¿Qué objeto o fenómeno quieres que expliquemos? Te leemos en comentarios."
+
+def caption(vid, now=None):
+    r = {x["id"]: x for x in load(CAL)}[vid]
     tags = "#CurioLab #ComoFunciona #Curiosidades #Ciencia" if r["categoria"] == "Mecanismo" else "#CurioLab #Ciencia #Curiosidades #Naturaleza"
-    text = f"{r['gancho']} {r['titulo']}\n\nExplicado en menos de 35 segundos.\n\n{tags} #Shorts"
+    ed = load(f"{REPO}/pipeline/editorial.json", {}) or {}
+    cta = bool(ed.get("rules", {}).get("caption_cta"))          # editorial rule R2 (metrics-driven)
+    text = f"{r['gancho']} {r['titulo']}\n\nExplicado en menos de 35 segundos." + (f"\n\n{CTA_LINE}" if cta else "") + f"\n\n{tags} #Shorts"
     due = dt.datetime.combine(dt.date.fromisoformat(r["fecha"]), dt.time.fromisoformat(SLOT_TIMES[r["slot"]]), TZ)
     # Calendar slot in the future -> scheduled for that slot (normal design). Slot already passed -> shareNow.
     # If a safety check denies an action, it is recorded and reported; it is never worked around.
-    mode = "customScheduled" if due > now_local() + dt.timedelta(minutes=5) else "shareNow"
-    print(json.dumps({"id": vid, "text": text, "youtube_title": r["titulo"][:100], "youtube_categoryId": "27",
-                      "asset_title": f"CurioLab_{vid}.mp4", "mode": mode, "dueAt": due.isoformat() if mode == "customScheduled" else None,
-                      "channels": CHANNELS, "organizationId": ORG}, ensure_ascii=False, indent=1))
+    mode = "customScheduled" if due > (now or now_local()) + dt.timedelta(minutes=5) else "shareNow"
+    return {"id": vid, "text": text, "youtube_title": r["titulo"][:100], "youtube_categoryId": "27",
+            "asset_title": f"CurioLab_{vid}.mp4", "mode": mode, "dueAt": due.isoformat() if mode == "customScheduled" else None,
+            "channels": CHANNELS, "organizationId": ORG, "editorial_cta": cta}
+
+def cmd_caption(args):
+    print(json.dumps(caption(args[0]), ensure_ascii=False, indent=1))
 
 def cmd_record(args):
     vid, platform, post_id, status = args[:4]; url = args[4] if len(args) > 4 else ""
@@ -205,4 +224,6 @@ def cmd_export(_):
 
 if __name__ == "__main__":
     {"guard": cmd_guard, "status": cmd_status, "render": cmd_render, "host": cmd_host, "caption": cmd_caption,
-     "record": cmd_record, "lock": cmd_lock, "metrics": cmd_metrics, "log": cmd_log, "export": cmd_export}[sys.argv[1]](sys.argv[2:])
+     "record": cmd_record, "lock": cmd_lock, "metrics": cmd_metrics, "log": cmd_log, "export": cmd_export,
+     **{k: (lambda a, k=k: getattr(__import__("queue_editorial"), "cmd_" + k.replace("-", "_"))(a))
+        for k in ("snapshot-query", "queue", "editorial", "cycle")}}[sys.argv[1]](sys.argv[2:])

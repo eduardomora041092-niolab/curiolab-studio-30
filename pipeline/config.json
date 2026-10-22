@@ -5,5 +5,11 @@
  "timezone": "America/New_York",
  "experiment_start": "2026-10-20",
  "experiment_end": "2026-11-18",
- "notes": "Cada MP4 vive en una rama huérfana media-NNN; URL = media_raw_base/media-NNN/CurioLab_NNN.mp4"
+ "notes": "Cada MP4 vive en una rama huérfana media-NNN; URL = media_raw_base/media-NNN/CurioLab_NNN.mp4",
+ "cycle_from_id": "010",
+ "buffer_free": {
+  "scheduled_posts_limit_org": 10,
+  "safety_margin": 1,
+  "note": "límite consultado en cada ejecución (account.organizations.limits.scheduledPosts)"
+ }
 }
