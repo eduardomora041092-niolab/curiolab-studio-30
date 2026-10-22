@@ -38,3 +38,8 @@ timestamp_local,level,message
 2026-10-21T13:40:02-04:00,INFO,005 tiktok 6ad8b857333aa279085301e6 sent https://tiktok.com/@curiolabstudio30/video/7699167198429924622
 2026-10-21T13:40:11-04:00,ERROR,"setup.sh (instalar kokoro-onnx + descargar modelos de GitHub) denegado por el control de seguridad de la sesion [Code from External]; no se reintento. 009 ya tenia render+QA PASS y media_url, por lo que no fue necesario"
 2026-10-21T13:40:11-04:00,INFO,"009 tiktok programado 6ad8f8e75f06a50228137568 (2026-10-22 18:00 ET); 005 conciliado PUBLISHED; metricas: 001 ya capturado hoy, 002-003 <24h"
+2026-10-22T06:39:01-04:00,ERROR,setup.sh (pip install requirements + descarga modelos Kokoro de GitHub) denegado por el control de seguridad de la sesion [Code from External]; no se reintento; produccion 3a-3e omitida
+2026-10-22T06:39:22-04:00,INFO,006 youtube 6ad8b8590e8e6c40c7d02237 sent https://www.youtube.com/shorts/nC-mwvsKgnU
+2026-10-22T06:39:22-04:00,INFO,006 tiktok 6ad8b85c0c5e774bdfb13e84 sent https://tiktok.com/@curiolabstudio30/video/7699244361149582606
+2026-10-22T06:39:47-04:00,INFO,metrics appended for 6 posts
+2026-10-22T06:39:47-04:00,INFO,conciliacion: 006 PUBLISHED (YT+TT sent); 007/008/009 siguen scheduled (hoy 09:00/13:00/18:00 ET); 010-012 sin producir por setup denegado; scheduled en Buffer: 6

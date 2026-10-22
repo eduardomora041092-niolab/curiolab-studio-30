@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-21T13:40-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-22T06:39-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 81
-- **PRODUCED**: 4
-- **PUBLISHED**: 5
+- **PRODUCED**: 3
+- **PUBLISHED**: 6
 
 ## Vídeos con actividad
 
@@ -17,7 +17,7 @@ Actualizado: 2026-10-21T13:40-04:00 (America/New_York) · Costo real: US$0
 | 003 | 2026-10-20 | ¿Por qué el cielo es azul? | PUBLISHED | https://www.youtube.com/shorts/hHoH21L5Na8 | https://tiktok.com/@curiolabstudio30/video/7698850266602343693 | PASS 31.533 s -15.5 LUFS |
 | 004 | 2026-10-21 | ¿Cómo abre una llave una cerradura? | PUBLISHED | https://www.youtube.com/shorts/q2ngb_4iQXc | https://tiktok.com/@curiolabstudio30/video/7699106706197843213 | PASS 31.267 s -15.7 LUFS |
 | 005 | 2026-10-21 | ¿Cómo escribe un bolígrafo? | PUBLISHED | https://www.youtube.com/shorts/K6yaKiidoro | https://tiktok.com/@curiolabstudio30/video/7699167198429924622 | PASS 29.7 s -15.9 LUFS |
-| 006 | 2026-10-21 | ¿Por qué el mar es salado? | PRODUCED | — | — | PASS 28.767 s -15.7 LUFS |
+| 006 | 2026-10-21 | ¿Por qué el mar es salado? | PUBLISHED | https://www.youtube.com/shorts/nC-mwvsKgnU | https://tiktok.com/@curiolabstudio30/video/7699244361149582606 | PASS 28.767 s -15.7 LUFS |
 | 007 | 2026-10-22 | ¿Cómo funciona el clic de un bolígrafo? | PRODUCED | — | — | PASS 29.667 s -15.9 LUFS |
 | 008 | 2026-10-22 | ¿Cómo funciona la cisterna del inodoro? | PRODUCED | — | — | PASS 26.833 s -15.6 LUFS |
 | 009 | 2026-10-22 | ¿Cómo se forma un arcoíris? | PRODUCED | — | — | PASS 27.3 s -15.6 LUFS |
@@ -29,7 +29,7 @@ Actualizado: 2026-10-21T13:40-04:00 (America/New_York) · Costo real: US$0
 - 003 · 2026-10-20 · Ciencia · ¿Por qué el cielo es azul? · PUBLISHED
 - 004 · 2026-10-21 · Mecanismo · ¿Cómo abre una llave una cerradura? · PUBLISHED
 - 005 · 2026-10-21 · Mecanismo · ¿Cómo escribe un bolígrafo? · PUBLISHED
-- 006 · 2026-10-21 · Ciencia · ¿Por qué el mar es salado? · PRODUCED
+- 006 · 2026-10-21 · Ciencia · ¿Por qué el mar es salado? · PUBLISHED
 - 007 · 2026-10-22 · Mecanismo · ¿Cómo funciona el clic de un bolígrafo? · PRODUCED
 - 008 · 2026-10-22 · Mecanismo · ¿Cómo funciona la cisterna del inodoro? · PRODUCED
 - 009 · 2026-10-22 · Ciencia · ¿Cómo se forma un arcoíris? · PRODUCED
