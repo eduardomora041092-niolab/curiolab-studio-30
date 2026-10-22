@@ -64,3 +64,6 @@ timestamp_local,level,message
 2026-10-22T14:10:55-04:00,INFO,"010/011/012 producidos (QA PASS 29.3/30.0/28.2 s, -15.6 LUFS), alojados y programados 2026-10-23 09:00/13:00/18:00 ET en YT y TT; 007 y 008 conciliados PUBLISHED; 009 sigue scheduled (hoy 18:00); metricas 004-005 capturadas; scheduled en Buffer: 8"
 2026-10-22T16:26:59-04:00,INFO,"editorial: cambios {'target_max_s': (None, 28.0), 'hook_max_words': (None, 9), 'caption_cta': (None, True)} aplican desde 013"
 2026-10-22T16:28:17-04:00,INFO,"corrección operativa: cola dinámica de Buffer (queue), conciliación con enlace público, reglas editoriales por métricas (editorial, aplican desde 013), verificación de ciclo (cycle), ejecución extra 18:37; tests offline 9/9 PASS"
+2026-10-22T18:39:12-04:00,INFO,conciliado 009 tiktok 6ad8f8e75f06a50228137568 sent https://tiktok.com/@curiolabstudio30/video/7699615680085200141
+2026-10-22T18:39:12-04:00,INFO,conciliado 009 youtube 6ad8c054b535ec9954c2b23e sent https://www.youtube.com/shorts/3nWoO3ciUlw
+2026-10-22T18:39:26-04:00,INFO,metrics appended for 2 posts

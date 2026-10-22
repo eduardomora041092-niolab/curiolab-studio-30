@@ -1,26 +1,29 @@
 {
- "generated": "2026-10-22T16:26:59-04:00",
+ "generated": "2026-10-22T18:39:12-04:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 8,
- "free_after_plan": 1,
+ "occupied": 6,
+ "free_after_plan": 3,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 0,
+   "sent": 3,
    "limit": 10,
    "isAtLimit": false
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 0,
+   "sent": 3,
    "limit": 25,
    "isAtLimit": false
   }
  ],
- "reconciled": [],
+ "reconciled": [
+  "009 tiktok 6ad8f8e75f06a50228137568 sent https://tiktok.com/@curiolabstudio30/video/7699615680085200141",
+  "009 youtube 6ad8c054b535ec9954c2b23e sent https://www.youtube.com/shorts/3nWoO3ciUlw"
+ ],
  "create": [],
  "waiting": [],
  "blocked": [],
