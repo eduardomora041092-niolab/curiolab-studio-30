@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-10-23T07:13-04:00",
+ "actualizado": "2026-10-23T13:41-04:00",
  "estados": {
-  "PUBLISHED": 9,
-  "PRODUCED": 6,
+  "PUBLISHED": 11,
+  "PRODUCED": 4,
   "PLANNED": 75
  },
  "costo_real_usd": 0,
@@ -361,19 +361,19 @@
    "fecha": "2026-10-23",
    "titulo": "¿Cómo enfría un refrigerador?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ada4ebcad1fc1b5527c41cf",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-22T13:58:51-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/i_6Acz7NYTI",
+     "recorded": "2026-10-23T13:39:58-04:00"
     },
     "tiktok": {
      "post_id": "6ada4ec177984f39b2aefc59",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-22T13:58:51-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7699848059139706125",
+     "recorded": "2026-10-23T13:39:58-04:00"
     }
    },
    "qa": {
@@ -401,19 +401,19 @@
    "fecha": "2026-10-23",
    "titulo": "¿Cómo calienta un microondas?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ada517c77984f39b2afebc1",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-22T14:10:22-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/WBy_WeWPF_g",
+     "recorded": "2026-10-23T13:39:58-04:00"
     },
     "tiktok": {
      "post_id": "6ada517e399af6f1f72c40b2",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-22T14:10:22-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7699909761600392461",
+     "recorded": "2026-10-23T13:39:58-04:00"
     }
    },
    "qa": {
@@ -546,6 +546,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-10-23T07:12:45-04:00"
+    },
+    "tiktok": {
+     "post_id": "6adb9c1a8b3d437ddc7bb841",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-23T13:41:02-04:00"
     }
    },
    "qa": {
@@ -592,7 +598,20 @@
    "titulo": "¿Por qué el hielo flota?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6adb9c2ae4be8a4d861b127d",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-23T13:41:02-04:00"
+    },
+    "tiktok": {
+     "post_id": "6adb9c2b0b5343d070429963",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-23T13:41:03-04:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 26.6,
@@ -629,7 +648,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-015/CurioLab_015.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 26600
   },
   "016": {
    "fecha": "2026-10-25",

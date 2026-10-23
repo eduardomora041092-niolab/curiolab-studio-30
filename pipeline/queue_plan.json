@@ -1,47 +1,28 @@
 {
- "generated": "2026-10-23T07:13:30-04:00",
+ "generated": "2026-10-23T13:41:37-04:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 9,
- "free_after_plan": 0,
+ "occupied": 8,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": 10,
    "isAtLimit": false
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": 25,
    "isAtLimit": false
   }
  ],
  "reconciled": [],
  "create": [],
- "waiting": [
-  {
-   "id": "014",
-   "platform": "tiktok",
-   "dueAt": "2026-10-24T13:00:00-04:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "015",
-   "platform": "youtube",
-   "dueAt": "2026-10-24T18:00:00-04:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "015",
-   "platform": "tiktok",
-   "dueAt": "2026-10-24T18:00:00-04:00",
-   "reason": "cola de Buffer llena"
-  }
- ],
+ "waiting": [],
  "blocked": [],
  "warnings": []
 }

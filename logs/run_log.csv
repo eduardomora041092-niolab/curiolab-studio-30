@@ -79,3 +79,12 @@ timestamp_local,level,message
 2026-10-23T07:12:45-04:00,INFO,013 tiktok 6adb41244cd0373c6552ca85 scheduled 
 2026-10-23T07:12:45-04:00,INFO,014 youtube 6adb412ac3741d7d48c79578 scheduled 
 2026-10-23T07:13:30-04:00,INFO,"en espera por capacidad: 014 tiktok (cola de Buffer llena), 015 youtube (cola de Buffer llena), 015 tiktok (cola de Buffer llena)"
+2026-10-23T13:39:58-04:00,INFO,conciliado 010 tiktok 6ada4ec177984f39b2aefc59 sent https://tiktok.com/@curiolabstudio30/video/7699848059139706125
+2026-10-23T13:39:58-04:00,INFO,conciliado 010 youtube 6ada4ebcad1fc1b5527c41cf sent https://www.youtube.com/shorts/i_6Acz7NYTI
+2026-10-23T13:39:58-04:00,INFO,conciliado 011 tiktok 6ada517e399af6f1f72c40b2 sent https://tiktok.com/@curiolabstudio30/video/7699909761600392461
+2026-10-23T13:39:58-04:00,INFO,conciliado 011 youtube 6ada517c77984f39b2afebc1 sent https://www.youtube.com/shorts/WBy_WeWPF_g
+2026-10-23T13:40:15-04:00,INFO,metrics appended for 4 posts
+2026-10-23T13:41:02-04:00,INFO,014 tiktok 6adb9c1a8b3d437ddc7bb841 scheduled 
+2026-10-23T13:41:02-04:00,INFO,015 youtube 6adb9c2ae4be8a4d861b127d scheduled 
+2026-10-23T13:41:03-04:00,INFO,015 tiktok 6adb9c2b0b5343d070429963 scheduled 
+2026-10-23T13:41:43-04:00,INFO,"run 13:37: programados 014 tiktok, 015 youtube, 015 tiktok; sin producción nueva (016+ fuera de ventana); ciclo PENDING"
