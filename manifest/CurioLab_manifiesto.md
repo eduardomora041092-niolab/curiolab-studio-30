@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-22T18:39-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-23T07:13-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 78
-- **PRODUCED**: 3
+- **PLANNED**: 75
+- **PRODUCED**: 6
 - **PUBLISHED**: 9
 
 ## Vídeos con actividad
@@ -24,6 +24,9 @@ Actualizado: 2026-10-22T18:39-04:00 (America/New_York) · Costo real: US$0
 | 010 | 2026-10-23 | ¿Cómo enfría un refrigerador? | PRODUCED | — | — | PASS 29.3 s -15.6 LUFS |
 | 011 | 2026-10-23 | ¿Cómo calienta un microondas? | PRODUCED | — | — | PASS 30.0 s -15.6 LUFS |
 | 012 | 2026-10-23 | ¿Por qué vemos el rayo antes de oír el trueno? | PRODUCED | — | — | PASS 28.2 s -15.6 LUFS |
+| 013 | 2026-10-24 | ¿Cómo sabe la tostadora cuándo parar? | PRODUCED | — | — | PASS 27.7 s -15.8 LUFS |
+| 014 | 2026-10-24 | ¿Cómo dobla una grapa la grapadora? | PRODUCED | — | — | PASS 26.733 s -15.7 LUFS |
+| 015 | 2026-10-24 | ¿Por qué el hielo flota? | PRODUCED | — | — | PASS 26.6 s -15.6 LUFS |
 
 ## Calendario completo
 
@@ -39,9 +42,9 @@ Actualizado: 2026-10-22T18:39-04:00 (America/New_York) · Costo real: US$0
 - 010 · 2026-10-23 · Mecanismo · ¿Cómo enfría un refrigerador? · PRODUCED
 - 011 · 2026-10-23 · Mecanismo · ¿Cómo calienta un microondas? · PRODUCED
 - 012 · 2026-10-23 · Ciencia · ¿Por qué vemos el rayo antes de oír el trueno? · PRODUCED
-- 013 · 2026-10-24 · Mecanismo · ¿Cómo sabe la tostadora cuándo parar? · PLANNED
-- 014 · 2026-10-24 · Mecanismo · ¿Cómo dobla una grapa la grapadora? · PLANNED
-- 015 · 2026-10-24 · Ciencia · ¿Por qué el hielo flota? · PLANNED
+- 013 · 2026-10-24 · Mecanismo · ¿Cómo sabe la tostadora cuándo parar? · PRODUCED
+- 014 · 2026-10-24 · Mecanismo · ¿Cómo dobla una grapa la grapadora? · PRODUCED
+- 015 · 2026-10-24 · Ciencia · ¿Por qué el hielo flota? · PRODUCED
 - 016 · 2026-10-25 · Mecanismo · ¿Cómo se abre un paraguas? · PLANNED
 - 017 · 2026-10-25 · Mecanismo · ¿Por qué la cinta métrica vuelve sola? · PLANNED
 - 018 · 2026-10-25 · Ciencia · ¿Qué causa las mareas? · PLANNED

@@ -1,31 +1,47 @@
 {
- "generated": "2026-10-22T18:39:12-04:00",
+ "generated": "2026-10-23T07:13:30-04:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 3,
+ "occupied": 9,
+ "free_after_plan": 0,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
-   "scheduled": 0,
-   "sent": 3,
+   "scheduled": 3,
+   "sent": 0,
    "limit": 10,
    "isAtLimit": false
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
-   "scheduled": 0,
-   "sent": 3,
+   "scheduled": 3,
+   "sent": 0,
    "limit": 25,
    "isAtLimit": false
   }
  ],
- "reconciled": [
-  "009 tiktok 6ad8f8e75f06a50228137568 sent https://tiktok.com/@curiolabstudio30/video/7699615680085200141",
-  "009 youtube 6ad8c054b535ec9954c2b23e sent https://www.youtube.com/shorts/3nWoO3ciUlw"
- ],
+ "reconciled": [],
  "create": [],
- "waiting": [],
+ "waiting": [
+  {
+   "id": "014",
+   "platform": "tiktok",
+   "dueAt": "2026-10-24T13:00:00-04:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "015",
+   "platform": "youtube",
+   "dueAt": "2026-10-24T18:00:00-04:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "015",
+   "platform": "tiktok",
+   "dueAt": "2026-10-24T18:00:00-04:00",
+   "reason": "cola de Buffer llena"
+  }
+ ],
  "blocked": [],
  "warnings": []
 }

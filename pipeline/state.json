@@ -435,24 +435,148 @@
    "duration_ms": 28200
   },
   "013": {
-   "estado": "PLANNED",
-   "posts": {},
-   "qa": null,
-   "media_url": null,
-   "errors": []
+   "estado": "PRODUCED",
+   "posts": {
+    "youtube": {
+     "post_id": "6adb41187af88b8f19ada895",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-23T07:12:45-04:00"
+    },
+    "tiktok": {
+     "post_id": "6adb41244cd0373c6552ca85",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-23T07:12:45-04:00"
+    }
+   },
+   "qa": {
+    "all_pass": true,
+    "duration_s": 27.7,
+    "lufs": -15.8,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    },
+    "editorial": {
+     "duration_s": 27.7,
+     "target_max_s": 28.0,
+     "duration_ok": true,
+     "hook_words": 8,
+     "hook_max_words": 9,
+     "hook_ok": true,
+     "rules_updated": "2026-10-23T06:40:27-04:00",
+     "measured": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "005",
+      "006"
+     ]
+    },
+    "editorial_pass": true
+   },
+   "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-013/CurioLab_013.mp4",
+   "errors": [],
+   "duration_ms": 27700
   },
   "014": {
-   "estado": "PLANNED",
-   "posts": {},
-   "qa": null,
-   "media_url": null,
-   "errors": []
+   "estado": "PRODUCED",
+   "posts": {
+    "youtube": {
+     "post_id": "6adb412ac3741d7d48c79578",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-23T07:12:45-04:00"
+    }
+   },
+   "qa": {
+    "all_pass": true,
+    "duration_s": 26.733,
+    "lufs": -15.7,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    },
+    "editorial": {
+     "duration_s": 26.733,
+     "target_max_s": 28.0,
+     "duration_ok": true,
+     "hook_words": 7,
+     "hook_max_words": 9,
+     "hook_ok": true,
+     "rules_updated": "2026-10-23T06:40:27-04:00",
+     "measured": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "005",
+      "006"
+     ]
+    },
+    "editorial_pass": true
+   },
+   "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-014/CurioLab_014.mp4",
+   "errors": [],
+   "duration_ms": 26733
   },
   "015": {
-   "estado": "PLANNED",
+   "estado": "PRODUCED",
    "posts": {},
-   "qa": null,
-   "media_url": null,
+   "qa": {
+    "all_pass": true,
+    "duration_s": 26.6,
+    "lufs": -15.6,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    },
+    "editorial": {
+     "duration_s": 26.6,
+     "target_max_s": 28.0,
+     "duration_ok": true,
+     "hook_words": 9,
+     "hook_max_words": 9,
+     "hook_ok": true,
+     "rules_updated": "2026-10-23T06:40:27-04:00",
+     "measured": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "005",
+      "006"
+     ]
+    },
+    "editorial_pass": true
+   },
+   "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-015/CurioLab_015.mp4",
    "errors": []
   },
   "016": {
