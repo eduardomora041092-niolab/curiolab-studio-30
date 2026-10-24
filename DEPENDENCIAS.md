@@ -33,3 +33,13 @@ en la lista ni ningún archivo distinto del registrado.
 
 ## Ya presentes en la imagen (no se instalan)
 Python 3.13, ffmpeg 6.1.1 (libx264, aac).
+
+## Autorización de ejecución del código del repositorio
+**Autorización del dueño (2026-10-24, 07:16 America/New_York, literal):**
+"Autorizo que las ejecuciones de CurioLab Studio 30 ejecuten el código del repositorio
+eduardomora041092-niolab/curiolab-studio-30, incluyendo setup.sh, pipeline/ y template/, únicamente para este
+experimento y dentro del alcance ya acordado: producción, publicación, métricas y mejora editorial. Esta autorización
+no incluye nuevos gastos ni desactivar controles de seguridad."
+
+Si el control de seguridad deniega un paso, la ejecución lo registra (paso exacto y motivo) y lo notifica con ❌;
+no se intenta otra vía.

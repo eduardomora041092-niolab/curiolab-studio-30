@@ -103,3 +103,4 @@ timestamp_local,level,message
 2026-10-24T07:00:46-04:00,INFO,016 tiktok 6adc8fd96887a2efc1b11a6d scheduled 
 2026-10-24T07:00:46-04:00,INFO,017 youtube 6adc8fda0b5343d0707b8eea scheduled 
 2026-10-24T07:01:08-04:00,INFO,"en espera por capacidad: 017 tiktok (cola de Buffer llena), 018 youtube (cola de Buffer llena), 018 tiktok (cola de Buffer llena)"
+2026-10-24T07:17:29-04:00,INFO,"autorización del dueño 2026-10-24 07:16: ejecutar el código del repositorio (setup.sh, pipeline/, template/) solo para este experimento; registrada en DEPENDENCIAS.md y en la tarea"
