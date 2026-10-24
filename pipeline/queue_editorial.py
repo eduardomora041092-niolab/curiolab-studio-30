@@ -116,7 +116,8 @@ def plan_queue(data, st, cal, now):
             waiting.append({"id": vid, "platform": plat, "dueAt": due.isoformat(), "reason": "cola de Buffer llena"}); continue
         c = D.caption(vid, now)
         item = {"id": vid, "platform": plat, "channelId": D.CHANNELS[plat], "reason": why, "mode": c["mode"], "dueAt": c["dueAt"],
-                "text": c["text"], "asset": {"url": st["videos"][vid]["media_url"], "title": c["asset_title"]}}
+                "text": c["text"], "asset": {"url": st["videos"][vid]["media_url"], "title": c["asset_title"],
+                         **({"thumbnailOffset": c["tiktok_cover_offset_ms"]} if plat == "tiktok" and c.get("tiktok_cover_offset_ms") else {})}}
         item["metadata"] = ({"youtube": {"title": c["youtube_title"], "categoryId": "27", "privacy": "public", "madeForKids": False, "isAiGenerated": True}}
                             if plat == "youtube" else {"tiktok": {"isAiGenerated": True}})
         create.append(item); free -= 1
@@ -168,8 +169,15 @@ def next_unproduced(st, cal):
     last = max(have) if have else "000"
     return next((v for v in sorted(cal) if v > last), None)
 
+def experiment_active(prev, nxt):
+    ex = prev.get("experiment") or {}
+    return bool(ex) and nxt is not None and ex.get("applies_from", "999") <= nxt <= ex.get("freeze_until", "000")
+
 def compute_rules(rows, prev, nxt):
     rules = dict(DEFAULT_RULES); rules.update({k: v for k, v in (prev.get("rules") or {}).items() if k in rules})
+    if experiment_active(prev, nxt):   # one change at a time: R1–R3 stay frozen while the experiment runs
+        ex = prev["experiment"]
+        return rules, [f"Reglas R1–R3 congeladas por el experimento '{ex['name']}' ({ex['applies_from']}–{ex['freeze_until']})"], {}
     why = []
     rets = [r["tt_retention"] for r in rows if r["tt_retention"]]
     # R1 — retention -> duration ceiling and hook length (needs >= 4 videos with TikTok watch time)
@@ -224,6 +232,7 @@ def cmd_editorial(_):
         rules, why, changed = rules2, why + ["R1 evaluada sin mejora → se revierte"], {**changed, **changed2}
     out = {"updated": D.now_local().isoformat(timespec="seconds"), "rules": rules, "reasons": why, "evaluation": ev,
            "inputs": rows, "videos_measured": [r["id"] for r in rows]}
+    if prev.get("experiment"): out["experiment"] = prev["experiment"]
     D.save(EDITORIAL, out)
     if changed or not prev:
         new = not os.path.exists(EDITORIAL_LOG)
@@ -245,6 +254,12 @@ def editorial_check(vid, lines, duration_s):
     res = {"duration_s": duration_s, "target_max_s": r["target_max_s"], "duration_ok": duration_s <= r["target_max_s"] + 0.3,
            "hook_words": hook, "hook_max_words": r["hook_max_words"], "hook_ok": hook <= r["hook_max_words"],
            "rules_updated": ed["updated"], "measured": ed.get("videos_measured", [])}
+    ex = ed.get("experiment") or {}
+    if ex and vid >= ex.get("applies_from", "999"):
+        # experiment "gancho en acción": first line is ONE clear question (the in-action first scene is checked visually)
+        q = lines[0].strip(); res["experiment"] = ex.get("name")
+        res["hook_question_ok"] = q.startswith("¿") and q.endswith("?") and q.count("?") == 1
+        return res["duration_ok"] and res["hook_ok"] and res["hook_question_ok"], res
     return res["duration_ok"] and res["hook_ok"], res
 
 # ---------------------------------------------------------------- cycle evidence

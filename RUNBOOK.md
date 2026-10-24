@@ -48,9 +48,11 @@ ejecuta `python3 pipeline/daily.py lock release`.
    - `blocked`: un post falló dos veces → ❌; no se vuelve a crear.
 
 ## 3. Métricas y ajuste editorial (antes de producir)
-1. Para los posts `sent` hace más de 24 h y sin captura hoy en `logs/metrics.csv`, llama a `get_post` con
-   `includeMetrics: true`, guarda `[{video_id, platform, post_id, metrics:[{type,value}]}]` en `/tmp/m.json` y ejecuta
-   `python3 pipeline/daily.py metrics /tmp/m.json`. Como mucho una captura por post y día.
+1. `python3 pipeline/daily.py metrics-due /tmp/snap.json` → lista de posts a capturar ahora: la primera captura dentro
+   de la franja ~24 h (21–45 h desde `sentAt`), la primera dentro de ~72 h (69–93 h) y, si no, una al día a partir de
+   21 h. Para cada uno llama a `get_post` con `includeMetrics: true`, guarda `[{video_id, platform, post_id,
+   metrics:[{type,value}]}]` en `/tmp/m.json` y ejecuta `python3 pipeline/daily.py metrics /tmp/m.json`.
+   Comparación a igual antigüedad: `python3 pipeline/daily.py compare 24h` y `compare 72h`.
 2. `python3 pipeline/daily.py editorial` → recalcula `pipeline/editorial.json` con reglas deterministas (R1 retención →
    duración máxima y longitud del gancho; R2 sin comentarios → pregunta en el texto; R3 categoría con menos visionado →
    gancho más concreto) y, si algo cambia, lo anota con datos y motivo en `logs/editorial_log.md`. Las reglas se
@@ -78,6 +80,12 @@ Crea `template/videos/vNNN.py` siguiendo el formato de `v002.py`–`v012.py`:
   Respeta `editorial_rules`: vídeo final ≤ `target_max_s` (y ≥ 25 s del QA) y primera frase ≤ `hook_max_words`
   palabras. Referencia: ≈ 2,9 palabras por segundo de vídeo (28 s ≈ 70–74 palabras). Si `weak_category` es la
   categoría del vídeo, la primera frase y la primera escena muestran un objeto o situación cotidiana concreta.
+- **Experimento `gancho_en_accion` (desde 019, ver `editorial.json` → `experiment`)**: la primera frase es UNA
+  pregunta clara (empieza por ¿, termina en ?, ≤ `hook_max_words` palabras) y la escena 1 muestra el objeto o
+  fenómeno YA en acción desde el fotograma 0 (moviéndose, funcionando u ocurriendo), sin pantalla de título ni
+  objeto quieto que tarde en arrancar. Las demás reglas no cambian. En `visual_review.md` escribe la línea
+  `Escena 1 en acción desde 0 s: sí` (o `no` y por qué) tras mirar el primer fotograma de `preview_sheet.png`
+  y un fotograma a 0,0 s del MP4 final.
 - `scene()`: dibujos originales y específicos del tema, con las primitivas de `engine.py`. Cada escena
   debe mostrar exactamente lo que dice su frase. Etiquetas que no tapen el mecanismo. Nada de logotipos,
   marcas, personajes conocidos ni personas reales. Poppins no tiene "→" ni "✓": no los uses.
@@ -113,7 +121,8 @@ reglas editoriales aplicaste.
    vídeo queda producido y alojado y la siguiente ejecución lo programa. Un post en `error` se recrea una sola vez.
 2. Por cada elemento de `create`: `create_post` con `channelId`, `schedulingType: automatic`, `mode`, `dueAt` (si no
    es null), `text`, `assets: [{video:{url: asset.url, metadata:{title: asset.title}}}]` y `metadata` tal cual vienen
-   en el plan. No cambies el modo ni la hora para esquivar un control de seguridad.
+   en el plan. Si `asset.thumbnailOffset` existe (solo TikTok), añádelo en `metadata.thumbnailOffset` del vídeo:
+   es el fotograma de portada donde ya se lee la pregunta completa del gancho. No cambies el modo ni la hora para esquivar un control de seguridad.
    Si Buffer responde `LimitReachedError`, para: no crees más y continúa (los restantes quedan en espera).
 3. `python3 pipeline/daily.py record NNN <youtube|tiktok> <post_id> <status>` por cada post creado.
 4. Confirmación: nueva instantánea → `queue`. Debe salir `create: []` (o solo lo que siga sin capacidad); si

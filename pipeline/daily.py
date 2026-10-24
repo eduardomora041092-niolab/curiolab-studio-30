@@ -146,9 +146,12 @@ def caption(vid, now=None):
     # Calendar slot in the future -> scheduled for that slot (normal design). Slot already passed -> shareNow.
     # If a safety check denies an action, it is recorded and reported; it is never worked around.
     mode = "customScheduled" if due > (now or now_local()) + dt.timedelta(minutes=5) else "shareNow"
+    # TikTok cover: frame where the whole first line (the hook question) is already on screen, instead of frame 0
+    segs = load(f"{REPO}/evidence/{vid}/segs.json") or load(f"{REPO}/work/{vid}/segs.json")
+    cover_ms = int(max(0.0, segs[0]["end"] - 0.15) * 1000) if segs else None
     return {"id": vid, "text": text, "youtube_title": r["titulo"][:100], "youtube_categoryId": "27",
             "asset_title": f"CurioLab_{vid}.mp4", "mode": mode, "dueAt": due.isoformat() if mode == "customScheduled" else None,
-            "channels": CHANNELS, "organizationId": ORG, "editorial_cta": cta}
+            "channels": CHANNELS, "organizationId": ORG, "editorial_cta": cta, "tiktok_cover_offset_ms": cover_ms}
 
 def cmd_caption(args):
     print(json.dumps(caption(args[0]), ensure_ascii=False, indent=1))
@@ -169,6 +172,53 @@ def cmd_metrics(args):
             for m in r.get("metrics", []):
                 w.writerow([now_local().isoformat(timespec="seconds"), r["video_id"], r["platform"], r["post_id"], m["type"], m["value"]])
     log("INFO", f"metrics appended for {len(rows)} posts")
+
+SENT_AT = f"{REPO}/logs/sent_at.json"
+BANDS = {"24h": (21, 45), "72h": (69, 93)}
+
+def cmd_metrics_due(args):
+    """metrics-due SNAP.json -> posts to capture now: first capture inside the ~24 h band (21–45 h) and inside the
+    ~72 h band (69–93 h), plus the usual one-per-day capture. Also records each post's real sentAt in logs/sent_at.json."""
+    import queue_editorial as QE
+    snap = QE.read_snapshot([args[0]]); sent = load(SENT_AT, {}) or {}
+    caps = {}
+    if os.path.exists(f"{REPO}/logs/metrics.csv"):
+        for r in csv.DictReader(open(f"{REPO}/logs/metrics.csv")): caps.setdefault(r["post_id"], set()).add(r["captured_local"])
+    now = now_local(); due = []
+    for n in QE.nodes(snap, "recent") + QE.nodes(snap, "open"):
+        if n.get("status") != "sent" or not n.get("sentAt"): continue
+        vid = QE.vid_of(n)
+        if not vid: continue
+        sa = dt.datetime.fromisoformat(n["sentAt"].replace("Z", "+00:00")); sent[n["id"]] = n["sentAt"]
+        age = (now - sa).total_seconds() / 3600
+        ages = [(dt.datetime.fromisoformat(c) - sa).total_seconds() / 3600 for c in caps.get(n["id"], ())]
+        band = next((b for b, (lo, hi) in BANDS.items() if lo <= age <= hi and not any(lo <= a <= hi for a in ages)), None)
+        today = any(dt.datetime.fromisoformat(c).date() == now.date() for c in caps.get(n["id"], ()))
+        if band or (age >= 21 and not today):
+            due.append({"video_id": vid, "platform": n.get("channelService") or ("youtube" if n["channelId"] == CHANNELS["youtube"] else "tiktok"),
+                        "post_id": n["id"], "age_h": round(age, 1), "band": band})
+    save(SENT_AT, sent); print(json.dumps(due, ensure_ascii=False, indent=1))
+
+def cmd_compare(args):
+    """compare [24h|72h] -> per-video metrics at equal age (capture inside the band, nearest to its centre)."""
+    band = args[0] if args else "24h"; lo, hi = BANDS[band]; centre = 72 if band == "72h" else 24
+    sent = load(SENT_AT, {}) or {}; cal = {r["id"]: r for r in load(CAL)}; st = state()
+    rows = {}
+    for r in csv.DictReader(open(f"{REPO}/logs/metrics.csv")):
+        if r["post_id"] not in sent: continue
+        a = (dt.datetime.fromisoformat(r["captured_local"]) - dt.datetime.fromisoformat(sent[r["post_id"]].replace("Z", "+00:00"))).total_seconds() / 3600
+        if lo <= a <= hi: rows.setdefault((r["video_id"], r["platform"], r["captured_local"]), {"age": a})[r["metric"]] = float(r["value"])
+    best = {}
+    for (v, p, c), m in rows.items():
+        k = (v, p)
+        if k not in best or abs(m["age"] - centre) < abs(best[k]["age"] - centre): best[k] = m
+    print(f"band {band}  (captura más cercana a {centre:g} h dentro de {lo}–{hi} h)")
+    for v in sorted({k[0] for k in best}):
+        d = ((st["videos"][v].get("qa") or {}).get("duration_s")) or None
+        t, y = best.get((v, "tiktok")), best.get((v, "youtube"))
+        tt = f"TT {t['age']:4.1f}h vistas {t.get('views',0):5.0f} visionado {t.get('averageTimeWatched',0):5.2f}s ret {100*t.get('averageTimeWatched',0)/d:3.0f}% likes {t.get('reactions',0):3.0f}" if t and d else "TT —"
+        yt = f"YT {y['age']:4.1f}h vistas {y.get('views',0):5.0f} likes {y.get('reactions',0):3.0f}" if y else "YT —"
+        print(f"{v} {cal[v]['categoria'][:5]:5} franja {cal[v]['slot']} | {tt} | {yt}")
 
 def cmd_lock(args):
     """lock acquire|release — one run at a time. The lock lives in the repo (pipeline/lock.json), so a
@@ -224,6 +274,6 @@ def cmd_export(_):
 
 if __name__ == "__main__":
     {"guard": cmd_guard, "status": cmd_status, "render": cmd_render, "host": cmd_host, "caption": cmd_caption,
-     "record": cmd_record, "lock": cmd_lock, "metrics": cmd_metrics, "log": cmd_log, "export": cmd_export,
+     "record": cmd_record, "lock": cmd_lock, "metrics-due": cmd_metrics_due, "compare": cmd_compare, "metrics": cmd_metrics, "log": cmd_log, "export": cmd_export,
      **{k: (lambda a, k=k: getattr(__import__("queue_editorial"), "cmd_" + k.replace("-", "_"))(a))
         for k in ("snapshot-query", "queue", "editorial", "cycle")}}[sys.argv[1]](sys.argv[2:])

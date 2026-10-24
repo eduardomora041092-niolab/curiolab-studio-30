@@ -133,5 +133,22 @@
   "007",
   "008",
   "009"
- ]
+ ],
+ "experiment": {
+  "name": "gancho_en_accion",
+  "applies_from": "019",
+  "freeze_until": "027",
+  "change": "Desde el segundo 0 el objeto o fenómeno aparece YA en acción (sin pantalla de título ni objeto estático) y la primera frase es una única pregunta clara (≤ 9 palabras, empieza por ¿ y termina en ?).",
+  "kept": "R1 duración ≤ 28 s y gancho ≤ 9 palabras; R2 pregunta en el texto; R3 categoría débil = Ciencia (gancho cotidiano). Congeladas 019–027.",
+  "baseline": [
+   "013",
+   "014",
+   "015",
+   "016",
+   "017",
+   "018"
+  ],
+  "compare": "Mediana de visionado medio y retención TikTok y vistas YouTube en la captura ~24 h (y ~72 h) de 019–027 frente a 013–018, mismas franjas.",
+  "registered": "2026-10-24T07:20:00-04:00"
+ }
 }
