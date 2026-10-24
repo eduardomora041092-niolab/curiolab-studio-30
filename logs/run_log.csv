@@ -88,3 +88,18 @@ timestamp_local,level,message
 2026-10-23T13:41:02-04:00,INFO,015 youtube 6adb9c2ae4be8a4d861b127d scheduled 
 2026-10-23T13:41:03-04:00,INFO,015 tiktok 6adb9c2b0b5343d070429963 scheduled 
 2026-10-23T13:41:43-04:00,INFO,"run 13:37: programados 014 tiktok, 015 youtube, 015 tiktok; sin producción nueva (016+ fuera de ventana); ciclo PENDING"
+2026-10-24T06:39:49-04:00,INFO,conciliado 012 tiktok 6ada5184399af6f1f72c42f6 sent https://tiktok.com/@curiolabstudio30/video/7699986626692287758
+2026-10-24T06:39:49-04:00,INFO,conciliado 012 youtube 6ada51819a8a68d3cd732c86 sent https://www.youtube.com/shorts/792Qct9EJfc
+2026-10-24T06:40:26-04:00,INFO,metrics appended for 18 posts
+2026-10-24T06:40:26-04:00,INFO,"editorial: cambios {'weak_category': (None, 'Ciencia')} aplican desde 016"
+2026-10-24T06:55:18-04:00,INFO,016 QA all_pass=True
+2026-10-24T06:55:55-04:00,INFO,017 QA all_pass=True
+2026-10-24T06:55:58-04:00,INFO,018 QA all_pass=True
+2026-10-24T06:58:00-04:00,INFO,016 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-016/CurioLab_016.mp4
+2026-10-24T06:59:05-04:00,INFO,017 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-017/CurioLab_017.mp4
+2026-10-24T07:00:10-04:00,INFO,018 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-018/CurioLab_018.mp4
+2026-10-24T07:00:26-04:00,INFO,"en espera por capacidad: 017 tiktok (cola de Buffer llena), 018 youtube (cola de Buffer llena), 018 tiktok (cola de Buffer llena)"
+2026-10-24T07:00:46-04:00,INFO,016 youtube 6adc8fd0e4be8a4d86542233 scheduled 
+2026-10-24T07:00:46-04:00,INFO,016 tiktok 6adc8fd96887a2efc1b11a6d scheduled 
+2026-10-24T07:00:46-04:00,INFO,017 youtube 6adc8fda0b5343d0707b8eea scheduled 
+2026-10-24T07:01:08-04:00,INFO,"en espera por capacidad: 017 tiktok (cola de Buffer llena), 018 youtube (cola de Buffer llena), 018 tiktok (cola de Buffer llena)"

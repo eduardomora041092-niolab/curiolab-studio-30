@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "Tu toalla, lejos de la orilla, acaba mojada.",
+  "start": 0.0,
+  "end": 2.624
+ },
+ {
+  "i": 1,
+  "text": "Es la marea: el nivel del mar sube y baja cada día.",
+  "start": 2.874,
+  "end": 5.733
+ },
+ {
+  "i": 2,
+  "text": "La causa principal es la gravedad de la Luna.",
+  "start": 5.983,
+  "end": 8.585
+ },
+ {
+  "i": 3,
+  "text": "La Luna atrae con más fuerza el agua del lado que tiene más cerca.",
+  "start": 8.835,
+  "end": 12.441
+ },
+ {
+  "i": 4,
+  "text": "Allí el océano se abulta hacia ella.",
+  "start": 12.691,
+  "end": 14.76
+ },
+ {
+  "i": 5,
+  "text": "En el lado opuesto la atrae menos, y se forma otro abultamiento.",
+  "start": 15.01,
+  "end": 18.615
+ },
+ {
+  "i": 6,
+  "text": "La Tierra gira bajo ellos, y tu playa pasa por marea alta y marea baja.",
+  "start": 18.865,
+  "end": 22.983
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para más curiosidades de la ciencia.",
+  "start": 23.233,
+  "end": 25.579
+ }
+]

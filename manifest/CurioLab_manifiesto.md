@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-23T13:41-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-24T07:01-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 75
-- **PRODUCED**: 4
-- **PUBLISHED**: 11
+- **PLANNED**: 72
+- **PRODUCED**: 6
+- **PUBLISHED**: 12
 
 ## Vídeos con actividad
 
@@ -23,10 +23,13 @@ Actualizado: 2026-10-23T13:41-04:00 (America/New_York) · Costo real: US$0
 | 009 | 2026-10-22 | ¿Cómo se forma un arcoíris? | PUBLISHED | https://www.youtube.com/shorts/3nWoO3ciUlw | https://tiktok.com/@curiolabstudio30/video/7699615680085200141 | PASS 27.3 s -15.6 LUFS |
 | 010 | 2026-10-23 | ¿Cómo enfría un refrigerador? | PUBLISHED | https://www.youtube.com/shorts/i_6Acz7NYTI | https://tiktok.com/@curiolabstudio30/video/7699848059139706125 | PASS 29.3 s -15.6 LUFS |
 | 011 | 2026-10-23 | ¿Cómo calienta un microondas? | PUBLISHED | https://www.youtube.com/shorts/WBy_WeWPF_g | https://tiktok.com/@curiolabstudio30/video/7699909761600392461 | PASS 30.0 s -15.6 LUFS |
-| 012 | 2026-10-23 | ¿Por qué vemos el rayo antes de oír el trueno? | PRODUCED | — | — | PASS 28.2 s -15.6 LUFS |
+| 012 | 2026-10-23 | ¿Por qué vemos el rayo antes de oír el trueno? | PUBLISHED | https://www.youtube.com/shorts/792Qct9EJfc | https://tiktok.com/@curiolabstudio30/video/7699986626692287758 | PASS 28.2 s -15.6 LUFS |
 | 013 | 2026-10-24 | ¿Cómo sabe la tostadora cuándo parar? | PRODUCED | — | — | PASS 27.7 s -15.8 LUFS |
 | 014 | 2026-10-24 | ¿Cómo dobla una grapa la grapadora? | PRODUCED | — | — | PASS 26.733 s -15.7 LUFS |
 | 015 | 2026-10-24 | ¿Por qué el hielo flota? | PRODUCED | — | — | PASS 26.6 s -15.6 LUFS |
+| 016 | 2026-10-25 | ¿Cómo se abre un paraguas? | PRODUCED | — | — | PASS 27.233 s -15.7 LUFS |
+| 017 | 2026-10-25 | ¿Por qué la cinta métrica vuelve sola? | PRODUCED | — | — | PASS 27.767 s -15.7 LUFS |
+| 018 | 2026-10-25 | ¿Qué causa las mareas? | PRODUCED | — | — | PASS 26.567 s -15.5 LUFS |
 
 ## Calendario completo
 
@@ -41,13 +44,13 @@ Actualizado: 2026-10-23T13:41-04:00 (America/New_York) · Costo real: US$0
 - 009 · 2026-10-22 · Ciencia · ¿Cómo se forma un arcoíris? · PUBLISHED
 - 010 · 2026-10-23 · Mecanismo · ¿Cómo enfría un refrigerador? · PUBLISHED
 - 011 · 2026-10-23 · Mecanismo · ¿Cómo calienta un microondas? · PUBLISHED
-- 012 · 2026-10-23 · Ciencia · ¿Por qué vemos el rayo antes de oír el trueno? · PRODUCED
+- 012 · 2026-10-23 · Ciencia · ¿Por qué vemos el rayo antes de oír el trueno? · PUBLISHED
 - 013 · 2026-10-24 · Mecanismo · ¿Cómo sabe la tostadora cuándo parar? · PRODUCED
 - 014 · 2026-10-24 · Mecanismo · ¿Cómo dobla una grapa la grapadora? · PRODUCED
 - 015 · 2026-10-24 · Ciencia · ¿Por qué el hielo flota? · PRODUCED
-- 016 · 2026-10-25 · Mecanismo · ¿Cómo se abre un paraguas? · PLANNED
-- 017 · 2026-10-25 · Mecanismo · ¿Por qué la cinta métrica vuelve sola? · PLANNED
-- 018 · 2026-10-25 · Ciencia · ¿Qué causa las mareas? · PLANNED
+- 016 · 2026-10-25 · Mecanismo · ¿Cómo se abre un paraguas? · PRODUCED
+- 017 · 2026-10-25 · Mecanismo · ¿Por qué la cinta métrica vuelve sola? · PRODUCED
+- 018 · 2026-10-25 · Ciencia · ¿Qué causa las mareas? · PRODUCED
 - 019 · 2026-10-26 · Mecanismo · ¿Cómo funciona un candado de combinación? · PLANNED
 - 020 · 2026-10-26 · Mecanismo · ¿Cómo mide el tiempo un reloj mecánico? · PLANNED
 - 021 · 2026-10-26 · Ciencia · ¿Por qué la Luna cambia de forma? · PLANNED

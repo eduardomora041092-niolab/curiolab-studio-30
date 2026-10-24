@@ -1,0 +1,97 @@
+{
+ "id": "017",
+ "file": "/home/claude/curiolab/out/CurioLab_017.mp4",
+ "duration_s": 27.767,
+ "lufs": -15.7,
+ "video": {
+  "codec_name": "h264",
+  "codec_type": "video",
+  "width": 1080,
+  "height": 1920,
+  "r_frame_rate": "30/1"
+ },
+ "checks": {
+  "resolution_1080x1920": true,
+  "fps_30": true,
+  "video_h264": true,
+  "audio_aac": true,
+  "duration_25_35s": true,
+  "duration_matches_narration": true,
+  "one_scene_per_line": true,
+  "segments_ordered": true,
+  "narration_ends_before_video": true,
+  "loudness_-17_to_-12_LUFS": true
+ },
+ "all_pass": true,
+ "sync_sheet": "/home/claude/curiolab/work/017/final_sheet.png",
+ "segments": [
+  {
+   "i": 0,
+   "text": "Suéltala y la cinta métrica regresa a toda velocidad.",
+   "start": 0.0,
+   "end": 3.2
+  },
+  {
+   "i": 1,
+   "text": "Dentro de la carcasa, la cinta está enrollada en un carrete.",
+   "start": 3.45,
+   "end": 6.693
+  },
+  {
+   "i": 2,
+   "text": "En el centro del carrete hay un muelle plano en espiral.",
+   "start": 6.943,
+   "end": 9.844
+  },
+  {
+   "i": 3,
+   "text": "Al sacar la cinta, el carrete gira y aprieta el muelle.",
+   "start": 10.094,
+   "end": 13.123
+  },
+  {
+   "i": 4,
+   "text": "El muelle guarda esa energía, como un juguete de cuerda.",
+   "start": 13.373,
+   "end": 16.381
+  },
+  {
+   "i": 5,
+   "text": "Un botón de freno pisa la cinta para que no vuelva.",
+   "start": 16.631,
+   "end": 19.533
+  },
+  {
+   "i": 6,
+   "text": "Al soltar el freno, el muelle se desenrolla y tira de la cinta hacia dentro.",
+   "start": 19.783,
+   "end": 23.879
+  },
+  {
+   "i": 7,
+   "text": "Sígueme para descubrir cómo funcionan más cosas.",
+   "start": 24.129,
+   "end": 26.795
+  }
+ ],
+ "editorial": {
+  "duration_s": 27.767,
+  "target_max_s": 28.0,
+  "duration_ok": true,
+  "hook_words": 9,
+  "hook_max_words": 9,
+  "hook_ok": true,
+  "rules_updated": "2026-10-24T06:40:26-04:00",
+  "measured": [
+   "001",
+   "002",
+   "003",
+   "004",
+   "005",
+   "006",
+   "007",
+   "008",
+   "009"
+  ]
+ }
+}
