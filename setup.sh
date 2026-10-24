@@ -2,7 +2,7 @@
 # Preparación de una sesión nueva. Solo instala lo autorizado (ver DEPENDENCIAS.md).
 set -euo pipefail
 cd "$(dirname "$0")"
-pip install --break-system-packages -q -r requirements.txt
+pip install --break-system-packages -q --require-hashes --no-deps --only-binary=:all: -r requirements.txt
 mkdir -p models
 BASE="https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0"
 while read -r sum f; do

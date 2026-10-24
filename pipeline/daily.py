@@ -199,8 +199,14 @@ def cmd_metrics_due(args):
                         "post_id": n["id"], "age_h": round(age, 1), "band": band})
     save(SENT_AT, sent); print(json.dumps(due, ensure_ascii=False, indent=1))
 
+GROUPS = [("001-012", "antes de reglas", "001", "012"), ("013-015", "R1+R2", "013", "015"),
+          ("016-018", "R1+R2+R3", "016", "018"), ("019-027", "R1+R2+R3 + gancho_en_accion", "019", "027")]
+
 def cmd_compare(args):
-    """compare [24h|72h] -> per-video metrics at equal age (capture inside the band, nearest to its centre)."""
+    """compare [24h|72h] -> per-video metrics at equal age. Shows the EXACT age of every measurement (hours since
+    the real sentAt); the band only limits which captures qualify. 'prop. media vista' = average watch time /
+    video duration (TikTok): an average share of the video watched, NOT the share of people who finished it."""
+    import statistics
     band = args[0] if args else "24h"; lo, hi = BANDS[band]; centre = 72 if band == "72h" else 24
     sent = load(SENT_AT, {}) or {}; cal = {r["id"]: r for r in load(CAL)}; st = state()
     rows = {}
@@ -210,15 +216,30 @@ def cmd_compare(args):
         if lo <= a <= hi: rows.setdefault((r["video_id"], r["platform"], r["captured_local"]), {"age": a})[r["metric"]] = float(r["value"])
     best = {}
     for (v, p, c), m in rows.items():
-        k = (v, p)
-        if k not in best or abs(m["age"] - centre) < abs(best[k]["age"] - centre): best[k] = m
-    print(f"band {band}  (captura más cercana a {centre:g} h dentro de {lo}–{hi} h)")
-    for v in sorted({k[0] for k in best}):
-        d = ((st["videos"][v].get("qa") or {}).get("duration_s")) or None
-        t, y = best.get((v, "tiktok")), best.get((v, "youtube"))
-        tt = f"TT {t['age']:4.1f}h vistas {t.get('views',0):5.0f} visionado {t.get('averageTimeWatched',0):5.2f}s ret {100*t.get('averageTimeWatched',0)/d:3.0f}% likes {t.get('reactions',0):3.0f}" if t and d else "TT —"
-        yt = f"YT {y['age']:4.1f}h vistas {y.get('views',0):5.0f} likes {y.get('reactions',0):3.0f}" if y else "YT —"
-        print(f"{v} {cal[v]['categoria'][:5]:5} franja {cal[v]['slot']} | {tt} | {yt}")
+        if (v, p) not in best or abs(m["age"] - centre) < abs(best[(v, p)]["age"] - centre): best[(v, p)] = m
+    print(f"Captura más cercana a {centre} h dentro de {lo}-{hi} h. La antigüedad exacta de cada medición va en cada fila.")
+    print("prop. media vista = visionado medio / duración del vídeo (NO es el % de personas que lo terminaron).")
+    for name, rule, a, b in GROUPS:
+        ids = [v for v in sorted(cal) if a <= v <= b]
+        print(f"\n[{name}] {rule}")
+        tt_prop, tt_watch, tt_views, yt_views = [], [], [], []
+        for v in ids:
+            t, y = best.get((v, "tiktok")), best.get((v, "youtube"))
+            if not t and not y: continue
+            d = (st["videos"][v].get("qa") or {}).get("duration_s")
+            if t:
+                pr = t.get("averageTimeWatched", 0) / d if d else None
+                tt = f"TT medido a {t['age']:.1f} h: vistas {t.get('views',0):.0f}, visionado medio {t.get('averageTimeWatched',0):.2f} s, prop. media vista {pr:.0%}" if pr is not None else f"TT medido a {t['age']:.1f} h: vistas {t.get('views',0):.0f}"
+                tt_views.append(t.get("views", 0)); tt_watch.append(t.get("averageTimeWatched", 0))
+                if pr is not None: tt_prop.append(pr)
+            else: tt = "TT sin medición en la franja"
+            if y: yv = f"YT medido a {y['age']:.1f} h: vistas {y.get('views',0):.0f}"; yt_views.append(y.get("views", 0))
+            else: yv = "YT sin medición en la franja"
+            print(f"  {v} {cal[v]['categoria'][:5]:5} franja {cal[v]['slot']} | {tt} | {yv}")
+        med = lambda x: f"{statistics.median(x):.2f}" if x else "—"
+        print(f"  mediana (n TT={len(tt_views)}, n YT={len(yt_views)}): TT vistas {med(tt_views)}, visionado medio {med(tt_watch)} s, "
+              f"prop. media vista {statistics.median(tt_prop):.0%}" if tt_prop else f"  sin datos en esta franja (n=0)", end="")
+        print(f", YT vistas {med(yt_views)}" if tt_prop else "")
 
 def cmd_lock(args):
     """lock acquire|release — one run at a time. The lock lives in the repo (pipeline/lock.json), so a

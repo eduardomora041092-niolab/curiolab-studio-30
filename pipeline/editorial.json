@@ -141,14 +141,16 @@
   "change": "Desde el segundo 0 el objeto o fenómeno aparece YA en acción (sin pantalla de título ni objeto estático) y la primera frase es una única pregunta clara (≤ 9 palabras, empieza por ¿ y termina en ?).",
   "kept": "R1 duración ≤ 28 s y gancho ≤ 9 palabras; R2 pregunta en el texto; R3 categoría débil = Ciencia (gancho cotidiano). Congeladas 019–027.",
   "baseline": [
-   "013",
-   "014",
-   "015",
    "016",
    "017",
    "018"
   ],
-  "compare": "Mediana de visionado medio y retención TikTok y vistas YouTube en la captura ~24 h (y ~72 h) de 019–027 frente a 013–018, mismas franjas.",
-  "registered": "2026-10-24T07:20:00-04:00"
+  "compare": "019–027 frente a 016–018 (mismas reglas R1+R2+R3; única diferencia: gancho en acción). 013–015 (R1+R2, sin R3) se muestra aparte, no se mezcla. Métricas a igual antigüedad con la hora exacta de cada medición: TikTok vistas, visionado medio y proporción media vista (= visionado medio / duración; no es el % de personas que terminan el vídeo); YouTube vistas.",
+  "registered": "2026-10-24T07:20:00-04:00",
+  "baseline_secondary": [
+   "013",
+   "014",
+   "015"
+  ]
  }
 }

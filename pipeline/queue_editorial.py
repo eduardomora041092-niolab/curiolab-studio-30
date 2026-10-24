@@ -186,7 +186,7 @@ def compute_rules(rows, prev, nxt):
         tgt, hook = (28.0, 9) if med < 0.40 else ((33.0, 12) if med >= 0.50 else (30.0, 10))
         ev = (prev.get("evaluation") or {}).get("R1")
         if ev and ev.get("verdict") == "sin mejora": tgt, hook = 33.0, 12   # reverted after a failed trial
-        why.append(f"R1: retención mediana TikTok {med:.0%} en {len(rets)} vídeos (umbral 40 %/50 %) → duración máx {tgt:g} s, gancho ≤ {hook} palabras")
+        why.append(f"R1: proporción media vista (visionado medio / duración) mediana TikTok {med:.0%} en {len(rets)} vídeos (umbral 40 %/50 %) → duración máx {tgt:g} s, gancho ≤ {hook} palabras")
         rules["target_max_s"], rules["hook_max_words"] = tgt, hook
     else:
         why.append(f"R1: solo {len(rets)} vídeos con tiempo de visionado (<4): sin cambio")

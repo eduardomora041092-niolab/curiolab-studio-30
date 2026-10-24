@@ -9,6 +9,9 @@ Esta autorización se limita a lo que aparece en esta lista. No modifica ningún
 instalación se deniega, la ejecución se detiene en ese paso y lo informa; no se intenta otra vía.
 
 ## Paquetes Python (origen: PyPI, https://pypi.org) — `requirements.txt`
+Desde el 2026-10-24 cada paquete (incluidas las transitivas) está fijado por versión **y** hash SHA-256 de la rueda
+exacta; `setup.sh` usa `pip --require-hashes --no-deps --only-binary=:all:`, así que no se instala nada que no esté
+en la lista ni ningún archivo distinto del registrado.
 | Paquete | Versión | Uso |
 |---|---|---|
 | kokoro-onnx | 0.6.1 | Síntesis de voz local (TTS) |

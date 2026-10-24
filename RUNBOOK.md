@@ -18,7 +18,7 @@ ejecución nunca debe crear publicaciones duplicadas.
    Si existe la herramienta `add_repo`, úsala antes con owner `eduardomora041092-niolab`, repo `curiolab-studio-30`
    y access "push". Comprueba la escritura con `git push --dry-run origin main`. Si falla, anota el error exacto:
    sin push no se pueden alojar vídeos nuevos (paso 5e), pero sí publicar los que ya tengan `media_url`.
-2. `./setup.sh`: instala SOLO las dependencias de `requirements.txt` (PyPI, versiones fijadas) y los modelos
+2. `./setup.sh`: instala SOLO las dependencias de `requirements.txt` (PyPI, versión y hash SHA-256 fijados, `--require-hashes`) y los modelos
    Kokoro v1.0 del release oficial, comprobando su SHA-256. Está autorizado por el dueño; ver `DEPENDENCIAS.md`.
    Si el control de seguridad lo deniega o falla, NO lo intentes de otra forma: registra el motivo exacto con
    `daily.py log ERROR`, sáltate la producción (5a–5e), sigue con la publicación de lo ya alojado y termina con ❌.
@@ -83,7 +83,8 @@ Crea `template/videos/vNNN.py` siguiendo el formato de `v002.py`–`v012.py`:
 - **Experimento `gancho_en_accion` (desde 019, ver `editorial.json` → `experiment`)**: la primera frase es UNA
   pregunta clara (empieza por ¿, termina en ?, ≤ `hook_max_words` palabras) y la escena 1 muestra el objeto o
   fenómeno YA en acción desde el fotograma 0 (moviéndose, funcionando u ocurriendo), sin pantalla de título ni
-  objeto quieto que tarde en arrancar. Las demás reglas no cambian. En `visual_review.md` escribe la línea
+  objeto quieto que tarde en arrancar. Las demás reglas no cambian. Base de comparación: 016–018 (mismas reglas);
+  013–015 (sin R3) se informa aparte. En `visual_review.md` escribe la línea
   `Escena 1 en acción desde 0 s: sí` (o `no` y por qué) tras mirar el primer fotograma de `preview_sheet.png`
   y un fotograma a 0,0 s del MP4 final.
 - `scene()`: dibujos originales y específicos del tema, con las primitivas de `engine.py`. Cada escena
