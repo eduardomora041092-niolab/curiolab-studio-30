@@ -1,35 +1,38 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-24T07:01-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-25T06:54-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 72
+- **PLANNED**: 69
 - **PRODUCED**: 6
-- **PUBLISHED**: 12
+- **PUBLISHED**: 15
 
 ## Vídeos con actividad
 
 | ID | Fecha | Título | Estado | YouTube | TikTok | QA |
 |---|---|---|---|---|---|---|
-| 001 | 2026-10-20 | ¿Cómo funciona una cremallera por dentro? | PUBLISHED | https://www.youtube.com/shorts/u-S9uGKSzUI | https://tiktok.com/@curiolabstudio30/video/7698713658666355982 | verificado (fase anterior) |
-| 002 | 2026-10-20 | ¿Por qué un termo mantiene el café caliente? | PUBLISHED | https://www.youtube.com/shorts/tUx8zhQw0E8 | https://tiktok.com/@curiolabstudio30/video/7698847412705561870 | PASS 32.233 s -15.7 LUFS |
-| 003 | 2026-10-20 | ¿Por qué el cielo es azul? | PUBLISHED | https://www.youtube.com/shorts/hHoH21L5Na8 | https://tiktok.com/@curiolabstudio30/video/7698850266602343693 | PASS 31.533 s -15.5 LUFS |
-| 004 | 2026-10-21 | ¿Cómo abre una llave una cerradura? | PUBLISHED | https://www.youtube.com/shorts/q2ngb_4iQXc | https://tiktok.com/@curiolabstudio30/video/7699106706197843213 | PASS 31.267 s -15.7 LUFS |
-| 005 | 2026-10-21 | ¿Cómo escribe un bolígrafo? | PUBLISHED | https://www.youtube.com/shorts/K6yaKiidoro | https://tiktok.com/@curiolabstudio30/video/7699167198429924622 | PASS 29.7 s -15.9 LUFS |
-| 006 | 2026-10-21 | ¿Por qué el mar es salado? | PUBLISHED | https://www.youtube.com/shorts/nC-mwvsKgnU | https://tiktok.com/@curiolabstudio30/video/7699244361149582606 | PASS 28.767 s -15.7 LUFS |
-| 007 | 2026-10-22 | ¿Cómo funciona el clic de un bolígrafo? | PUBLISHED | https://www.youtube.com/shorts/89J0Vr4HUCQ | https://tiktok.com/@curiolabstudio30/video/7699477033830616333 | PASS 29.667 s -15.9 LUFS |
-| 008 | 2026-10-22 | ¿Cómo funciona la cisterna del inodoro? | PUBLISHED | https://www.youtube.com/shorts/5QS_mlGWUD0 | https://tiktok.com/@curiolabstudio30/video/7699538967401630990 | PASS 26.833 s -15.6 LUFS |
-| 009 | 2026-10-22 | ¿Cómo se forma un arcoíris? | PUBLISHED | https://www.youtube.com/shorts/3nWoO3ciUlw | https://tiktok.com/@curiolabstudio30/video/7699615680085200141 | PASS 27.3 s -15.6 LUFS |
-| 010 | 2026-10-23 | ¿Cómo enfría un refrigerador? | PUBLISHED | https://www.youtube.com/shorts/i_6Acz7NYTI | https://tiktok.com/@curiolabstudio30/video/7699848059139706125 | PASS 29.3 s -15.6 LUFS |
-| 011 | 2026-10-23 | ¿Cómo calienta un microondas? | PUBLISHED | https://www.youtube.com/shorts/WBy_WeWPF_g | https://tiktok.com/@curiolabstudio30/video/7699909761600392461 | PASS 30.0 s -15.6 LUFS |
-| 012 | 2026-10-23 | ¿Por qué vemos el rayo antes de oír el trueno? | PUBLISHED | https://www.youtube.com/shorts/792Qct9EJfc | https://tiktok.com/@curiolabstudio30/video/7699986626692287758 | PASS 28.2 s -15.6 LUFS |
-| 013 | 2026-10-24 | ¿Cómo sabe la tostadora cuándo parar? | PRODUCED | — | — | PASS 27.7 s -15.8 LUFS |
-| 014 | 2026-10-24 | ¿Cómo dobla una grapa la grapadora? | PRODUCED | — | — | PASS 26.733 s -15.7 LUFS |
-| 015 | 2026-10-24 | ¿Por qué el hielo flota? | PRODUCED | — | — | PASS 26.6 s -15.6 LUFS |
+| 001 | 2026-10-20 | ¿Cómo funciona una cremallera por dentro? | PUBLISHED | https://www.youtube.com/shorts/u-S9uGKSzUI | https://www.tiktok.com/@curiolabstudio30/video/7698713658666355982?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | verificado (fase anterior) |
+| 002 | 2026-10-20 | ¿Por qué un termo mantiene el café caliente? | PUBLISHED | https://www.youtube.com/shorts/tUx8zhQw0E8 | https://www.tiktok.com/@curiolabstudio30/video/7698847412705561870?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | PASS 32.233 s -15.7 LUFS |
+| 003 | 2026-10-20 | ¿Por qué el cielo es azul? | PUBLISHED | https://www.youtube.com/shorts/hHoH21L5Na8 | https://www.tiktok.com/@curiolabstudio30/video/7698850266602343693?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | PASS 31.533 s -15.5 LUFS |
+| 004 | 2026-10-21 | ¿Cómo abre una llave una cerradura? | PUBLISHED | https://www.youtube.com/shorts/q2ngb_4iQXc | https://www.tiktok.com/@curiolabstudio30/video/7699106706197843213?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | PASS 31.267 s -15.7 LUFS |
+| 005 | 2026-10-21 | ¿Cómo escribe un bolígrafo? | PUBLISHED | https://www.youtube.com/shorts/K6yaKiidoro | https://www.tiktok.com/@curiolabstudio30/video/7699167198429924622?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | PASS 29.7 s -15.9 LUFS |
+| 006 | 2026-10-21 | ¿Por qué el mar es salado? | PUBLISHED | https://www.youtube.com/shorts/nC-mwvsKgnU | https://www.tiktok.com/@curiolabstudio30/video/7699244361149582606?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | PASS 28.767 s -15.7 LUFS |
+| 007 | 2026-10-22 | ¿Cómo funciona el clic de un bolígrafo? | PUBLISHED | https://www.youtube.com/shorts/89J0Vr4HUCQ | https://www.tiktok.com/@curiolabstudio30/video/7699477033830616333?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | PASS 29.667 s -15.9 LUFS |
+| 008 | 2026-10-22 | ¿Cómo funciona la cisterna del inodoro? | PUBLISHED | https://www.youtube.com/shorts/5QS_mlGWUD0 | https://www.tiktok.com/@curiolabstudio30/video/7699538967401630990?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | PASS 26.833 s -15.6 LUFS |
+| 009 | 2026-10-22 | ¿Cómo se forma un arcoíris? | PUBLISHED | https://www.youtube.com/shorts/3nWoO3ciUlw | https://www.tiktok.com/@curiolabstudio30/video/7699615680085200141?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | PASS 27.3 s -15.6 LUFS |
+| 010 | 2026-10-23 | ¿Cómo enfría un refrigerador? | PUBLISHED | https://www.youtube.com/shorts/i_6Acz7NYTI | https://www.tiktok.com/@curiolabstudio30/video/7699848059139706125?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | PASS 29.3 s -15.6 LUFS |
+| 011 | 2026-10-23 | ¿Cómo calienta un microondas? | PUBLISHED | https://www.youtube.com/shorts/WBy_WeWPF_g | https://www.tiktok.com/@curiolabstudio30/video/7699909761600392461?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | PASS 30.0 s -15.6 LUFS |
+| 012 | 2026-10-23 | ¿Por qué vemos el rayo antes de oír el trueno? | PUBLISHED | https://www.youtube.com/shorts/792Qct9EJfc | https://www.tiktok.com/@curiolabstudio30/video/7699986626692287758?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | PASS 28.2 s -15.6 LUFS |
+| 013 | 2026-10-24 | ¿Cómo sabe la tostadora cuándo parar? | PUBLISHED | https://www.youtube.com/shorts/S9nviugc2xo | https://tiktok.com/@curiolabstudio30/video/7700218824834026766 | PASS 27.7 s -15.8 LUFS |
+| 014 | 2026-10-24 | ¿Cómo dobla una grapa la grapadora? | PUBLISHED | https://www.youtube.com/shorts/wNDJi7KvkrA | https://tiktok.com/@curiolabstudio30/video/7700280754672061710 | PASS 26.733 s -15.7 LUFS |
+| 015 | 2026-10-24 | ¿Por qué el hielo flota? | PUBLISHED | https://www.youtube.com/shorts/a6uEuob2lsY | https://tiktok.com/@curiolabstudio30/video/7700357633823345934 | PASS 26.6 s -15.6 LUFS |
 | 016 | 2026-10-25 | ¿Cómo se abre un paraguas? | PRODUCED | — | — | PASS 27.233 s -15.7 LUFS |
 | 017 | 2026-10-25 | ¿Por qué la cinta métrica vuelve sola? | PRODUCED | — | — | PASS 27.767 s -15.7 LUFS |
 | 018 | 2026-10-25 | ¿Qué causa las mareas? | PRODUCED | — | — | PASS 26.567 s -15.5 LUFS |
+| 019 | 2026-10-26 | ¿Cómo funciona un candado de combinación? | PRODUCED | — | — | PASS 26.567 s -15.7 LUFS |
+| 020 | 2026-10-26 | ¿Cómo mide el tiempo un reloj mecánico? | PRODUCED | — | — | PASS 26.133 s -15.9 LUFS |
+| 021 | 2026-10-26 | ¿Por qué la Luna cambia de forma? | PRODUCED | — | — | PASS 26.233 s -15.6 LUFS |
 
 ## Calendario completo
 
@@ -45,15 +48,15 @@ Actualizado: 2026-10-24T07:01-04:00 (America/New_York) · Costo real: US$0
 - 010 · 2026-10-23 · Mecanismo · ¿Cómo enfría un refrigerador? · PUBLISHED
 - 011 · 2026-10-23 · Mecanismo · ¿Cómo calienta un microondas? · PUBLISHED
 - 012 · 2026-10-23 · Ciencia · ¿Por qué vemos el rayo antes de oír el trueno? · PUBLISHED
-- 013 · 2026-10-24 · Mecanismo · ¿Cómo sabe la tostadora cuándo parar? · PRODUCED
-- 014 · 2026-10-24 · Mecanismo · ¿Cómo dobla una grapa la grapadora? · PRODUCED
-- 015 · 2026-10-24 · Ciencia · ¿Por qué el hielo flota? · PRODUCED
+- 013 · 2026-10-24 · Mecanismo · ¿Cómo sabe la tostadora cuándo parar? · PUBLISHED
+- 014 · 2026-10-24 · Mecanismo · ¿Cómo dobla una grapa la grapadora? · PUBLISHED
+- 015 · 2026-10-24 · Ciencia · ¿Por qué el hielo flota? · PUBLISHED
 - 016 · 2026-10-25 · Mecanismo · ¿Cómo se abre un paraguas? · PRODUCED
 - 017 · 2026-10-25 · Mecanismo · ¿Por qué la cinta métrica vuelve sola? · PRODUCED
 - 018 · 2026-10-25 · Ciencia · ¿Qué causa las mareas? · PRODUCED
-- 019 · 2026-10-26 · Mecanismo · ¿Cómo funciona un candado de combinación? · PLANNED
-- 020 · 2026-10-26 · Mecanismo · ¿Cómo mide el tiempo un reloj mecánico? · PLANNED
-- 021 · 2026-10-26 · Ciencia · ¿Por qué la Luna cambia de forma? · PLANNED
+- 019 · 2026-10-26 · Mecanismo · ¿Cómo funciona un candado de combinación? · PRODUCED
+- 020 · 2026-10-26 · Mecanismo · ¿Cómo mide el tiempo un reloj mecánico? · PRODUCED
+- 021 · 2026-10-26 · Ciencia · ¿Por qué la Luna cambia de forma? · PRODUCED
 - 022 · 2026-10-27 · Mecanismo · ¿Cómo suena una tecla de piano? · PLANNED
 - 023 · 2026-10-27 · Mecanismo · ¿Por qué el cinturón se bloquea en un frenazo? · PLANNED
 - 024 · 2026-10-27 · Ciencia · ¿Por qué existen las estaciones? · PLANNED

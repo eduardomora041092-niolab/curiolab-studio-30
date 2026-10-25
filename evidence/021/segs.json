@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "¿Por qué la Luna cambia de forma cada noche?",
+  "start": 0.0,
+  "end": 2.411
+ },
+ {
+  "i": 1,
+  "text": "La Luna no brilla sola: la ilumina el Sol.",
+  "start": 2.661,
+  "end": 5.114
+ },
+ {
+  "i": 2,
+  "text": "Siempre tiene una mitad iluminada y otra a oscuras.",
+  "start": 5.364,
+  "end": 8.223
+ },
+ {
+  "i": 3,
+  "text": "Mientras gira alrededor de la Tierra, la vemos desde ángulos distintos.",
+  "start": 8.473,
+  "end": 12.249
+ },
+ {
+  "i": 4,
+  "text": "Entre la Tierra y el Sol, vemos su cara oscura: luna nueva.",
+  "start": 12.499,
+  "end": 15.592
+ },
+ {
+  "i": 5,
+  "text": "En el lado opuesto, vemos toda la mitad iluminada: luna llena.",
+  "start": 15.842,
+  "end": 19.234
+ },
+ {
+  "i": 6,
+  "text": "Entre medias, solo vemos un trozo de la parte iluminada.",
+  "start": 19.484,
+  "end": 22.641
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para más curiosidades de la ciencia.",
+  "start": 22.891,
+  "end": 25.238
+ }
+]

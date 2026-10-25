@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T07:01:08-04:00",
+ "generated": "2026-10-25T06:54:03-04:00",
  "limit": 10,
  "safety_margin": 1,
  "occupied": 9,
@@ -24,21 +24,21 @@
  "create": [],
  "waiting": [
   {
-   "id": "017",
+   "id": "020",
    "platform": "tiktok",
-   "dueAt": "2026-10-25T13:00:00-04:00",
+   "dueAt": "2026-10-26T13:00:00-04:00",
    "reason": "cola de Buffer llena"
   },
   {
-   "id": "018",
+   "id": "021",
    "platform": "youtube",
-   "dueAt": "2026-10-25T18:00:00-04:00",
+   "dueAt": "2026-10-26T18:00:00-04:00",
    "reason": "cola de Buffer llena"
   },
   {
-   "id": "018",
+   "id": "021",
    "platform": "tiktok",
-   "dueAt": "2026-10-25T18:00:00-04:00",
+   "dueAt": "2026-10-26T18:00:00-04:00",
    "reason": "cola de Buffer llena"
   }
  ],

@@ -104,3 +104,36 @@ timestamp_local,level,message
 2026-10-24T07:00:46-04:00,INFO,017 youtube 6adc8fda0b5343d0707b8eea scheduled 
 2026-10-24T07:01:08-04:00,INFO,"en espera por capacidad: 017 tiktok (cola de Buffer llena), 018 youtube (cola de Buffer llena), 018 tiktok (cola de Buffer llena)"
 2026-10-24T07:17:29-04:00,INFO,"autorización del dueño 2026-10-24 07:16: ejecutar el código del repositorio (setup.sh, pipeline/, template/) solo para este experimento; registrada en DEPENDENCIAS.md y en la tarea"
+2026-10-25T06:20:38-04:00,INFO,conciliado 001 tiktok 6ad753635008aca7fa26302f sent https://www.tiktok.com/@curiolabstudio30/video/7698713658666355982?utm_campaign=tt4d_open_api&utm_source=7103819247981182978
+2026-10-25T06:20:38-04:00,INFO,conciliado 002 tiktok 6ad7ccf79feaa86de0616a25 sent https://www.tiktok.com/@curiolabstudio30/video/7698847412705561870?utm_campaign=tt4d_open_api&utm_source=7103819247981182978
+2026-10-25T06:20:38-04:00,INFO,conciliado 003 tiktok 6ad7cf9094397e2edacdbb8c sent https://www.tiktok.com/@curiolabstudio30/video/7698850266602343693?utm_campaign=tt4d_open_api&utm_source=7103819247981182978
+2026-10-25T06:20:38-04:00,INFO,conciliado 004 tiktok 6ad8b8c688865f7e6d30d1cf sent https://www.tiktok.com/@curiolabstudio30/video/7699106706197843213?utm_campaign=tt4d_open_api&utm_source=7103819247981182978
+2026-10-25T06:20:38-04:00,INFO,conciliado 005 tiktok 6ad8b857333aa279085301e6 sent https://www.tiktok.com/@curiolabstudio30/video/7699167198429924622?utm_campaign=tt4d_open_api&utm_source=7103819247981182978
+2026-10-25T06:20:38-04:00,INFO,conciliado 006 tiktok 6ad8b85c0c5e774bdfb13e84 sent https://www.tiktok.com/@curiolabstudio30/video/7699244361149582606?utm_campaign=tt4d_open_api&utm_source=7103819247981182978
+2026-10-25T06:20:38-04:00,INFO,conciliado 007 tiktok 6ad8bb9f0811076dd03ce382 sent https://www.tiktok.com/@curiolabstudio30/video/7699477033830616333?utm_campaign=tt4d_open_api&utm_source=7103819247981182978
+2026-10-25T06:20:38-04:00,INFO,conciliado 008 tiktok 6ad8bf62d4269b1b7a6ae390 sent https://www.tiktok.com/@curiolabstudio30/video/7699538967401630990?utm_campaign=tt4d_open_api&utm_source=7103819247981182978
+2026-10-25T06:20:38-04:00,INFO,conciliado 009 tiktok 6ad8f8e75f06a50228137568 sent https://www.tiktok.com/@curiolabstudio30/video/7699615680085200141?utm_campaign=tt4d_open_api&utm_source=7103819247981182978
+2026-10-25T06:20:38-04:00,INFO,conciliado 010 tiktok 6ada4ec177984f39b2aefc59 sent https://www.tiktok.com/@curiolabstudio30/video/7699848059139706125?utm_campaign=tt4d_open_api&utm_source=7103819247981182978
+2026-10-25T06:20:38-04:00,INFO,conciliado 011 tiktok 6ada517e399af6f1f72c40b2 sent https://www.tiktok.com/@curiolabstudio30/video/7699909761600392461?utm_campaign=tt4d_open_api&utm_source=7103819247981182978
+2026-10-25T06:20:38-04:00,INFO,conciliado 012 tiktok 6ada5184399af6f1f72c42f6 sent https://www.tiktok.com/@curiolabstudio30/video/7699986626692287758?utm_campaign=tt4d_open_api&utm_source=7103819247981182978
+2026-10-25T06:20:38-04:00,INFO,conciliado 013 tiktok 6adb41244cd0373c6552ca85 sent https://tiktok.com/@curiolabstudio30/video/7700218824834026766
+2026-10-25T06:20:38-04:00,INFO,conciliado 013 youtube 6adb41187af88b8f19ada895 sent https://www.youtube.com/shorts/S9nviugc2xo
+2026-10-25T06:20:38-04:00,INFO,conciliado 014 tiktok 6adb9c1a8b3d437ddc7bb841 sent https://tiktok.com/@curiolabstudio30/video/7700280754672061710
+2026-10-25T06:20:38-04:00,INFO,conciliado 014 youtube 6adb412ac3741d7d48c79578 sent https://www.youtube.com/shorts/wNDJi7KvkrA
+2026-10-25T06:20:38-04:00,INFO,conciliado 015 tiktok 6adb9c2b0b5343d070429963 sent https://tiktok.com/@curiolabstudio30/video/7700357633823345934
+2026-10-25T06:20:38-04:00,INFO,conciliado 015 youtube 6adb9c2ae4be8a4d861b127d sent https://www.youtube.com/shorts/a6uEuob2lsY
+2026-10-25T06:21:25-04:00,INFO,metrics appended for 26 posts
+2026-10-25T06:30:44-04:00,INFO,019 QA all_pass=True
+2026-10-25T06:41:44-04:00,INFO,019 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-019/CurioLab_019.mp4
+2026-10-25T06:45:50-04:00,INFO,020 QA all_pass=True
+2026-10-25T06:47:10-04:00,INFO,020 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-020/CurioLab_020.mp4
+2026-10-25T06:51:18-04:00,INFO,021 QA all_pass=True
+2026-10-25T06:52:46-04:00,INFO,021 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-021/CurioLab_021.mp4
+2026-10-25T06:53:09-04:00,INFO,"en espera por capacidad: 020 tiktok (cola de Buffer llena), 021 youtube (cola de Buffer llena), 021 tiktok (cola de Buffer llena)"
+2026-10-25T06:53:17-04:00,INFO,017 tiktok 6adddf9be4be8a4d86a2537a scheduled 
+2026-10-25T06:53:23-04:00,INFO,018 youtube 6adddfa1e4be8a4d86a255fe scheduled 
+2026-10-25T06:53:29-04:00,INFO,018 tiktok 6adddfa70b5343d070c9bc19 scheduled 
+2026-10-25T06:53:35-04:00,INFO,019 youtube 6adddfad3d5b27036bcaacf1 scheduled 
+2026-10-25T06:53:41-04:00,INFO,019 tiktok 6adddfb3e4be8a4d86a25953 scheduled 
+2026-10-25T06:53:48-04:00,INFO,020 youtube 6adddfb90b5343d070c9bf13 scheduled 
+2026-10-25T06:54:03-04:00,INFO,"en espera por capacidad: 020 tiktok (cola de Buffer llena), 021 youtube (cola de Buffer llena), 021 tiktok (cola de Buffer llena)"

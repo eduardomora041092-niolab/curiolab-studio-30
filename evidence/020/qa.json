@@ -1,0 +1,103 @@
+{
+ "id": "020",
+ "file": "/home/claude/curiolab/out/CurioLab_020.mp4",
+ "duration_s": 26.133,
+ "lufs": -15.9,
+ "video": {
+  "codec_name": "h264",
+  "codec_type": "video",
+  "width": 1080,
+  "height": 1920,
+  "r_frame_rate": "30/1"
+ },
+ "checks": {
+  "resolution_1080x1920": true,
+  "fps_30": true,
+  "video_h264": true,
+  "audio_aac": true,
+  "duration_25_35s": true,
+  "duration_matches_narration": true,
+  "one_scene_per_line": true,
+  "segments_ordered": true,
+  "narration_ends_before_video": true,
+  "loudness_-17_to_-12_LUFS": true
+ },
+ "all_pass": true,
+ "sync_sheet": "/home/claude/curiolab/work/020/final_sheet.png",
+ "segments": [
+  {
+   "i": 0,
+   "text": "¿Cómo marca los segundos un reloj sin pilas?",
+   "start": 0.0,
+   "end": 2.432
+  },
+  {
+   "i": 1,
+   "text": "Al darle cuerda, se enrolla un muelle en espiral.",
+   "start": 2.682,
+   "end": 5.349
+  },
+  {
+   "i": 2,
+   "text": "Ese muelle guarda la energía que mueve todo el reloj.",
+   "start": 5.599,
+   "end": 8.543
+  },
+  {
+   "i": 3,
+   "text": "La energía pasa por engranajes hasta la rueda de escape.",
+   "start": 8.793,
+   "end": 11.865
+  },
+  {
+   "i": 4,
+   "text": "Un volante oscila de un lado a otro a ritmo constante.",
+   "start": 12.115,
+   "end": 15.272
+  },
+  {
+   "i": 5,
+   "text": "En cada vaivén, el áncora deja pasar un solo diente.",
+   "start": 15.522,
+   "end": 18.615
+  },
+  {
+   "i": 6,
+   "text": "Así los engranajes y las agujas avanzan a pasos iguales.",
+   "start": 18.865,
+   "end": 22.236
+  },
+  {
+   "i": 7,
+   "text": "Sígueme para descubrir cómo funcionan más cosas.",
+   "start": 22.486,
+   "end": 25.153
+  }
+ ],
+ "editorial": {
+  "duration_s": 26.133,
+  "target_max_s": 28.0,
+  "duration_ok": true,
+  "hook_words": 8,
+  "hook_max_words": 9,
+  "hook_ok": true,
+  "rules_updated": "2026-10-25T06:21:25-04:00",
+  "measured": [
+   "001",
+   "002",
+   "003",
+   "004",
+   "005",
+   "006",
+   "007",
+   "008",
+   "009",
+   "010",
+   "011",
+   "012",
+   "013"
+  ],
+  "experiment": "gancho_en_accion",
+  "hook_question_ok": true
+ }
+}

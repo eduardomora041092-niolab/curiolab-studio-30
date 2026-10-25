@@ -1,0 +1,103 @@
+{
+ "id": "019",
+ "file": "/home/claude/curiolab/out/CurioLab_019.mp4",
+ "duration_s": 26.567,
+ "lufs": -15.7,
+ "video": {
+  "codec_name": "h264",
+  "codec_type": "video",
+  "width": 1080,
+  "height": 1920,
+  "r_frame_rate": "30/1"
+ },
+ "checks": {
+  "resolution_1080x1920": true,
+  "fps_30": true,
+  "video_h264": true,
+  "audio_aac": true,
+  "duration_25_35s": true,
+  "duration_matches_narration": true,
+  "one_scene_per_line": true,
+  "segments_ordered": true,
+  "narration_ends_before_video": true,
+  "loudness_-17_to_-12_LUFS": true
+ },
+ "all_pass": true,
+ "sync_sheet": "/home/claude/curiolab/work/019/final_sheet.png",
+ "segments": [
+  {
+   "i": 0,
+   "text": "¿Cómo se abre un candado con solo tres números?",
+   "start": 0.0,
+   "end": 2.603
+  },
+  {
+   "i": 1,
+   "text": "Dentro del candado hay tres discos apilados, uno por número.",
+   "start": 2.853,
+   "end": 6.309
+  },
+  {
+   "i": 2,
+   "text": "Cada disco tiene una pequeña muesca en el borde.",
+   "start": 6.559,
+   "end": 9.311
+  },
+  {
+   "i": 3,
+   "text": "Al girar la rueda, los discos cambian de posición.",
+   "start": 9.561,
+   "end": 12.398
+  },
+  {
+   "i": 4,
+   "text": "Con el número correcto, cada muesca queda en su sitio.",
+   "start": 12.648,
+   "end": 15.528
+  },
+  {
+   "i": 5,
+   "text": "Si un solo disco está mal, la barra no puede bajar.",
+   "start": 15.778,
+   "end": 18.594
+  },
+  {
+   "i": 6,
+   "text": "Con las tres alineadas, la barra cae en las muescas y suelta el arco.",
+   "start": 18.844,
+   "end": 22.663
+  },
+  {
+   "i": 7,
+   "text": "Sígueme para descubrir cómo funcionan más cosas.",
+   "start": 22.913,
+   "end": 25.579
+  }
+ ],
+ "editorial": {
+  "duration_s": 26.567,
+  "target_max_s": 28.0,
+  "duration_ok": true,
+  "hook_words": 9,
+  "hook_max_words": 9,
+  "hook_ok": true,
+  "rules_updated": "2026-10-25T06:21:25-04:00",
+  "measured": [
+   "001",
+   "002",
+   "003",
+   "004",
+   "005",
+   "006",
+   "007",
+   "008",
+   "009",
+   "010",
+   "011",
+   "012",
+   "013"
+  ],
+  "experiment": "gancho_en_accion",
+  "hook_question_ok": true
+ }
+}
