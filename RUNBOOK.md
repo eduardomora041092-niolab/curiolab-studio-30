@@ -25,22 +25,32 @@ ejecución nunca debe crear publicaciones duplicadas.
 
 ## 0b. Bloqueo de ejecución
 `python3 pipeline/daily.py lock acquire`. Si devuelve `BUSY`, hay otra ejecución en curso: termina sin
-hacer nada, con el mensaje "⏸ CurioLab: otra ejecución en curso". Al final de TODA ejecución, también si falla,
-ejecuta `python3 pipeline/daily.py lock release`.
+hacer nada, con el mensaje "⏸ CurioLab: otra ejecución en curso" (no liberes nada: el candado no es tuyo).
+Cómo funciona: el candado es `pipeline/lock.json` en `main` (commit + push). `acquire` guarda un token aleatorio en el
+candado y una copia en `.git/curiolab_lock_token` de este clon (nunca se sube). `lock check` responde `OWNER`,
+`NOT_OWNER` o `NONE` comparando con el candado remoto; `lock release` solo borra el candado si el token es el de
+esta ejecución, y exige que todo lo demás ya esté commiteado y subido. Un candado de más de 2 h se considera
+caducado y la siguiente ejecución lo retoma (queda un WARN en `run_log.csv`). La liberación se hace al FINAL del
+paso 7 (después del push y de comprobar la copia en Drive), también si la ejecución falla; ver 7.
 
 ## 1. Guarda de fechas
 `python3 pipeline/daily.py guard`
 - `ENDED`: haz antes los pasos 2 y 3 (conciliación y métricas finales), desactiva la tarea programada
-  "CurioLab — producción diaria" con `update_trigger` (enabled=false), registra `daily.py log INFO "experimento finalizado"`, exporta, haz push y termina con
+  "CurioLab — producción diaria" con `update_trigger` (enabled=false), registra `daily.py log INFO "experimento finalizado"`, exporta, haz push, ejecuta `lock release` y termina con
   el mensaje "✅ CurioLab: experimento finalizado".
-- `WAITING`: termina sin hacer nada.
+- `WAITING`: no hagas nada más que `lock release` y termina.
 - `ACTIVE`: continúa.
 
 ## 2. Instantánea de Buffer y conciliación (verifica lo publicado)
-1. `python3 pipeline/daily.py snapshot-query` → imprime `query` y `variables`. Llama a `execute_query` de Buffer con
-   ellos tal cual (solo lectura) y guarda la respuesta completa, sin editar, en `/tmp/snap.json` con la herramienta Write.
-2. `python3 pipeline/daily.py queue /tmp/snap.json` → concilia `state.json` con Buffer (estado real, `externalLink`
-   público, PUBLISHED cuando ambos canales están en `sent`), calcula la capacidad y escribe `pipeline/queue_plan.json`.
+1. `python3 pipeline/daily.py snapshot-query reconcile` → imprime `query`, `variables` y un `nonce` de un solo uso
+   (la consulta lleva el alias `req_<nonce>`, que Buffer devuelve en la respuesta). Llama a `execute_query` de Buffer
+   con `query` y `variables` tal cual (solo lectura) y guarda la salida COMPLETA de la herramienta, sin editar ni
+   recortar (incluido el objeto `rateLimit` final), en `/tmp/snap.json` con la herramienta Write. Nunca reconstruyas,
+   combines ni completes a mano una respuesta, ni reutilices un archivo de una consulta anterior.
+2. `python3 pipeline/daily.py queue /tmp/snap.json` → valida la instantánea (claves y organización), la archiva byte a
+   byte en `evidence/buffer/` (con SHA-256 en `evidence/buffer/index.csv`), concilia `state.json` con Buffer (estado
+   real, `externalLink` público, PUBLISHED cuando ambos canales están en `sent`), calcula la capacidad y escribe
+   `pipeline/queue_plan.json`. Este plan es solo informativo (`for_create: false`): `create-next` lo rechaza.
    Registra solo; no crees nada todavía. Avisos que imprime:
    - `RETRASO`: un post sigue `scheduled` 45 min después de su hora → repórtalo en el mensaje final (no lo edites).
    - `SIN ENLACE`: `sent` sin enlace público → se reintenta en la siguiente ejecución.
@@ -50,8 +60,11 @@ ejecuta `python3 pipeline/daily.py lock release`.
 ## 3. Métricas y ajuste editorial (antes de producir)
 1. `python3 pipeline/daily.py metrics-due /tmp/snap.json` → lista de posts a capturar ahora: la primera captura dentro
    de la franja ~24 h (21–45 h desde `sentAt`), la primera dentro de ~72 h (69–93 h) y, si no, una al día a partir de
-   21 h. Para cada uno llama a `get_post` con `includeMetrics: true`, guarda `[{video_id, platform, post_id,
-   metrics:[{type,value}]}]` en `/tmp/m.json` y ejecuta `python3 pipeline/daily.py metrics /tmp/m.json`.
+   21 h. Cada elemento trae `video_id` como texto de 3 cifras (p. ej. "008"). Para cada uno llama a `get_post` con
+   `includeMetrics: true`, guarda `[{video_id, platform, post_id, metrics:[{type,value}]}]` (copiando `video_id`,
+   `platform` y `post_id` tal cual de metrics-due) en `/tmp/m.json` y ejecuta `python3 pipeline/daily.py metrics /tmp/m.json`.
+   `metrics` valida todas las filas antes de escribir: si alguna tiene un `video_id`, plataforma o `post_id` no válidos,
+   no escribe nada y sale con código 2 (corrige el archivo; no edites `metrics.csv` a mano).
    Comparación a igual antigüedad: `python3 pipeline/daily.py compare 24h` y `compare 72h`.
 2. `python3 pipeline/daily.py editorial` → recalcula `pipeline/editorial.json` con reglas deterministas (R1 retención →
    duración máxima y longitud del gancho; R2 sin comentarios → pregunta en el texto; R3 categoría con menos visionado →
@@ -116,32 +129,56 @@ reglas editoriales aplicaste.
 `python3 pipeline/daily.py host NNN` → imprime la URL pública verificada (HTTP 200 y tamaño correcto).
 
 ## 6. Programación según la capacidad real de Buffer (sin duplicados)
-1. Repite el paso 2 (nueva instantánea → `queue`). El plan solo incluye en `create` lo que cabe:
-   límite de la organización (`limits.scheduledPosts`, hoy 10) − 1 de margen − posts `scheduled`/`sending`, en orden
-   de hora de calendario (YouTube y luego TikTok). Lo demás queda en `waiting` con su motivo: no es un error, el
-   vídeo queda producido y alojado y la siguiente ejecución lo programa. Un post en `error` se recrea una sola vez.
-2. Por cada elemento de `create`: `create_post` con `channelId`, `schedulingType: automatic`, `mode`, `dueAt` (si no
-   es null), `text`, `assets: [{video:{url: asset.url, metadata:{title: asset.title}}}]` y `metadata` tal cual vienen
-   en el plan. Si `asset.thumbnailOffset` existe (solo TikTok), añádelo en `metadata.thumbnailOffset` del vídeo:
-   es el fotograma de portada donde ya se lee la pregunta completa del gancho. No cambies el modo ni la hora para esquivar un control de seguridad.
-   Si Buffer responde `LimitReachedError`, para: no crees más y continúa (los restantes quedan en espera).
-3. `python3 pipeline/daily.py record NNN <youtube|tiktok> <post_id> <status>` por cada post creado.
-4. Confirmación: nueva instantánea → `queue`. Debe salir `create: []` (o solo lo que siga sin capacidad); si
-   aparece un `DUPLICADO`, ❌.
+1. Instantánea NUEVA justo antes de crear (obligatoria aunque la del paso 2 sea de hace un momento):
+   `snapshot-query pre-create` → `execute_query` → Write de la salida completa en `/tmp/snap_pre.json` →
+   `python3 pipeline/daily.py queue /tmp/snap_pre.json --for-create`. Se rechaza (`REFUSED`, código 5) si la respuesta
+   no contiene el `req_<nonce>` de una consulta emitida hace ≤ 10 min, si esa instantánea ya se usó antes o si está
+   incompleta: en ese caso repite este punto con una consulta nueva (no edites el archivo). El plan concilia por vídeo
+   y canal con lo que hay realmente en Buffer: un (vídeo, canal) que ya tiene un post vivo no entra en `create`,
+   aunque `state.json` no lo tenga registrado (p. ej. una ejecución anterior se cortó entre `create_post` y `record`).
+   `create` solo incluye lo que cabe: límite de la organización (`limits.scheduledPosts`, hoy 10) − 1 de margen −
+   posts `scheduled`/`sending`, en orden de hora de calendario (YouTube y luego TikTok). Lo demás queda en `waiting`
+   con su motivo: no es un error, el vídeo queda producido y alojado y la siguiente ejecución lo programa. Un post en
+   `error` se recrea una sola vez. El plan autoriza crear durante 10 min (`valid_until`).
+2. Bucle, un post cada vez: `python3 pipeline/daily.py create-next`.
+   - Si imprime un elemento (JSON): `create_post` con `channelId`, `schedulingType: automatic`, `mode`, `dueAt` (si
+     no es null), `text`, `assets: [{video:{url: asset.url, metadata:{title: asset.title}}}]` y `metadata` tal cual
+     vienen. Si `asset.thumbnailOffset` existe (solo TikTok), añádelo en `metadata.thumbnailOffset` del vídeo: es el
+     fotograma de portada donde ya se lee la pregunta completa del gancho. No cambies el modo ni la hora para esquivar
+     un control de seguridad. Inmediatamente después, `python3 pipeline/daily.py record NNN <youtube|tiktok> <post_id> <status>`.
+     Si `create_post` falla (p. ej. `LimitReachedError`), `record NNN <plataforma> - failed "<mensaje>"`: el plan se
+     detiene y no se crea nada más en esta ejecución (los restantes quedan en espera).
+   - `NONE` o `STOP` (código 3): no hay más que crear; sigue al punto 3.
+   - `PENDING_RECORD` (código 6): falta el `record` del elemento anterior; regístralo (no lo vuelvas a crear).
+   - `STALE`/`REFUSED` (código 5): el plan caducó o no autoriza crear; vuelve al punto 1 con una consulta nueva.
+     Si no sabes si un `create_post` llegó a hacerse, NO lo repitas: la nueva instantánea lo mostrará y lo conciliará.
+3. Confirmación: `snapshot-query confirm` → `execute_query` → Write → `queue /tmp/snap_conf.json` (sin `--for-create`).
+   Debe salir `create: []` (o solo lo que siga sin capacidad); si aparece un `DUPLICADO`, ❌.
+   Todas las instantáneas quedan archivadas tal cual en `evidence/buffer/` y se suben con el commit del paso 7.
 
 ## 7. Ciclo y cierre
 1. `python3 pipeline/daily.py cycle` → PASS/PENDING de cada etapa (vídeo A: producido, alojado, programado,
    publicado con enlace, métricas, usado por la regla editorial; vídeo B: producido con reglas que ya incluyen las
    métricas de A, EDITORIAL PASS, programado). Copia el veredicto al resumen.
 2. `python3 pipeline/daily.py export`.
-3. `git add -A && git commit -m "run <fecha> <hora>" && git push origin main`. Si el push falla, sube
-   `pipeline/state.json` a Drive como `CurioLab_state_<fecha>_<hora>.json` y trata la ejecución como ❌.
-4. Copia de seguridad en Google Drive, carpeta `1TBANuVlSLiGgyTtx3yWWSwSuGtfKIVGV`: crea
+3. `python3 pipeline/daily.py lock check` → debe ser `OWNER`. Si es `NOT_OWNER`/`NONE` (otra ejecución retomó el
+   candado caducado), NO hagas push: sube `pipeline/state.json` a Drive como `CurioLab_state_<fecha>_<hora>.json`,
+   no ejecutes `lock release` y termina con ❌ explicando el solapamiento.
+4. `git add -A && git commit -m "run <fecha> <hora>" && git push origin main` (el candado sigue puesto: aún no se libera).
+   Si el push falla, sube `pipeline/state.json` a Drive como `CurioLab_state_<fecha>_<hora>.json` y trata la ejecución como ❌.
+5. Copia de seguridad en Google Drive, carpeta `1TBANuVlSLiGgyTtx3yWWSwSuGtfKIVGV`: crea
    `CurioLab_run_<AAAA-MM-DD>_<HHMM>.txt` con el resumen (vídeos procesados, IDs de publicación, enlaces, capacidad de la
    cola, en espera, cambios editoriales, veredicto del ciclo, errores) y confírmalo con `get_file_metadata` (que exista,
-   esté en esa carpeta y su propietario sea eduardomora0317@gmail.com). Si no se confirma, ❌.
-5. `python3 pipeline/daily.py lock release`.
-6. Mensaje final:
+   esté en esa carpeta y su propietario sea eduardomora0317@gmail.com). Si no se confirma, ❌ (y crea el
+   `CurioLab_ERROR_<fecha>.txt` si Drive lo permite), pero continúa con el punto 6: el candado se libera igualmente.
+6. `python3 pipeline/daily.py lock release` (siempre al final, también tras un ❌). Respuestas:
+   - `OK`: liberado. `OK (sin candado)`: no había candado.
+   - `NOT_OWNER` (código 7): el candado es de otra ejecución; no se toca. Repórtalo.
+   - `ERROR` (código 8): quedan cambios sin commit (haz el commit/push del punto 4 y reintenta una vez) o falló el
+     push. Si no se puede liberar, repórtalo con ❌: el candado caduca solo a las 2 h y la siguiente ejecución lo retoma.
+   Si la sesión se interrumpe en cualquier punto, el candado queda en `main` como máximo 2 h; nadie más puede
+   liberarlo antes (no tiene el token), y una ejecución tardía que vuelva después ya no podrá liberar el de la nueva.
+7. Mensaje final:
    - Si todo fue bien: `✅ CurioLab <fecha> <hora>: NNN, NNN programados (YT y TT); NNN publicados; en espera: …; ciclo: PASS|PENDING`.
    - Si una acción la bloquea el control de seguridad de la sesión, no intentes rodearlo: regístrala y repórtala.
    - Si algo falló: `❌ CurioLab ERROR <fecha>: <qué falló>`, y además crea en Drive

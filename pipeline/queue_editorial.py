@@ -1,9 +1,10 @@
 """CurioLab Studio 30 — dynamic Buffer queue, publication reconciliation, editorial feedback, cycle check.
 
 Called through daily.py:
-  python3 daily.py snapshot-query          -> JSON {query, variables} for Buffer execute_query (read-only)
-  python3 daily.py queue SNAP.json [...]   -> reconciles state with Buffer, computes free slots, prints the plan:
-                                              which (video, platform) posts to create NOW and which must wait
+  python3 daily.py snapshot-query [PURPOSE]   -> JSON {query, variables, nonce} for Buffer execute_query (read-only)
+  python3 daily.py queue SNAP.json [--for-create] -> archives the raw response, reconciles state with Buffer, computes
+                                              free slots, prints the plan; only --for-create (fresh nonce) authorises it
+  python3 daily.py create-next             -> next authorised post to create, one at a time (record after each)
   python3 daily.py editorial               -> recomputes pipeline/editorial.json from logs/metrics.csv and logs changes
   python3 daily.py cycle                   -> PASS/PENDING per stage of the autonomous cycle (evidence for the owner)
 
@@ -11,7 +12,7 @@ Design rules (unchanged controls): never more than limit-1 scheduled posts in th
 video and channel (duplicates are reported, never deleted); a post in `error` is recreated once at most; future
 calendar slots are scheduled for their time (customScheduled), never earlier.
 """
-import csv, datetime as dt, json, os, re, statistics
+import csv, datetime as dt, hashlib, json, os, re, secrets, statistics, sys
 import daily as D
 
 SAFETY_MARGIN = 1          # keep one slot free: "si hay 9 o más, no crees más"
@@ -20,15 +21,61 @@ EDITORIAL = f"{D.REPO}/pipeline/editorial.json"
 EDITORIAL_LOG = f"{D.REPO}/logs/editorial_log.md"
 QUEUE_LOG = f"{D.REPO}/logs/queue_log.csv"
 PLAN = f"{D.REPO}/pipeline/queue_plan.json"
+REQUESTS = f"{D.REPO}/pipeline/snapshot_requests.json"   # nonces issued by snapshot-query (evidence of freshness)
+SNAP_DIR = f"{D.REPO}/evidence/buffer"                    # raw Buffer responses, byte for byte, + index.csv
+FRESH_MIN = 10             # a snapshot used to create posts must come from a query issued <= 10 min ago
 PLATFORM_OF = {v: k for k, v in D.CHANNELS.items()}
 DEFAULT_RULES = {"target_max_s": 33.0, "hook_max_words": 12, "caption_cta": False, "weak_category": None,
                  "applies_from": None}
 
 # ---------------------------------------------------------------- Buffer snapshot
-def cmd_snapshot_query(_):
+def cmd_snapshot_query(args):
+    """snapshot-query [PURPOSE] -> query + variables. Each call issues a one-time nonce that Buffer echoes back as the
+    alias `req_<nonce>` in its response, so `queue --for-create` can prove the snapshot answers a query issued just now."""
+    purpose = args[0] if args else "reconcile"
     q = "\n".join(l for l in open(f"{D.REPO}/pipeline/buffer_snapshot.graphql").read().splitlines() if not l.startswith("#"))
+    nonce = secrets.token_hex(6)
+    q = q.replace("  account {", f"  req_{nonce}: account {{ id }}\n  account {{", 1)
     since = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=RECENT_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
-    print(json.dumps({"query": q, "variables": {"org": D.ORG, "since": since, "channels": list(D.CHANNELS.values())}}, ensure_ascii=False, indent=1))
+    reqs = D.load(REQUESTS, []) or []
+    reqs.append({"nonce": nonce, "issued": D.now_local().isoformat(timespec="seconds"), "purpose": purpose, "used": None})
+    D.save(REQUESTS, reqs[-200:])
+    print(json.dumps({"query": q, "variables": {"org": D.ORG, "since": since, "channels": list(D.CHANNELS.values())},
+                      "nonce": nonce}, ensure_ascii=False, indent=1))
+
+def check_and_archive(path, for_create, now):
+    """Validates a raw snapshot file (the execute_query output saved unedited) and archives it byte for byte under
+    evidence/buffer/. Returns (info, error). For posts creation it must answer a nonce issued <= FRESH_MIN min ago
+    and not consumed before; a reused or old snapshot is refused."""
+    raw = open(path, "rb").read(); sha = hashlib.sha256(raw).hexdigest()
+    try:
+        obj, _ = json.JSONDecoder().raw_decode(raw.decode("utf-8").strip())
+    except ValueError as e:
+        return None, f"instantánea ilegible: {e}"
+    if isinstance(obj.get("data"), dict): obj = obj["data"]
+    missing = [k for k in ("account", "limits", "open", "errors", "recent") if k not in obj]
+    if missing: return None, f"instantánea incompleta (faltan {missing}): no es la respuesta de la consulta de snapshot-query"
+    orgs = [o.get("id") for o in (obj["account"] or {}).get("organizations") or []]
+    if D.ORG not in orgs: return None, f"la instantánea no contiene la organización {D.ORG}"
+    nonces = [k[4:] for k in obj if k.startswith("req_")]
+    reqs = D.load(REQUESTS, []) or []; req = next((r for r in reqs if r["nonce"] in nonces), None)
+    if for_create:
+        if req is None: return None, "la instantánea no responde a ninguna consulta emitida por snapshot-query (falta req_<nonce>)"
+        age = (now - dt.datetime.fromisoformat(req["issued"])).total_seconds() / 60
+        if age > FRESH_MIN: return None, f"instantánea de hace {age:.0f} min (> {FRESH_MIN}): consulta Buffer de nuevo"
+        if req.get("used"): return None, f"la instantánea {req['nonce']} ya se usó ({req['used']}): consulta Buffer de nuevo"
+    if req: req["used"] = req.get("used") or now.isoformat(timespec="seconds"); D.save(REQUESTS, reqs)
+    os.makedirs(SNAP_DIR, exist_ok=True)
+    label = ("pre-create" if for_create else (req or {}).get("purpose", "sin-nonce"))
+    name = f"{now.strftime('%Y%m%dT%H%M%S')}_{label}_{(req or {}).get('nonce', sha[:12])}.json"
+    open(f"{SNAP_DIR}/{name}", "wb").write(raw)
+    idx = f"{SNAP_DIR}/index.csv"; new = not os.path.exists(idx)
+    with open(idx, "a", newline="") as fh:
+        w = csv.writer(fh)
+        if new: w.writerow(["ingested_local", "file", "sha256", "bytes", "nonce", "nonce_issued", "for_create"])
+        w.writerow([now.isoformat(timespec="seconds"), name, sha, len(raw), (req or {}).get("nonce", ""), (req or {}).get("issued", ""), for_create])
+    return {"file": f"evidence/buffer/{name}", "sha256": sha, "nonce": (req or {}).get("nonce"),
+            "nonce_issued": (req or {}).get("issued")}, None
 
 def read_snapshot(paths):
     dec, data = json.JSONDecoder(), {}
@@ -126,8 +173,21 @@ def plan_queue(data, st, cal, now):
             "reconciled": reconciled, "create": create, "waiting": waiting, "blocked": blocked, "warnings": warnings}
 
 def cmd_queue(args):
-    data = read_snapshot(args); st = D.state(); cal = {r["id"]: r for r in D.load(D.CAL)}
-    plan = plan_queue(data, st, cal, D.now_local())
+    """queue SNAP.json [--for-create]. Without the flag the plan is informative only (create items are NOT authorised).
+    With it, the snapshot must be fresh (nonce <= FRESH_MIN min, never used before); the plan then authorises its
+    `create` items for FRESH_MIN min, handed out one at a time by `create-next`."""
+    for_create = "--for-create" in args; paths = [a for a in args if not a.startswith("--")]
+    now = D.now_local(); infos = []
+    for pth in paths:
+        info, err = check_and_archive(pth, for_create, now)
+        if err:
+            D.log("ERROR", f"queue: {err}"); print(f"REFUSED: {err}"); sys.exit(5)
+        infos.append(info)
+    data = read_snapshot(paths); st = D.state(); cal = {r["id"]: r for r in D.load(D.CAL)}
+    plan = plan_queue(data, st, cal, now)
+    plan.update({"snapshots": infos, "for_create": for_create,
+                 "valid_until": (now + dt.timedelta(minutes=FRESH_MIN)).isoformat(timespec="seconds") if for_create else None,
+                 "offered": []})
     D.save(D.STATE, st); D.save(PLAN, plan)
     new = not os.path.exists(QUEUE_LOG)
     with open(QUEUE_LOG, "a", newline="") as fh:
@@ -140,6 +200,41 @@ def cmd_queue(args):
     for x in plan["blocked"]: D.log("ERROR", x)
     if plan["waiting"]: D.log("INFO", "en espera por capacidad: " + ", ".join(f"{w['id']} {w['platform']} ({w['reason']})" for w in plan["waiting"]))
     print(json.dumps(plan, ensure_ascii=False, indent=1))
+
+def cmd_create_next(_):
+    """create-next -> the next post to create from an authorised, still-valid plan, one at a time. Refuses while the
+    previously offered item has not been recorded (`record ... <post_id> <status>` or `record ... - failed`), never
+    offers an item twice and never offers an item whose (video, channel) already has a live post in state."""
+    plan = D.load(PLAN, {}) or {}; now = D.now_local(); st = D.state()
+    if not plan.get("for_create"):
+        print("REFUSED: el plan no autoriza crear; ejecuta snapshot-query pre-create + execute_query + queue --for-create"); sys.exit(5)
+    if now > dt.datetime.fromisoformat(plan["valid_until"]):
+        print(f"STALE: plan caducado ({plan['valid_until']}); consulta Buffer de nuevo"); sys.exit(5)
+    if plan.get("stop"):
+        print("STOP: una creación falló en este plan (p. ej. LimitReachedError); no se crean más en esta ejecución"); sys.exit(3)
+    for o in plan.get("offered", []):
+        if not o.get("result"):
+            print(f"PENDING_RECORD {o['id']} {o['platform']}: registra el resultado con record antes de crear otro"); sys.exit(6)
+    done = {(o["id"], o["platform"]) for o in plan.get("offered", [])}
+    for c in plan.get("create", []):
+        if (c["id"], c["platform"]) in done: continue
+        cur = st["videos"][c["id"]]["posts"].get(c["platform"], {})
+        if cur.get("status") in ("scheduled", "sending", "sent") and cur.get("recorded", "") > plan["generated"]:
+            print(f"REFUSED: {c['id']} {c['platform']} ya tiene post {cur['post_id']} registrado tras el plan"); sys.exit(5)
+        plan.setdefault("offered", []).append({"id": c["id"], "platform": c["platform"], "offered": now.isoformat(timespec="seconds"), "result": None})
+        D.save(PLAN, plan); print(json.dumps(c, ensure_ascii=False, indent=1)); return
+    print("NONE"); sys.exit(3)
+
+def record_result(vid, platform, post_id, status):
+    """Called by `daily.py record`: closes the offered item of the current plan. Returns a warning or None."""
+    plan = D.load(PLAN, None)
+    if not plan: return None
+    o = next((o for o in plan.get("offered", []) if o["id"] == vid and o["platform"] == platform and not o.get("result")), None)
+    if o is None:
+        return None if not plan.get("for_create") else f"record {vid} {platform} sin create-next previo en el plan vigente"
+    o["result"] = {"post_id": post_id, "status": status, "at": D.now_local().isoformat(timespec="seconds")}
+    if status == "failed": plan["stop"] = True     # e.g. LimitReachedError: no more creates in this run
+    D.save(PLAN, plan); return None
 
 # ---------------------------------------------------------------- editorial feedback
 def latest_metrics():

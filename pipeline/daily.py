@@ -9,7 +9,8 @@ Claude itself, and their results are written back here with `record` / `log`.
   python3 daily.py render ID                   -> build + QA (template/build.py); marks PRODUCED if QA passes
   python3 daily.py host ID                     -> copies MP4 into media/, commits+pushes, verifies the public URL
   python3 daily.py caption ID                  -> JSON with caption text, YouTube title, scheduled time
-  python3 daily.py record ID PLATFORM POST_ID STATUS [URL]
+  python3 daily.py record ID PLATFORM POST_ID STATUS [URL]   (failed create: record ID PLATFORM - failed "MSG")
+  python3 daily.py lock acquire|check|release   -> run lock with owner token (see cmd_lock)
   python3 daily.py metrics FILE.json           -> appends Buffer per-post metrics to metrics.csv
   python3 daily.py log LEVEL MESSAGE           -> appends to logs/run_log.csv
   python3 daily.py export                      -> regenerates calendar CSV + manifest (MD/JSON)
@@ -157,14 +158,34 @@ def cmd_caption(args):
     print(json.dumps(caption(args[0]), ensure_ascii=False, indent=1))
 
 def cmd_record(args):
+    """record ID PLATFORM POST_ID STATUS [URL]; after a failed create_post: record ID PLATFORM - failed "MESSAGE"."""
+    import queue_editorial as QE
     vid, platform, post_id, status = args[:4]; url = args[4] if len(args) > 4 else ""
+    warn = QE.record_result(vid, platform, post_id, status)
+    if warn: log("WARN", warn); print(f"WARN {warn}")
+    if status == "failed":
+        log("ERROR", f"create_post {vid} {platform} falló: {url}"); print("OK (fallo registrado; no se crean más en este plan)"); return
     st = state(); v = st["videos"][vid]
     v["posts"][platform] = {"post_id": post_id, "status": status, "url": url, "recorded": now_local().isoformat(timespec="seconds")}
     if all(v["posts"].get(p, {}).get("status") == "sent" for p in CHANNELS): v["estado"] = "PUBLISHED"
     save(STATE, st); log("INFO", f"{vid} {platform} {post_id} {status} {url}")
 
+def norm_vid(x):
+    """Video id as the 3-digit calendar string. Accepts the legacy metrics-due shape [id, durationMs]."""
+    if isinstance(x, (list, tuple)): x = x[0] if x else None
+    if isinstance(x, int): x = f"{x:03d}"
+    return x if isinstance(x, str) and len(x) == 3 and x.isdigit() else None
+
 def cmd_metrics(args):
-    rows = json.load(open(args[0])); p = f"{REPO}/logs/metrics.csv"; new = not os.path.exists(p)
+    rows = json.load(open(args[0])); p = f"{REPO}/logs/metrics.csv"
+    cal = {r["id"] for r in load(CAL)}; bad = []
+    for r in rows:   # validate everything first: nothing is written if any row is malformed
+        v = norm_vid(r.get("video_id"))
+        if v is None or v not in cal or r.get("platform") not in CHANNELS or not r.get("post_id"): bad.append(r.get("video_id"))
+        else: r["video_id"] = v
+    if bad:
+        print(f"ERROR: filas de métricas no válidas (video_id/platform/post_id): {bad}; no se escribe nada"); sys.exit(2)
+    new = not os.path.exists(p)
     with open(p, "a", newline="") as fh:
         w = csv.writer(fh)
         if new: w.writerow(["captured_local", "video_id", "platform", "post_id", "metric", "value"])
@@ -187,7 +208,7 @@ def cmd_metrics_due(args):
     now = now_local(); due = []
     for n in QE.nodes(snap, "recent") + QE.nodes(snap, "open"):
         if n.get("status") != "sent" or not n.get("sentAt"): continue
-        vid = QE.vid_of(n)
+        vid, _dur = QE.vid_of(n)   # vid_of returns (id, durationMs); only the id identifies the video
         if not vid: continue
         sa = dt.datetime.fromisoformat(n["sentAt"].replace("Z", "+00:00")); sent[n["id"]] = n["sentAt"]
         age = (now - sa).total_seconds() / 3600
@@ -241,24 +262,62 @@ def cmd_compare(args):
               f"prop. media vista {statistics.median(tt_prop):.0%}" if tt_prop else f"  sin datos en esta franja (n=0)", end="")
         print(f", YT vistas {med(yt_views)}" if tt_prop else "")
 
+LOCK_TTL = dt.timedelta(hours=2)
+
 def cmd_lock(args):
-    """lock acquire|release — one run at a time. The lock lives in the repo (pipeline/lock.json), so a
-    second session sees it after cloning; a lock older than 2 h is considered stale."""
-    action = args[0]; p = f"{REPO}/pipeline/lock.json"
+    """lock acquire|check|release — one run at a time. The lock lives in the repo (pipeline/lock.json) so a second
+    session sees it after cloning. acquire writes a random token, kept by this clone in .git/curiolab_lock_token
+    (never committed). check/release only act if the remote lock carries THIS clone's token, so a run never frees a
+    lock that another run took over. A lock older than LOCK_TTL is stale and may be taken over (logged as WARN).
+    release requires a clean worktree (commit the run first) and fails loudly if pull/commit/push fail; in that case
+    the remote lock stays and expires after LOCK_TTL."""
+    import secrets
+    action = args[0]; p = f"{REPO}/pipeline/lock.json"; tokfile = f"{REPO}/.git/curiolab_lock_token"
     git = lambda *a: subprocess.run(["git", "-C", REPO, *a], capture_output=True, text=True)
-    git("pull", "-q", "--rebase", "origin", "main")
-    cur = load(p)
+    mine = open(tokfile).read().strip() if os.path.exists(tokfile) else None
+    f = git("fetch", "-q", "origin", "main")   # read the REMOTE lock without touching the worktree
+    if f.returncode != 0:
+        print(f"ERROR: git fetch falló: {f.stderr.strip()[:300]}"); sys.exit(8 if action == "release" else 4)
+    shown = git("show", "origin/main:pipeline/lock.json")
+    cur = json.loads(shown.stdout) if shown.returncode == 0 and shown.stdout.strip() else None
+    owner = bool(cur and mine and cur.get("token") == mine)
+    if action == "check":
+        print("OWNER" if owner else ("NOT_OWNER" if cur else "NONE")); sys.exit(0 if owner else 7)
+    if action == "release":
+        if not cur: print("OK (sin candado)"); return
+        if not owner:
+            print(f"NOT_OWNER: el candado ({cur['since']}) es de otra ejecución; no se toca"); log("WARN", "release: candado ajeno, no se libera"); sys.exit(7)
+        dirty = [l for l in git("status", "--porcelain").stdout.splitlines() if not l.endswith("pipeline/lock.json")]
+        if dirty:
+            print(f"ERROR: cambios sin commit ({len(dirty)}); haz commit y push de la ejecución antes de liberar"); sys.exit(8)
+    if action == "acquire" and cur and now_local() - dt.datetime.fromisoformat(cur["since"]) < LOCK_TTL:
+        print(f"BUSY since {cur['since']}"); log("WARN", f"run skipped: lock held since {cur['since']}"); sys.exit(4)
+    r = git("pull", "-q", "--rebase", "origin", "main")
+    if r.returncode != 0:
+        print(f"ERROR: git pull falló: {r.stderr.strip()[:300]}"); sys.exit(8 if action == "release" else 4)
     if action == "acquire":
-        if cur and (now_local() - dt.datetime.fromisoformat(cur["since"])) < dt.timedelta(hours=2):
-            print(f"BUSY since {cur['since']}"); log("WARN", f"run skipped: lock held since {cur['since']}"); sys.exit(4)
-        save(p, {"since": now_local().isoformat(timespec="seconds")})
-    else:
+        if cur: log("WARN", f"lock caducado desde {cur['since']} retomado")
+        tok = secrets.token_hex(8); save(p, {"since": now_local().isoformat(timespec="seconds"), "token": tok})
+        open(tokfile, "w").write(tok)
+    else:   # release (ownership checked above against the remote lock)
         if os.path.exists(p): os.remove(p)
     git("add", "-A", "pipeline/lock.json")
-    git("-c", "user.name=CurioLab bot", "-c", "user.email=noreply@anthropic.com", "commit", "-qm", f"lock {action}")
+    if action == "acquire" and os.path.exists(f"{REPO}/logs/run_log.csv"): git("add", "logs/run_log.csv")   # keeps a takeover WARN
+    c = git("-c", "user.name=CurioLab bot", "-c", "user.email=noreply@anthropic.com", "commit", "-qm", f"lock {action}")
+    if c.returncode != 0:
+        print(f"ERROR: commit del candado falló: {(c.stderr or c.stdout).strip()[:300]}"); sys.exit(8 if action == "release" else 4)
     r = git("push", "-q", "origin", "main")
-    if r.returncode != 0 and action == "acquire":
-        print("BUSY (push rejected)"); sys.exit(4)
+    if r.returncode != 0 and action == "release":   # someone pushed meanwhile: rebase once and retry
+        if git("pull", "-q", "--rebase", "origin", "main").returncode == 0: r = git("push", "-q", "origin", "main")
+    if r.returncode != 0:
+        if action == "acquire":
+            git("reset", "-q", "HEAD~1")   # undo only our lock commit; nothing else is touched
+            if git("cat-file", "-e", "HEAD:pipeline/lock.json").returncode == 0: git("checkout", "-q", "HEAD", "--", "pipeline/lock.json")
+            elif os.path.exists(p): os.remove(p)
+            if os.path.exists(tokfile): os.remove(tokfile)
+            print("BUSY (push rejected)"); sys.exit(4)
+        print(f"ERROR: push de la liberación falló: {r.stderr.strip()[:300]}; el candado caducará en {LOCK_TTL}"); sys.exit(8)
+    if action == "release" and os.path.exists(tokfile): os.remove(tokfile)
     print("OK")
 
 def cmd_log(args):
@@ -297,4 +356,4 @@ if __name__ == "__main__":
     {"guard": cmd_guard, "status": cmd_status, "render": cmd_render, "host": cmd_host, "caption": cmd_caption,
      "record": cmd_record, "lock": cmd_lock, "metrics-due": cmd_metrics_due, "compare": cmd_compare, "metrics": cmd_metrics, "log": cmd_log, "export": cmd_export,
      **{k: (lambda a, k=k: getattr(__import__("queue_editorial"), "cmd_" + k.replace("-", "_"))(a))
-        for k in ("snapshot-query", "queue", "editorial", "cycle")}}[sys.argv[1]](sys.argv[2:])
+        for k in ("snapshot-query", "queue", "create-next", "editorial", "cycle")}}[sys.argv[1]](sys.argv[2:])
