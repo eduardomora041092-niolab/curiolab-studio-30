@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T13:39:58-04:00",
+ "updated": "2026-10-25T18:39:40-04:00",
  "rules": {
   "target_max_s": 28.0,
   "hook_max_words": 9,
@@ -179,6 +179,18 @@
    "tt_retention": 0.359,
    "comments": 0.0,
    "comment_metrics": 2
+  },
+  {
+   "id": "015",
+   "categoria": "Ciencia",
+   "slot": 3,
+   "duration_s": 26.6,
+   "tt_views": 212.0,
+   "yt_views": 1071.0,
+   "tt_avg_watch_s": 5.93,
+   "tt_retention": 0.223,
+   "comments": 0.0,
+   "comment_metrics": 2
   }
  ],
  "videos_measured": [
@@ -195,7 +207,8 @@
   "011",
   "012",
   "013",
-  "014"
+  "014",
+  "015"
  ],
  "experiment": {
   "name": "gancho_en_accion",

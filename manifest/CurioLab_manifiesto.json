@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-10-25T13:41-04:00",
+ "actualizado": "2026-10-25T18:39-04:00",
  "estados": {
-  "PUBLISHED": 17,
-  "PRODUCED": 4,
+  "PUBLISHED": 18,
+  "PRODUCED": 3,
   "PLANNED": 69
  },
  "costo_real_usd": 0,
@@ -774,19 +774,19 @@
    "fecha": "2026-10-25",
    "titulo": "¿Qué causa las mareas?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6adddfa1e4be8a4d86a255fe",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-25T06:53:23-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/qOEq7L3mT_o",
+     "recorded": "2026-10-25T18:39:28-04:00"
     },
     "tiktok": {
      "post_id": "6adddfa70b5343d070c9bc19",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-25T06:53:29-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7700728764573011214",
+     "recorded": "2026-10-25T18:39:28-04:00"
     }
    },
    "qa": {

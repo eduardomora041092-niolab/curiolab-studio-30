@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-25T13:41-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-25T18:39-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 69
-- **PRODUCED**: 4
-- **PUBLISHED**: 17
+- **PRODUCED**: 3
+- **PUBLISHED**: 18
 
 ## Vídeos con actividad
 
@@ -29,7 +29,7 @@ Actualizado: 2026-10-25T13:41-04:00 (America/New_York) · Costo real: US$0
 | 015 | 2026-10-24 | ¿Por qué el hielo flota? | PUBLISHED | https://www.youtube.com/shorts/a6uEuob2lsY | https://tiktok.com/@curiolabstudio30/video/7700357633823345934 | PASS 26.6 s -15.6 LUFS |
 | 016 | 2026-10-25 | ¿Cómo se abre un paraguas? | PUBLISHED | https://www.youtube.com/shorts/rwvUUgJQu6s | https://tiktok.com/@curiolabstudio30/video/7700589754798198030 | PASS 27.233 s -15.7 LUFS |
 | 017 | 2026-10-25 | ¿Por qué la cinta métrica vuelve sola? | PUBLISHED | https://www.youtube.com/shorts/qMMnsQf5St4 | https://tiktok.com/@curiolabstudio30/video/7700651425046564110 | PASS 27.767 s -15.7 LUFS |
-| 018 | 2026-10-25 | ¿Qué causa las mareas? | PRODUCED | — | — | PASS 26.567 s -15.5 LUFS |
+| 018 | 2026-10-25 | ¿Qué causa las mareas? | PUBLISHED | https://www.youtube.com/shorts/qOEq7L3mT_o | https://tiktok.com/@curiolabstudio30/video/7700728764573011214 | PASS 26.567 s -15.5 LUFS |
 | 019 | 2026-10-26 | ¿Cómo funciona un candado de combinación? | PRODUCED | — | — | PASS 26.567 s -15.7 LUFS |
 | 020 | 2026-10-26 | ¿Cómo mide el tiempo un reloj mecánico? | PRODUCED | — | — | PASS 26.133 s -15.9 LUFS |
 | 021 | 2026-10-26 | ¿Por qué la Luna cambia de forma? | PRODUCED | — | — | PASS 26.233 s -15.6 LUFS |
@@ -53,7 +53,7 @@ Actualizado: 2026-10-25T13:41-04:00 (America/New_York) · Costo real: US$0
 - 015 · 2026-10-24 · Ciencia · ¿Por qué el hielo flota? · PUBLISHED
 - 016 · 2026-10-25 · Mecanismo · ¿Cómo se abre un paraguas? · PUBLISHED
 - 017 · 2026-10-25 · Mecanismo · ¿Por qué la cinta métrica vuelve sola? · PUBLISHED
-- 018 · 2026-10-25 · Ciencia · ¿Qué causa las mareas? · PRODUCED
+- 018 · 2026-10-25 · Ciencia · ¿Qué causa las mareas? · PUBLISHED
 - 019 · 2026-10-26 · Mecanismo · ¿Cómo funciona un candado de combinación? · PRODUCED
 - 020 · 2026-10-26 · Mecanismo · ¿Cómo mide el tiempo un reloj mecánico? · PRODUCED
 - 021 · 2026-10-26 · Ciencia · ¿Por qué la Luna cambia de forma? · PRODUCED
