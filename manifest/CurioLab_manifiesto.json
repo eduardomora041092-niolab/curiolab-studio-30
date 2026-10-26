@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-25T18:39-04:00",
+ "actualizado": "2026-10-26T07:03-04:00",
  "estados": {
   "PUBLISHED": 18,
-  "PRODUCED": 3,
-  "PLANNED": 69
+  "PRODUCED": 6,
+  "PLANNED": 66
  },
  "costo_real_usd": 0,
  "videos": {
@@ -1036,30 +1036,190 @@
    "fecha": "2026-10-27",
    "titulo": "¿Cómo suena una tecla de piano?",
    "categoria": "Mecanismo",
-   "estado": "PLANNED",
-   "posts": {},
-   "qa": null,
-   "media_url": null,
-   "errors": []
+   "estado": "PRODUCED",
+   "posts": {
+    "youtube": {
+     "post_id": "6adf33237e39094ed00202f4",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-26T07:01:57-04:00"
+    },
+    "tiktok": {
+     "post_id": "6adf332bbfa346e86d6ddcc9",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-26T07:02:06-04:00"
+    }
+   },
+   "qa": {
+    "all_pass": true,
+    "duration_s": 25.7,
+    "lufs": -15.8,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    },
+    "editorial": {
+     "duration_s": 25.7,
+     "target_max_s": 28.0,
+     "duration_ok": true,
+     "hook_words": 9,
+     "hook_max_words": 9,
+     "hook_ok": true,
+     "rules_updated": "2026-10-26T06:40:07-04:00",
+     "measured": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "005",
+      "006",
+      "007",
+      "008",
+      "009",
+      "010",
+      "011",
+      "012",
+      "013",
+      "014",
+      "015",
+      "016"
+     ],
+     "experiment": "gancho_en_accion",
+     "hook_question_ok": true
+    },
+    "editorial_pass": true
+   },
+   "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-022/CurioLab_022.mp4",
+   "errors": [],
+   "duration_ms": 25700
   },
   "023": {
    "fecha": "2026-10-27",
    "titulo": "¿Por qué el cinturón se bloquea en un frenazo?",
    "categoria": "Mecanismo",
-   "estado": "PLANNED",
-   "posts": {},
-   "qa": null,
-   "media_url": null,
-   "errors": []
+   "estado": "PRODUCED",
+   "posts": {
+    "youtube": {
+     "post_id": "6adf3334bfa346e86d6ddf62",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-26T07:02:15-04:00"
+    }
+   },
+   "qa": {
+    "all_pass": true,
+    "duration_s": 25.467,
+    "lufs": -15.8,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    },
+    "editorial": {
+     "duration_s": 25.467,
+     "target_max_s": 28.0,
+     "duration_ok": true,
+     "hook_words": 9,
+     "hook_max_words": 9,
+     "hook_ok": true,
+     "rules_updated": "2026-10-26T06:40:07-04:00",
+     "measured": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "005",
+      "006",
+      "007",
+      "008",
+      "009",
+      "010",
+      "011",
+      "012",
+      "013",
+      "014",
+      "015",
+      "016"
+     ],
+     "experiment": "gancho_en_accion",
+     "hook_question_ok": true
+    },
+    "editorial_pass": true
+   },
+   "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-023/CurioLab_023.mp4",
+   "errors": [],
+   "duration_ms": 25467
   },
   "024": {
    "fecha": "2026-10-27",
    "titulo": "¿Por qué existen las estaciones?",
    "categoria": "Ciencia",
-   "estado": "PLANNED",
+   "estado": "PRODUCED",
    "posts": {},
-   "qa": null,
-   "media_url": null,
+   "qa": {
+    "all_pass": true,
+    "duration_s": 25.567,
+    "lufs": -15.6,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    },
+    "editorial": {
+     "duration_s": 25.567,
+     "target_max_s": 28.0,
+     "duration_ok": true,
+     "hook_words": 8,
+     "hook_max_words": 9,
+     "hook_ok": true,
+     "rules_updated": "2026-10-26T06:40:07-04:00",
+     "measured": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "005",
+      "006",
+      "007",
+      "008",
+      "009",
+      "010",
+      "011",
+      "012",
+      "013",
+      "014",
+      "015",
+      "016"
+     ],
+     "experiment": "gancho_en_accion",
+     "hook_question_ok": true
+    },
+    "editorial_pass": true
+   },
+   "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-024/CurioLab_024.mp4",
    "errors": []
   },
   "025": {

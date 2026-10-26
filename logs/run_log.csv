@@ -148,3 +148,15 @@ timestamp_local,level,message
 2026-10-25T18:39:28-04:00,INFO,conciliado 018 tiktok 6adddfa70b5343d070c9bc19 sent https://tiktok.com/@curiolabstudio30/video/7700728764573011214
 2026-10-25T18:39:28-04:00,INFO,conciliado 018 youtube 6adddfa1e4be8a4d86a255fe sent https://www.youtube.com/shorts/qOEq7L3mT_o
 2026-10-25T18:39:40-04:00,INFO,metrics appended for 4 posts
+2026-10-26T06:40:06-04:00,INFO,metrics appended for 26 posts
+2026-10-26T06:48:05-04:00,INFO,022 QA all_pass=True
+2026-10-26T06:53:44-04:00,INFO,023 QA all_pass=True
+2026-10-26T06:54:18-04:00,INFO,024 QA all_pass=True
+2026-10-26T06:58:23-04:00,INFO,022 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-022/CurioLab_022.mp4
+2026-10-26T06:59:28-04:00,INFO,023 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-023/CurioLab_023.mp4
+2026-10-26T07:00:34-04:00,INFO,024 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-024/CurioLab_024.mp4
+2026-10-26T07:01:47-04:00,INFO,"en espera por capacidad: 023 tiktok (cola de Buffer llena), 024 youtube (cola de Buffer llena), 024 tiktok (cola de Buffer llena)"
+2026-10-26T07:01:57-04:00,INFO,022 youtube 6adf33237e39094ed00202f4 scheduled 
+2026-10-26T07:02:06-04:00,INFO,022 tiktok 6adf332bbfa346e86d6ddcc9 scheduled 
+2026-10-26T07:02:15-04:00,INFO,023 youtube 6adf3334bfa346e86d6ddf62 scheduled 
+2026-10-26T07:03:25-04:00,INFO,"en espera por capacidad: 023 tiktok (cola de Buffer llena), 024 youtube (cola de Buffer llena), 024 tiktok (cola de Buffer llena)"

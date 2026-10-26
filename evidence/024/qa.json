@@ -1,0 +1,106 @@
+{
+ "id": "024",
+ "file": "/home/claude/curiolab/out/CurioLab_024.mp4",
+ "duration_s": 25.567,
+ "lufs": -15.6,
+ "video": {
+  "codec_name": "h264",
+  "codec_type": "video",
+  "width": 1080,
+  "height": 1920,
+  "r_frame_rate": "30/1"
+ },
+ "checks": {
+  "resolution_1080x1920": true,
+  "fps_30": true,
+  "video_h264": true,
+  "audio_aac": true,
+  "duration_25_35s": true,
+  "duration_matches_narration": true,
+  "one_scene_per_line": true,
+  "segments_ordered": true,
+  "narration_ends_before_video": true,
+  "loudness_-17_to_-12_LUFS": true
+ },
+ "all_pass": true,
+ "sync_sheet": "/home/claude/curiolab/work/024/final_sheet.png",
+ "segments": [
+  {
+   "i": 0,
+   "text": "¿Por qué en verano el sol calienta más?",
+   "start": 0.0,
+   "end": 2.219
+  },
+  {
+   "i": 1,
+   "text": "No es porque la Tierra esté más cerca del Sol.",
+   "start": 2.469,
+   "end": 5.135
+  },
+  {
+   "i": 2,
+   "text": "El eje sobre el que gira la Tierra está inclinado.",
+   "start": 5.385,
+   "end": 8.031
+  },
+  {
+   "i": 3,
+   "text": "Durante el año, un hemisferio queda inclinado hacia el Sol.",
+   "start": 8.281,
+   "end": 11.502
+  },
+  {
+   "i": 4,
+   "text": "Allí los rayos llegan más directos y concentran su calor.",
+   "start": 11.752,
+   "end": 15.08
+  },
+  {
+   "i": 5,
+   "text": "Además, allí los días son más largos: es verano.",
+   "start": 15.33,
+   "end": 17.997
+  },
+  {
+   "i": 6,
+   "text": "En el otro hemisferio, la luz llega inclinada y se reparte: invierno.",
+   "start": 18.247,
+   "end": 22.001
+  },
+  {
+   "i": 7,
+   "text": "Sígueme para más curiosidades de la ciencia.",
+   "start": 22.251,
+   "end": 24.598
+  }
+ ],
+ "editorial": {
+  "duration_s": 25.567,
+  "target_max_s": 28.0,
+  "duration_ok": true,
+  "hook_words": 8,
+  "hook_max_words": 9,
+  "hook_ok": true,
+  "rules_updated": "2026-10-26T06:40:07-04:00",
+  "measured": [
+   "001",
+   "002",
+   "003",
+   "004",
+   "005",
+   "006",
+   "007",
+   "008",
+   "009",
+   "010",
+   "011",
+   "012",
+   "013",
+   "014",
+   "015",
+   "016"
+  ],
+  "experiment": "gancho_en_accion",
+  "hook_question_ok": true
+ }
+}
