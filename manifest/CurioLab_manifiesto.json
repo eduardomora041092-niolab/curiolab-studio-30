@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-10-26T07:03-04:00",
+ "actualizado": "2026-10-26T13:47-04:00",
  "estados": {
-  "PUBLISHED": 18,
-  "PRODUCED": 6,
+  "PUBLISHED": 20,
+  "PRODUCED": 4,
   "PLANNED": 66
  },
  "costo_real_usd": 0,
@@ -835,19 +835,19 @@
    "fecha": "2026-10-26",
    "titulo": "¿Cómo funciona un candado de combinación?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6adddfad3d5b27036bcaacf1",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-25T06:53:35-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/Lmbu-cwO_nA",
+     "recorded": "2026-10-26T13:43:36-04:00"
     },
     "tiktok": {
      "post_id": "6adddfb3e4be8a4d86a25953",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-25T06:53:41-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7700961709065932046",
+     "recorded": "2026-10-26T13:43:36-04:00"
     }
    },
    "qa": {
@@ -902,19 +902,19 @@
    "fecha": "2026-10-26",
    "titulo": "¿Cómo mide el tiempo un reloj mecánico?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6adddfb90b5343d070c9bf13",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-25T06:53:48-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/3yiq1WAbI2A",
+     "recorded": "2026-10-26T13:43:36-04:00"
     },
     "tiktok": {
      "post_id": "6ade3f040b5343d070e39aeb",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-25T13:40:23-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7701023268584639758",
+     "recorded": "2026-10-26T13:43:36-04:00"
     }
    },
    "qa": {
@@ -1113,6 +1113,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-10-26T07:02:15-04:00"
+    },
+    "tiktok": {
+     "post_id": "6adf91b77099fd3e0329bc84",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-26T13:45:34-04:00"
     }
    },
    "qa": {
@@ -1171,7 +1177,20 @@
    "titulo": "¿Por qué existen las estaciones?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6adf91c62adafdbae189b19f",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-26T13:45:47-04:00"
+    },
+    "tiktok": {
+     "post_id": "6adf91d22adafdbae189b3e6",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-26T13:46:02-04:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 25.567,
@@ -1220,7 +1239,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-024/CurioLab_024.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 25567
   },
   "025": {
    "fecha": "2026-10-28",

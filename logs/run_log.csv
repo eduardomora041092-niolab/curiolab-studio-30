@@ -160,3 +160,11 @@ timestamp_local,level,message
 2026-10-26T07:02:06-04:00,INFO,022 tiktok 6adf332bbfa346e86d6ddcc9 scheduled 
 2026-10-26T07:02:15-04:00,INFO,023 youtube 6adf3334bfa346e86d6ddf62 scheduled 
 2026-10-26T07:03:25-04:00,INFO,"en espera por capacidad: 023 tiktok (cola de Buffer llena), 024 youtube (cola de Buffer llena), 024 tiktok (cola de Buffer llena)"
+2026-10-26T13:43:36-04:00,INFO,conciliado 019 tiktok 6adddfb3e4be8a4d86a25953 sent https://tiktok.com/@curiolabstudio30/video/7700961709065932046
+2026-10-26T13:43:36-04:00,INFO,conciliado 019 youtube 6adddfad3d5b27036bcaacf1 sent https://www.youtube.com/shorts/Lmbu-cwO_nA
+2026-10-26T13:43:36-04:00,INFO,conciliado 020 tiktok 6ade3f040b5343d070e39aeb sent https://tiktok.com/@curiolabstudio30/video/7701023268584639758
+2026-10-26T13:43:36-04:00,INFO,conciliado 020 youtube 6adddfb90b5343d070c9bf13 sent https://www.youtube.com/shorts/3yiq1WAbI2A
+2026-10-26T13:43:54-04:00,INFO,metrics appended for 4 posts
+2026-10-26T13:45:34-04:00,INFO,023 tiktok 6adf91b77099fd3e0329bc84 scheduled 
+2026-10-26T13:45:47-04:00,INFO,024 youtube 6adf91c62adafdbae189b19f scheduled 
+2026-10-26T13:46:02-04:00,INFO,024 tiktok 6adf91d22adafdbae189b3e6 scheduled 

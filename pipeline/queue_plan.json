@@ -1,55 +1,36 @@
 {
- "generated": "2026-10-26T07:03:25-04:00",
+ "generated": "2026-10-26T13:47:15-04:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 9,
- "free_after_plan": 0,
+ "occupied": 8,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": 10,
    "isAtLimit": false
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": 25,
    "isAtLimit": false
   }
  ],
  "reconciled": [],
  "create": [],
- "waiting": [
-  {
-   "id": "023",
-   "platform": "tiktok",
-   "dueAt": "2026-10-27T13:00:00-04:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "024",
-   "platform": "youtube",
-   "dueAt": "2026-10-27T18:00:00-04:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "024",
-   "platform": "tiktok",
-   "dueAt": "2026-10-27T18:00:00-04:00",
-   "reason": "cola de Buffer llena"
-  }
- ],
+ "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261026T070325_confirm_891c440dad67.json",
-   "sha256": "84a986f3e640cb2c1b01647e05b05cda14b365660530b4a3f1e2436467e6de59",
-   "nonce": "891c440dad67",
-   "nonce_issued": "2026-10-26T07:02:15-04:00"
+   "file": "evidence/buffer/20261026T134715_confirm_93cde2a7e7c2.json",
+   "sha256": "61b59625a2c3bb54534fdc754c528fd5f78a10bd5ab8c5d283319d2511462775",
+   "nonce": "93cde2a7e7c2",
+   "nonce_issued": "2026-10-26T13:46:02-04:00"
   }
  ],
  "for_create": false,

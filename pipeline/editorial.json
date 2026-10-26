@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T06:40:07-04:00",
+ "updated": "2026-10-26T13:43:54-04:00",
  "rules": {
   "target_max_s": 28.0,
   "hook_max_words": 9,
@@ -203,6 +203,18 @@
    "tt_retention": 0.274,
    "comments": 0.0,
    "comment_metrics": 2
+  },
+  {
+   "id": "017",
+   "categoria": "Mecanismo",
+   "slot": 2,
+   "duration_s": 27.767,
+   "tt_views": 282.0,
+   "yt_views": 965.0,
+   "tt_avg_watch_s": 6.58,
+   "tt_retention": 0.237,
+   "comments": 0.0,
+   "comment_metrics": 2
   }
  ],
  "videos_measured": [
@@ -221,7 +233,8 @@
   "013",
   "014",
   "015",
-  "016"
+  "016",
+  "017"
  ],
  "experiment": {
   "name": "gancho_en_accion",

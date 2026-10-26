@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-26T07:03-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-26T13:47-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 66
-- **PRODUCED**: 6
-- **PUBLISHED**: 18
+- **PRODUCED**: 4
+- **PUBLISHED**: 20
 
 ## Vídeos con actividad
 
@@ -30,8 +30,8 @@ Actualizado: 2026-10-26T07:03-04:00 (America/New_York) · Costo real: US$0
 | 016 | 2026-10-25 | ¿Cómo se abre un paraguas? | PUBLISHED | https://www.youtube.com/shorts/rwvUUgJQu6s | https://tiktok.com/@curiolabstudio30/video/7700589754798198030 | PASS 27.233 s -15.7 LUFS |
 | 017 | 2026-10-25 | ¿Por qué la cinta métrica vuelve sola? | PUBLISHED | https://www.youtube.com/shorts/qMMnsQf5St4 | https://tiktok.com/@curiolabstudio30/video/7700651425046564110 | PASS 27.767 s -15.7 LUFS |
 | 018 | 2026-10-25 | ¿Qué causa las mareas? | PUBLISHED | https://www.youtube.com/shorts/qOEq7L3mT_o | https://tiktok.com/@curiolabstudio30/video/7700728764573011214 | PASS 26.567 s -15.5 LUFS |
-| 019 | 2026-10-26 | ¿Cómo funciona un candado de combinación? | PRODUCED | — | — | PASS 26.567 s -15.7 LUFS |
-| 020 | 2026-10-26 | ¿Cómo mide el tiempo un reloj mecánico? | PRODUCED | — | — | PASS 26.133 s -15.9 LUFS |
+| 019 | 2026-10-26 | ¿Cómo funciona un candado de combinación? | PUBLISHED | https://www.youtube.com/shorts/Lmbu-cwO_nA | https://tiktok.com/@curiolabstudio30/video/7700961709065932046 | PASS 26.567 s -15.7 LUFS |
+| 020 | 2026-10-26 | ¿Cómo mide el tiempo un reloj mecánico? | PUBLISHED | https://www.youtube.com/shorts/3yiq1WAbI2A | https://tiktok.com/@curiolabstudio30/video/7701023268584639758 | PASS 26.133 s -15.9 LUFS |
 | 021 | 2026-10-26 | ¿Por qué la Luna cambia de forma? | PRODUCED | — | — | PASS 26.233 s -15.6 LUFS |
 | 022 | 2026-10-27 | ¿Cómo suena una tecla de piano? | PRODUCED | — | — | PASS 25.7 s -15.8 LUFS |
 | 023 | 2026-10-27 | ¿Por qué el cinturón se bloquea en un frenazo? | PRODUCED | — | — | PASS 25.467 s -15.8 LUFS |
@@ -57,8 +57,8 @@ Actualizado: 2026-10-26T07:03-04:00 (America/New_York) · Costo real: US$0
 - 016 · 2026-10-25 · Mecanismo · ¿Cómo se abre un paraguas? · PUBLISHED
 - 017 · 2026-10-25 · Mecanismo · ¿Por qué la cinta métrica vuelve sola? · PUBLISHED
 - 018 · 2026-10-25 · Ciencia · ¿Qué causa las mareas? · PUBLISHED
-- 019 · 2026-10-26 · Mecanismo · ¿Cómo funciona un candado de combinación? · PRODUCED
-- 020 · 2026-10-26 · Mecanismo · ¿Cómo mide el tiempo un reloj mecánico? · PRODUCED
+- 019 · 2026-10-26 · Mecanismo · ¿Cómo funciona un candado de combinación? · PUBLISHED
+- 020 · 2026-10-26 · Mecanismo · ¿Cómo mide el tiempo un reloj mecánico? · PUBLISHED
 - 021 · 2026-10-26 · Ciencia · ¿Por qué la Luna cambia de forma? · PRODUCED
 - 022 · 2026-10-27 · Mecanismo · ¿Cómo suena una tecla de piano? · PRODUCED
 - 023 · 2026-10-27 · Mecanismo · ¿Por qué el cinturón se bloquea en un frenazo? · PRODUCED
