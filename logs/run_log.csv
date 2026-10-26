@@ -168,3 +168,6 @@ timestamp_local,level,message
 2026-10-26T13:45:34-04:00,INFO,023 tiktok 6adf91b77099fd3e0329bc84 scheduled 
 2026-10-26T13:45:47-04:00,INFO,024 youtube 6adf91c62adafdbae189b19f scheduled 
 2026-10-26T13:46:02-04:00,INFO,024 tiktok 6adf91d22adafdbae189b3e6 scheduled 
+2026-10-26T18:40:11-04:00,INFO,conciliado 021 tiktok 6ade3f118b3d437ddc1c9dd8 sent https://tiktok.com/@curiolabstudio30/video/7701100098981203214
+2026-10-26T18:40:11-04:00,INFO,conciliado 021 youtube 6ade3f0bbd33ce99c382de9f sent https://www.youtube.com/shorts/UbMrJFq1dZY
+2026-10-26T18:40:23-04:00,INFO,metrics appended for 4 posts

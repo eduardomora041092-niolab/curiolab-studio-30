@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-26T13:47-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-26T18:40-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 66
-- **PRODUCED**: 4
-- **PUBLISHED**: 20
+- **PRODUCED**: 3
+- **PUBLISHED**: 21
 
 ## Vídeos con actividad
 
@@ -32,7 +32,7 @@ Actualizado: 2026-10-26T13:47-04:00 (America/New_York) · Costo real: US$0
 | 018 | 2026-10-25 | ¿Qué causa las mareas? | PUBLISHED | https://www.youtube.com/shorts/qOEq7L3mT_o | https://tiktok.com/@curiolabstudio30/video/7700728764573011214 | PASS 26.567 s -15.5 LUFS |
 | 019 | 2026-10-26 | ¿Cómo funciona un candado de combinación? | PUBLISHED | https://www.youtube.com/shorts/Lmbu-cwO_nA | https://tiktok.com/@curiolabstudio30/video/7700961709065932046 | PASS 26.567 s -15.7 LUFS |
 | 020 | 2026-10-26 | ¿Cómo mide el tiempo un reloj mecánico? | PUBLISHED | https://www.youtube.com/shorts/3yiq1WAbI2A | https://tiktok.com/@curiolabstudio30/video/7701023268584639758 | PASS 26.133 s -15.9 LUFS |
-| 021 | 2026-10-26 | ¿Por qué la Luna cambia de forma? | PRODUCED | — | — | PASS 26.233 s -15.6 LUFS |
+| 021 | 2026-10-26 | ¿Por qué la Luna cambia de forma? | PUBLISHED | https://www.youtube.com/shorts/UbMrJFq1dZY | https://tiktok.com/@curiolabstudio30/video/7701100098981203214 | PASS 26.233 s -15.6 LUFS |
 | 022 | 2026-10-27 | ¿Cómo suena una tecla de piano? | PRODUCED | — | — | PASS 25.7 s -15.8 LUFS |
 | 023 | 2026-10-27 | ¿Por qué el cinturón se bloquea en un frenazo? | PRODUCED | — | — | PASS 25.467 s -15.8 LUFS |
 | 024 | 2026-10-27 | ¿Por qué existen las estaciones? | PRODUCED | — | — | PASS 25.567 s -15.6 LUFS |
@@ -59,7 +59,7 @@ Actualizado: 2026-10-26T13:47-04:00 (America/New_York) · Costo real: US$0
 - 018 · 2026-10-25 · Ciencia · ¿Qué causa las mareas? · PUBLISHED
 - 019 · 2026-10-26 · Mecanismo · ¿Cómo funciona un candado de combinación? · PUBLISHED
 - 020 · 2026-10-26 · Mecanismo · ¿Cómo mide el tiempo un reloj mecánico? · PUBLISHED
-- 021 · 2026-10-26 · Ciencia · ¿Por qué la Luna cambia de forma? · PRODUCED
+- 021 · 2026-10-26 · Ciencia · ¿Por qué la Luna cambia de forma? · PUBLISHED
 - 022 · 2026-10-27 · Mecanismo · ¿Cómo suena una tecla de piano? · PRODUCED
 - 023 · 2026-10-27 · Mecanismo · ¿Por qué el cinturón se bloquea en un frenazo? · PRODUCED
 - 024 · 2026-10-27 · Ciencia · ¿Por qué existen las estaciones? · PRODUCED
