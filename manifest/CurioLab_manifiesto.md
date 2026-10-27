@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-27T13:43-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-27T18:40-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 63
-- **PRODUCED**: 4
-- **PUBLISHED**: 23
+- **PRODUCED**: 3
+- **PUBLISHED**: 24
 
 ## Vídeos con actividad
 
@@ -35,7 +35,7 @@ Actualizado: 2026-10-27T13:43-04:00 (America/New_York) · Costo real: US$0
 | 021 | 2026-10-26 | ¿Por qué la Luna cambia de forma? | PUBLISHED | https://www.youtube.com/shorts/UbMrJFq1dZY | https://tiktok.com/@curiolabstudio30/video/7701100098981203214 | PASS 26.233 s -15.6 LUFS |
 | 022 | 2026-10-27 | ¿Cómo suena una tecla de piano? | PUBLISHED | https://www.youtube.com/shorts/acv1dyhpGPA | https://tiktok.com/@curiolabstudio30/video/7701332841514208526 | PASS 25.7 s -15.8 LUFS |
 | 023 | 2026-10-27 | ¿Por qué el cinturón se bloquea en un frenazo? | PUBLISHED | https://www.youtube.com/shorts/t_nixTyJ0uw | https://tiktok.com/@curiolabstudio30/video/7701394222636715277 | PASS 25.467 s -15.8 LUFS |
-| 024 | 2026-10-27 | ¿Por qué existen las estaciones? | PRODUCED | — | — | PASS 25.567 s -15.6 LUFS |
+| 024 | 2026-10-27 | ¿Por qué existen las estaciones? | PUBLISHED | https://www.youtube.com/shorts/hgkvf2XceSY | https://tiktok.com/@curiolabstudio30/video/7701471163909721358 | PASS 25.567 s -15.6 LUFS |
 | 025 | 2026-10-28 | ¿Cómo se infla un airbag tan rápido? | PRODUCED | — | — | PASS 27.033 s -15.6 LUFS |
 | 026 | 2026-10-28 | ¿Cómo frena un coche con frenos de disco? | PRODUCED | — | — | PASS 25.333 s -15.8 LUFS |
 | 027 | 2026-10-28 | ¿Por qué los gatos suelen caer de pie? | PRODUCED | — | — | PASS 26.067 s -15.6 LUFS |
@@ -65,7 +65,7 @@ Actualizado: 2026-10-27T13:43-04:00 (America/New_York) · Costo real: US$0
 - 021 · 2026-10-26 · Ciencia · ¿Por qué la Luna cambia de forma? · PUBLISHED
 - 022 · 2026-10-27 · Mecanismo · ¿Cómo suena una tecla de piano? · PUBLISHED
 - 023 · 2026-10-27 · Mecanismo · ¿Por qué el cinturón se bloquea en un frenazo? · PUBLISHED
-- 024 · 2026-10-27 · Ciencia · ¿Por qué existen las estaciones? · PRODUCED
+- 024 · 2026-10-27 · Ciencia · ¿Por qué existen las estaciones? · PUBLISHED
 - 025 · 2026-10-28 · Mecanismo · ¿Cómo se infla un airbag tan rápido? · PRODUCED
 - 026 · 2026-10-28 · Mecanismo · ¿Cómo frena un coche con frenos de disco? · PRODUCED
 - 027 · 2026-10-28 · Ciencia · ¿Por qué los gatos suelen caer de pie? · PRODUCED

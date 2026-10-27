@@ -1,36 +1,39 @@
 {
- "generated": "2026-10-27T13:43:23-04:00",
+ "generated": "2026-10-27T18:40:22-04:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 8,
- "free_after_plan": 1,
+ "occupied": 6,
+ "free_after_plan": 3,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 0,
+   "sent": 3,
    "limit": 10,
    "isAtLimit": false
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 0,
+   "sent": 3,
    "limit": 25,
    "isAtLimit": false
   }
  ],
- "reconciled": [],
+ "reconciled": [
+  "024 tiktok 6adf91d22adafdbae189b3e6 sent https://tiktok.com/@curiolabstudio30/video/7701471163909721358",
+  "024 youtube 6adf91c62adafdbae189b19f sent https://www.youtube.com/shorts/hgkvf2XceSY"
+ ],
  "create": [],
  "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261027T134323_confirm_9350dca97b8e.json",
-   "sha256": "4fe7a60f2293b291d1326daeb5e1a07b767c10b78917a044ac3e75949c5b108c",
-   "nonce": "9350dca97b8e",
-   "nonce_issued": "2026-10-27T13:42:13-04:00"
+   "file": "evidence/buffer/20261027T184022_reconcile_c8df8b8f6d0c.json",
+   "sha256": "88b663d8fc2eef6496adcb4b0cbb2367799b3702a78881b242d85457d37d354e",
+   "nonce": "c8df8b8f6d0c",
+   "nonce_issued": "2026-10-27T18:39:13-04:00"
   }
  ],
  "for_create": false,

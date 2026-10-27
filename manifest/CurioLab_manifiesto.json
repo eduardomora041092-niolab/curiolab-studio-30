@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-10-27T13:43-04:00",
+ "actualizado": "2026-10-27T18:40-04:00",
  "estados": {
-  "PUBLISHED": 23,
-  "PRODUCED": 4,
+  "PUBLISHED": 24,
+  "PRODUCED": 3,
   "PLANNED": 63
  },
  "costo_real_usd": 0,
@@ -1176,19 +1176,19 @@
    "fecha": "2026-10-27",
    "titulo": "¿Por qué existen las estaciones?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6adf91c62adafdbae189b19f",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-26T13:45:47-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/hgkvf2XceSY",
+     "recorded": "2026-10-27T18:40:22-04:00"
     },
     "tiktok": {
      "post_id": "6adf91d22adafdbae189b3e6",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-26T13:46:02-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7701471163909721358",
+     "recorded": "2026-10-27T18:40:22-04:00"
     }
    },
    "qa": {
