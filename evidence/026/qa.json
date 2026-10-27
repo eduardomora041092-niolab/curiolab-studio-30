@@ -1,0 +1,109 @@
+{
+ "id": "026",
+ "file": "/home/claude/curiolab/out/CurioLab_026.mp4",
+ "duration_s": 25.333,
+ "lufs": -15.8,
+ "video": {
+  "codec_name": "h264",
+  "codec_type": "video",
+  "width": 1080,
+  "height": 1920,
+  "r_frame_rate": "30/1"
+ },
+ "checks": {
+  "resolution_1080x1920": true,
+  "fps_30": true,
+  "video_h264": true,
+  "audio_aac": true,
+  "duration_25_35s": true,
+  "duration_matches_narration": true,
+  "one_scene_per_line": true,
+  "segments_ordered": true,
+  "narration_ends_before_video": true,
+  "loudness_-17_to_-12_LUFS": true
+ },
+ "all_pass": true,
+ "sync_sheet": "/home/claude/curiolab/work/026/final_sheet.png",
+ "segments": [
+  {
+   "i": 0,
+   "text": "¿Cómo frena un coche con frenos de disco?",
+   "start": 0.0,
+   "end": 2.261
+  },
+  {
+   "i": 1,
+   "text": "Al pisar el pedal, empujas un pistón con líquido.",
+   "start": 2.511,
+   "end": 5.263
+  },
+  {
+   "i": 2,
+   "text": "El líquido no se comprime y lleva la presión a la rueda.",
+   "start": 5.513,
+   "end": 8.543
+  },
+  {
+   "i": 3,
+   "text": "Allí, una pinza abraza un disco que gira con la rueda.",
+   "start": 8.793,
+   "end": 11.673
+  },
+  {
+   "i": 4,
+   "text": "La presión empuja dos pastillas contra las caras del disco.",
+   "start": 11.923,
+   "end": 15.229
+  },
+  {
+   "i": 5,
+   "text": "El rozamiento frena el disco, y con él la rueda.",
+   "start": 15.479,
+   "end": 18.061
+  },
+  {
+   "i": 6,
+   "text": "El movimiento se convierte en calor: el disco se calienta.",
+   "start": 18.311,
+   "end": 21.447
+  },
+  {
+   "i": 7,
+   "text": "Sígueme para descubrir cómo funcionan más cosas.",
+   "start": 21.697,
+   "end": 24.363
+  }
+ ],
+ "editorial": {
+  "duration_s": 25.333,
+  "target_max_s": 28.0,
+  "duration_ok": true,
+  "hook_words": 8,
+  "hook_max_words": 9,
+  "hook_ok": true,
+  "rules_updated": "2026-10-27T06:40:32-04:00",
+  "measured": [
+   "001",
+   "002",
+   "003",
+   "004",
+   "005",
+   "006",
+   "007",
+   "008",
+   "009",
+   "010",
+   "011",
+   "012",
+   "013",
+   "014",
+   "015",
+   "016",
+   "017",
+   "018",
+   "019"
+  ],
+  "experiment": "gancho_en_accion",
+  "hook_question_ok": true
+ }
+}

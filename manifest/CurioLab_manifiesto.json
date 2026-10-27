@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-26T18:40-04:00",
+ "actualizado": "2026-10-27T06:55-04:00",
  "estados": {
   "PUBLISHED": 21,
-  "PRODUCED": 3,
-  "PLANNED": 66
+  "PRODUCED": 6,
+  "PLANNED": 63
  },
  "costo_real_usd": 0,
  "videos": {
@@ -1246,30 +1246,199 @@
    "fecha": "2026-10-28",
    "titulo": "¿Cómo se infla un airbag tan rápido?",
    "categoria": "Mecanismo",
-   "estado": "PLANNED",
-   "posts": {},
-   "qa": null,
-   "media_url": null,
-   "errors": []
+   "estado": "PRODUCED",
+   "posts": {
+    "youtube": {
+     "post_id": "6ae082c72dee8577b89f2bc6",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-27T06:54:02-04:00"
+    },
+    "tiktok": {
+     "post_id": "6ae082cf3063753edf6e71ac",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-27T06:54:09-04:00"
+    }
+   },
+   "qa": {
+    "all_pass": true,
+    "duration_s": 27.033,
+    "lufs": -15.6,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    },
+    "editorial": {
+     "duration_s": 27.033,
+     "target_max_s": 28.0,
+     "duration_ok": true,
+     "hook_words": 7,
+     "hook_max_words": 9,
+     "hook_ok": true,
+     "rules_updated": "2026-10-27T06:40:32-04:00",
+     "measured": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "005",
+      "006",
+      "007",
+      "008",
+      "009",
+      "010",
+      "011",
+      "012",
+      "013",
+      "014",
+      "015",
+      "016",
+      "017",
+      "018",
+      "019"
+     ],
+     "experiment": "gancho_en_accion",
+     "hook_question_ok": true
+    },
+    "editorial_pass": true
+   },
+   "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-025/CurioLab_025.mp4",
+   "errors": [],
+   "duration_ms": 27033
   },
   "026": {
    "fecha": "2026-10-28",
    "titulo": "¿Cómo frena un coche con frenos de disco?",
    "categoria": "Mecanismo",
-   "estado": "PLANNED",
-   "posts": {},
-   "qa": null,
-   "media_url": null,
-   "errors": []
+   "estado": "PRODUCED",
+   "posts": {
+    "youtube": {
+     "post_id": "6ae082d6a5ccad78dbca446f",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-27T06:54:17-04:00"
+    }
+   },
+   "qa": {
+    "all_pass": true,
+    "duration_s": 25.333,
+    "lufs": -15.8,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    },
+    "editorial": {
+     "duration_s": 25.333,
+     "target_max_s": 28.0,
+     "duration_ok": true,
+     "hook_words": 8,
+     "hook_max_words": 9,
+     "hook_ok": true,
+     "rules_updated": "2026-10-27T06:40:32-04:00",
+     "measured": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "005",
+      "006",
+      "007",
+      "008",
+      "009",
+      "010",
+      "011",
+      "012",
+      "013",
+      "014",
+      "015",
+      "016",
+      "017",
+      "018",
+      "019"
+     ],
+     "experiment": "gancho_en_accion",
+     "hook_question_ok": true
+    },
+    "editorial_pass": true
+   },
+   "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-026/CurioLab_026.mp4",
+   "errors": [],
+   "duration_ms": 25333
   },
   "027": {
    "fecha": "2026-10-28",
    "titulo": "¿Por qué los gatos suelen caer de pie?",
    "categoria": "Ciencia",
-   "estado": "PLANNED",
+   "estado": "PRODUCED",
    "posts": {},
-   "qa": null,
-   "media_url": null,
+   "qa": {
+    "all_pass": true,
+    "duration_s": 26.067,
+    "lufs": -15.6,
+    "checks": {
+     "resolution_1080x1920": true,
+     "fps_30": true,
+     "video_h264": true,
+     "audio_aac": true,
+     "duration_25_35s": true,
+     "duration_matches_narration": true,
+     "one_scene_per_line": true,
+     "segments_ordered": true,
+     "narration_ends_before_video": true,
+     "loudness_-17_to_-12_LUFS": true
+    },
+    "editorial": {
+     "duration_s": 26.067,
+     "target_max_s": 28.0,
+     "duration_ok": true,
+     "hook_words": 9,
+     "hook_max_words": 9,
+     "hook_ok": true,
+     "rules_updated": "2026-10-27T06:40:32-04:00",
+     "measured": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "005",
+      "006",
+      "007",
+      "008",
+      "009",
+      "010",
+      "011",
+      "012",
+      "013",
+      "014",
+      "015",
+      "016",
+      "017",
+      "018",
+      "019"
+     ],
+     "experiment": "gancho_en_accion",
+     "hook_question_ok": true
+    },
+    "editorial_pass": true
+   },
+   "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-027/CurioLab_027.mp4",
    "errors": []
   },
   "028": {

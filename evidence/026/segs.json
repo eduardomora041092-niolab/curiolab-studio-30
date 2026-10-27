@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "¿Cómo frena un coche con frenos de disco?",
+  "start": 0.0,
+  "end": 2.261
+ },
+ {
+  "i": 1,
+  "text": "Al pisar el pedal, empujas un pistón con líquido.",
+  "start": 2.511,
+  "end": 5.263
+ },
+ {
+  "i": 2,
+  "text": "El líquido no se comprime y lleva la presión a la rueda.",
+  "start": 5.513,
+  "end": 8.543
+ },
+ {
+  "i": 3,
+  "text": "Allí, una pinza abraza un disco que gira con la rueda.",
+  "start": 8.793,
+  "end": 11.673
+ },
+ {
+  "i": 4,
+  "text": "La presión empuja dos pastillas contra las caras del disco.",
+  "start": 11.923,
+  "end": 15.229
+ },
+ {
+  "i": 5,
+  "text": "El rozamiento frena el disco, y con él la rueda.",
+  "start": 15.479,
+  "end": 18.061
+ },
+ {
+  "i": 6,
+  "text": "El movimiento se convierte en calor: el disco se calienta.",
+  "start": 18.311,
+  "end": 21.447
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para descubrir cómo funcionan más cosas.",
+  "start": 21.697,
+  "end": 24.363
+ }
+]

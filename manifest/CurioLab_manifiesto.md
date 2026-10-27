@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-26T18:40-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-27T06:55-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 66
-- **PRODUCED**: 3
+- **PLANNED**: 63
+- **PRODUCED**: 6
 - **PUBLISHED**: 21
 
 ## Vídeos con actividad
@@ -36,6 +36,9 @@ Actualizado: 2026-10-26T18:40-04:00 (America/New_York) · Costo real: US$0
 | 022 | 2026-10-27 | ¿Cómo suena una tecla de piano? | PRODUCED | — | — | PASS 25.7 s -15.8 LUFS |
 | 023 | 2026-10-27 | ¿Por qué el cinturón se bloquea en un frenazo? | PRODUCED | — | — | PASS 25.467 s -15.8 LUFS |
 | 024 | 2026-10-27 | ¿Por qué existen las estaciones? | PRODUCED | — | — | PASS 25.567 s -15.6 LUFS |
+| 025 | 2026-10-28 | ¿Cómo se infla un airbag tan rápido? | PRODUCED | — | — | PASS 27.033 s -15.6 LUFS |
+| 026 | 2026-10-28 | ¿Cómo frena un coche con frenos de disco? | PRODUCED | — | — | PASS 25.333 s -15.8 LUFS |
+| 027 | 2026-10-28 | ¿Por qué los gatos suelen caer de pie? | PRODUCED | — | — | PASS 26.067 s -15.6 LUFS |
 
 ## Calendario completo
 
@@ -63,9 +66,9 @@ Actualizado: 2026-10-26T18:40-04:00 (America/New_York) · Costo real: US$0
 - 022 · 2026-10-27 · Mecanismo · ¿Cómo suena una tecla de piano? · PRODUCED
 - 023 · 2026-10-27 · Mecanismo · ¿Por qué el cinturón se bloquea en un frenazo? · PRODUCED
 - 024 · 2026-10-27 · Ciencia · ¿Por qué existen las estaciones? · PRODUCED
-- 025 · 2026-10-28 · Mecanismo · ¿Cómo se infla un airbag tan rápido? · PLANNED
-- 026 · 2026-10-28 · Mecanismo · ¿Cómo frena un coche con frenos de disco? · PLANNED
-- 027 · 2026-10-28 · Ciencia · ¿Por qué los gatos suelen caer de pie? · PLANNED
+- 025 · 2026-10-28 · Mecanismo · ¿Cómo se infla un airbag tan rápido? · PRODUCED
+- 026 · 2026-10-28 · Mecanismo · ¿Cómo frena un coche con frenos de disco? · PRODUCED
+- 027 · 2026-10-28 · Ciencia · ¿Por qué los gatos suelen caer de pie? · PRODUCED
 - 028 · 2026-10-29 · Mecanismo · ¿Cómo detecta el humo un detector? · PLANNED
 - 029 · 2026-10-29 · Mecanismo · ¿Cómo sabe la pantalla dónde la tocas? · PLANNED
 - 030 · 2026-10-29 · Ciencia · ¿Por qué burbujea un refresco? · PLANNED
