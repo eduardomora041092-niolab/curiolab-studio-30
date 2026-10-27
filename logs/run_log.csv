@@ -183,3 +183,12 @@ timestamp_local,level,message
 2026-10-27T06:54:09-04:00,INFO,025 tiktok 6ae082cf3063753edf6e71ac scheduled 
 2026-10-27T06:54:17-04:00,INFO,026 youtube 6ae082d6a5ccad78dbca446f scheduled 
 2026-10-27T06:55:27-04:00,INFO,"en espera por capacidad: 026 tiktok (cola de Buffer llena), 027 youtube (cola de Buffer llena), 027 tiktok (cola de Buffer llena)"
+2026-10-27T13:40:09-04:00,INFO,conciliado 022 tiktok 6adf332bbfa346e86d6ddcc9 sent https://tiktok.com/@curiolabstudio30/video/7701332841514208526
+2026-10-27T13:40:09-04:00,INFO,conciliado 022 youtube 6adf33237e39094ed00202f4 sent https://www.youtube.com/shorts/acv1dyhpGPA
+2026-10-27T13:40:09-04:00,INFO,conciliado 023 tiktok 6adf91b77099fd3e0329bc84 sent https://tiktok.com/@curiolabstudio30/video/7701394222636715277
+2026-10-27T13:40:09-04:00,INFO,conciliado 023 youtube 6adf3334bfa346e86d6ddf62 sent https://www.youtube.com/shorts/t_nixTyJ0uw
+2026-10-27T13:40:21-04:00,INFO,metrics appended for 4 posts
+2026-10-27T13:40:21-04:00,INFO,"editorial: cambios {'weak_category': ('Ciencia', None)} aplican desde 028"
+2026-10-27T13:41:54-04:00,INFO,026 tiktok 6ae0e25fb83eef4600cf1f72 scheduled 
+2026-10-27T13:42:03-04:00,INFO,027 youtube 6ae0e26791cfaa7d0011388c scheduled 
+2026-10-27T13:42:13-04:00,INFO,027 tiktok 6ae0e270500f0a489fe919cc scheduled 

@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-10-27T06:55-04:00",
+ "actualizado": "2026-10-27T13:43-04:00",
  "estados": {
-  "PUBLISHED": 21,
-  "PRODUCED": 6,
+  "PUBLISHED": 23,
+  "PRODUCED": 4,
   "PLANNED": 63
  },
  "costo_real_usd": 0,
@@ -1036,19 +1036,19 @@
    "fecha": "2026-10-27",
    "titulo": "¿Cómo suena una tecla de piano?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6adf33237e39094ed00202f4",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-26T07:01:57-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/acv1dyhpGPA",
+     "recorded": "2026-10-27T13:40:09-04:00"
     },
     "tiktok": {
      "post_id": "6adf332bbfa346e86d6ddcc9",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-26T07:02:06-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7701332841514208526",
+     "recorded": "2026-10-27T13:40:09-04:00"
     }
    },
    "qa": {
@@ -1106,19 +1106,19 @@
    "fecha": "2026-10-27",
    "titulo": "¿Por qué el cinturón se bloquea en un frenazo?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6adf3334bfa346e86d6ddf62",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-26T07:02:15-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/t_nixTyJ0uw",
+     "recorded": "2026-10-27T13:40:09-04:00"
     },
     "tiktok": {
      "post_id": "6adf91b77099fd3e0329bc84",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-26T13:45:34-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7701394222636715277",
+     "recorded": "2026-10-27T13:40:09-04:00"
     }
    },
    "qa": {
@@ -1326,6 +1326,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-10-27T06:54:17-04:00"
+    },
+    "tiktok": {
+     "post_id": "6ae0e25fb83eef4600cf1f72",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-27T13:41:54-04:00"
     }
    },
    "qa": {
@@ -1387,7 +1393,20 @@
    "titulo": "¿Por qué los gatos suelen caer de pie?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6ae0e26791cfaa7d0011388c",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-27T13:42:03-04:00"
+    },
+    "tiktok": {
+     "post_id": "6ae0e270500f0a489fe919cc",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-27T13:42:13-04:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 26.067,
@@ -1439,7 +1458,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-027/CurioLab_027.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 26067
   },
   "028": {
    "fecha": "2026-10-29",
