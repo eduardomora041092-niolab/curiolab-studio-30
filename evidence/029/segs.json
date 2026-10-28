@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "¿Cómo sabe tu móvil dónde lo tocas?",
+  "start": 0.0,
+  "end": 2.133
+ },
+ {
+  "i": 1,
+  "text": "Bajo el cristal hay una rejilla de electrodos transparentes.",
+  "start": 2.383,
+  "end": 5.669
+ },
+ {
+  "i": 2,
+  "text": "Unos van en filas y otros en columnas, con carga eléctrica.",
+  "start": 5.919,
+  "end": 9.289
+ },
+ {
+  "i": 3,
+  "text": "Un chip mide sin parar la carga en cada cruce.",
+  "start": 9.539,
+  "end": 12.27
+ },
+ {
+  "i": 4,
+  "text": "Tu dedo conduce la electricidad y altera la carga justo debajo.",
+  "start": 12.52,
+  "end": 16.211
+ },
+ {
+  "i": 5,
+  "text": "El chip encuentra el cruce que cambió: ahí está tu dedo.",
+  "start": 16.461,
+  "end": 19.469
+ },
+ {
+  "i": 6,
+  "text": "Un guante normal no conduce, así que la pantalla no lo nota.",
+  "start": 19.719,
+  "end": 22.876
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para descubrir cómo funcionan más cosas.",
+  "start": 23.126,
+  "end": 25.793
+ }
+]

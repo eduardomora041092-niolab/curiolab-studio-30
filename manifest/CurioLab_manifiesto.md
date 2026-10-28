@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-27T18:40-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-28T07:06-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 63
-- **PRODUCED**: 3
+- **PLANNED**: 60
+- **PRODUCED**: 6
 - **PUBLISHED**: 24
 
 ## Vídeos con actividad
@@ -39,6 +39,9 @@ Actualizado: 2026-10-27T18:40-04:00 (America/New_York) · Costo real: US$0
 | 025 | 2026-10-28 | ¿Cómo se infla un airbag tan rápido? | PRODUCED | — | — | PASS 27.033 s -15.6 LUFS |
 | 026 | 2026-10-28 | ¿Cómo frena un coche con frenos de disco? | PRODUCED | — | — | PASS 25.333 s -15.8 LUFS |
 | 027 | 2026-10-28 | ¿Por qué los gatos suelen caer de pie? | PRODUCED | — | — | PASS 26.067 s -15.6 LUFS |
+| 028 | 2026-10-29 | ¿Cómo detecta el humo un detector? | PRODUCED | — | — | PASS 26.333 s -15.6 LUFS |
+| 029 | 2026-10-29 | ¿Cómo sabe la pantalla dónde la tocas? | PRODUCED | — | — | PASS 26.767 s -15.6 LUFS |
+| 030 | 2026-10-29 | ¿Por qué burbujea un refresco? | PRODUCED | — | — | PASS 26.867 s -15.7 LUFS |
 
 ## Calendario completo
 
@@ -69,9 +72,9 @@ Actualizado: 2026-10-27T18:40-04:00 (America/New_York) · Costo real: US$0
 - 025 · 2026-10-28 · Mecanismo · ¿Cómo se infla un airbag tan rápido? · PRODUCED
 - 026 · 2026-10-28 · Mecanismo · ¿Cómo frena un coche con frenos de disco? · PRODUCED
 - 027 · 2026-10-28 · Ciencia · ¿Por qué los gatos suelen caer de pie? · PRODUCED
-- 028 · 2026-10-29 · Mecanismo · ¿Cómo detecta el humo un detector? · PLANNED
-- 029 · 2026-10-29 · Mecanismo · ¿Cómo sabe la pantalla dónde la tocas? · PLANNED
-- 030 · 2026-10-29 · Ciencia · ¿Por qué burbujea un refresco? · PLANNED
+- 028 · 2026-10-29 · Mecanismo · ¿Cómo detecta el humo un detector? · PRODUCED
+- 029 · 2026-10-29 · Mecanismo · ¿Cómo sabe la pantalla dónde la tocas? · PRODUCED
+- 030 · 2026-10-29 · Ciencia · ¿Por qué burbujea un refresco? · PRODUCED
 - 031 · 2026-10-30 · Mecanismo · ¿Cómo convierte un altavoz electricidad en sonido? · PLANNED
 - 032 · 2026-10-30 · Mecanismo · ¿Cómo convierte un micrófono tu voz en electricidad? · PLANNED
 - 033 · 2026-10-30 · Ciencia · ¿Por qué crece el pan? · PLANNED
