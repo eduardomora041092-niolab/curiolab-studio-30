@@ -208,3 +208,4 @@ timestamp_local,level,message
 2026-10-28T07:05:33-04:00,INFO,028 tiktok 6ae1d6fa9f6d7692cb1b03ab scheduled 
 2026-10-28T07:05:41-04:00,INFO,029 youtube 6ae1d7020629f8386881df00 scheduled 
 2026-10-28T07:06:55-04:00,INFO,"en espera por capacidad: 029 tiktok (cola de Buffer llena), 030 youtube (cola de Buffer llena), 030 tiktok (cola de Buffer llena)"
+2026-10-28T13:39:12-04:00,ERROR,"paso 2.1: la herramienta execute_query de Buffer no está disponible en esta sesión (solo create_post/list_posts/get_post...); sin instantánea con req_<nonce> no hay conciliación, métricas ni programación. 029 tiktok, 030 youtube y 030 tiktok siguen en espera (producidos y alojados)."

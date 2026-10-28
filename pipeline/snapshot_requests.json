@@ -106,5 +106,11 @@
   "issued": "2026-10-28T07:05:41-04:00",
   "purpose": "confirm",
   "used": "2026-10-28T07:06:55-04:00"
+ },
+ {
+  "nonce": "ef9823726ff7",
+  "issued": "2026-10-28T13:38:56-04:00",
+  "purpose": "reconcile",
+  "used": null
  }
 ]
