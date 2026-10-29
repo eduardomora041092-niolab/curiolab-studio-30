@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-29T07:19-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-29T13:51-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 57
-- **PRODUCED**: 6
-- **PUBLISHED**: 27
+- **PRODUCED**: 4
+- **PUBLISHED**: 29
 
 ## Vídeos con actividad
 
@@ -39,8 +39,8 @@ Actualizado: 2026-10-29T07:19-04:00 (America/New_York) · Costo real: US$0
 | 025 | 2026-10-28 | ¿Cómo se infla un airbag tan rápido? | PUBLISHED | https://www.youtube.com/shorts/g22fgkfmGFM | https://www.tiktok.com/@curiolabstudio30/video/7701704135225216269?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | PASS 27.033 s -15.6 LUFS |
 | 026 | 2026-10-28 | ¿Cómo frena un coche con frenos de disco? | PUBLISHED | https://www.youtube.com/shorts/Yjavf1S9Vc8 | https://tiktok.com/@curiolabstudio30/video/7701765852919631117 | PASS 25.333 s -15.8 LUFS |
 | 027 | 2026-10-28 | ¿Por qué los gatos suelen caer de pie? | PUBLISHED | https://www.youtube.com/shorts/GdLZAzi4Cys | https://tiktok.com/@curiolabstudio30/video/7701842159611301134 | PASS 26.067 s -15.6 LUFS |
-| 028 | 2026-10-29 | ¿Cómo detecta el humo un detector? | PRODUCED | — | — | PASS 26.333 s -15.6 LUFS |
-| 029 | 2026-10-29 | ¿Cómo sabe la pantalla dónde la tocas? | PRODUCED | — | — | PASS 26.767 s -15.6 LUFS |
+| 028 | 2026-10-29 | ¿Cómo detecta el humo un detector? | PUBLISHED | https://www.youtube.com/shorts/7rB5Zkg0GfQ | https://tiktok.com/@curiolabstudio30/video/7702074526539975949 | PASS 26.333 s -15.6 LUFS |
+| 029 | 2026-10-29 | ¿Cómo sabe la pantalla dónde la tocas? | PUBLISHED | https://www.youtube.com/shorts/ktUXMy-xxp4 | https://tiktok.com/@curiolabstudio30/video/7702135932345994510 | PASS 26.767 s -15.6 LUFS |
 | 030 | 2026-10-29 | ¿Por qué burbujea un refresco? | PRODUCED | — | — | PASS 26.867 s -15.7 LUFS |
 | 031 | 2026-10-30 | ¿Cómo convierte un altavoz electricidad en sonido? | PRODUCED | — | — | PASS 26.533 s -15.7 LUFS |
 | 032 | 2026-10-30 | ¿Cómo convierte un micrófono tu voz en electricidad? | PRODUCED | — | — | PASS 27.0 s -15.7 LUFS |
@@ -75,8 +75,8 @@ Actualizado: 2026-10-29T07:19-04:00 (America/New_York) · Costo real: US$0
 - 025 · 2026-10-28 · Mecanismo · ¿Cómo se infla un airbag tan rápido? · PUBLISHED
 - 026 · 2026-10-28 · Mecanismo · ¿Cómo frena un coche con frenos de disco? · PUBLISHED
 - 027 · 2026-10-28 · Ciencia · ¿Por qué los gatos suelen caer de pie? · PUBLISHED
-- 028 · 2026-10-29 · Mecanismo · ¿Cómo detecta el humo un detector? · PRODUCED
-- 029 · 2026-10-29 · Mecanismo · ¿Cómo sabe la pantalla dónde la tocas? · PRODUCED
+- 028 · 2026-10-29 · Mecanismo · ¿Cómo detecta el humo un detector? · PUBLISHED
+- 029 · 2026-10-29 · Mecanismo · ¿Cómo sabe la pantalla dónde la tocas? · PUBLISHED
 - 030 · 2026-10-29 · Ciencia · ¿Por qué burbujea un refresco? · PRODUCED
 - 031 · 2026-10-30 · Mecanismo · ¿Cómo convierte un altavoz electricidad en sonido? · PRODUCED
 - 032 · 2026-10-30 · Mecanismo · ¿Cómo convierte un micrófono tu voz en electricidad? · PRODUCED

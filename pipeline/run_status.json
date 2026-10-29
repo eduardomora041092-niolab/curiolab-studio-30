@@ -1,5 +1,31 @@
 {
  "run_id": "ea2704",
  "started": "2026-10-29T13:38:46-04:00",
- "stages": {}
+ "stages": {
+  "reconcile": {
+   "status": "PASS",
+   "msg": "ocupados 5/10, crear 3, en espera 0",
+   "at": "2026-10-29T13:44:09-04:00"
+  },
+  "metrics": {
+   "status": "PASS",
+   "msg": "4 posts capturados",
+   "at": "2026-10-29T13:44:31-04:00"
+  },
+  "pre-create": {
+   "status": "PASS",
+   "msg": "ocupados 5/10, crear 3, en espera 0",
+   "at": "2026-10-29T13:47:32-04:00"
+  },
+  "scheduling": {
+   "status": "PASS",
+   "msg": "3 creados y registrados de 3 autorizados",
+   "at": "2026-10-29T13:48:03-04:00"
+  },
+  "confirm": {
+   "status": "PASS",
+   "msg": "ocupados 8/10, crear 0, en espera 0",
+   "at": "2026-10-29T13:51:24-04:00"
+  }
+ }
 }

@@ -242,3 +242,17 @@ timestamp_local,level,message
 2026-10-29T07:19:16-04:00,INFO,"en espera por capacidad: 032 tiktok (cola de Buffer llena), 033 youtube (cola de Buffer llena), 033 tiktok (cola de Buffer llena)"
 2026-10-29T07:19:16-04:00,INFO,"etapa confirm: PASS ocupados 9/10, crear 0, en espera 3"
 2026-10-29T07:19:57-04:00,INFO,corrección: el informe de la ejecución de 06:37 (Drive CurioLab_run_2026-10-29_0656.txt) atribuyó 029 y 030 al 28-10 y los dio por vencidos; según calendar.json y Buffer (029 YT dueAt 2026-10-29T17:00Z = 13:00 ET) 029 y 030 son del 29-10 (13:00 y 18:00 ET) y no estaban vencidos; 031-033 son del 30-10.
+2026-10-29T13:44:09-04:00,INFO,conciliado 028 tiktok 6ae1d6fa9f6d7692cb1b03ab sent https://tiktok.com/@curiolabstudio30/video/7702074526539975949
+2026-10-29T13:44:09-04:00,INFO,conciliado 028 youtube 6ae1d6f354944146771221b4 sent https://www.youtube.com/shorts/7rB5Zkg0GfQ
+2026-10-29T13:44:09-04:00,INFO,conciliado 029 tiktok 6ae32aac0c2cf6705774df16 sent https://tiktok.com/@curiolabstudio30/video/7702135932345994510
+2026-10-29T13:44:09-04:00,INFO,conciliado 029 youtube 6ae1d7020629f8386881df00 sent https://www.youtube.com/shorts/ktUXMy-xxp4
+2026-10-29T13:44:09-04:00,INFO,"etapa reconcile: PASS ocupados 5/10, crear 3, en espera 0"
+2026-10-29T13:44:13-04:00,WARN,etapa metrics: PENDING 4 capturas pendientes
+2026-10-29T13:44:31-04:00,INFO,metrics appended for 4 posts
+2026-10-29T13:44:31-04:00,INFO,etapa metrics: PASS 4 posts capturados
+2026-10-29T13:47:32-04:00,INFO,"etapa pre-create: PASS ocupados 5/10, crear 3, en espera 0"
+2026-10-29T13:47:42-04:00,INFO,032 tiktok 6ae386ba145e9f24d45b7282 scheduled 
+2026-10-29T13:47:52-04:00,INFO,033 youtube 6ae386c5313060a14e1ff6fb scheduled 
+2026-10-29T13:48:03-04:00,INFO,033 tiktok 6ae386ce49b3849a24c8fa10 scheduled 
+2026-10-29T13:48:03-04:00,INFO,etapa scheduling: PASS 3 creados y registrados de 3 autorizados
+2026-10-29T13:51:24-04:00,INFO,"etapa confirm: PASS ocupados 8/10, crear 0, en espera 0"
