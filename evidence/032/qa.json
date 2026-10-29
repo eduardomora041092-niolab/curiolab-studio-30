@@ -1,0 +1,112 @@
+{
+ "id": "032",
+ "file": "/home/claude/curiolab/out/CurioLab_032.mp4",
+ "duration_s": 27.0,
+ "lufs": -15.7,
+ "video": {
+  "codec_name": "h264",
+  "codec_type": "video",
+  "width": 1080,
+  "height": 1920,
+  "r_frame_rate": "30/1"
+ },
+ "checks": {
+  "resolution_1080x1920": true,
+  "fps_30": true,
+  "video_h264": true,
+  "audio_aac": true,
+  "duration_25_35s": true,
+  "duration_matches_narration": true,
+  "one_scene_per_line": true,
+  "segments_ordered": true,
+  "narration_ends_before_video": true,
+  "loudness_-17_to_-12_LUFS": true
+ },
+ "all_pass": true,
+ "sync_sheet": "/home/claude/curiolab/work/032/final_sheet.png",
+ "segments": [
+  {
+   "i": 0,
+   "text": "¿Cómo convierte un micrófono tu voz en electricidad?",
+   "start": 0.0,
+   "end": 2.859
+  },
+  {
+   "i": 1,
+   "text": "Tu voz hace vibrar el aire, que empuja una membrana.",
+   "start": 3.109,
+   "end": 5.925
+  },
+  {
+   "i": 2,
+   "text": "En uno dinámico, la membrana lleva una bobina junto a un imán.",
+   "start": 6.175,
+   "end": 9.545
+  },
+  {
+   "i": 3,
+   "text": "Al vibrar, la bobina se mueve dentro del campo magnético.",
+   "start": 9.795,
+   "end": 12.889
+  },
+  {
+   "i": 4,
+   "text": "Mover un cable en un campo magnético genera corriente.",
+   "start": 13.139,
+   "end": 16.317
+  },
+  {
+   "i": 5,
+   "text": "Esa corriente sube y baja al ritmo de tu voz.",
+   "start": 16.567,
+   "end": 19.213
+  },
+  {
+   "i": 6,
+   "text": "Es un altavoz funcionando al revés: sonido convertido en señal.",
+   "start": 19.463,
+   "end": 23.089
+  },
+  {
+   "i": 7,
+   "text": "Sígueme para descubrir cómo funcionan más cosas.",
+   "start": 23.339,
+   "end": 26.006
+  }
+ ],
+ "editorial": {
+  "duration_s": 27.0,
+  "target_max_s": 28.0,
+  "duration_ok": true,
+  "hook_words": 8,
+  "hook_max_words": 9,
+  "hook_ok": true,
+  "rules_updated": "2026-10-29T06:39:21-04:00",
+  "measured": [
+   "001",
+   "002",
+   "003",
+   "004",
+   "005",
+   "006",
+   "007",
+   "008",
+   "009",
+   "010",
+   "011",
+   "012",
+   "013",
+   "014",
+   "015",
+   "016",
+   "017",
+   "018",
+   "019",
+   "020",
+   "021",
+   "022"
+  ],
+  "experiment": "gancho_en_accion",
+  "hook_question_ok": true
+ }
+}
