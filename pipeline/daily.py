@@ -14,6 +14,8 @@ Claude itself, and their results are written back here with `record` / `log`.
   python3 daily.py metrics FILE.json           -> appends Buffer per-post metrics to metrics.csv
   python3 daily.py log LEVEL MESSAGE           -> appends to logs/run_log.csv
   python3 daily.py export                      -> regenerates calendar CSV + manifest (MD/JSON)
+  python3 daily.py stage NAME STATUS [MSG]     -> records a stage outcome of THIS run in pipeline/run_status.json
+  python3 daily.py snapshot-links DIR          -> get_post calls needed for public links (MCP snapshot)
   python3 daily.py snapshot-query | queue SNAP.json | editorial | cycle   -> see queue_editorial.py
 """
 import csv, datetime as dt, json, os, shutil, subprocess, sys
@@ -51,6 +53,20 @@ def log(level, msg):
         w = csv.writer(fh)
         if new: w.writerow(["timestamp_local", "level", "message"])
         w.writerow([now_local().isoformat(timespec="seconds"), level, msg])
+
+RUN_STATUS = f"{REPO}/pipeline/run_status.json"
+STAGE_STATES = ("PASS", "FAIL", "BLOCKED", "PENDING", "SKIP")
+
+def stage(name, status, msg=""):
+    """Outcome of one stage of THIS run (reset by `lock acquire`). `cycle` derives the run verdict from it: production
+    alone never makes a run complete — reconcile, metrics, pre-create, scheduling and confirm must all PASS."""
+    assert status in STAGE_STATES, status
+    rs = load(RUN_STATUS, None) or {"run_id": None, "started": now_local().isoformat(timespec="seconds"), "stages": {}}
+    rs["stages"][name] = {"status": status, "msg": msg, "at": now_local().isoformat(timespec="seconds")}
+    save(RUN_STATUS, rs); log("INFO" if status in ("PASS", "SKIP") else "ERROR" if status in ("FAIL", "BLOCKED") else "WARN", f"etapa {name}: {status} {msg}".strip())
+
+def cmd_stage(args):
+    stage(args[0], args[1], " ".join(args[2:]))
 
 def cmd_guard(_):
     today = now_local().date()
@@ -106,6 +122,7 @@ def cmd_render(args):
         if os.path.exists(f"{REPO}/work/{vid}/{f}"): shutil.copy2(f"{REPO}/work/{vid}/{f}", f"{ev}/{f}")
     if qa["all_pass"] and v["estado"] == "PLANNED": v["estado"] = "PRODUCED"
     save(STATE, st); log("INFO" if qa["all_pass"] else "ERROR", f"{vid} QA all_pass={qa['all_pass']}")
+    stage(f"production_{vid}", "PASS" if qa["all_pass"] else "FAIL", f"{qa['duration_s']} s")
     sys.exit(0 if qa["all_pass"] else 2)
 
 def cmd_host(args):
@@ -164,7 +181,8 @@ def cmd_record(args):
     warn = QE.record_result(vid, platform, post_id, status)
     if warn: log("WARN", warn); print(f"WARN {warn}")
     if status == "failed":
-        log("ERROR", f"create_post {vid} {platform} falló: {url}"); print("OK (fallo registrado; no se crean más en este plan)"); return
+        log("ERROR", f"create_post {vid} {platform} falló: {url}"); stage("scheduling", "FAIL", f"create_post {vid} {platform}: {url}")
+        print("OK (fallo registrado; no se crean más en este plan)"); return
     st = state(); v = st["videos"][vid]
     v["posts"][platform] = {"post_id": post_id, "status": status, "url": url, "recorded": now_local().isoformat(timespec="seconds")}
     if all(v["posts"].get(p, {}).get("status") == "sent" for p in CHANNELS): v["estado"] = "PUBLISHED"
@@ -192,7 +210,7 @@ def cmd_metrics(args):
         for r in rows:
             for m in r.get("metrics", []):
                 w.writerow([now_local().isoformat(timespec="seconds"), r["video_id"], r["platform"], r["post_id"], m["type"], m["value"]])
-    log("INFO", f"metrics appended for {len(rows)} posts")
+    log("INFO", f"metrics appended for {len(rows)} posts"); stage("metrics", "PASS", f"{len(rows)} posts capturados")
 
 SENT_AT = f"{REPO}/logs/sent_at.json"
 BANDS = {"24h": (21, 45), "72h": (69, 93)}
@@ -219,6 +237,7 @@ def cmd_metrics_due(args):
             due.append({"video_id": vid, "platform": n.get("channelService") or ("youtube" if n["channelId"] == CHANNELS["youtube"] else "tiktok"),
                         "post_id": n["id"], "age_h": round(age, 1), "band": band})
     save(SENT_AT, sent); print(json.dumps(due, ensure_ascii=False, indent=1))
+    stage("metrics", "PENDING" if due else "PASS", f"{len(due)} capturas pendientes" if due else "sin capturas pendientes")
 
 GROUPS = [("001-012", "antes de reglas", "001", "012"), ("013-015", "R1+R2", "013", "015"),
           ("016-018", "R1+R2+R3", "016", "018"), ("019-027", "R1+R2+R3 + gancho_en_accion", "019", "027")]
@@ -299,10 +318,12 @@ def cmd_lock(args):
         if cur: log("WARN", f"lock caducado desde {cur['since']} retomado")
         tok = secrets.token_hex(8); save(p, {"since": now_local().isoformat(timespec="seconds"), "token": tok})
         open(tokfile, "w").write(tok)
+        save(RUN_STATUS, {"run_id": tok[:6], "started": now_local().isoformat(timespec="seconds"), "stages": {}})
     else:   # release (ownership checked above against the remote lock)
         if os.path.exists(p): os.remove(p)
     git("add", "-A", "pipeline/lock.json")
     if action == "acquire" and os.path.exists(f"{REPO}/logs/run_log.csv"): git("add", "logs/run_log.csv")   # keeps a takeover WARN
+    if action == "acquire": git("add", "pipeline/run_status.json")   # fresh stage journal for this run
     c = git("-c", "user.name=CurioLab bot", "-c", "user.email=noreply@anthropic.com", "commit", "-qm", f"lock {action}")
     if c.returncode != 0:
         print(f"ERROR: commit del candado falló: {(c.stderr or c.stdout).strip()[:300]}"); sys.exit(8 if action == "release" else 4)
@@ -354,6 +375,6 @@ def cmd_export(_):
 
 if __name__ == "__main__":
     {"guard": cmd_guard, "status": cmd_status, "render": cmd_render, "host": cmd_host, "caption": cmd_caption,
-     "record": cmd_record, "lock": cmd_lock, "metrics-due": cmd_metrics_due, "compare": cmd_compare, "metrics": cmd_metrics, "log": cmd_log, "export": cmd_export,
+     "record": cmd_record, "lock": cmd_lock, "metrics-due": cmd_metrics_due, "compare": cmd_compare, "metrics": cmd_metrics, "log": cmd_log, "export": cmd_export, "stage": cmd_stage,
      **{k: (lambda a, k=k: getattr(__import__("queue_editorial"), "cmd_" + k.replace("-", "_"))(a))
-        for k in ("snapshot-query", "queue", "create-next", "editorial", "cycle")}}[sys.argv[1]](sys.argv[2:])
+        for k in ("snapshot-query", "snapshot-links", "queue", "create-next", "editorial", "cycle")}}[sys.argv[1]](sys.argv[2:])

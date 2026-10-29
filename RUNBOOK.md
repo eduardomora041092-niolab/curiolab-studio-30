@@ -42,23 +42,38 @@ paso 7 (después del push y de comprobar la copia en Drive), también si la ejec
 - `ACTIVE`: continúa.
 
 ## 2. Instantánea de Buffer y conciliación (verifica lo publicado)
-1. `python3 pipeline/daily.py snapshot-query reconcile` → imprime `query`, `variables` y un `nonce` de un solo uso
-   (la consulta lleva el alias `req_<nonce>`, que Buffer devuelve en la respuesta). Llama a `execute_query` de Buffer
-   con `query` y `variables` tal cual (solo lectura) y guarda la salida COMPLETA de la herramienta, sin editar ni
-   recortar (incluido el objeto `rateLimit` final), en `/tmp/snap.json` con la herramienta Write. Nunca reconstruyas,
-   combines ni completes a mano una respuesta, ni reutilices un archivo de una consulta anterior.
-2. `python3 pipeline/daily.py queue /tmp/snap.json` → valida la instantánea (claves y organización), la archiva byte a
-   byte en `evidence/buffer/` (con SHA-256 en `evidence/buffer/index.csv`), concilia `state.json` con Buffer (estado
+**Desde el 2026-10-29 el conector de Buffer NO tiene `execute_query`.** Herramientas verificadas: `get_account`,
+`list_channels`, `get_channel`, `list_posts`, `get_post`, `create_post`, `edit_post`, `delete_post`, ideas, plantillas y
+`get_aggregated_post_metrics`. La instantánea se hace con llamadas de solo lectura a esas herramientas:
+- `get_account` → `organizations[].limits.scheduledPosts` y `currentTime` (reloj de Buffer, con zona): prueba de frescura.
+- `list_posts` (máx. 100 por página, `pageInfo.hasNextPage`/`endCursor`) → id, estado, `dueAt`, `sentAt`, canal, error y
+  título/duración del vídeo. **No** devuelve `externalLink`: el enlace público solo sale de `get_post`.
+- **Ninguna herramienta expone el límite diario por canal** (`dailyPostingLimits` del GraphQL anterior). Si Buffer
+  rechaza un `create_post` por ese límite, se registra `failed` y el plan se detiene (paso 6.2).
+1. `python3 pipeline/daily.py snapshot-query reconcile` → imprime `request_id`, `dir` y `calls`: la lista EXACTA de llamadas
+   (herramienta y argumentos) y el archivo de cada una. Haz las llamadas en ese orden (`get_account` la última) y guarda
+   con Write la salida COMPLETA de cada herramienta, sin editar ni recortar (incluido el objeto `rateLimit` final), en
+   `dir/<archivo>`. Si una lista trae `hasNextPage: true`, repite la misma llamada con `after` = `endCursor` y guárdala
+   como `<nombre>.p2.json` (`.p3.json`, …). Nunca reconstruyas, combines ni completes a mano una respuesta, ni reutilices
+   archivos de otra petición.
+   Enlaces: `python3 pipeline/daily.py snapshot-links <dir>` → lista las llamadas `get_post` necesarias (posts `sent` sin
+   enlace en `state.json`); guarda cada salida completa en el archivo que indica (`dir/link_<id>.json`).
+2. `python3 pipeline/daily.py queue <dir>` → valida cada archivo (claves, organización, que cada post cumpla el filtro de
+   su llamada, páginas completas y sin repetidos, `currentTime` posterior a la petición y como mucho 10 min después),
+   lo archiva byte a byte en `evidence/buffer/<carpeta>/` (con SHA-256 en `evidence/buffer/index.csv`), concilia `state.json` con Buffer (estado
    real, `externalLink` público, PUBLISHED cuando ambos canales están en `sent`), calcula la capacidad y escribe
    `pipeline/queue_plan.json`. Este plan es solo informativo (`for_create: false`): `create-next` lo rechaza.
+   Si falta un archivo o una página, responde `REFUSED: instantánea incompleta: …` diciendo exactamente qué llamada
+   falta: hazla y repite (o empieza con una petición nueva si han pasado más de 10 min). Ese rechazo queda como etapa
+   `reconcile BLOCKED`.
    Registra solo; no crees nada todavía. Avisos que imprime:
    - `RETRASO`: un post sigue `scheduled` 45 min después de su hora → repórtalo en el mensaje final (no lo edites).
-   - `SIN ENLACE`: `sent` sin enlace público → se reintenta en la siguiente ejecución.
+   - `SIN ENLACE`: `sent` sin enlace público (falta `get_post`, o Buffer aún no lo da) → se reintenta en la siguiente ejecución.
    - `DUPLICADO`: dos posts vivos del mismo vídeo y canal → ❌ en el mensaje final; no borres nada.
    - `blocked`: un post falló dos veces → ❌; no se vuelve a crear.
 
 ## 3. Métricas y ajuste editorial (antes de producir)
-1. `python3 pipeline/daily.py metrics-due /tmp/snap.json` → lista de posts a capturar ahora: la primera captura dentro
+1. `python3 pipeline/daily.py metrics-due <dir>` (la carpeta del paso 2) → lista de posts a capturar ahora: la primera captura dentro
    de la franja ~24 h (21–45 h desde `sentAt`), la primera dentro de ~72 h (69–93 h) y, si no, una al día a partir de
    21 h. Cada elemento trae `video_id` como texto de 3 cifras (p. ej. "008"). Para cada uno llama a `get_post` con
    `includeMetrics: true`, guarda `[{video_id, platform, post_id, metrics:[{type,value}]}]` (copiando `video_id`,
@@ -130,16 +145,22 @@ reglas editoriales aplicaste.
 
 ## 6. Programación según la capacidad real de Buffer (sin duplicados)
 1. Instantánea NUEVA justo antes de crear (obligatoria aunque la del paso 2 sea de hace un momento):
-   `snapshot-query pre-create` → `execute_query` → Write de la salida completa en `/tmp/snap_pre.json` →
-   `python3 pipeline/daily.py queue /tmp/snap_pre.json --for-create`. Se rechaza (`REFUSED`, código 5) si la respuesta
-   no contiene el `req_<nonce>` de una consulta emitida hace ≤ 10 min, si esa instantánea ya se usó antes o si está
-   incompleta: en ese caso repite este punto con una consulta nueva (no edites el archivo). El plan concilia por vídeo
+   `snapshot-query pre-create` → las llamadas de `calls` → Write de cada salida completa en su archivo de `dir` →
+   `python3 pipeline/daily.py queue <dir> --for-create`. Se rechaza (`REFUSED`, código 5) si la carpeta no corresponde a
+   una petición de `snapshot-query`, si el `currentTime` de `get_account` es anterior a la petición o tiene más de 10 min,
+   si esa instantánea ya se usó antes o si está incompleta: en ese caso repite este punto con una petición nueva (no
+   edites los archivos). El plan concilia por vídeo
    y canal con lo que hay realmente en Buffer: un (vídeo, canal) que ya tiene un post vivo no entra en `create`,
    aunque `state.json` no lo tenga registrado (p. ej. una ejecución anterior se cortó entre `create_post` y `record`).
    `create` solo incluye lo que cabe: límite de la organización (`limits.scheduledPosts`, hoy 10) − 1 de margen −
    posts `scheduled`/`sending`, en orden de hora de calendario (YouTube y luego TikTok). Lo demás queda en `waiting`
    con su motivo: no es un error, el vídeo queda producido y alojado y la siguiente ejecución lo programa. Un post en
    `error` se recrea una sola vez. El plan autoriza crear durante 10 min (`valid_until`).
+   **Horarios vencidos (política vigente, `caption()` en daily.py):** si la hora de calendario ya pasó (o faltan ≤ 5 min),
+   el post se crea con `shareNow`; si no, `customScheduled` a su hora; nunca antes de su hora.
+   *Propuesta pendiente de aprobación del dueño (NO aplicada):* esta política puede publicar varios vídeos vencidos a la
+   vez en un canal. Propuesta: como máximo un `shareNow` por canal y ejecución; los demás vencidos pasan al siguiente
+   hueco libre de calendario (09:00/13:00/18:00) con al menos 3 h de separación, respetando el orden de calendario.
 2. Bucle, un post cada vez: `python3 pipeline/daily.py create-next`.
    - Si imprime un elemento (JSON): `create_post` con `channelId`, `schedulingType: automatic`, `mode`, `dueAt` (si
      no es null), `text`, `assets: [{video:{url: asset.url, metadata:{title: asset.title}}}]` y `metadata` tal cual
@@ -152,14 +173,20 @@ reglas editoriales aplicaste.
    - `PENDING_RECORD` (código 6): falta el `record` del elemento anterior; regístralo (no lo vuelvas a crear).
    - `STALE`/`REFUSED` (código 5): el plan caducó o no autoriza crear; vuelve al punto 1 con una consulta nueva.
      Si no sabes si un `create_post` llegó a hacerse, NO lo repitas: la nueva instantánea lo mostrará y lo conciliará.
-3. Confirmación: `snapshot-query confirm` → `execute_query` → Write → `queue /tmp/snap_conf.json` (sin `--for-create`).
-   Debe salir `create: []` (o solo lo que siga sin capacidad); si aparece un `DUPLICADO`, ❌.
+3. Confirmación: `snapshot-query confirm` → las llamadas de `calls` → Write → `queue <dir>` (sin `--for-create`).
+   Debe salir `create: []` (o solo lo que siga sin capacidad); si aparece un `DUPLICADO`, ❌. Además, para cada post
+   creado en esta ejecución, `get_post <id>` y comprueba canal, `status: scheduled` y `dueAt` (o `sent` si fue `shareNow`).
    Todas las instantáneas quedan archivadas tal cual en `evidence/buffer/` y se suben con el commit del paso 7.
 
 ## 7. Ciclo y cierre
-1. `python3 pipeline/daily.py cycle` → PASS/PENDING de cada etapa (vídeo A: producido, alojado, programado,
-   publicado con enlace, métricas, usado por la regla editorial; vídeo B: producido con reglas que ya incluyen las
-   métricas de A, EDITORIAL PASS, programado). Copia el veredicto al resumen.
+1. `python3 pipeline/daily.py cycle` → `verdict` de ESTA ejecución, a partir de `pipeline/run_status.json` (diario de
+   etapas que `lock acquire` reinicia y que `queue`, `metrics-due`, `metrics`, `create-next`, `record` y `render` rellenan;
+   para lo demás, `daily.py stage <nombre> <PASS|FAIL|BLOCKED|PENDING|SKIP> "motivo"`):
+   - `COMPLETO`: reconcile, metrics, pre-create, scheduling y confirm en PASS.
+   - `PARCIAL`: Buffer se pudo leer pero alguna de esas etapas no pasó (se listan en `not_passed`).
+   - `BLOQUEADO`: no se pudo leer/conciliar Buffer (`reconcile` ≠ PASS).
+   **Producir vídeos con QA PASS no hace completa una ejecución.** `historical_cycle` (vídeos A y B del experimento) es
+   informativo y no sustituye al veredicto de la ejecución. Copia ambos al resumen.
 2. `python3 pipeline/daily.py export`.
 3. `python3 pipeline/daily.py lock check` → debe ser `OWNER`. Si es `NOT_OWNER`/`NONE` (otra ejecución retomó el
    candado caducado), NO hagas push: sube `pipeline/state.json` a Drive como `CurioLab_state_<fecha>_<hora>.json`,
@@ -179,7 +206,9 @@ reglas editoriales aplicaste.
    Si la sesión se interrumpe en cualquier punto, el candado queda en `main` como máximo 2 h; nadie más puede
    liberarlo antes (no tiene el token), y una ejecución tardía que vuelva después ya no podrá liberar el de la nueva.
 7. Mensaje final:
-   - Si todo fue bien: `✅ CurioLab <fecha> <hora>: NNN, NNN programados (YT y TT); NNN publicados; en espera: …; ciclo: PASS|PENDING`.
+   - Solo si `cycle` da `COMPLETO`: `✅ CurioLab <fecha> <hora>: NNN, NNN programados (YT y TT); NNN publicados; en espera: …; ejecución: COMPLETO`.
+   - Si da `PARCIAL` o `BLOQUEADO`: `❌ CurioLab <fecha> <hora>: ejecución PARCIAL|BLOQUEADO — <etapas que no pasaron y motivo>`,
+     aunque la producción haya ido bien, y el `CurioLab_ERROR_<fecha>.txt` de Drive.
    - Si una acción la bloquea el control de seguridad de la sesión, no intentes rodearlo: regístrala y repórtala.
    - Si algo falló: `❌ CurioLab ERROR <fecha>: <qué falló>`, y además crea en Drive
      `CurioLab_ERROR_<fecha>.txt` con el detalle. El aviso llega al teléfono y al correo del dueño.

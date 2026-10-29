@@ -91,7 +91,7 @@ def test_gate(A):
         st["videos"][vid].update(media_url=f"https://example.invalid/CurioLab_{vid}.mp4", qa={"all_pass": True, "duration_s": 26.0}, posts={})
     json.dump(st, open(f"{A}/pipeline/state.json", "w"))
     def fresh(purpose, extra=()):
-        rc, out = daily(A, "snapshot-query", purpose); q = json.loads(out)
+        rc, out = daily(A, "snapshot-query", purpose, "--graphql"); q = json.loads(out)
         assert f"req_{q['nonce']}: account" in q["query"]
         p = f"{TMP}/snap_{q['nonce']}.json"; open(p, "w").write(snapshot(live + list(extra), q["nonce"])); return p, q["nonce"]
     # informative plan (step 2) never authorises creates

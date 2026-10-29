@@ -1,9 +1,12 @@
 """CurioLab Studio 30 — dynamic Buffer queue, publication reconciliation, editorial feedback, cycle check.
 
 Called through daily.py:
-  python3 daily.py snapshot-query [PURPOSE]   -> JSON {query, variables, nonce} for Buffer execute_query (read-only)
-  python3 daily.py queue SNAP.json [--for-create] -> archives the raw response, reconciles state with Buffer, computes
-                                              free slots, prints the plan; only --for-create (fresh nonce) authorises it
+  python3 daily.py snapshot-query [PURPOSE]   -> JSON request: the exact read-only Buffer MCP calls (list_posts x3 +
+                                              get_account) and the directory where each raw output must be saved
+  python3 daily.py snapshot-links DIR        -> get_post calls still needed (sent posts without a public link)
+  python3 daily.py queue DIR [--for-create]  -> validates + archives the raw MCP outputs, reconciles state with Buffer,
+                                              computes free slots, prints the plan; only --for-create (fresh) authorises it
+  (legacy, only if Buffer ever exposes execute_query again: snapshot-query PURPOSE --graphql + queue SNAP.json)
   python3 daily.py create-next             -> next authorised post to create, one at a time (record after each)
   python3 daily.py editorial               -> recomputes pipeline/editorial.json from logs/metrics.csv and logs changes
   python3 daily.py cycle                   -> PASS/PENDING per stage of the autonomous cycle (evidence for the owner)
@@ -28,8 +31,130 @@ PLATFORM_OF = {v: k for k, v in D.CHANNELS.items()}
 DEFAULT_RULES = {"target_max_s": 33.0, "hook_max_words": 12, "caption_cta": False, "weak_category": None,
                  "applies_from": None}
 
-# ---------------------------------------------------------------- Buffer snapshot
+# ---------------------------------------------------------------- Buffer snapshot via MCP tools (default since 2026-10-29)
+# The Buffer connector has no execute_query (verified 2026-10-29: tools = get_account, list_channels, get_channel,
+# list_posts, get_post, create_post, edit_post, delete_post, ideas, templates, get_aggregated_post_metrics).
+# Verified capabilities: get_account -> organizations[].limits.scheduledPosts + currentTime (server clock, with offset);
+# list_posts -> id, status, dueAt, sentAt, channelId, channelService, error, assets[].video{title,durationMs} and
+# pageInfo{hasNextPage,endCursor} (max 100 per page), but NO externalLink; get_post -> externalLink.
+# NOT available through any tool: per-channel daily posting limits (GraphQL dailyPostingLimits).
+SNAP_ROOT = "/tmp/curiolab_snap"
+LIST_FILES = ("open", "errors", "recent")
+NODE_KEYS = ("id", "status", "channelId", "dueAt", "sentAt", "assets")
+MISSING_INFO = ["límite diario de publicación por canal (dailyPostingLimits): ninguna herramienta MCP de Buffer lo expone; "
+                "si Buffer rechaza un create_post por ese límite, se registra como failed y el plan se detiene"]
+
+def mcp_calls(since):
+    org, ch, srt = D.ORG, list(D.CHANNELS.values()), [{"field": "dueAt", "direction": "asc"}]
+    return [  # order matters: get_account LAST, so its server currentTime is not earlier than the lists
+        {"file": "open.json", "tool": "list_posts", "args": {"organizationId": org, "status": ["scheduled", "sending"], "first": 100, "sort": srt}},
+        {"file": "errors.json", "tool": "list_posts", "args": {"organizationId": org, "status": ["error"], "first": 100, "sort": srt}},
+        {"file": "recent.json", "tool": "list_posts", "args": {"organizationId": org, "channelIds": ch, "dueAt": {"start": since}, "first": 100, "sort": srt}},
+        {"file": "account.json", "tool": "get_account", "args": {}},
+    ]
+
+def raw_obj(path):
+    """First JSON value of a raw MCP output file (the tool appends a separate {"rateLimit": ...} object)."""
+    return json.JSONDecoder().raw_decode(open(path, encoding="utf-8").read().strip())[0]
+
+def load_mcp_dir(d, req=None):
+    """Validates the raw MCP outputs saved in directory d and returns (data, files, error). data has the same shape the
+    planner uses (account/open/errors/recent) plus _source/_missing. Nothing is invented: a list with hasNextPage=true
+    must come with its next page (<name>.p2.json, .p3.json …); a missing key or a node that does not match the filter
+    of its call makes the whole snapshot incomplete."""
+    req = req or {}; since = utc(req.get("since")) if req.get("since") else None
+    files = sorted(f for f in os.listdir(d) if f.endswith(".json"))
+    data = {"_source": "mcp", "_missing": list(MISSING_INFO), "limits": None}
+    try:
+        acct = raw_obj(f"{d}/account.json")
+    except FileNotFoundError:
+        return None, files, "falta account.json (salida de get_account)"
+    except ValueError as e:
+        return None, files, f"account.json ilegible: {e}"
+    org = next((o for o in acct.get("organizations") or [] if o.get("id") == D.ORG), None)
+    if org is None: return None, files, f"account.json no contiene la organización {D.ORG}"
+    if not isinstance((org.get("limits") or {}).get("scheduledPosts"), int): return None, files, "account.json sin organizations[].limits.scheduledPosts"
+    try:
+        ct = dt.datetime.fromisoformat(acct["currentTime"])
+        if ct.tzinfo is None: raise ValueError("sin zona horaria")
+    except (KeyError, ValueError, TypeError) as e:
+        return None, files, f"account.json sin currentTime válido ({e})"
+    data["account"] = acct; data["_server_time"] = ct.isoformat()
+    for name in LIST_FILES:
+        merged, seen, page, last_due = [], set(), 1, ""
+        while True:
+            fn = f"{name}.json" if page == 1 else f"{name}.p{page}.json"
+            if not os.path.exists(f"{d}/{fn}"):
+                if page == 1: return None, files, f"falta {fn} (salida de list_posts)"
+                return None, files, (f"{prev} tiene hasNextPage=true: llama a list_posts con los mismos argumentos y "
+                                     f"after=\"{end}\" y guarda la salida completa en {fn}")
+            try:
+                obj = raw_obj(f"{d}/{fn}")
+            except ValueError as e:
+                return None, files, f"{fn} ilegible: {e}"
+            pi = obj.get("pageInfo") if isinstance(obj, dict) else None
+            if not isinstance(obj, dict) or not isinstance(obj.get("edges"), list) or not isinstance(pi, dict) or not isinstance(pi.get("hasNextPage"), bool):
+                return None, files, f"{fn} no es una respuesta de list_posts (faltan edges/pageInfo.hasNextPage)"
+            for e in obj["edges"]:
+                n = (e or {}).get("node") or {}
+                miss = [k for k in NODE_KEYS if k not in n]
+                if miss: return None, files, f"{fn}: el post {n.get('id')} no trae {miss}"
+                bad = ((name == "open" and n["status"] not in ("scheduled", "sending")) or (name == "errors" and n["status"] != "error")
+                       or (name == "recent" and (n["channelId"] not in D.CHANNELS.values() or (since and n["dueAt"] and utc(n["dueAt"]) < since))))
+                if bad: return None, files, f"{fn}: el post {n['id']} ({n['status']}, {n['channelId']}, {n['dueAt']}) no corresponde al filtro de la llamada"
+                if n["id"] in seen: return None, files, f"{fn}: el post {n['id']} se repite entre páginas (paginación incorrecta)"
+                if (n.get("dueAt") or "") < last_due: return None, files, f"{fn}: orden por dueAt roto entre páginas (¿after incorrecto?)"
+                seen.add(n["id"]); last_due = n.get("dueAt") or last_due
+                n.setdefault("externalLink", None); merged.append(n)
+            if not pi["hasNextPage"]: break
+            prev, end, page = fn, pi.get("endCursor"), page + 1
+        data[name] = {"pageInfo": {"hasNextPage": False}, "edges": [{"node": n} for n in merged], "_pages": page}
+    for fn in files:   # get_post outputs for sent posts: only source of the public link
+        m = re.match(r"link_([a-f\d]{24})\.json$", fn)
+        if not m: continue
+        try:
+            g = raw_obj(f"{d}/{fn}")
+        except ValueError as e:
+            return None, files, f"{fn} ilegible: {e}"
+        if g.get("id") != m.group(1): return None, files, f"{fn} no es la salida de get_post({m.group(1)})"
+        for k in LIST_FILES:
+            for e in data[k]["edges"]:
+                if e["node"]["id"] == g["id"]:
+                    e["node"]["externalLink"] = g.get("externalLink"); e["node"]["status"] = g.get("status", e["node"]["status"])
+    return data, files, None
+
+def links_needed(data, st):
+    out = []
+    for n in nodes(data, "recent"):
+        plat = PLATFORM_OF.get(n["channelId"]); vid, _ = vid_of(n)
+        if n["status"] == "sent" and not n.get("externalLink") and vid in st["videos"]:
+            rec = st["videos"][vid]["posts"].get(plat, {})
+            if not (rec.get("post_id") == n["id"] and rec.get("url")): out.append({"video_id": vid, "platform": plat, "post_id": n["id"]})
+    return out
+
+def cmd_snapshot_links(args):
+    """snapshot-links DIR -> get_post calls still needed: sent posts whose public link is not yet in state.json."""
+    data, _, err = load_mcp_dir(args[0], next((r for r in D.load(REQUESTS, []) or [] if r.get("dir") == args[0].rstrip("/")), None))
+    if err: print(f"INCOMPLETE: {err}"); sys.exit(5)
+    need = links_needed(data, D.state())
+    print(json.dumps([{"tool": "get_post", "args": {"postId": x["post_id"]}, "file": f"{args[0].rstrip('/')}/link_{x['post_id']}.json", **x} for x in need], ensure_ascii=False, indent=1))
+
 def cmd_snapshot_query(args):
+    if "--graphql" in args: return cmd_snapshot_query_graphql([a for a in args if a != "--graphql"])
+    purpose = args[0] if args else "reconcile"
+    rid = secrets.token_hex(6); now = D.now_local(); d = f"{SNAP_ROOT}/{purpose}_{rid}"; os.makedirs(d, exist_ok=False)
+    since = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=RECENT_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    reqs = D.load(REQUESTS, []) or []
+    reqs.append({"nonce": rid, "mode": "mcp", "issued": now.isoformat(timespec="seconds"), "purpose": purpose, "since": since, "dir": d, "used": None})
+    D.save(REQUESTS, reqs[-200:])
+    print(json.dumps({"request_id": rid, "dir": d, "issued": now.isoformat(timespec="seconds"), "calls": mcp_calls(since),
+                      "instructions": ("Haz las llamadas en este orden (get_account la última) y guarda con Write la salida COMPLETA de "
+                                       "cada una, sin editar, en dir/file. Si una lista trae hasNextPage=true, repite la misma llamada con "
+                                       "after=endCursor y guárdala como <nombre>.p2.json (p3, …). Después: snapshot-links dir → get_post de "
+                                       "cada post indicado → dir/link_<id>.json. Por último: queue dir [--for-create]."),
+                      "missing_info": MISSING_INFO}, ensure_ascii=False, indent=1))
+
+def cmd_snapshot_query_graphql(args):
     """snapshot-query [PURPOSE] -> query + variables. Each call issues a one-time nonce that Buffer echoes back as the
     alias `req_<nonce>` in its response, so `queue --for-create` can prove the snapshot answers a query issued just now."""
     purpose = args[0] if args else "reconcile"
@@ -44,6 +169,38 @@ def cmd_snapshot_query(args):
                       "nonce": nonce}, ensure_ascii=False, indent=1))
 
 def check_and_archive(path, for_create, now):
+    if os.path.isdir(path): return check_and_archive_mcp(path, for_create, now)
+    return check_and_archive_graphql(path, for_create, now)
+
+def check_and_archive_mcp(d, for_create, now):
+    """MCP snapshot directory: validates every raw output, checks freshness against the request (and against Buffer's own
+    currentTime from get_account), refuses reuse, archives every file byte for byte under evidence/buffer/<name>/."""
+    d = d.rstrip("/"); reqs = D.load(REQUESTS, []) or []
+    req = next((r for r in reqs if r.get("mode") == "mcp" and r.get("dir") == d), None)
+    if req is None: return None, f"{d} no corresponde a ninguna petición emitida por snapshot-query"
+    data, files, err = load_mcp_dir(d, req)
+    if err: return None, f"instantánea incompleta: {err}"
+    issued = dt.datetime.fromisoformat(req["issued"]); ct = dt.datetime.fromisoformat(data["_server_time"])
+    if ct < issued - dt.timedelta(minutes=2): return None, f"get_account.currentTime {ct.isoformat()} es anterior a la petición ({req['issued']}): salida reutilizada"
+    if ct > issued + dt.timedelta(minutes=FRESH_MIN): return None, f"las llamadas se hicieron {(ct - issued).total_seconds() / 60:.0f} min después de la petición (> {FRESH_MIN})"
+    if for_create:
+        age = (now - ct).total_seconds() / 60
+        if age > FRESH_MIN: return None, f"instantánea de hace {age:.0f} min (> {FRESH_MIN}) según el reloj de Buffer: consulta de nuevo"
+        if req.get("used"): return None, f"la instantánea {req['nonce']} ya se usó ({req['used']}): consulta Buffer de nuevo"
+    req["used"] = req.get("used") or now.isoformat(timespec="seconds"); D.save(REQUESTS, reqs)
+    label = "pre-create" if for_create else req.get("purpose", "mcp")
+    name = f"{now.strftime('%Y%m%dT%H%M%S')}_{label}_{req['nonce']}"; out = f"{SNAP_DIR}/{name}"; os.makedirs(out, exist_ok=True)
+    idx = f"{SNAP_DIR}/index.csv"; new = not os.path.exists(idx); shas = {}
+    with open(idx, "a", newline="") as fh:
+        w = csv.writer(fh)
+        if new: w.writerow(["ingested_local", "file", "sha256", "bytes", "nonce", "nonce_issued", "for_create"])
+        for f in files:
+            raw = open(f"{d}/{f}", "rb").read(); open(f"{out}/{f}", "wb").write(raw); shas[f] = hashlib.sha256(raw).hexdigest()
+            w.writerow([now.isoformat(timespec="seconds"), f"{name}/{f}", shas[f], len(raw), req["nonce"], req["issued"], for_create])
+    return {"file": f"evidence/buffer/{name}/", "files": shas, "nonce": req["nonce"], "nonce_issued": req["issued"],
+            "buffer_time": data["_server_time"], "source": "mcp", "pages": {k: data[k]["_pages"] for k in LIST_FILES}}, None
+
+def check_and_archive_graphql(path, for_create, now):
     """Validates a raw snapshot file (the execute_query output saved unedited) and archives it byte for byte under
     evidence/buffer/. Returns (info, error). For posts creation it must answer a nonce issued <= FRESH_MIN min ago
     and not consumed before; a reused or old snapshot is refused."""
@@ -78,6 +235,10 @@ def check_and_archive(path, for_create, now):
             "nonce_issued": (req or {}).get("issued")}, None
 
 def read_snapshot(paths):
+    if len(paths) == 1 and os.path.isdir(paths[0]):
+        data, _, err = load_mcp_dir(paths[0].rstrip("/"), next((r for r in D.load(REQUESTS, []) or [] if r.get("dir") == paths[0].rstrip("/")), None))
+        if err: raise SystemExit(f"INCOMPLETE: {err}")
+        return data
     dec, data = json.JSONDecoder(), {}
     for p in paths:
         obj, _ = dec.raw_decode(open(p).read().strip())   # MCP output may carry a trailing rateLimit object
@@ -138,8 +299,8 @@ def plan_queue(data, st, cal, now):
         due = utc(pick.get("dueAt"))
         if pick["status"] in ("scheduled", "sending") and due and due < now - dt.timedelta(minutes=45):
             warnings.append(f"RETRASO {vid} {plat} {pick['id']}: debía salir {pick['dueAt']} y sigue {pick['status']}")
-        if pick["status"] == "sent" and not url:
-            warnings.append(f"SIN ENLACE {vid} {plat} {pick['id']}: sent sin externalLink; se reintenta en la próxima ejecución")
+        if pick["status"] == "sent" and not url and not v["posts"][plat].get("url"):
+            warnings.append(f"SIN ENLACE {vid} {plat} {pick['id']}: sent sin externalLink (get_post {pick['id']} → link_{pick['id']}.json); se reintenta en la próxima ejecución")
         if all(v["posts"].get(p, {}).get("status") == "sent" for p in D.CHANNELS): v["estado"] = "PUBLISHED"
     cands = []
     for vid, r in cal.items():
@@ -168,8 +329,16 @@ def plan_queue(data, st, cal, now):
         item["metadata"] = ({"youtube": {"title": c["youtube_title"], "categoryId": "27", "privacy": "public", "madeForKids": False, "isAiGenerated": True}}
                             if plat == "youtube" else {"tiktok": {"isAiGenerated": True}})
         create.append(item); free -= 1
+    if lim:
+        per_ch = [{k: l.get(k) for k in ("channelId", "scheduled", "sent", "limit", "isAtLimit")} for l in lim.values()]
+    else:   # MCP snapshot: counts from the posts themselves (local day, America/New_York); the limit itself is unknown
+        per_ch = []
+        for plat, ch in D.CHANNELS.items():
+            day = [n for n in posts.values() if n["channelId"] == ch and n.get("dueAt") and utc(n["dueAt"]).astimezone(D.TZ).date() == now.date()]
+            per_ch.append({"channelId": ch, "platform": plat, "scheduled": sum(n["status"] in ("scheduled", "sending") for n in day),
+                           "sent": sum(n["status"] == "sent" for n in day), "limit": None, "isAtLimit": None})
     return {"generated": now.isoformat(timespec="seconds"), "limit": limit, "safety_margin": SAFETY_MARGIN, "occupied": used,
-            "free_after_plan": free, "per_channel_today": [{k: l.get(k) for k in ("channelId", "scheduled", "sent", "limit", "isAtLimit")} for l in lim.values()],
+            "free_after_plan": free, "per_channel_today": per_ch, "missing_info": data.get("_missing") or [],
             "reconciled": reconciled, "create": create, "waiting": waiting, "blocked": blocked, "warnings": warnings}
 
 def cmd_queue(args):
@@ -178,10 +347,12 @@ def cmd_queue(args):
     `create` items for FRESH_MIN min, handed out one at a time by `create-next`."""
     for_create = "--for-create" in args; paths = [a for a in args if not a.startswith("--")]
     now = D.now_local(); infos = []
+    base = os.path.basename(paths[0].rstrip("/")) if paths else ""
+    purpose = "pre-create" if for_create else (base.split("_")[0] if os.path.isdir(paths[0]) else "reconcile")
     for pth in paths:
         info, err = check_and_archive(pth, for_create, now)
         if err:
-            D.log("ERROR", f"queue: {err}"); print(f"REFUSED: {err}"); sys.exit(5)
+            D.log("ERROR", f"queue: {err}"); D.stage(purpose, "BLOCKED", err); print(f"REFUSED: {err}"); sys.exit(5)
         infos.append(info)
     data = read_snapshot(paths); st = D.state(); cal = {r["id"]: r for r in D.load(D.CAL)}
     plan = plan_queue(data, st, cal, now)
@@ -199,6 +370,10 @@ def cmd_queue(args):
     for x in plan["warnings"]: D.log("WARN", x)
     for x in plan["blocked"]: D.log("ERROR", x)
     if plan["waiting"]: D.log("INFO", "en espera por capacidad: " + ", ".join(f"{w['id']} {w['platform']} ({w['reason']})" for w in plan["waiting"]))
+    dup = [w for w in plan["warnings"] if w.startswith("DUPLICADO")]
+    bad = dup + plan["blocked"] + ([f"{len(plan['create'])} sin programar tras crear"] if purpose == "confirm" and plan["create"] else [])
+    D.stage(purpose, "FAIL" if bad else "PASS", "; ".join(bad) if bad else
+            f"ocupados {plan['occupied']}/{plan['limit']}, crear {len(plan['create'])}, en espera {len(plan['waiting'])}")
     print(json.dumps(plan, ensure_ascii=False, indent=1))
 
 def cmd_create_next(_):
@@ -223,6 +398,8 @@ def cmd_create_next(_):
             print(f"REFUSED: {c['id']} {c['platform']} ya tiene post {cur['post_id']} registrado tras el plan"); sys.exit(5)
         plan.setdefault("offered", []).append({"id": c["id"], "platform": c["platform"], "offered": now.isoformat(timespec="seconds"), "result": None})
         D.save(PLAN, plan); print(json.dumps(c, ensure_ascii=False, indent=1)); return
+    ok = [o for o in plan.get("offered", []) if (o.get("result") or {}).get("status") not in (None, "failed")]
+    D.stage("scheduling", "PASS", f"{len(ok)} creados y registrados de {len(plan.get('create', []))} autorizados")
     print("NONE"); sys.exit(3)
 
 def record_result(vid, platform, post_id, status):
@@ -388,4 +565,15 @@ def cmd_cycle(_):
         rep["stages"]["B"] = {"id": None, "checks": {"waiting_for_A": False}}
     allok = A and B and all(rep["stages"]["A"]["checks"].values()) and all(rep["stages"]["B"]["checks"].values())
     rep["verdict"] = "PASS" if allok else "PENDING"
-    print(json.dumps(rep, ensure_ascii=False, indent=1))
+    # THIS run: production passing is not a complete cycle. Reconcile, metrics, pre-create, scheduling and confirm
+    # must all PASS in this run; otherwise the run is PARCIAL (or BLOQUEADO if Buffer could not even be read).
+    rs = D.load(D.RUN_STATUS, None) or {"stages": {}}; sg = rs.get("stages", {})
+    req = ("reconcile", "metrics", "pre-create", "scheduling", "confirm")
+    missing = [k for k in req if sg.get(k, {}).get("status") != "PASS"]
+    run_v = "BLOQUEADO" if sg.get("reconcile", {}).get("status") != "PASS" else ("COMPLETO" if not missing else "PARCIAL")
+    out = {"run": {"run_id": rs.get("run_id"), "started": rs.get("started"), "verdict": run_v,
+                   "required": {k: sg.get(k, {"status": "NO EJECUTADA"}) for k in req},
+                   "production": {k: v for k, v in sg.items() if k.startswith("production_")},
+                   "not_passed": missing},
+           "verdict": run_v, "historical_cycle": rep}
+    print(json.dumps(out, ensure_ascii=False, indent=1))
