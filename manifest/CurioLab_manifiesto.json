@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-10-29T13:51-04:00",
+ "actualizado": "2026-10-29T18:49-04:00",
  "estados": {
-  "PUBLISHED": 29,
-  "PRODUCED": 4,
+  "PUBLISHED": 30,
+  "PRODUCED": 3,
   "PLANNED": 57
  },
  "costo_real_usd": 0,
@@ -1617,19 +1617,19 @@
    "fecha": "2026-10-29",
    "titulo": "¿Por qué burbujea un refresco?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ae32ab635265d851e04ee34",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-29T07:15:06-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/iKMw1fYs3vU",
+     "recorded": "2026-10-29T18:43:41-04:00"
     },
     "tiktok": {
      "post_id": "6ae32ac00c2cf6705774f99d",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-29T07:15:16-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7702213160354237709",
+     "recorded": "2026-10-29T18:43:41-04:00"
     }
    },
    "qa": {

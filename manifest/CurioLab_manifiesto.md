@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-29T13:51-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-29T18:49-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 57
-- **PRODUCED**: 4
-- **PUBLISHED**: 29
+- **PRODUCED**: 3
+- **PUBLISHED**: 30
 
 ## Vídeos con actividad
 
@@ -41,7 +41,7 @@ Actualizado: 2026-10-29T13:51-04:00 (America/New_York) · Costo real: US$0
 | 027 | 2026-10-28 | ¿Por qué los gatos suelen caer de pie? | PUBLISHED | https://www.youtube.com/shorts/GdLZAzi4Cys | https://tiktok.com/@curiolabstudio30/video/7701842159611301134 | PASS 26.067 s -15.6 LUFS |
 | 028 | 2026-10-29 | ¿Cómo detecta el humo un detector? | PUBLISHED | https://www.youtube.com/shorts/7rB5Zkg0GfQ | https://tiktok.com/@curiolabstudio30/video/7702074526539975949 | PASS 26.333 s -15.6 LUFS |
 | 029 | 2026-10-29 | ¿Cómo sabe la pantalla dónde la tocas? | PUBLISHED | https://www.youtube.com/shorts/ktUXMy-xxp4 | https://tiktok.com/@curiolabstudio30/video/7702135932345994510 | PASS 26.767 s -15.6 LUFS |
-| 030 | 2026-10-29 | ¿Por qué burbujea un refresco? | PRODUCED | — | — | PASS 26.867 s -15.7 LUFS |
+| 030 | 2026-10-29 | ¿Por qué burbujea un refresco? | PUBLISHED | https://www.youtube.com/shorts/iKMw1fYs3vU | https://tiktok.com/@curiolabstudio30/video/7702213160354237709 | PASS 26.867 s -15.7 LUFS |
 | 031 | 2026-10-30 | ¿Cómo convierte un altavoz electricidad en sonido? | PRODUCED | — | — | PASS 26.533 s -15.7 LUFS |
 | 032 | 2026-10-30 | ¿Cómo convierte un micrófono tu voz en electricidad? | PRODUCED | — | — | PASS 27.0 s -15.7 LUFS |
 | 033 | 2026-10-30 | ¿Por qué crece el pan? | PRODUCED | — | — | PASS 26.0 s -15.6 LUFS |
@@ -77,7 +77,7 @@ Actualizado: 2026-10-29T13:51-04:00 (America/New_York) · Costo real: US$0
 - 027 · 2026-10-28 · Ciencia · ¿Por qué los gatos suelen caer de pie? · PUBLISHED
 - 028 · 2026-10-29 · Mecanismo · ¿Cómo detecta el humo un detector? · PUBLISHED
 - 029 · 2026-10-29 · Mecanismo · ¿Cómo sabe la pantalla dónde la tocas? · PUBLISHED
-- 030 · 2026-10-29 · Ciencia · ¿Por qué burbujea un refresco? · PRODUCED
+- 030 · 2026-10-29 · Ciencia · ¿Por qué burbujea un refresco? · PUBLISHED
 - 031 · 2026-10-30 · Mecanismo · ¿Cómo convierte un altavoz electricidad en sonido? · PRODUCED
 - 032 · 2026-10-30 · Mecanismo · ¿Cómo convierte un micrófono tu voz en electricidad? · PRODUCED
 - 033 · 2026-10-30 · Ciencia · ¿Por qué crece el pan? · PRODUCED
