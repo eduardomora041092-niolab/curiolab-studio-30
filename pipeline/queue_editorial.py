@@ -20,6 +20,9 @@ import daily as D
 
 SAFETY_MARGIN = 1          # keep one slot free: "si hay 9 o más, no crees más"
 RECENT_DAYS = 5            # window of posts fetched for reconciliation / duplicate detection
+# pre-create / confirm only need the posts around the videos still to schedule (older ones are already reconciled in
+# state.json, which plan_queue also checks); a shorter window keeps the raw MCP outputs small enough to save verbatim
+RECENT_DAYS_BY_PURPOSE = {"pre-create": 2, "confirm": 2}
 EDITORIAL = f"{D.REPO}/pipeline/editorial.json"
 EDITORIAL_LOG = f"{D.REPO}/logs/editorial_log.md"
 QUEUE_LOG = f"{D.REPO}/logs/queue_log.csv"
@@ -143,7 +146,8 @@ def cmd_snapshot_query(args):
     if "--graphql" in args: return cmd_snapshot_query_graphql([a for a in args if a != "--graphql"])
     purpose = args[0] if args else "reconcile"
     rid = secrets.token_hex(6); now = D.now_local(); d = f"{SNAP_ROOT}/{purpose}_{rid}"; os.makedirs(d, exist_ok=False)
-    since = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=RECENT_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    days = RECENT_DAYS_BY_PURPOSE.get(purpose, RECENT_DAYS)
+    since = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=days)).strftime("%Y-%m-%dT%H:%M:%SZ")
     reqs = D.load(REQUESTS, []) or []
     reqs.append({"nonce": rid, "mode": "mcp", "issued": now.isoformat(timespec="seconds"), "purpose": purpose, "since": since, "dir": d, "used": None})
     D.save(REQUESTS, reqs[-200:])
@@ -355,6 +359,8 @@ def cmd_queue(args):
             D.log("ERROR", f"queue: {err}"); D.stage(purpose, "BLOCKED", err); print(f"REFUSED: {err}"); sys.exit(5)
         infos.append(info)
     data = read_snapshot(paths); st = D.state(); cal = {r["id"]: r for r in D.load(D.CAL)}
+    old = D.load(PLAN, None)
+    if old and old.get("for_create") and old.get("offered"): D.save(PLAN + ".created", old)
     plan = plan_queue(data, st, cal, now)
     plan.update({"snapshots": infos, "for_create": for_create,
                  "valid_until": (now + dt.timedelta(minutes=FRESH_MIN)).isoformat(timespec="seconds") if for_create else None,
@@ -370,7 +376,22 @@ def cmd_queue(args):
     for x in plan["warnings"]: D.log("WARN", x)
     for x in plan["blocked"]: D.log("ERROR", x)
     if plan["waiting"]: D.log("INFO", "en espera por capacidad: " + ", ".join(f"{w['id']} {w['platform']} ({w['reason']})" for w in plan["waiting"]))
-    dup = [w for w in plan["warnings"] if w.startswith("DUPLICADO")]
+    if purpose == "confirm":   # every post created by the last authorised plan must be live in Buffer, right channel and time
+        prev = D.load(PLAN + ".created", None) or {}
+        live = {n["id"]: n for n in nodes(data, "open") + nodes(data, "recent")}
+        ver = []
+        for o in prev.get("offered", []):
+            r = o.get("result") or {}
+            if r.get("status") in (None, "failed"): continue
+            c = next((x for x in prev.get("create", []) if x["id"] == o["id"] and x["platform"] == o["platform"]), {})
+            n = live.get(r["post_id"])
+            ok = bool(n) and n["channelId"] == c.get("channelId") and n["status"] in ("scheduled", "sending", "sent") and \
+                 (c.get("dueAt") is None or utc(n["dueAt"]) == dt.datetime.fromisoformat(c["dueAt"]))
+            ver.append({"id": o["id"], "platform": o["platform"], "post_id": r["post_id"], "channelId": (n or {}).get("channelId"),
+                        "status": (n or {}).get("status"), "dueAt_buffer": (n or {}).get("dueAt"), "dueAt_plan": c.get("dueAt"), "ok": ok})
+            if not ok: plan["warnings"].append(f"NO VERIFICADO {o['id']} {o['platform']} {r['post_id']}: no aparece en Buffer con el canal/hora del plan")
+        plan["verified_created"] = ver
+    dup = [w for w in plan["warnings"] if w.startswith("DUPLICADO") or w.startswith("NO VERIFICADO")]
     bad = dup + plan["blocked"] + ([f"{len(plan['create'])} sin programar tras crear"] if purpose == "confirm" and plan["create"] else [])
     D.stage(purpose, "FAIL" if bad else "PASS", "; ".join(bad) if bad else
             f"ocupados {plan['occupied']}/{plan['limit']}, crear {len(plan['create'])}, en espera {len(plan['waiting'])}")
@@ -505,6 +526,8 @@ def cmd_editorial(_):
     out = {"updated": D.now_local().isoformat(timespec="seconds"), "rules": rules, "reasons": why, "evaluation": ev,
            "inputs": rows, "videos_measured": [r["id"] for r in rows]}
     if prev.get("experiment"): out["experiment"] = prev["experiment"]
+    # rules in force for videos before applies_from (caption() must not apply a new rule retroactively)
+    out["rules_before"] = prev.get("rules") if changed else prev.get("rules_before")
     D.save(EDITORIAL, out)
     if changed or not prev:
         new = not os.path.exists(EDITORIAL_LOG)

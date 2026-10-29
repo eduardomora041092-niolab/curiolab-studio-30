@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-29T06:56-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-29T07:19-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 57
-- **PRODUCED**: 9
-- **PUBLISHED**: 24
+- **PRODUCED**: 6
+- **PUBLISHED**: 27
 
 ## Vídeos con actividad
 
@@ -36,9 +36,9 @@ Actualizado: 2026-10-29T06:56-04:00 (America/New_York) · Costo real: US$0
 | 022 | 2026-10-27 | ¿Cómo suena una tecla de piano? | PUBLISHED | https://www.youtube.com/shorts/acv1dyhpGPA | https://tiktok.com/@curiolabstudio30/video/7701332841514208526 | PASS 25.7 s -15.8 LUFS |
 | 023 | 2026-10-27 | ¿Por qué el cinturón se bloquea en un frenazo? | PUBLISHED | https://www.youtube.com/shorts/t_nixTyJ0uw | https://tiktok.com/@curiolabstudio30/video/7701394222636715277 | PASS 25.467 s -15.8 LUFS |
 | 024 | 2026-10-27 | ¿Por qué existen las estaciones? | PUBLISHED | https://www.youtube.com/shorts/hgkvf2XceSY | https://tiktok.com/@curiolabstudio30/video/7701471163909721358 | PASS 25.567 s -15.6 LUFS |
-| 025 | 2026-10-28 | ¿Cómo se infla un airbag tan rápido? | PRODUCED | — | — | PASS 27.033 s -15.6 LUFS |
-| 026 | 2026-10-28 | ¿Cómo frena un coche con frenos de disco? | PRODUCED | — | — | PASS 25.333 s -15.8 LUFS |
-| 027 | 2026-10-28 | ¿Por qué los gatos suelen caer de pie? | PRODUCED | — | — | PASS 26.067 s -15.6 LUFS |
+| 025 | 2026-10-28 | ¿Cómo se infla un airbag tan rápido? | PUBLISHED | https://www.youtube.com/shorts/g22fgkfmGFM | https://www.tiktok.com/@curiolabstudio30/video/7701704135225216269?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | PASS 27.033 s -15.6 LUFS |
+| 026 | 2026-10-28 | ¿Cómo frena un coche con frenos de disco? | PUBLISHED | https://www.youtube.com/shorts/Yjavf1S9Vc8 | https://tiktok.com/@curiolabstudio30/video/7701765852919631117 | PASS 25.333 s -15.8 LUFS |
+| 027 | 2026-10-28 | ¿Por qué los gatos suelen caer de pie? | PUBLISHED | https://www.youtube.com/shorts/GdLZAzi4Cys | https://tiktok.com/@curiolabstudio30/video/7701842159611301134 | PASS 26.067 s -15.6 LUFS |
 | 028 | 2026-10-29 | ¿Cómo detecta el humo un detector? | PRODUCED | — | — | PASS 26.333 s -15.6 LUFS |
 | 029 | 2026-10-29 | ¿Cómo sabe la pantalla dónde la tocas? | PRODUCED | — | — | PASS 26.767 s -15.6 LUFS |
 | 030 | 2026-10-29 | ¿Por qué burbujea un refresco? | PRODUCED | — | — | PASS 26.867 s -15.7 LUFS |
@@ -72,9 +72,9 @@ Actualizado: 2026-10-29T06:56-04:00 (America/New_York) · Costo real: US$0
 - 022 · 2026-10-27 · Mecanismo · ¿Cómo suena una tecla de piano? · PUBLISHED
 - 023 · 2026-10-27 · Mecanismo · ¿Por qué el cinturón se bloquea en un frenazo? · PUBLISHED
 - 024 · 2026-10-27 · Ciencia · ¿Por qué existen las estaciones? · PUBLISHED
-- 025 · 2026-10-28 · Mecanismo · ¿Cómo se infla un airbag tan rápido? · PRODUCED
-- 026 · 2026-10-28 · Mecanismo · ¿Cómo frena un coche con frenos de disco? · PRODUCED
-- 027 · 2026-10-28 · Ciencia · ¿Por qué los gatos suelen caer de pie? · PRODUCED
+- 025 · 2026-10-28 · Mecanismo · ¿Cómo se infla un airbag tan rápido? · PUBLISHED
+- 026 · 2026-10-28 · Mecanismo · ¿Cómo frena un coche con frenos de disco? · PUBLISHED
+- 027 · 2026-10-28 · Ciencia · ¿Por qué los gatos suelen caer de pie? · PUBLISHED
 - 028 · 2026-10-29 · Mecanismo · ¿Cómo detecta el humo un detector? · PRODUCED
 - 029 · 2026-10-29 · Mecanismo · ¿Cómo sabe la pantalla dónde la tocas? · PRODUCED
 - 030 · 2026-10-29 · Ciencia · ¿Por qué burbujea un refresco? · PRODUCED

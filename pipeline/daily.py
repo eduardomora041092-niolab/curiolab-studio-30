@@ -158,7 +158,10 @@ def caption(vid, now=None):
     r = {x["id"]: x for x in load(CAL)}[vid]
     tags = "#CurioLab #ComoFunciona #Curiosidades #Ciencia" if r["categoria"] == "Mecanismo" else "#CurioLab #Ciencia #Curiosidades #Naturaleza"
     ed = load(f"{REPO}/pipeline/editorial.json", {}) or {}
-    cta = bool(ed.get("rules", {}).get("caption_cta"))          # editorial rule R2 (metrics-driven)
+    rules = ed.get("rules", {}) or {}
+    if rules.get("applies_from") and vid < rules["applies_from"] and ed.get("rules_before"):
+        rules = ed["rules_before"]   # never retroactive: videos before applies_from keep the rules they were made with
+    cta = bool(rules.get("caption_cta"))          # editorial rule R2 (metrics-driven)
     text = f"{r['gancho']} {r['titulo']}\n\nExplicado en menos de 35 segundos." + (f"\n\n{CTA_LINE}" if cta else "") + f"\n\n{tags} #Shorts"
     due = dt.datetime.combine(dt.date.fromisoformat(r["fecha"]), dt.time.fromisoformat(SLOT_TIMES[r["slot"]]), TZ)
     # Calendar slot in the future -> scheduled for that slot (normal design). Slot already passed -> shareNow.

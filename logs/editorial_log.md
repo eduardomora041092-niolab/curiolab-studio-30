@@ -44,3 +44,11 @@
   - R2: 0 comentarios en 40 publicaciones medidas → pregunta en el texto: sí
   - R3: visionado medio TikTok Mecanismo 8.3 s, Ciencia 8.6 s → categoría débil: ninguna
 - Datos: 001 ret 0.417 vis 12.02 s com 0; 002 ret 0.366 vis 11.81 s com 0; 003 ret 0.263 vis 8.28 s com 0; 004 ret 0.35 vis 10.93 s com 0; 005 ret 0.348 vis 10.34 s com 0; 006 ret 0.313 vis 9.01 s com 0; 007 ret 0.237 vis 7.04 s com 0; 008 ret 0.356 vis 9.55 s com 0; 009 ret 0.199 vis 5.43 s com 0; 010 ret 0.271 vis 7.94 s com 0; 011 ret 0.24 vis 7.2 s com 0; 012 ret 0.337 vis 9.5 s com 0; 013 ret 0.248 vis 6.87 s com 0; 014 ret 0.35 vis 9.35 s com 0; 015 ret 0.223 vis 5.94 s com 0; 016 ret 0.273 vis 7.44 s com 0; 017 ret 0.237 vis 6.57 s com 0; 018 ret 0.347 vis 9.23 s com 0; 019 ret 0.27 vis 7.18 s com 0; 020 ret 0.333 vis 8.7 s com 0
+
+## 2026-10-29T07:11:59-04:00 — aplica desde el vídeo 034
+- **caption_cta**: True → False
+- Motivos:
+  - R1: proporción media vista (visionado medio / duración) mediana TikTok 32% en 25 vídeos (umbral 40 %/50 %) → duración máx 28 s, gancho ≤ 9 palabras
+  - R2: 1 comentarios en 50 publicaciones medidas → pregunta en el texto: no
+  - R3: visionado medio TikTok Mecanismo 8.6 s, Ciencia 8.6 s → categoría débil: ninguna
+- Datos: 001 ret 0.417 vis 12.02 s com 0; 002 ret 0.366 vis 11.81 s com 0; 003 ret 0.263 vis 8.28 s com 0; 004 ret 0.35 vis 10.93 s com 0; 005 ret 0.348 vis 10.34 s com 0; 006 ret 0.313 vis 9.01 s com 0; 007 ret 0.237 vis 7.04 s com 0; 008 ret 0.356 vis 9.55 s com 0; 009 ret 0.199 vis 5.43 s com 0; 010 ret 0.271 vis 7.94 s com 0; 011 ret 0.24 vis 7.19 s com 0; 012 ret 0.337 vis 9.5 s com 0; 013 ret 0.255 vis 7.05 s com 0; 014 ret 0.332 vis 8.87 s com 0; 015 ret 0.223 vis 5.92 s com 0; 016 ret 0.274 vis 7.47 s com 0; 017 ret 0.236 vis 6.56 s com 0; 018 ret 0.344 vis 9.15 s com 0; 019 ret 0.265 vis 7.05 s com 0; 020 ret 0.327 vis 8.55 s com 0; 021 ret 0.305 vis 8.0 s com 0; 022 ret 0.325 vis 8.36 s com 0; 023 ret 0.428 vis 10.89 s com 0; 024 ret 0.394 vis 10.08 s com 0; 025 ret 0.452 vis 12.23 s com 1

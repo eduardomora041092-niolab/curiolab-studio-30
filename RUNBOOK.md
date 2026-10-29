@@ -174,8 +174,9 @@ reglas editoriales aplicaste.
    - `STALE`/`REFUSED` (código 5): el plan caducó o no autoriza crear; vuelve al punto 1 con una consulta nueva.
      Si no sabes si un `create_post` llegó a hacerse, NO lo repitas: la nueva instantánea lo mostrará y lo conciliará.
 3. Confirmación: `snapshot-query confirm` → las llamadas de `calls` → Write → `queue <dir>` (sin `--for-create`).
-   Debe salir `create: []` (o solo lo que siga sin capacidad); si aparece un `DUPLICADO`, ❌. Además, para cada post
-   creado en esta ejecución, `get_post <id>` y comprueba canal, `status: scheduled` y `dueAt` (o `sent` si fue `shareNow`).
+   Debe salir `create: []` (o solo lo que siga sin capacidad); si aparece un `DUPLICADO`, ❌. Además `queue` comprueba
+   solo (`verified_created`) que cada post creado en esta ejecución aparece en Buffer con el canal del plan, `status`
+   scheduled/sending/sent y el mismo `dueAt`; si no, `NO VERIFICADO` → etapa confirm FAIL → ❌.
    Todas las instantáneas quedan archivadas tal cual en `evidence/buffer/` y se suben con el commit del paso 7.
 
 ## 7. Ciclo y cierre

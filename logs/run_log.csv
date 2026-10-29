@@ -218,3 +218,27 @@ timestamp_local,level,message
 2026-10-29T06:55:09-04:00,INFO,032 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-032/CurioLab_032.mp4
 2026-10-29T06:56:15-04:00,INFO,033 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-033/CurioLab_033.mp4
 2026-10-29T06:56:31-04:00,INFO,"031, 032 y 033 producidos (QA + EDITORIAL PASS) y alojados; sin programar: falta execute_query de Buffer. En espera: 029 tiktok, 030 youtube, 030 tiktok, 031-033 youtube y tiktok."
+2026-10-29T07:11:16-04:00,INFO,conciliado 025 tiktok 6ae082cf3063753edf6e71ac sent https://www.tiktok.com/@curiolabstudio30/video/7701704135225216269?utm_campaign=tt4d_open_api&utm_source=7103819247981182978
+2026-10-29T07:11:16-04:00,INFO,conciliado 025 youtube 6ae082c72dee8577b89f2bc6 sent https://www.youtube.com/shorts/g22fgkfmGFM
+2026-10-29T07:11:16-04:00,INFO,conciliado 026 tiktok 6ae0e25fb83eef4600cf1f72 sent https://tiktok.com/@curiolabstudio30/video/7701765852919631117
+2026-10-29T07:11:16-04:00,INFO,conciliado 026 youtube 6ae082d6a5ccad78dbca446f sent https://www.youtube.com/shorts/Yjavf1S9Vc8
+2026-10-29T07:11:16-04:00,INFO,conciliado 027 tiktok 6ae0e270500f0a489fe919cc sent https://tiktok.com/@curiolabstudio30/video/7701842159611301134
+2026-10-29T07:11:16-04:00,INFO,conciliado 027 youtube 6ae0e26791cfaa7d0011388c sent https://www.youtube.com/shorts/GdLZAzi4Cys
+2026-10-29T07:11:16-04:00,INFO,"en espera por capacidad: 032 tiktok (cola de Buffer llena), 033 youtube (cola de Buffer llena), 033 tiktok (cola de Buffer llena)"
+2026-10-29T07:11:16-04:00,INFO,"etapa reconcile: PASS ocupados 3/10, crear 6, en espera 3"
+2026-10-29T07:11:21-04:00,WARN,etapa metrics: PENDING 26 capturas pendientes
+2026-10-29T07:11:59-04:00,INFO,metrics appended for 26 posts
+2026-10-29T07:11:59-04:00,INFO,etapa metrics: PASS 26 posts capturados
+2026-10-29T07:11:59-04:00,INFO,"editorial: cambios {'caption_cta': (True, False)} aplican desde 034"
+2026-10-29T07:14:45-04:00,INFO,"en espera por capacidad: 032 tiktok (cola de Buffer llena), 033 youtube (cola de Buffer llena), 033 tiktok (cola de Buffer llena)"
+2026-10-29T07:14:45-04:00,INFO,"etapa pre-create: PASS ocupados 3/10, crear 6, en espera 3"
+2026-10-29T07:14:56-04:00,INFO,029 tiktok 6ae32aac0c2cf6705774df16 scheduled 
+2026-10-29T07:15:06-04:00,INFO,030 youtube 6ae32ab635265d851e04ee34 scheduled 
+2026-10-29T07:15:16-04:00,INFO,030 tiktok 6ae32ac00c2cf6705774f99d scheduled 
+2026-10-29T07:15:27-04:00,INFO,031 youtube 6ae32acb35265d851e04fe6c scheduled 
+2026-10-29T07:15:37-04:00,INFO,031 tiktok 6ae32ad50c2cf67057750a9c scheduled 
+2026-10-29T07:15:48-04:00,INFO,032 youtube 6ae32adf568655049ec20c1e scheduled 
+2026-10-29T07:15:48-04:00,INFO,etapa scheduling: PASS 6 creados y registrados de 6 autorizados
+2026-10-29T07:19:16-04:00,INFO,"en espera por capacidad: 032 tiktok (cola de Buffer llena), 033 youtube (cola de Buffer llena), 033 tiktok (cola de Buffer llena)"
+2026-10-29T07:19:16-04:00,INFO,"etapa confirm: PASS ocupados 9/10, crear 0, en espera 3"
+2026-10-29T07:19:57-04:00,INFO,corrección: el informe de la ejecución de 06:37 (Drive CurioLab_run_2026-10-29_0656.txt) atribuyó 029 y 030 al 28-10 y los dio por vencidos; según calendar.json y Buffer (029 YT dueAt 2026-10-29T17:00Z = 13:00 ET) 029 y 030 son del 29-10 (13:00 y 18:00 ET) y no estaban vencidos; 031-033 son del 30-10.
