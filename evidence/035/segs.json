@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "¿Cómo genera luz la dinamo de una bicicleta?",
+  "start": 0.0,
+  "end": 2.496
+ },
+ {
+  "i": 1,
+  "text": "La rueda hace girar una ruedecita de la dinamo.",
+  "start": 2.746,
+  "end": 5.455
+ },
+ {
+  "i": 2,
+  "text": "Dentro, un imán gira rodeado por una bobina de cable.",
+  "start": 5.705,
+  "end": 8.649
+ },
+ {
+  "i": 3,
+  "text": "Al girar, cambia el campo magnético dentro de la bobina.",
+  "start": 8.899,
+  "end": 12.035
+ },
+ {
+  "i": 4,
+  "text": "Ese cambio genera corriente eléctrica en el cable: es la inducción.",
+  "start": 12.285,
+  "end": 15.933
+ },
+ {
+  "i": 5,
+  "text": "La corriente viaja por los cables y enciende la luz.",
+  "start": 16.183,
+  "end": 18.957
+ },
+ {
+  "i": 6,
+  "text": "Si dejas de pedalear, el imán se detiene y la luz se apaga.",
+  "start": 19.207,
+  "end": 22.407
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para descubrir cómo funcionan más cosas.",
+  "start": 22.657,
+  "end": 25.323
+ }
+]

@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-29T18:49-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-30T07:06-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 57
-- **PRODUCED**: 3
+- **PLANNED**: 54
+- **PRODUCED**: 6
 - **PUBLISHED**: 30
 
 ## Vídeos con actividad
@@ -45,6 +45,9 @@ Actualizado: 2026-10-29T18:49-04:00 (America/New_York) · Costo real: US$0
 | 031 | 2026-10-30 | ¿Cómo convierte un altavoz electricidad en sonido? | PRODUCED | — | — | PASS 26.533 s -15.7 LUFS |
 | 032 | 2026-10-30 | ¿Cómo convierte un micrófono tu voz en electricidad? | PRODUCED | — | — | PASS 27.0 s -15.7 LUFS |
 | 033 | 2026-10-30 | ¿Por qué crece el pan? | PRODUCED | — | — | PASS 26.0 s -15.6 LUFS |
+| 034 | 2026-10-31 | ¿Cómo gira un motor eléctrico? | PRODUCED | — | — | PASS 26.867 s -16.0 LUFS |
+| 035 | 2026-10-31 | ¿Cómo genera luz la dinamo de una bicicleta? | PRODUCED | — | — | PASS 26.3 s -15.7 LUFS |
+| 036 | 2026-10-31 | ¿Por qué se empaña el espejo del baño? | PRODUCED | — | — | PASS 26.433 s -15.7 LUFS |
 
 ## Calendario completo
 
@@ -81,9 +84,9 @@ Actualizado: 2026-10-29T18:49-04:00 (America/New_York) · Costo real: US$0
 - 031 · 2026-10-30 · Mecanismo · ¿Cómo convierte un altavoz electricidad en sonido? · PRODUCED
 - 032 · 2026-10-30 · Mecanismo · ¿Cómo convierte un micrófono tu voz en electricidad? · PRODUCED
 - 033 · 2026-10-30 · Ciencia · ¿Por qué crece el pan? · PRODUCED
-- 034 · 2026-10-31 · Mecanismo · ¿Cómo gira un motor eléctrico? · PLANNED
-- 035 · 2026-10-31 · Mecanismo · ¿Cómo genera luz la dinamo de una bicicleta? · PLANNED
-- 036 · 2026-10-31 · Ciencia · ¿Por qué se empaña el espejo del baño? · PLANNED
+- 034 · 2026-10-31 · Mecanismo · ¿Cómo gira un motor eléctrico? · PRODUCED
+- 035 · 2026-10-31 · Mecanismo · ¿Cómo genera luz la dinamo de una bicicleta? · PRODUCED
+- 036 · 2026-10-31 · Ciencia · ¿Por qué se empaña el espejo del baño? · PRODUCED
 - 037 · 2026-11-01 · Mecanismo · ¿Cómo produce luz un LED? · PLANNED
 - 038 · 2026-11-01 · Mecanismo · ¿Cómo calienta una placa de inducción? · PLANNED
 - 039 · 2026-11-01 · Ciencia · ¿Qué son las auroras boreales? · PLANNED
