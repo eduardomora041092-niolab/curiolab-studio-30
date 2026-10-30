@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-30T13:50-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-30T18:49-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 54
-- **PRODUCED**: 4
-- **PUBLISHED**: 32
+- **PRODUCED**: 3
+- **PUBLISHED**: 33
 
 ## Vídeos con actividad
 
@@ -44,7 +44,7 @@ Actualizado: 2026-10-30T13:50-04:00 (America/New_York) · Costo real: US$0
 | 030 | 2026-10-29 | ¿Por qué burbujea un refresco? | PUBLISHED | https://www.youtube.com/shorts/iKMw1fYs3vU | https://tiktok.com/@curiolabstudio30/video/7702213160354237709 | PASS 26.867 s -15.7 LUFS |
 | 031 | 2026-10-30 | ¿Cómo convierte un altavoz electricidad en sonido? | PUBLISHED | https://www.youtube.com/shorts/zdcVongAq5Y | https://tiktok.com/@curiolabstudio30/video/7702445729326861581 | PASS 26.533 s -15.7 LUFS |
 | 032 | 2026-10-30 | ¿Cómo convierte un micrófono tu voz en electricidad? | PUBLISHED | https://www.youtube.com/shorts/0OmauDx70Fw | https://tiktok.com/@curiolabstudio30/video/7702507361008618765 | PASS 27.0 s -15.7 LUFS |
-| 033 | 2026-10-30 | ¿Por qué crece el pan? | PRODUCED | — | — | PASS 26.0 s -15.6 LUFS |
+| 033 | 2026-10-30 | ¿Por qué crece el pan? | PUBLISHED | https://www.youtube.com/shorts/JJCPt2jfrE8 | https://tiktok.com/@curiolabstudio30/video/7702584209243753741 | PASS 26.0 s -15.6 LUFS |
 | 034 | 2026-10-31 | ¿Cómo gira un motor eléctrico? | PRODUCED | — | — | PASS 26.867 s -16.0 LUFS |
 | 035 | 2026-10-31 | ¿Cómo genera luz la dinamo de una bicicleta? | PRODUCED | — | — | PASS 26.3 s -15.7 LUFS |
 | 036 | 2026-10-31 | ¿Por qué se empaña el espejo del baño? | PRODUCED | — | — | PASS 26.433 s -15.7 LUFS |
@@ -83,7 +83,7 @@ Actualizado: 2026-10-30T13:50-04:00 (America/New_York) · Costo real: US$0
 - 030 · 2026-10-29 · Ciencia · ¿Por qué burbujea un refresco? · PUBLISHED
 - 031 · 2026-10-30 · Mecanismo · ¿Cómo convierte un altavoz electricidad en sonido? · PUBLISHED
 - 032 · 2026-10-30 · Mecanismo · ¿Cómo convierte un micrófono tu voz en electricidad? · PUBLISHED
-- 033 · 2026-10-30 · Ciencia · ¿Por qué crece el pan? · PRODUCED
+- 033 · 2026-10-30 · Ciencia · ¿Por qué crece el pan? · PUBLISHED
 - 034 · 2026-10-31 · Mecanismo · ¿Cómo gira un motor eléctrico? · PRODUCED
 - 035 · 2026-10-31 · Mecanismo · ¿Cómo genera luz la dinamo de una bicicleta? · PRODUCED
 - 036 · 2026-10-31 · Ciencia · ¿Por qué se empaña el espejo del baño? · PRODUCED

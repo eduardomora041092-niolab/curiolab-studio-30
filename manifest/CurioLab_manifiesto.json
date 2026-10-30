@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-10-30T13:50-04:00",
+ "actualizado": "2026-10-30T18:49-04:00",
  "estados": {
-  "PUBLISHED": 32,
-  "PRODUCED": 4,
+  "PUBLISHED": 33,
+  "PRODUCED": 3,
   "PLANNED": 54
  },
  "costo_real_usd": 0,
@@ -1845,19 +1845,19 @@
    "fecha": "2026-10-30",
    "titulo": "¿Por qué crece el pan?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ae386c5313060a14e1ff6fb",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-29T13:47:52-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/JJCPt2jfrE8",
+     "recorded": "2026-10-30T18:43:28-04:00"
     },
     "tiktok": {
      "post_id": "6ae386ce49b3849a24c8fa10",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-29T13:48:03-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7702584209243753741",
+     "recorded": "2026-10-30T18:43:28-04:00"
     }
    },
    "qa": {
