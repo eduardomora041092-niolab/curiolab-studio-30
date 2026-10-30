@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-30T07:06-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-30T13:50-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 54
-- **PRODUCED**: 6
-- **PUBLISHED**: 30
+- **PRODUCED**: 4
+- **PUBLISHED**: 32
 
 ## Vídeos con actividad
 
@@ -42,8 +42,8 @@ Actualizado: 2026-10-30T07:06-04:00 (America/New_York) · Costo real: US$0
 | 028 | 2026-10-29 | ¿Cómo detecta el humo un detector? | PUBLISHED | https://www.youtube.com/shorts/7rB5Zkg0GfQ | https://tiktok.com/@curiolabstudio30/video/7702074526539975949 | PASS 26.333 s -15.6 LUFS |
 | 029 | 2026-10-29 | ¿Cómo sabe la pantalla dónde la tocas? | PUBLISHED | https://www.youtube.com/shorts/ktUXMy-xxp4 | https://tiktok.com/@curiolabstudio30/video/7702135932345994510 | PASS 26.767 s -15.6 LUFS |
 | 030 | 2026-10-29 | ¿Por qué burbujea un refresco? | PUBLISHED | https://www.youtube.com/shorts/iKMw1fYs3vU | https://tiktok.com/@curiolabstudio30/video/7702213160354237709 | PASS 26.867 s -15.7 LUFS |
-| 031 | 2026-10-30 | ¿Cómo convierte un altavoz electricidad en sonido? | PRODUCED | — | — | PASS 26.533 s -15.7 LUFS |
-| 032 | 2026-10-30 | ¿Cómo convierte un micrófono tu voz en electricidad? | PRODUCED | — | — | PASS 27.0 s -15.7 LUFS |
+| 031 | 2026-10-30 | ¿Cómo convierte un altavoz electricidad en sonido? | PUBLISHED | https://www.youtube.com/shorts/zdcVongAq5Y | https://tiktok.com/@curiolabstudio30/video/7702445729326861581 | PASS 26.533 s -15.7 LUFS |
+| 032 | 2026-10-30 | ¿Cómo convierte un micrófono tu voz en electricidad? | PUBLISHED | https://www.youtube.com/shorts/0OmauDx70Fw | https://tiktok.com/@curiolabstudio30/video/7702507361008618765 | PASS 27.0 s -15.7 LUFS |
 | 033 | 2026-10-30 | ¿Por qué crece el pan? | PRODUCED | — | — | PASS 26.0 s -15.6 LUFS |
 | 034 | 2026-10-31 | ¿Cómo gira un motor eléctrico? | PRODUCED | — | — | PASS 26.867 s -16.0 LUFS |
 | 035 | 2026-10-31 | ¿Cómo genera luz la dinamo de una bicicleta? | PRODUCED | — | — | PASS 26.3 s -15.7 LUFS |
@@ -81,8 +81,8 @@ Actualizado: 2026-10-30T07:06-04:00 (America/New_York) · Costo real: US$0
 - 028 · 2026-10-29 · Mecanismo · ¿Cómo detecta el humo un detector? · PUBLISHED
 - 029 · 2026-10-29 · Mecanismo · ¿Cómo sabe la pantalla dónde la tocas? · PUBLISHED
 - 030 · 2026-10-29 · Ciencia · ¿Por qué burbujea un refresco? · PUBLISHED
-- 031 · 2026-10-30 · Mecanismo · ¿Cómo convierte un altavoz electricidad en sonido? · PRODUCED
-- 032 · 2026-10-30 · Mecanismo · ¿Cómo convierte un micrófono tu voz en electricidad? · PRODUCED
+- 031 · 2026-10-30 · Mecanismo · ¿Cómo convierte un altavoz electricidad en sonido? · PUBLISHED
+- 032 · 2026-10-30 · Mecanismo · ¿Cómo convierte un micrófono tu voz en electricidad? · PUBLISHED
 - 033 · 2026-10-30 · Ciencia · ¿Por qué crece el pan? · PRODUCED
 - 034 · 2026-10-31 · Mecanismo · ¿Cómo gira un motor eléctrico? · PRODUCED
 - 035 · 2026-10-31 · Mecanismo · ¿Cómo genera luz la dinamo de una bicicleta? · PRODUCED

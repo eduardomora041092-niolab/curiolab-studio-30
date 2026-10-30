@@ -1,23 +1,23 @@
 {
- "generated": "2026-10-30T07:05:24-04:00",
+ "generated": "2026-10-30T13:47:11-04:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 0,
+ "occupied": 5,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,17 @@
  "reconciled": [],
  "create": [
   {
-   "id": "034",
-   "platform": "youtube",
-   "channelId": "6ad73b1a778b240e2f677dbf",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-10-31T09:00:00-04:00",
-   "text": "Imanes que se persiguen sin alcanzarse. ¿Cómo gira un motor eléctrico?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-034/CurioLab_034.mp4",
-    "title": "CurioLab_034.mp4"
-   },
-   "metadata": {
-    "youtube": {
-     "title": "¿Cómo gira un motor eléctrico?",
-     "categoryId": "27",
-     "privacy": "public",
-     "madeForKids": false,
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "034",
+   "id": "035",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-10-31T09:00:00-04:00",
-   "text": "Imanes que se persiguen sin alcanzarse. ¿Cómo gira un motor eléctrico?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-10-31T13:00:00-04:00",
+   "text": "Pedaleas y se enciende la luz. ¿Cómo genera luz la dinamo de una bicicleta?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-034/CurioLab_034.mp4",
-    "title": "CurioLab_034.mp4",
-    "thumbnailOffset": 1578
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-035/CurioLab_035.mp4",
+    "title": "CurioLab_035.mp4",
+    "thumbnailOffset": 2346
    },
    "metadata": {
     "tiktok": {
@@ -69,62 +47,62 @@
    }
   },
   {
-   "id": "035",
+   "id": "036",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-10-31T13:00:00-04:00",
-   "text": "Pedaleas y se enciende la luz. ¿Cómo genera luz la dinamo de una bicicleta?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-10-31T18:00:00-04:00",
+   "text": "El vapor está ahí, pero no lo ves. ¿Por qué se empaña el espejo del baño?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-035/CurioLab_035.mp4",
-    "title": "CurioLab_035.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-036/CurioLab_036.mp4",
+    "title": "CurioLab_036.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Cómo genera luz la dinamo de una bicicleta?",
+     "title": "¿Por qué se empaña el espejo del baño?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  }
- ],
- "waiting": [
-  {
-   "id": "035",
-   "platform": "tiktok",
-   "dueAt": "2026-10-31T13:00:00-04:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "036",
-   "platform": "youtube",
-   "dueAt": "2026-10-31T18:00:00-04:00",
-   "reason": "cola de Buffer llena"
   },
   {
    "id": "036",
    "platform": "tiktok",
+   "channelId": "6ad739bd778b240e2f677654",
+   "reason": "nuevo",
+   "mode": "customScheduled",
    "dueAt": "2026-10-31T18:00:00-04:00",
-   "reason": "cola de Buffer llena"
+   "text": "El vapor está ahí, pero no lo ves. ¿Por qué se empaña el espejo del baño?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-036/CurioLab_036.mp4",
+    "title": "CurioLab_036.mp4",
+    "thumbnailOffset": 1962
+   },
+   "metadata": {
+    "tiktok": {
+     "isAiGenerated": true
+    }
+   }
   }
  ],
+ "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261030T070524_pre-create_b483af1edea1/",
+   "file": "evidence/buffer/20261030T134711_pre-create_3b4ee6e35081/",
    "files": {
-    "account.json": "0e05b2feb42c50b584b3203f5707f4f2f7ac14f459368b226e964e38f83fe1fc",
-    "errors.json": "2af7279b76361458328aaaa5d8aca67ea229ccec113f65b75d97c57815112f2a",
-    "open.json": "b7f8851971407c579d091c6c414511503df5bffe280a7c1a55f644652483903e",
-    "recent.json": "9b1865854e57583eba79942aed8942be08c5d88d195ce4b17b8df0ae34e59a31"
+    "account.json": "8905343b9d395d9eb8fa9ba89759ce57ff3717472b772a06f16dedbeb910ddb5",
+    "errors.json": "9c0407fc1ce43f9dddd9645c84c9a86a574b5c7ece9783666389ead2a907d3db",
+    "open.json": "9d8f469a5b77aaf236948d8a07393d9c3898db870c92e16ec7602436537083db",
+    "recent.json": "8613950ea9a07ef843fbf96b23885d263b681300902dcdb5b9724a7c33ab7d27"
    },
-   "nonce": "b483af1edea1",
-   "nonce_issued": "2026-10-30T07:05:01-04:00",
-   "buffer_time": "2026-10-30T07:05:08-04:00",
+   "nonce": "3b4ee6e35081",
+   "nonce_issued": "2026-10-30T13:44:25-04:00",
+   "buffer_time": "2026-10-30T13:44:42-04:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -134,36 +112,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-10-30T07:15:24-04:00",
+ "valid_until": "2026-10-30T13:57:11-04:00",
  "offered": [
   {
-   "id": "034",
-   "platform": "youtube",
-   "offered": "2026-10-30T07:05:27-04:00",
-   "result": {
-    "post_id": "6ae479fcc56bf7afb3adc04c",
-    "status": "scheduled",
-    "at": "2026-10-30T07:05:35-04:00"
-   }
-  },
-  {
-   "id": "034",
-   "platform": "tiktok",
-   "offered": "2026-10-30T07:05:35-04:00",
-   "result": {
-    "post_id": "6ae47a04e97270550556009c",
-    "status": "scheduled",
-    "at": "2026-10-30T07:05:42-04:00"
-   }
-  },
-  {
    "id": "035",
-   "platform": "youtube",
-   "offered": "2026-10-30T07:05:42-04:00",
+   "platform": "tiktok",
+   "offered": "2026-10-30T13:47:12-04:00",
    "result": {
-    "post_id": "6ae47a0cab6b84214cceb2ea",
+    "post_id": "6ae4d82698505e7f5226ed9f",
     "status": "scheduled",
-    "at": "2026-10-30T07:05:51-04:00"
+    "at": "2026-10-30T13:47:21-04:00"
+   }
+  },
+  {
+   "id": "036",
+   "platform": "youtube",
+   "offered": "2026-10-30T13:47:21-04:00",
+   "result": {
+    "post_id": "6ae4d82f34702c2daac2bfd0",
+    "status": "scheduled",
+    "at": "2026-10-30T13:47:31-04:00"
+   }
+  },
+  {
+   "id": "036",
+   "platform": "tiktok",
+   "offered": "2026-10-30T13:47:31-04:00",
+   "result": {
+    "post_id": "6ae4d83998505e7f5226f168",
+    "status": "scheduled",
+    "at": "2026-10-30T13:47:41-04:00"
    }
   }
  ]
