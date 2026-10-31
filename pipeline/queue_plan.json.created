@@ -1,23 +1,23 @@
 {
- "generated": "2026-10-31T06:59:55-04:00",
+ "generated": "2026-10-31T13:47:16-04:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 0,
+ "occupied": 5,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,17 @@
  "reconciled": [],
  "create": [
   {
-   "id": "037",
-   "platform": "youtube",
-   "channelId": "6ad73b1a778b240e2f677dbf",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-01T09:00:00-05:00",
-   "text": "No tiene filamento y se calienta mucho menos que una bombilla clásica. ¿Cómo produce luz un LED?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-037/CurioLab_037.mp4",
-    "title": "CurioLab_037.mp4"
-   },
-   "metadata": {
-    "youtube": {
-     "title": "¿Cómo produce luz un LED?",
-     "categoryId": "27",
-     "privacy": "public",
-     "madeForKids": false,
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "037",
+   "id": "038",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-01T09:00:00-05:00",
-   "text": "No tiene filamento y se calienta mucho menos que una bombilla clásica. ¿Cómo produce luz un LED?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-01T13:00:00-05:00",
+   "text": "La placa no quema, la sartén sí. ¿Cómo calienta una placa de inducción?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-037/CurioLab_037.mp4",
-    "title": "CurioLab_037.mp4",
-    "thumbnailOffset": 1599
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-038/CurioLab_038.mp4",
+    "title": "CurioLab_038.mp4",
+    "thumbnailOffset": 1898
    },
    "metadata": {
     "tiktok": {
@@ -69,62 +47,62 @@
    }
   },
   {
-   "id": "038",
+   "id": "039",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-01T13:00:00-05:00",
-   "text": "La placa no quema, la sartén sí. ¿Cómo calienta una placa de inducción?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-01T18:00:00-05:00",
+   "text": "Luces en el cielo causadas por el Sol. ¿Qué son las auroras boreales?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-038/CurioLab_038.mp4",
-    "title": "CurioLab_038.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-039/CurioLab_039.mp4",
+    "title": "CurioLab_039.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Cómo calienta una placa de inducción?",
+     "title": "¿Qué son las auroras boreales?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  }
- ],
- "waiting": [
-  {
-   "id": "038",
-   "platform": "tiktok",
-   "dueAt": "2026-11-01T13:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "039",
-   "platform": "youtube",
-   "dueAt": "2026-11-01T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
   },
   {
    "id": "039",
    "platform": "tiktok",
+   "channelId": "6ad739bd778b240e2f677654",
+   "reason": "nuevo",
+   "mode": "customScheduled",
    "dueAt": "2026-11-01T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
+   "text": "Luces en el cielo causadas por el Sol. ¿Qué son las auroras boreales?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-039/CurioLab_039.mp4",
+    "title": "CurioLab_039.mp4",
+    "thumbnailOffset": 1621
+   },
+   "metadata": {
+    "tiktok": {
+     "isAiGenerated": true
+    }
+   }
   }
  ],
+ "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261031T065955_pre-create_3730a4e38448/",
+   "file": "evidence/buffer/20261031T134716_pre-create_ad4ad3241d61/",
    "files": {
-    "account.json": "ff362b17bca0ab69b8635d4fe79fe04087cc8b26176a5524f0df6fd62cfb310c",
-    "errors.json": "507616857f40f64bc93398485e1ec624df7f8bc16db6045d84d5b8b615c812f3",
-    "open.json": "0e6da924c448a927ef4c96bab158b96df5c98a99d24fd43477294954d6afb71e",
-    "recent.json": "e9536c9cc689f1b6ac4661b35fe1692c992950a0b68891e966301b7600f6ce64"
+    "account.json": "da19a1f067ea9cec4618f5d9f727b4025b6f45ae165bd6b1d442150a5df63df2",
+    "errors.json": "f072c9339767bd7078abf4e4e87ae04827bd6f6c4875e01494ec0676da730ed4",
+    "open.json": "02ddaea1b63b45f14c03beabb4f392f6bb2a159ce8b234b3d3e16f250acea2dd",
+    "recent.json": "bb13d4a89220729a25c4c4f8883485762690171238826fb594a7431f82c3f3d9"
    },
-   "nonce": "3730a4e38448",
-   "nonce_issued": "2026-10-31T06:57:09-04:00",
-   "buffer_time": "2026-10-31T06:57:14-04:00",
+   "nonce": "ad4ad3241d61",
+   "nonce_issued": "2026-10-31T13:44:37-04:00",
+   "buffer_time": "2026-10-31T13:44:49-04:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -134,36 +112,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-10-31T07:09:55-04:00",
+ "valid_until": "2026-10-31T13:57:16-04:00",
  "offered": [
   {
-   "id": "037",
-   "platform": "youtube",
-   "offered": "2026-10-31T06:59:57-04:00",
-   "result": {
-    "post_id": "6ae5ca32ceb491e585f071f2",
-    "status": "scheduled",
-    "at": "2026-10-31T07:00:05-04:00"
-   }
-  },
-  {
-   "id": "037",
-   "platform": "tiktok",
-   "offered": "2026-10-31T07:00:05-04:00",
-   "result": {
-    "post_id": "6ae5ca3b406ab8a018b2ffa8",
-    "status": "scheduled",
-    "at": "2026-10-31T07:00:13-04:00"
-   }
-  },
-  {
    "id": "038",
-   "platform": "youtube",
-   "offered": "2026-10-31T07:00:13-04:00",
+   "platform": "tiktok",
+   "offered": "2026-10-31T13:47:20-04:00",
    "result": {
-    "post_id": "6ae5ca441891472093ca7a07",
+    "post_id": "6ae629aeab019b908717a241",
     "status": "scheduled",
-    "at": "2026-10-31T07:00:23-04:00"
+    "at": "2026-10-31T13:47:36-04:00"
+   }
+  },
+  {
+   "id": "039",
+   "platform": "youtube",
+   "offered": "2026-10-31T13:47:36-04:00",
+   "result": {
+    "post_id": "6ae629be37c1acd2a0c11c8e",
+    "status": "scheduled",
+    "at": "2026-10-31T13:47:45-04:00"
+   }
+  },
+  {
+   "id": "039",
+   "platform": "tiktok",
+   "offered": "2026-10-31T13:47:45-04:00",
+   "result": {
+    "post_id": "6ae629c737c1acd2a0c11e70",
+    "status": "scheduled",
+    "at": "2026-10-31T13:47:55-04:00"
    }
   }
  ]

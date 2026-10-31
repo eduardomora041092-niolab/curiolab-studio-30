@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-10-31T07:03-04:00",
+ "actualizado": "2026-10-31T13:51-04:00",
  "estados": {
-  "PUBLISHED": 33,
-  "PRODUCED": 6,
+  "PUBLISHED": 35,
+  "PRODUCED": 4,
   "PLANNED": 51
  },
  "costo_real_usd": 0,
@@ -1921,19 +1921,19 @@
    "fecha": "2026-10-31",
    "titulo": "¿Cómo gira un motor eléctrico?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ae479fcc56bf7afb3adc04c",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-30T07:05:35-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/J00f75hs5uo",
+     "recorded": "2026-10-31T13:44:07-04:00"
     },
     "tiktok": {
      "post_id": "6ae47a04e97270550556009c",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-30T07:05:42-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7702816417913015566",
+     "recorded": "2026-10-31T13:44:07-04:00"
     }
    },
    "qa": {
@@ -2003,19 +2003,19 @@
    "fecha": "2026-10-31",
    "titulo": "¿Cómo genera luz la dinamo de una bicicleta?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ae47a0cab6b84214cceb2ea",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-30T07:05:51-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/ACLeL6OIgZo",
+     "recorded": "2026-10-31T13:44:07-04:00"
     },
     "tiktok": {
      "post_id": "6ae4d82698505e7f5226ed9f",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-30T13:47:21-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7702878287953005837",
+     "recorded": "2026-10-31T13:44:07-04:00"
     }
    },
    "qa": {
@@ -2259,6 +2259,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-10-31T07:00:23-04:00"
+    },
+    "tiktok": {
+     "post_id": "6ae629aeab019b908717a241",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-31T13:47:36-04:00"
     }
    },
    "qa": {
@@ -2332,7 +2338,20 @@
    "titulo": "¿Qué son las auroras boreales?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6ae629be37c1acd2a0c11c8e",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-31T13:47:45-04:00"
+    },
+    "tiktok": {
+     "post_id": "6ae629c737c1acd2a0c11e70",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-10-31T13:47:55-04:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 27.7,
@@ -2396,7 +2415,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-039/CurioLab_039.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 27700
   },
   "040": {
    "fecha": "2026-11-02",
