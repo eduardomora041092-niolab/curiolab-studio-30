@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "¿Cómo calienta una placa de inducción?",
+  "start": 0.0,
+  "end": 2.048
+ },
+ {
+  "i": 1,
+  "text": "Bajo el cristal hay una bobina de cobre enrollada.",
+  "start": 2.298,
+  "end": 5.007
+ },
+ {
+  "i": 2,
+  "text": "Por ella pasa corriente alterna, que cambia de sentido sin parar.",
+  "start": 5.257,
+  "end": 8.756
+ },
+ {
+  "i": 3,
+  "text": "Eso crea un campo magnético que también cambia todo el tiempo.",
+  "start": 9.006,
+  "end": 12.59
+ },
+ {
+  "i": 4,
+  "text": "Ese campo atraviesa la base metálica de la sartén.",
+  "start": 12.84,
+  "end": 15.869
+ },
+ {
+  "i": 5,
+  "text": "Allí induce corrientes eléctricas que calientan el propio metal.",
+  "start": 16.119,
+  "end": 19.639
+ },
+ {
+  "i": 6,
+  "text": "Por eso el calor nace en la sartén, no en el cristal.",
+  "start": 19.889,
+  "end": 22.705
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para descubrir cómo funcionan más cosas.",
+  "start": 22.955,
+  "end": 25.622
+ }
+]

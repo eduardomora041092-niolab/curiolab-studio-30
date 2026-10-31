@@ -1,5 +1,46 @@
 {
  "run_id": "cc9705",
  "started": "2026-10-31T06:38:16-04:00",
- "stages": {}
+ "stages": {
+  "reconcile": {
+   "status": "PASS",
+   "msg": "ocupados 6/10, crear 0, en espera 0",
+   "at": "2026-10-31T06:43:13-04:00"
+  },
+  "metrics": {
+   "status": "PASS",
+   "msg": "26 posts capturados",
+   "at": "2026-10-31T06:43:55-04:00"
+  },
+  "production_037": {
+   "status": "PASS",
+   "msg": "26.333 s",
+   "at": "2026-10-31T06:51:04-04:00"
+  },
+  "production_038": {
+   "status": "PASS",
+   "msg": "26.6 s",
+   "at": "2026-10-31T06:51:11-04:00"
+  },
+  "production_039": {
+   "status": "PASS",
+   "msg": "27.7 s",
+   "at": "2026-10-31T06:51:17-04:00"
+  },
+  "pre-create": {
+   "status": "PASS",
+   "msg": "ocupados 6/10, crear 3, en espera 3",
+   "at": "2026-10-31T06:59:55-04:00"
+  },
+  "scheduling": {
+   "status": "PASS",
+   "msg": "3 creados y registrados de 3 autorizados",
+   "at": "2026-10-31T07:00:23-04:00"
+  },
+  "confirm": {
+   "status": "PASS",
+   "msg": "ocupados 9/10, crear 0, en espera 3",
+   "at": "2026-10-31T07:03:40-04:00"
+  }
+ }
 }
