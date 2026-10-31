@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-31T13:51-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-10-31T18:44-04:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 51
-- **PRODUCED**: 4
-- **PUBLISHED**: 35
+- **PRODUCED**: 3
+- **PUBLISHED**: 36
 
 ## Vídeos con actividad
 
@@ -47,7 +47,7 @@ Actualizado: 2026-10-31T13:51-04:00 (America/New_York) · Costo real: US$0
 | 033 | 2026-10-30 | ¿Por qué crece el pan? | PUBLISHED | https://www.youtube.com/shorts/JJCPt2jfrE8 | https://tiktok.com/@curiolabstudio30/video/7702584209243753741 | PASS 26.0 s -15.6 LUFS |
 | 034 | 2026-10-31 | ¿Cómo gira un motor eléctrico? | PUBLISHED | https://www.youtube.com/shorts/J00f75hs5uo | https://tiktok.com/@curiolabstudio30/video/7702816417913015566 | PASS 26.867 s -16.0 LUFS |
 | 035 | 2026-10-31 | ¿Cómo genera luz la dinamo de una bicicleta? | PUBLISHED | https://www.youtube.com/shorts/ACLeL6OIgZo | https://tiktok.com/@curiolabstudio30/video/7702878287953005837 | PASS 26.3 s -15.7 LUFS |
-| 036 | 2026-10-31 | ¿Por qué se empaña el espejo del baño? | PRODUCED | — | — | PASS 26.433 s -15.7 LUFS |
+| 036 | 2026-10-31 | ¿Por qué se empaña el espejo del baño? | PUBLISHED | https://www.youtube.com/shorts/Su85cu1zWoY | https://tiktok.com/@curiolabstudio30/video/7702955267486387469 | PASS 26.433 s -15.7 LUFS |
 | 037 | 2026-11-01 | ¿Cómo produce luz un LED? | PRODUCED | — | — | PASS 26.333 s -15.9 LUFS |
 | 038 | 2026-11-01 | ¿Cómo calienta una placa de inducción? | PRODUCED | — | — | PASS 26.6 s -15.8 LUFS |
 | 039 | 2026-11-01 | ¿Qué son las auroras boreales? | PRODUCED | — | — | PASS 27.7 s -15.8 LUFS |
@@ -89,7 +89,7 @@ Actualizado: 2026-10-31T13:51-04:00 (America/New_York) · Costo real: US$0
 - 033 · 2026-10-30 · Ciencia · ¿Por qué crece el pan? · PUBLISHED
 - 034 · 2026-10-31 · Mecanismo · ¿Cómo gira un motor eléctrico? · PUBLISHED
 - 035 · 2026-10-31 · Mecanismo · ¿Cómo genera luz la dinamo de una bicicleta? · PUBLISHED
-- 036 · 2026-10-31 · Ciencia · ¿Por qué se empaña el espejo del baño? · PRODUCED
+- 036 · 2026-10-31 · Ciencia · ¿Por qué se empaña el espejo del baño? · PUBLISHED
 - 037 · 2026-11-01 · Mecanismo · ¿Cómo produce luz un LED? · PRODUCED
 - 038 · 2026-11-01 · Mecanismo · ¿Cómo calienta una placa de inducción? · PRODUCED
 - 039 · 2026-11-01 · Ciencia · ¿Qué son las auroras boreales? · PRODUCED

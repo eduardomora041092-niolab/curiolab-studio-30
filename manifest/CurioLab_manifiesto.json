@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-10-31T13:51-04:00",
+ "actualizado": "2026-10-31T18:44-04:00",
  "estados": {
-  "PUBLISHED": 35,
-  "PRODUCED": 4,
+  "PUBLISHED": 36,
+  "PRODUCED": 3,
   "PLANNED": 51
  },
  "costo_real_usd": 0,
@@ -2085,19 +2085,19 @@
    "fecha": "2026-10-31",
    "titulo": "¿Por qué se empaña el espejo del baño?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ae4d82f34702c2daac2bfd0",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-30T13:47:31-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/Su85cu1zWoY",
+     "recorded": "2026-10-31T18:43:13-04:00"
     },
     "tiktok": {
      "post_id": "6ae4d83998505e7f5226f168",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-30T13:47:41-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7702955267486387469",
+     "recorded": "2026-10-31T18:43:13-04:00"
     }
    },
    "qa": {
