@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-10-31T18:44-04:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-01T06:53-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 51
-- **PRODUCED**: 3
+- **PLANNED**: 48
+- **PRODUCED**: 6
 - **PUBLISHED**: 36
 
 ## Vídeos con actividad
@@ -51,6 +51,9 @@ Actualizado: 2026-10-31T18:44-04:00 (America/New_York) · Costo real: US$0
 | 037 | 2026-11-01 | ¿Cómo produce luz un LED? | PRODUCED | — | — | PASS 26.333 s -15.9 LUFS |
 | 038 | 2026-11-01 | ¿Cómo calienta una placa de inducción? | PRODUCED | — | — | PASS 26.6 s -15.8 LUFS |
 | 039 | 2026-11-01 | ¿Qué son las auroras boreales? | PRODUCED | — | — | PASS 27.7 s -15.8 LUFS |
+| 040 | 2026-11-02 | ¿Por qué cocina más rápido una olla a presión? | PRODUCED | — | — | PASS 25.833 s -15.5 LUFS |
+| 041 | 2026-11-02 | ¿Cómo funciona una cafetera italiana? | PRODUCED | — | — | PASS 26.5 s -15.7 LUFS |
+| 042 | 2026-11-02 | ¿Cómo brillan las luciérnagas? | PRODUCED | — | — | PASS 25.933 s -15.6 LUFS |
 
 ## Calendario completo
 
@@ -93,9 +96,9 @@ Actualizado: 2026-10-31T18:44-04:00 (America/New_York) · Costo real: US$0
 - 037 · 2026-11-01 · Mecanismo · ¿Cómo produce luz un LED? · PRODUCED
 - 038 · 2026-11-01 · Mecanismo · ¿Cómo calienta una placa de inducción? · PRODUCED
 - 039 · 2026-11-01 · Ciencia · ¿Qué son las auroras boreales? · PRODUCED
-- 040 · 2026-11-02 · Mecanismo · ¿Por qué cocina más rápido una olla a presión? · PLANNED
-- 041 · 2026-11-02 · Mecanismo · ¿Cómo funciona una cafetera italiana? · PLANNED
-- 042 · 2026-11-02 · Ciencia · ¿Cómo brillan las luciérnagas? · PLANNED
+- 040 · 2026-11-02 · Mecanismo · ¿Por qué cocina más rápido una olla a presión? · PRODUCED
+- 041 · 2026-11-02 · Mecanismo · ¿Cómo funciona una cafetera italiana? · PRODUCED
+- 042 · 2026-11-02 · Ciencia · ¿Cómo brillan las luciérnagas? · PRODUCED
 - 043 · 2026-11-03 · Mecanismo · ¿Cómo hace chispa un encendedor de clic? · PLANNED
 - 044 · 2026-11-03 · Mecanismo · ¿Cómo apaga el fuego un extintor? · PLANNED
 - 045 · 2026-11-03 · Ciencia · ¿Cómo cambia de color un camaleón? · PLANNED
