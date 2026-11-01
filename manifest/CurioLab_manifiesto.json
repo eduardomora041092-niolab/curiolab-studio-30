@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-01T13:50-05:00",
+ "actualizado": "2026-11-01T18:50-05:00",
  "estados": {
-  "PUBLISHED": 38,
-  "PRODUCED": 4,
+  "PUBLISHED": 39,
+  "PRODUCED": 3,
   "PLANNED": 48
  },
  "costo_real_usd": 0,
@@ -2337,19 +2337,19 @@
    "fecha": "2026-11-01",
    "titulo": "¿Qué son las auroras boreales?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ae629be37c1acd2a0c11c8e",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-31T13:47:45-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/Pbh4b2RBZu4",
+     "recorded": "2026-11-01T18:44:24-05:00"
     },
     "tiktok": {
      "post_id": "6ae629c737c1acd2a0c11e70",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-31T13:47:55-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7703341944969121037",
+     "recorded": "2026-11-01T18:44:24-05:00"
     }
    },
    "qa": {
