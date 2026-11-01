@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-01T06:52:32-05:00",
+ "generated": "2026-11-01T13:46:42-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 0,
+ "occupied": 5,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,17 @@
  "reconciled": [],
  "create": [
   {
-   "id": "040",
-   "platform": "youtube",
-   "channelId": "6ad73b1a778b240e2f677dbf",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-02T09:00:00-05:00",
-   "text": "El agua hierve a más de 100 °C aquí dentro. ¿Por qué cocina más rápido una olla a presión?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-040/CurioLab_040.mp4",
-    "title": "CurioLab_040.mp4"
-   },
-   "metadata": {
-    "youtube": {
-     "title": "¿Por qué cocina más rápido una olla a presión?",
-     "categoryId": "27",
-     "privacy": "public",
-     "madeForKids": false,
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "040",
+   "id": "041",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-02T09:00:00-05:00",
-   "text": "El agua hierve a más de 100 °C aquí dentro. ¿Por qué cocina más rápido una olla a presión?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-02T13:00:00-05:00",
+   "text": "El agua sube sola hasta el café. ¿Cómo funciona una cafetera italiana?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-040/CurioLab_040.mp4",
-    "title": "CurioLab_040.mp4",
-    "thumbnailOffset": 2410
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-041/CurioLab_041.mp4",
+    "title": "CurioLab_041.mp4",
+    "thumbnailOffset": 2090
    },
    "metadata": {
     "tiktok": {
@@ -69,62 +47,62 @@
    }
   },
   {
-   "id": "041",
+   "id": "042",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-02T13:00:00-05:00",
-   "text": "El agua sube sola hasta el café. ¿Cómo funciona una cafetera italiana?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-02T18:00:00-05:00",
+   "text": "Luz fría fabricada por un insecto. ¿Cómo brillan las luciérnagas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-041/CurioLab_041.mp4",
-    "title": "CurioLab_041.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-042/CurioLab_042.mp4",
+    "title": "CurioLab_042.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Cómo funciona una cafetera italiana?",
+     "title": "¿Cómo brillan las luciérnagas?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  }
- ],
- "waiting": [
-  {
-   "id": "041",
-   "platform": "tiktok",
-   "dueAt": "2026-11-02T13:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "042",
-   "platform": "youtube",
-   "dueAt": "2026-11-02T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
   },
   {
    "id": "042",
    "platform": "tiktok",
+   "channelId": "6ad739bd778b240e2f677654",
+   "reason": "nuevo",
+   "mode": "customScheduled",
    "dueAt": "2026-11-02T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
+   "text": "Luz fría fabricada por un insecto. ¿Cómo brillan las luciérnagas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-042/CurioLab_042.mp4",
+    "title": "CurioLab_042.mp4",
+    "thumbnailOffset": 1621
+   },
+   "metadata": {
+    "tiktok": {
+     "isAiGenerated": true
+    }
+   }
   }
  ],
+ "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261101T065232_pre-create_7c93044dde3f/",
+   "file": "evidence/buffer/20261101T134642_pre-create_8a1f5623e2e9/",
    "files": {
-    "account.json": "9277cbfdea46ba845436ea193435cc64f79ec026d6a63adffe4a2afe2933426b",
-    "errors.json": "c74ea4c9c2ea828a4a8960568205186e629551ff6531c444f36a8aea48d5dacb",
-    "open.json": "a5baf5f5db7e7b566139fb212960f6f376955417bf3c86b61d3d400066a71f37",
-    "recent.json": "eb13163ad193aa4615e094d36aefb859e1c48bba4e530c6171281d406eafb068"
+    "account.json": "fb70700ff4840410b5d34f1fe989028e53854882bcc7ec6880641c6482724fb3",
+    "errors.json": "9ac5badc805dfcdf33cf17023c4e23ee6f55a29aa95f9188a0e9def52bf7e96a",
+    "open.json": "3673970cef9f9edc2a8877f7af81a377a9a81da1018f0ea59f70126cfac9161f",
+    "recent.json": "507053eb452c75b7ddda6849e42d5eda3c315bd70db11d1e8a0f99437cdfa7b2"
    },
-   "nonce": "7c93044dde3f",
-   "nonce_issued": "2026-11-01T06:52:08-05:00",
-   "buffer_time": "2026-11-01T06:52:16-05:00",
+   "nonce": "8a1f5623e2e9",
+   "nonce_issued": "2026-11-01T13:44:10-05:00",
+   "buffer_time": "2026-11-01T13:44:21-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -134,36 +112,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-01T07:02:32-05:00",
+ "valid_until": "2026-11-01T13:56:42-05:00",
  "offered": [
   {
-   "id": "040",
-   "platform": "youtube",
-   "offered": "2026-11-01T06:52:36-05:00",
-   "result": {
-    "post_id": "6ae7280a37c1acd2a0009e62",
-    "status": "scheduled",
-    "at": "2026-11-01T06:52:44-05:00"
-   }
-  },
-  {
-   "id": "040",
-   "platform": "tiktok",
-   "offered": "2026-11-01T06:52:44-05:00",
-   "result": {
-    "post_id": "6ae72811cf3a3112f3f5a5ca",
-    "status": "scheduled",
-    "at": "2026-11-01T06:52:52-05:00"
-   }
-  },
-  {
    "id": "041",
-   "platform": "youtube",
-   "offered": "2026-11-01T06:52:52-05:00",
+   "platform": "tiktok",
+   "offered": "2026-11-01T13:46:43-05:00",
    "result": {
-    "post_id": "6ae72819cf3a3112f3f5a843",
+    "post_id": "6ae78918026a1294e5589bb8",
     "status": "scheduled",
-    "at": "2026-11-01T06:53:00-05:00"
+    "at": "2026-11-01T13:46:50-05:00"
+   }
+  },
+  {
+   "id": "042",
+   "platform": "youtube",
+   "offered": "2026-11-01T13:46:50-05:00",
+   "result": {
+    "post_id": "6ae7891e026a1294e5589e55",
+    "status": "scheduled",
+    "at": "2026-11-01T13:46:56-05:00"
+   }
+  },
+  {
+   "id": "042",
+   "platform": "tiktok",
+   "offered": "2026-11-01T13:46:56-05:00",
+   "result": {
+    "post_id": "6ae78925026a1294e5589f24",
+    "status": "scheduled",
+    "at": "2026-11-01T13:47:03-05:00"
    }
   }
  ]

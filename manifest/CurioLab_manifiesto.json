@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-01T06:53-05:00",
+ "actualizado": "2026-11-01T13:50-05:00",
  "estados": {
-  "PUBLISHED": 36,
-  "PRODUCED": 6,
+  "PUBLISHED": 38,
+  "PRODUCED": 4,
   "PLANNED": 48
  },
  "costo_real_usd": 0,
@@ -2167,19 +2167,19 @@
    "fecha": "2026-11-01",
    "titulo": "¿Cómo produce luz un LED?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ae5ca32ceb491e585f071f2",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-31T07:00:05-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/ij63P7_wDwM",
+     "recorded": "2026-11-01T13:43:48-05:00"
     },
     "tiktok": {
      "post_id": "6ae5ca3b406ab8a018b2ffa8",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-31T07:00:13-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7703202965070368014",
+     "recorded": "2026-11-01T13:43:48-05:00"
     }
    },
    "qa": {
@@ -2252,19 +2252,19 @@
    "fecha": "2026-11-01",
    "titulo": "¿Cómo calienta una placa de inducción?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ae5ca441891472093ca7a07",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-31T07:00:23-04:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/sJlDbBmAM_0",
+     "recorded": "2026-11-01T13:43:48-05:00"
     },
     "tiktok": {
      "post_id": "6ae629aeab019b908717a241",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-10-31T13:47:36-04:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7703265356244192526",
+     "recorded": "2026-11-01T13:43:48-05:00"
     }
    },
    "qa": {
@@ -2517,6 +2517,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-11-01T06:53:00-05:00"
+    },
+    "tiktok": {
+     "post_id": "6ae78918026a1294e5589bb8",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-01T13:46:50-05:00"
     }
    },
    "qa": {
@@ -2593,7 +2599,20 @@
    "titulo": "¿Cómo brillan las luciérnagas?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6ae7891e026a1294e5589e55",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-01T13:46:56-05:00"
+    },
+    "tiktok": {
+     "post_id": "6ae78925026a1294e5589f24",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-01T13:47:03-05:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 25.933,
@@ -2660,7 +2679,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-042/CurioLab_042.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 25933
   },
   "043": {
    "fecha": "2026-11-03",

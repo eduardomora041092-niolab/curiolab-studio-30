@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-01T06:53-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-01T13:50-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 48
-- **PRODUCED**: 6
-- **PUBLISHED**: 36
+- **PRODUCED**: 4
+- **PUBLISHED**: 38
 
 ## Vídeos con actividad
 
@@ -48,8 +48,8 @@ Actualizado: 2026-11-01T06:53-05:00 (America/New_York) · Costo real: US$0
 | 034 | 2026-10-31 | ¿Cómo gira un motor eléctrico? | PUBLISHED | https://www.youtube.com/shorts/J00f75hs5uo | https://tiktok.com/@curiolabstudio30/video/7702816417913015566 | PASS 26.867 s -16.0 LUFS |
 | 035 | 2026-10-31 | ¿Cómo genera luz la dinamo de una bicicleta? | PUBLISHED | https://www.youtube.com/shorts/ACLeL6OIgZo | https://tiktok.com/@curiolabstudio30/video/7702878287953005837 | PASS 26.3 s -15.7 LUFS |
 | 036 | 2026-10-31 | ¿Por qué se empaña el espejo del baño? | PUBLISHED | https://www.youtube.com/shorts/Su85cu1zWoY | https://tiktok.com/@curiolabstudio30/video/7702955267486387469 | PASS 26.433 s -15.7 LUFS |
-| 037 | 2026-11-01 | ¿Cómo produce luz un LED? | PRODUCED | — | — | PASS 26.333 s -15.9 LUFS |
-| 038 | 2026-11-01 | ¿Cómo calienta una placa de inducción? | PRODUCED | — | — | PASS 26.6 s -15.8 LUFS |
+| 037 | 2026-11-01 | ¿Cómo produce luz un LED? | PUBLISHED | https://www.youtube.com/shorts/ij63P7_wDwM | https://tiktok.com/@curiolabstudio30/video/7703202965070368014 | PASS 26.333 s -15.9 LUFS |
+| 038 | 2026-11-01 | ¿Cómo calienta una placa de inducción? | PUBLISHED | https://www.youtube.com/shorts/sJlDbBmAM_0 | https://tiktok.com/@curiolabstudio30/video/7703265356244192526 | PASS 26.6 s -15.8 LUFS |
 | 039 | 2026-11-01 | ¿Qué son las auroras boreales? | PRODUCED | — | — | PASS 27.7 s -15.8 LUFS |
 | 040 | 2026-11-02 | ¿Por qué cocina más rápido una olla a presión? | PRODUCED | — | — | PASS 25.833 s -15.5 LUFS |
 | 041 | 2026-11-02 | ¿Cómo funciona una cafetera italiana? | PRODUCED | — | — | PASS 26.5 s -15.7 LUFS |
@@ -93,8 +93,8 @@ Actualizado: 2026-11-01T06:53-05:00 (America/New_York) · Costo real: US$0
 - 034 · 2026-10-31 · Mecanismo · ¿Cómo gira un motor eléctrico? · PUBLISHED
 - 035 · 2026-10-31 · Mecanismo · ¿Cómo genera luz la dinamo de una bicicleta? · PUBLISHED
 - 036 · 2026-10-31 · Ciencia · ¿Por qué se empaña el espejo del baño? · PUBLISHED
-- 037 · 2026-11-01 · Mecanismo · ¿Cómo produce luz un LED? · PRODUCED
-- 038 · 2026-11-01 · Mecanismo · ¿Cómo calienta una placa de inducción? · PRODUCED
+- 037 · 2026-11-01 · Mecanismo · ¿Cómo produce luz un LED? · PUBLISHED
+- 038 · 2026-11-01 · Mecanismo · ¿Cómo calienta una placa de inducción? · PUBLISHED
 - 039 · 2026-11-01 · Ciencia · ¿Qué son las auroras boreales? · PRODUCED
 - 040 · 2026-11-02 · Mecanismo · ¿Por qué cocina más rápido una olla a presión? · PRODUCED
 - 041 · 2026-11-02 · Mecanismo · ¿Cómo funciona una cafetera italiana? · PRODUCED
