@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-02T07:07-05:00",
+ "actualizado": "2026-11-02T13:50-05:00",
  "estados": {
-  "PUBLISHED": 39,
-  "PRODUCED": 6,
+  "PUBLISHED": 41,
+  "PRODUCED": 4,
   "PLANNED": 45
  },
  "costo_real_usd": 0,
@@ -2422,19 +2422,19 @@
    "fecha": "2026-11-02",
    "titulo": "¿Por qué cocina más rápido una olla a presión?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ae7280a37c1acd2a0009e62",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-01T06:52:44-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/D5qfWz87bGs",
+     "recorded": "2026-11-02T13:44:01-05:00"
     },
     "tiktok": {
      "post_id": "6ae72811cf3a3112f3f5a5ca",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-01T06:52:52-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7703576659332517134",
+     "recorded": "2026-11-02T13:44:01-05:00"
     }
    },
    "qa": {
@@ -2510,19 +2510,19 @@
    "fecha": "2026-11-02",
    "titulo": "¿Cómo funciona una cafetera italiana?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ae72819cf3a3112f3f5a843",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-01T06:53:00-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/fsKmnWQuAtw",
+     "recorded": "2026-11-02T13:44:01-05:00"
     },
     "tiktok": {
      "post_id": "6ae78918026a1294e5589bb8",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-01T13:46:50-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7703637085281881358",
+     "recorded": "2026-11-02T13:44:01-05:00"
     }
    },
    "qa": {
@@ -2784,6 +2784,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-11-02T07:04:19-05:00"
+    },
+    "tiktok": {
+     "post_id": "6ae8daae4e55e026087b9ac5",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-02T13:47:13-05:00"
     }
    },
    "qa": {
@@ -2863,7 +2869,20 @@
    "titulo": "¿Cómo cambia de color un camaleón?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6ae8dab7a1cb4345beff10de",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-02T13:47:24-05:00"
+    },
+    "tiktok": {
+     "post_id": "6ae8dac24e55e026087b9edb",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-02T13:47:34-05:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 25.933,
@@ -2933,7 +2952,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-045/CurioLab_045.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 25933
   },
   "046": {
    "fecha": "2026-11-04",

@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-02T07:03:56-05:00",
+ "generated": "2026-11-02T13:47:04-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 0,
+ "occupied": 5,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,17 @@
  "reconciled": [],
  "create": [
   {
-   "id": "043",
-   "platform": "youtube",
-   "channelId": "6ad73b1a778b240e2f677dbf",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-03T09:00:00-05:00",
-   "text": "Sin pilas ni piedra: solo un golpe. ¿Cómo hace chispa un encendedor de clic?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-043/CurioLab_043.mp4",
-    "title": "CurioLab_043.mp4"
-   },
-   "metadata": {
-    "youtube": {
-     "title": "¿Cómo hace chispa un encendedor de clic?",
-     "categoryId": "27",
-     "privacy": "public",
-     "madeForKids": false,
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "043",
+   "id": "044",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-03T09:00:00-05:00",
-   "text": "Sin pilas ni piedra: solo un golpe. ¿Cómo hace chispa un encendedor de clic?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-03T13:00:00-05:00",
+   "text": "Aprietas y sale con mucha presión. ¿Cómo apaga el fuego un extintor?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-043/CurioLab_043.mp4",
-    "title": "CurioLab_043.mp4",
-    "thumbnailOffset": 2111
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-044/CurioLab_044.mp4",
+    "title": "CurioLab_044.mp4",
+    "thumbnailOffset": 1727
    },
    "metadata": {
     "tiktok": {
@@ -69,62 +47,62 @@
    }
   },
   {
-   "id": "044",
+   "id": "045",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-03T13:00:00-05:00",
-   "text": "Aprietas y sale con mucha presión. ¿Cómo apaga el fuego un extintor?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-03T18:00:00-05:00",
+   "text": "No usa pigmentos nuevos. ¿Cómo cambia de color un camaleón?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-044/CurioLab_044.mp4",
-    "title": "CurioLab_044.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-045/CurioLab_045.mp4",
+    "title": "CurioLab_045.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Cómo apaga el fuego un extintor?",
+     "title": "¿Cómo cambia de color un camaleón?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  }
- ],
- "waiting": [
-  {
-   "id": "044",
-   "platform": "tiktok",
-   "dueAt": "2026-11-03T13:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "045",
-   "platform": "youtube",
-   "dueAt": "2026-11-03T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
   },
   {
    "id": "045",
    "platform": "tiktok",
+   "channelId": "6ad739bd778b240e2f677654",
+   "reason": "nuevo",
+   "mode": "customScheduled",
    "dueAt": "2026-11-03T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
+   "text": "No usa pigmentos nuevos. ¿Cómo cambia de color un camaleón?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-045/CurioLab_045.mp4",
+    "title": "CurioLab_045.mp4",
+    "thumbnailOffset": 1834
+   },
+   "metadata": {
+    "tiktok": {
+     "isAiGenerated": true
+    }
+   }
   }
  ],
+ "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261102T070356_pre-create_95a152604a72/",
+   "file": "evidence/buffer/20261102T134704_pre-create_e389b8e3042a/",
    "files": {
-    "account.json": "547a4b8cdf1733f96084ab2d66f71c048ab0cb4ac57b74a00bd7ca2785c8b908",
-    "errors.json": "4005592369e4d7fc460f54367f4c3f2f0f3f5cf2963f88e5429e1b3fd9e4a7a1",
-    "open.json": "c487950dcba1aa10dfc3347b255a989ff7e5525fb38251fdf93fc9c72584f10d",
-    "recent.json": "5ad250278c20a2a359e16385bc8d0a210cf17ac48415d4d48d89f9392b667197"
+    "account.json": "5c41902177f79c0ddd593be08d9736fcc3dbd132ef328c1b3c8625a6075b7b08",
+    "errors.json": "27fcc718c6dc3aa135d9c4312bf1db433b8af6c8dd210bea46b329c62b3ef70b",
+    "open.json": "fedfe555c9646a55bed0037854943aeb48df25fe6f691d585cbf6337bfbf3aa3",
+    "recent.json": "b1f68c4ffed55d62b6ef373f76edd49567cacd484132a45d4eb38eb3b17aa2d3"
    },
-   "nonce": "95a152604a72",
-   "nonce_issued": "2026-11-02T07:01:14-05:00",
-   "buffer_time": "2026-11-02T07:01:20-05:00",
+   "nonce": "e389b8e3042a",
+   "nonce_issued": "2026-11-02T13:44:32-05:00",
+   "buffer_time": "2026-11-02T13:44:45-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -134,36 +112,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-02T07:13:56-05:00",
+ "valid_until": "2026-11-02T13:57:04-05:00",
  "offered": [
   {
-   "id": "043",
-   "platform": "youtube",
-   "offered": "2026-11-02T07:03:59-05:00",
-   "result": {
-    "post_id": "6ae87c346e3fc29500237eec",
-    "status": "scheduled",
-    "at": "2026-11-02T07:04:06-05:00"
-   }
-  },
-  {
-   "id": "043",
-   "platform": "tiktok",
-   "offered": "2026-11-02T07:04:06-05:00",
-   "result": {
-    "post_id": "6ae87c3a6ee21de9577aad0e",
-    "status": "scheduled",
-    "at": "2026-11-02T07:04:12-05:00"
-   }
-  },
-  {
    "id": "044",
-   "platform": "youtube",
-   "offered": "2026-11-02T07:04:12-05:00",
+   "platform": "tiktok",
+   "offered": "2026-11-02T13:47:04-05:00",
    "result": {
-    "post_id": "6ae87c416c56e41b99527de8",
+    "post_id": "6ae8daae4e55e026087b9ac5",
     "status": "scheduled",
-    "at": "2026-11-02T07:04:19-05:00"
+    "at": "2026-11-02T13:47:13-05:00"
+   }
+  },
+  {
+   "id": "045",
+   "platform": "youtube",
+   "offered": "2026-11-02T13:47:13-05:00",
+   "result": {
+    "post_id": "6ae8dab7a1cb4345beff10de",
+    "status": "scheduled",
+    "at": "2026-11-02T13:47:24-05:00"
+   }
+  },
+  {
+   "id": "045",
+   "platform": "tiktok",
+   "offered": "2026-11-02T13:47:24-05:00",
+   "result": {
+    "post_id": "6ae8dac24e55e026087b9edb",
+    "status": "scheduled",
+    "at": "2026-11-02T13:47:34-05:00"
    }
   }
  ]

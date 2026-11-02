@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-02T07:07-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-02T13:50-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 45
-- **PRODUCED**: 6
-- **PUBLISHED**: 39
+- **PRODUCED**: 4
+- **PUBLISHED**: 41
 
 ## Vídeos con actividad
 
@@ -51,8 +51,8 @@ Actualizado: 2026-11-02T07:07-05:00 (America/New_York) · Costo real: US$0
 | 037 | 2026-11-01 | ¿Cómo produce luz un LED? | PUBLISHED | https://www.youtube.com/shorts/ij63P7_wDwM | https://tiktok.com/@curiolabstudio30/video/7703202965070368014 | PASS 26.333 s -15.9 LUFS |
 | 038 | 2026-11-01 | ¿Cómo calienta una placa de inducción? | PUBLISHED | https://www.youtube.com/shorts/sJlDbBmAM_0 | https://tiktok.com/@curiolabstudio30/video/7703265356244192526 | PASS 26.6 s -15.8 LUFS |
 | 039 | 2026-11-01 | ¿Qué son las auroras boreales? | PUBLISHED | https://www.youtube.com/shorts/Pbh4b2RBZu4 | https://tiktok.com/@curiolabstudio30/video/7703341944969121037 | PASS 27.7 s -15.8 LUFS |
-| 040 | 2026-11-02 | ¿Por qué cocina más rápido una olla a presión? | PRODUCED | — | — | PASS 25.833 s -15.5 LUFS |
-| 041 | 2026-11-02 | ¿Cómo funciona una cafetera italiana? | PRODUCED | — | — | PASS 26.5 s -15.7 LUFS |
+| 040 | 2026-11-02 | ¿Por qué cocina más rápido una olla a presión? | PUBLISHED | https://www.youtube.com/shorts/D5qfWz87bGs | https://tiktok.com/@curiolabstudio30/video/7703576659332517134 | PASS 25.833 s -15.5 LUFS |
+| 041 | 2026-11-02 | ¿Cómo funciona una cafetera italiana? | PUBLISHED | https://www.youtube.com/shorts/fsKmnWQuAtw | https://tiktok.com/@curiolabstudio30/video/7703637085281881358 | PASS 26.5 s -15.7 LUFS |
 | 042 | 2026-11-02 | ¿Cómo brillan las luciérnagas? | PRODUCED | — | — | PASS 25.933 s -15.6 LUFS |
 | 043 | 2026-11-03 | ¿Cómo hace chispa un encendedor de clic? | PRODUCED | — | — | PASS 25.867 s -15.7 LUFS |
 | 044 | 2026-11-03 | ¿Cómo apaga el fuego un extintor? | PRODUCED | — | — | PASS 26.1 s -15.8 LUFS |
@@ -99,8 +99,8 @@ Actualizado: 2026-11-02T07:07-05:00 (America/New_York) · Costo real: US$0
 - 037 · 2026-11-01 · Mecanismo · ¿Cómo produce luz un LED? · PUBLISHED
 - 038 · 2026-11-01 · Mecanismo · ¿Cómo calienta una placa de inducción? · PUBLISHED
 - 039 · 2026-11-01 · Ciencia · ¿Qué son las auroras boreales? · PUBLISHED
-- 040 · 2026-11-02 · Mecanismo · ¿Por qué cocina más rápido una olla a presión? · PRODUCED
-- 041 · 2026-11-02 · Mecanismo · ¿Cómo funciona una cafetera italiana? · PRODUCED
+- 040 · 2026-11-02 · Mecanismo · ¿Por qué cocina más rápido una olla a presión? · PUBLISHED
+- 041 · 2026-11-02 · Mecanismo · ¿Cómo funciona una cafetera italiana? · PUBLISHED
 - 042 · 2026-11-02 · Ciencia · ¿Cómo brillan las luciérnagas? · PRODUCED
 - 043 · 2026-11-03 · Mecanismo · ¿Cómo hace chispa un encendedor de clic? · PRODUCED
 - 044 · 2026-11-03 · Mecanismo · ¿Cómo apaga el fuego un extintor? · PRODUCED
