@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-02T13:50-05:00",
+ "actualizado": "2026-11-02T18:49-05:00",
  "estados": {
-  "PUBLISHED": 41,
-  "PRODUCED": 4,
+  "PUBLISHED": 42,
+  "PRODUCED": 3,
   "PLANNED": 45
  },
  "costo_real_usd": 0,
@@ -2598,19 +2598,19 @@
    "fecha": "2026-11-02",
    "titulo": "¿Cómo brillan las luciérnagas?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ae7891e026a1294e5589e55",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-01T13:46:56-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/nvYFZaSDSp8",
+     "recorded": "2026-11-02T18:43:31-05:00"
     },
     "tiktok": {
      "post_id": "6ae78925026a1294e5589f24",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-01T13:47:03-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7703713079195929870",
+     "recorded": "2026-11-02T18:43:31-05:00"
     }
    },
    "qa": {

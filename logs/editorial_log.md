@@ -52,3 +52,13 @@
   - R2: 1 comentarios en 50 publicaciones medidas → pregunta en el texto: no
   - R3: visionado medio TikTok Mecanismo 8.6 s, Ciencia 8.6 s → categoría débil: ninguna
 - Datos: 001 ret 0.417 vis 12.02 s com 0; 002 ret 0.366 vis 11.81 s com 0; 003 ret 0.263 vis 8.28 s com 0; 004 ret 0.35 vis 10.93 s com 0; 005 ret 0.348 vis 10.34 s com 0; 006 ret 0.313 vis 9.01 s com 0; 007 ret 0.237 vis 7.04 s com 0; 008 ret 0.356 vis 9.55 s com 0; 009 ret 0.199 vis 5.43 s com 0; 010 ret 0.271 vis 7.94 s com 0; 011 ret 0.24 vis 7.19 s com 0; 012 ret 0.337 vis 9.5 s com 0; 013 ret 0.255 vis 7.05 s com 0; 014 ret 0.332 vis 8.87 s com 0; 015 ret 0.223 vis 5.92 s com 0; 016 ret 0.274 vis 7.47 s com 0; 017 ret 0.236 vis 6.56 s com 0; 018 ret 0.344 vis 9.15 s com 0; 019 ret 0.265 vis 7.05 s com 0; 020 ret 0.327 vis 8.55 s com 0; 021 ret 0.305 vis 8.0 s com 0; 022 ret 0.325 vis 8.36 s com 0; 023 ret 0.428 vis 10.89 s com 0; 024 ret 0.394 vis 10.08 s com 0; 025 ret 0.452 vis 12.23 s com 1
+
+## 2026-11-02T18:43:50-05:00 — aplica desde el vídeo 046
+- **target_max_s**: 28.0 → 33.0
+- **hook_max_words**: 9 → 12
+- Motivos:
+  - R1: proporción media vista (visionado medio / duración) mediana TikTok 33% en 39 vídeos (umbral 40 %/50 %) → duración máx 28 s, gancho ≤ 9 palabras
+  - R2: 2 comentarios en 78 publicaciones medidas → pregunta en el texto: no
+  - R3: visionado medio TikTok Mecanismo 8.7 s, Ciencia 8.8 s → categoría débil: ninguna
+  - R1 evaluada sin mejora → se revierte
+- Datos: 001 ret 0.417 vis 12.02 s com 0; 002 ret 0.366 vis 11.81 s com 0; 003 ret 0.263 vis 8.28 s com 0; 004 ret 0.35 vis 10.93 s com 0; 005 ret 0.348 vis 10.34 s com 0; 006 ret 0.313 vis 9.01 s com 0; 007 ret 0.237 vis 7.04 s com 0; 008 ret 0.356 vis 9.55 s com 0; 009 ret 0.199 vis 5.43 s com 0; 010 ret 0.271 vis 7.94 s com 0; 011 ret 0.24 vis 7.19 s com 0; 012 ret 0.337 vis 9.5 s com 0; 013 ret 0.255 vis 7.05 s com 0; 014 ret 0.332 vis 8.87 s com 0; 015 ret 0.223 vis 5.92 s com 0; 016 ret 0.274 vis 7.47 s com 0; 017 ret 0.236 vis 6.56 s com 0; 018 ret 0.344 vis 9.15 s com 0; 019 ret 0.261 vis 6.94 s com 0; 020 ret 0.325 vis 8.49 s com 0; 021 ret 0.31 vis 8.13 s com 0; 022 ret 0.323 vis 8.31 s com 0; 023 ret 0.423 vis 10.76 s com 0; 024 ret 0.391 vis 10.0 s com 0; 025 ret 0.454 vis 12.26 s com 1; 026 ret 0.452 vis 11.44 s com 0; 027 ret 0.352 vis 9.17 s com 0; 028 ret 0.434 vis 11.44 s com 0; 029 ret 0.247 vis 6.62 s com 0; 030 ret 0.373 vis 10.01 s com 0; 031 ret 0.373 vis 9.9 s com 0; 032 ret 0.277 vis 7.48 s com 0; 033 ret 0.34 vis 8.85 s com 0; 034 ret 0.382 vis 10.26 s com 1; 035 ret 0.327 vis 8.61 s com 0; 036 ret 0.271 vis 7.16 s com 0; 037 ret 0.387 vis 10.2 s com 0; 038 ret 0.221 vis 5.88 s com 0; 039 ret 0.216 vis 5.99 s com 0

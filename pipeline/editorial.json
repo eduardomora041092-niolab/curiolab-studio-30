@@ -1,18 +1,26 @@
 {
- "updated": "2026-11-02T13:44:18-05:00",
+ "updated": "2026-11-02T18:43:50-05:00",
  "rules": {
-  "target_max_s": 28.0,
-  "hook_max_words": 9,
+  "target_max_s": 33.0,
+  "hook_max_words": 12,
   "caption_cta": false,
   "weak_category": null,
-  "applies_from": "034"
+  "applies_from": "046"
  },
  "reasons": [
-  "R1: proporción media vista (visionado medio / duración) mediana TikTok 33% en 38 vídeos (umbral 40 %/50 %) → duración máx 28 s, gancho ≤ 9 palabras",
-  "R2: 2 comentarios en 76 publicaciones medidas → pregunta en el texto: no",
-  "R3: visionado medio TikTok Mecanismo 8.7 s, Ciencia 8.9 s → categoría débil: ninguna"
+  "R1: proporción media vista (visionado medio / duración) mediana TikTok 33% en 39 vídeos (umbral 40 %/50 %) → duración máx 28 s, gancho ≤ 9 palabras",
+  "R2: 2 comentarios en 78 publicaciones medidas → pregunta en el texto: no",
+  "R3: visionado medio TikTok Mecanismo 8.7 s, Ciencia 8.8 s → categoría débil: ninguna",
+  "R1 evaluada sin mejora → se revierte"
  ],
- "evaluation": {},
+ "evaluation": {
+  "R1": {
+   "before": 0.357,
+   "after": 0.299,
+   "delta": -0.057,
+   "verdict": "sin mejora"
+  }
+ },
  "inputs": [
   {
    "id": "001",
@@ -403,10 +411,10 @@
    "categoria": "Ciencia",
    "slot": 3,
    "duration_s": 26.0,
-   "tt_views": 294.0,
-   "yt_views": 1033.0,
-   "tt_avg_watch_s": 8.75,
-   "tt_retention": 0.337,
+   "tt_views": 296.0,
+   "yt_views": 1034.0,
+   "tt_avg_watch_s": 8.85,
+   "tt_retention": 0.34,
    "comments": 0.0,
    "comment_metrics": 2
   },
@@ -469,6 +477,18 @@
    "tt_retention": 0.221,
    "comments": 0.0,
    "comment_metrics": 2
+  },
+  {
+   "id": "039",
+   "categoria": "Ciencia",
+   "slot": 3,
+   "duration_s": 27.7,
+   "tt_views": 200.0,
+   "yt_views": 695.0,
+   "tt_avg_watch_s": 5.99,
+   "tt_retention": 0.216,
+   "comments": 0.0,
+   "comment_metrics": 2
   }
  ],
  "videos_measured": [
@@ -509,7 +529,8 @@
   "035",
   "036",
   "037",
-  "038"
+  "038",
+  "039"
  ],
  "experiment": {
   "name": "gancho_en_accion",
@@ -533,8 +554,8 @@
  "rules_before": {
   "target_max_s": 28.0,
   "hook_max_words": 9,
-  "caption_cta": true,
+  "caption_cta": false,
   "weak_category": null,
-  "applies_from": "028"
+  "applies_from": "034"
  }
 }
