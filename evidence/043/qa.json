@@ -1,0 +1,127 @@
+{
+ "id": "043",
+ "file": "/home/claude/curiolab/out/CurioLab_043.mp4",
+ "duration_s": 25.867,
+ "lufs": -15.7,
+ "video": {
+  "codec_name": "h264",
+  "codec_type": "video",
+  "width": 1080,
+  "height": 1920,
+  "r_frame_rate": "30/1"
+ },
+ "checks": {
+  "resolution_1080x1920": true,
+  "fps_30": true,
+  "video_h264": true,
+  "audio_aac": true,
+  "duration_25_35s": true,
+  "duration_matches_narration": true,
+  "one_scene_per_line": true,
+  "segments_ordered": true,
+  "narration_ends_before_video": true,
+  "loudness_-17_to_-12_LUFS": true
+ },
+ "all_pass": true,
+ "sync_sheet": "/home/claude/curiolab/work/043/final_sheet.png",
+ "segments": [
+  {
+   "i": 0,
+   "text": "¿Cómo hace chispa un encendedor de clic?",
+   "start": 0.0,
+   "end": 2.261
+  },
+  {
+   "i": 1,
+   "text": "Al pulsar el botón, comprimes un muelle que hay por dentro.",
+   "start": 2.511,
+   "end": 5.669
+  },
+  {
+   "i": 2,
+   "text": "El muelle se suelta y lanza un pequeño martillo.",
+   "start": 5.919,
+   "end": 8.671
+  },
+  {
+   "i": 3,
+   "text": "El martillo golpea con fuerza un cristal piezoeléctrico.",
+   "start": 8.921,
+   "end": 12.163
+  },
+  {
+   "i": 4,
+   "text": "Al deformarse, el cristal genera un voltaje muy alto.",
+   "start": 12.413,
+   "end": 15.507
+  },
+  {
+   "i": 5,
+   "text": "Ese voltaje salta entre dos puntas como una chispa.",
+   "start": 15.757,
+   "end": 18.701
+  },
+  {
+   "i": 6,
+   "text": "La chispa enciende el gas que sale por la boquilla a la vez.",
+   "start": 18.951,
+   "end": 21.959
+  },
+  {
+   "i": 7,
+   "text": "Sígueme para descubrir cómo funcionan más cosas.",
+   "start": 22.209,
+   "end": 24.875
+  }
+ ],
+ "editorial": {
+  "duration_s": 25.867,
+  "target_max_s": 28.0,
+  "duration_ok": true,
+  "hook_words": 7,
+  "hook_max_words": 9,
+  "hook_ok": true,
+  "rules_updated": "2026-11-02T06:43:33-05:00",
+  "measured": [
+   "001",
+   "002",
+   "003",
+   "004",
+   "005",
+   "006",
+   "007",
+   "008",
+   "009",
+   "010",
+   "011",
+   "012",
+   "013",
+   "014",
+   "015",
+   "016",
+   "017",
+   "018",
+   "019",
+   "020",
+   "021",
+   "022",
+   "023",
+   "024",
+   "025",
+   "026",
+   "027",
+   "028",
+   "029",
+   "030",
+   "031",
+   "032",
+   "033",
+   "034",
+   "035",
+   "036",
+   "037"
+  ],
+  "experiment": "gancho_en_accion",
+  "hook_question_ok": true
+ }
+}

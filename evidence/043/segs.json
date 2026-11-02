@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "¿Cómo hace chispa un encendedor de clic?",
+  "start": 0.0,
+  "end": 2.261
+ },
+ {
+  "i": 1,
+  "text": "Al pulsar el botón, comprimes un muelle que hay por dentro.",
+  "start": 2.511,
+  "end": 5.669
+ },
+ {
+  "i": 2,
+  "text": "El muelle se suelta y lanza un pequeño martillo.",
+  "start": 5.919,
+  "end": 8.671
+ },
+ {
+  "i": 3,
+  "text": "El martillo golpea con fuerza un cristal piezoeléctrico.",
+  "start": 8.921,
+  "end": 12.163
+ },
+ {
+  "i": 4,
+  "text": "Al deformarse, el cristal genera un voltaje muy alto.",
+  "start": 12.413,
+  "end": 15.507
+ },
+ {
+  "i": 5,
+  "text": "Ese voltaje salta entre dos puntas como una chispa.",
+  "start": 15.757,
+  "end": 18.701
+ },
+ {
+  "i": 6,
+  "text": "La chispa enciende el gas que sale por la boquilla a la vez.",
+  "start": 18.951,
+  "end": 21.959
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para descubrir cómo funcionan más cosas.",
+  "start": 22.209,
+  "end": 24.875
+ }
+]

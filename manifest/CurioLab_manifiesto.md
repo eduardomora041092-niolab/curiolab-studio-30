@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-01T18:50-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-02T07:07-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 48
-- **PRODUCED**: 3
+- **PLANNED**: 45
+- **PRODUCED**: 6
 - **PUBLISHED**: 39
 
 ## Vídeos con actividad
@@ -54,6 +54,9 @@ Actualizado: 2026-11-01T18:50-05:00 (America/New_York) · Costo real: US$0
 | 040 | 2026-11-02 | ¿Por qué cocina más rápido una olla a presión? | PRODUCED | — | — | PASS 25.833 s -15.5 LUFS |
 | 041 | 2026-11-02 | ¿Cómo funciona una cafetera italiana? | PRODUCED | — | — | PASS 26.5 s -15.7 LUFS |
 | 042 | 2026-11-02 | ¿Cómo brillan las luciérnagas? | PRODUCED | — | — | PASS 25.933 s -15.6 LUFS |
+| 043 | 2026-11-03 | ¿Cómo hace chispa un encendedor de clic? | PRODUCED | — | — | PASS 25.867 s -15.7 LUFS |
+| 044 | 2026-11-03 | ¿Cómo apaga el fuego un extintor? | PRODUCED | — | — | PASS 26.1 s -15.8 LUFS |
+| 045 | 2026-11-03 | ¿Cómo cambia de color un camaleón? | PRODUCED | — | — | PASS 25.933 s -15.7 LUFS |
 
 ## Calendario completo
 
@@ -99,9 +102,9 @@ Actualizado: 2026-11-01T18:50-05:00 (America/New_York) · Costo real: US$0
 - 040 · 2026-11-02 · Mecanismo · ¿Por qué cocina más rápido una olla a presión? · PRODUCED
 - 041 · 2026-11-02 · Mecanismo · ¿Cómo funciona una cafetera italiana? · PRODUCED
 - 042 · 2026-11-02 · Ciencia · ¿Cómo brillan las luciérnagas? · PRODUCED
-- 043 · 2026-11-03 · Mecanismo · ¿Cómo hace chispa un encendedor de clic? · PLANNED
-- 044 · 2026-11-03 · Mecanismo · ¿Cómo apaga el fuego un extintor? · PLANNED
-- 045 · 2026-11-03 · Ciencia · ¿Cómo cambia de color un camaleón? · PLANNED
+- 043 · 2026-11-03 · Mecanismo · ¿Cómo hace chispa un encendedor de clic? · PRODUCED
+- 044 · 2026-11-03 · Mecanismo · ¿Cómo apaga el fuego un extintor? · PRODUCED
+- 045 · 2026-11-03 · Ciencia · ¿Cómo cambia de color un camaleón? · PRODUCED
 - 046 · 2026-11-04 · Mecanismo · ¿Cómo funciona el picaporte de una puerta? · PLANNED
 - 047 · 2026-11-04 · Mecanismo · ¿Cómo funciona un pulverizador de gatillo? · PLANNED
 - 048 · 2026-11-04 · Ciencia · ¿Cómo se forma el granizo? · PLANNED
