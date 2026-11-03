@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-02T18:49-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-03T07:05-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 45
-- **PRODUCED**: 3
+- **PLANNED**: 42
+- **PRODUCED**: 6
 - **PUBLISHED**: 42
 
 ## Vídeos con actividad
@@ -57,6 +57,9 @@ Actualizado: 2026-11-02T18:49-05:00 (America/New_York) · Costo real: US$0
 | 043 | 2026-11-03 | ¿Cómo hace chispa un encendedor de clic? | PRODUCED | — | — | PASS 25.867 s -15.7 LUFS |
 | 044 | 2026-11-03 | ¿Cómo apaga el fuego un extintor? | PRODUCED | — | — | PASS 26.1 s -15.8 LUFS |
 | 045 | 2026-11-03 | ¿Cómo cambia de color un camaleón? | PRODUCED | — | — | PASS 25.933 s -15.7 LUFS |
+| 046 | 2026-11-04 | ¿Cómo funciona el picaporte de una puerta? | PRODUCED | — | — | PASS 27.4 s -15.6 LUFS |
+| 047 | 2026-11-04 | ¿Cómo funciona un pulverizador de gatillo? | PRODUCED | — | — | PASS 27.667 s -15.8 LUFS |
+| 048 | 2026-11-04 | ¿Cómo se forma el granizo? | PRODUCED | — | — | PASS 27.933 s -15.5 LUFS |
 
 ## Calendario completo
 
@@ -105,9 +108,9 @@ Actualizado: 2026-11-02T18:49-05:00 (America/New_York) · Costo real: US$0
 - 043 · 2026-11-03 · Mecanismo · ¿Cómo hace chispa un encendedor de clic? · PRODUCED
 - 044 · 2026-11-03 · Mecanismo · ¿Cómo apaga el fuego un extintor? · PRODUCED
 - 045 · 2026-11-03 · Ciencia · ¿Cómo cambia de color un camaleón? · PRODUCED
-- 046 · 2026-11-04 · Mecanismo · ¿Cómo funciona el picaporte de una puerta? · PLANNED
-- 047 · 2026-11-04 · Mecanismo · ¿Cómo funciona un pulverizador de gatillo? · PLANNED
-- 048 · 2026-11-04 · Ciencia · ¿Cómo se forma el granizo? · PLANNED
+- 046 · 2026-11-04 · Mecanismo · ¿Cómo funciona el picaporte de una puerta? · PRODUCED
+- 047 · 2026-11-04 · Mecanismo · ¿Cómo funciona un pulverizador de gatillo? · PRODUCED
+- 048 · 2026-11-04 · Ciencia · ¿Cómo se forma el granizo? · PRODUCED
 - 049 · 2026-11-05 · Mecanismo · ¿Cómo sale el líquido de un aerosol? · PLANNED
 - 050 · 2026-11-05 · Mecanismo · ¿Cómo mezcla agua fría y caliente un grifo monomando? · PLANNED
 - 051 · 2026-11-05 · Ciencia · ¿Por qué vemos siempre la misma cara de la Luna? · PLANNED

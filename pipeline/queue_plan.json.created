@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-02T13:47:04-05:00",
+ "generated": "2026-11-03T07:02:18-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 5,
- "free_after_plan": 1,
+ "occupied": 6,
+ "free_after_plan": 0,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,20 @@
  "reconciled": [],
  "create": [
   {
-   "id": "044",
-   "platform": "tiktok",
-   "channelId": "6ad739bd778b240e2f677654",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-03T13:00:00-05:00",
-   "text": "Aprietas y sale con mucha presión. ¿Cómo apaga el fuego un extintor?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-044/CurioLab_044.mp4",
-    "title": "CurioLab_044.mp4",
-    "thumbnailOffset": 1727
-   },
-   "metadata": {
-    "tiktok": {
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "045",
+   "id": "046",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-03T18:00:00-05:00",
-   "text": "No usa pigmentos nuevos. ¿Cómo cambia de color un camaleón?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "dueAt": "2026-11-04T09:00:00-05:00",
+   "text": "Gira la manilla y el pestillo se esconde. ¿Cómo funciona el picaporte de una puerta?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-045/CurioLab_045.mp4",
-    "title": "CurioLab_045.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-046/CurioLab_046.mp4",
+    "title": "CurioLab_046.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Cómo cambia de color un camaleón?",
+     "title": "¿Cómo funciona el picaporte de una puerta?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
@@ -69,40 +50,81 @@
    }
   },
   {
-   "id": "045",
+   "id": "046",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-03T18:00:00-05:00",
-   "text": "No usa pigmentos nuevos. ¿Cómo cambia de color un camaleón?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "dueAt": "2026-11-04T09:00:00-05:00",
+   "text": "Gira la manilla y el pestillo se esconde. ¿Cómo funciona el picaporte de una puerta?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-045/CurioLab_045.mp4",
-    "title": "CurioLab_045.mp4",
-    "thumbnailOffset": 1834
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-046/CurioLab_046.mp4",
+    "title": "CurioLab_046.mp4",
+    "thumbnailOffset": 2111
    },
    "metadata": {
     "tiktok": {
      "isAiGenerated": true
     }
    }
+  },
+  {
+   "id": "047",
+   "platform": "youtube",
+   "channelId": "6ad73b1a778b240e2f677dbf",
+   "reason": "nuevo",
+   "mode": "customScheduled",
+   "dueAt": "2026-11-04T13:00:00-05:00",
+   "text": "Cada apretón lanza una nube fina. ¿Cómo funciona un pulverizador de gatillo?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-047/CurioLab_047.mp4",
+    "title": "CurioLab_047.mp4"
+   },
+   "metadata": {
+    "youtube": {
+     "title": "¿Cómo funciona un pulverizador de gatillo?",
+     "categoryId": "27",
+     "privacy": "public",
+     "madeForKids": false,
+     "isAiGenerated": true
+    }
+   }
   }
  ],
- "waiting": [],
+ "waiting": [
+  {
+   "id": "047",
+   "platform": "tiktok",
+   "dueAt": "2026-11-04T13:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "048",
+   "platform": "youtube",
+   "dueAt": "2026-11-04T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "048",
+   "platform": "tiktok",
+   "dueAt": "2026-11-04T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  }
+ ],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261102T134704_pre-create_e389b8e3042a/",
+   "file": "evidence/buffer/20261103T070218_pre-create_463cae87e843/",
    "files": {
-    "account.json": "5c41902177f79c0ddd593be08d9736fcc3dbd132ef328c1b3c8625a6075b7b08",
-    "errors.json": "27fcc718c6dc3aa135d9c4312bf1db433b8af6c8dd210bea46b329c62b3ef70b",
-    "open.json": "fedfe555c9646a55bed0037854943aeb48df25fe6f691d585cbf6337bfbf3aa3",
-    "recent.json": "b1f68c4ffed55d62b6ef373f76edd49567cacd484132a45d4eb38eb3b17aa2d3"
+    "account.json": "a73f3fc88e5a7cedb8a7d4c662490191f8c73c96f4f1cbfb262cb34e303672dc",
+    "errors.json": "9d39bcbae7f81256bfc572b9c3b369499ada1fab1fbfc6df615f722b4388de57",
+    "open.json": "d0e5615370c46c9c1bb14b65be6304f7bdbb48f5c1c09ebb55067d99cf170eee",
+    "recent.json": "f44dc13abfd9dc11a56b34f0878cc4d3fab3cd5a926b9b02c9c8b709e7b2e3b2"
    },
-   "nonce": "e389b8e3042a",
-   "nonce_issued": "2026-11-02T13:44:32-05:00",
-   "buffer_time": "2026-11-02T13:44:45-05:00",
+   "nonce": "463cae87e843",
+   "nonce_issued": "2026-11-03T06:59:32-05:00",
+   "buffer_time": "2026-11-03T06:59:46-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -112,36 +134,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-02T13:57:04-05:00",
+ "valid_until": "2026-11-03T07:12:18-05:00",
  "offered": [
   {
-   "id": "044",
-   "platform": "tiktok",
-   "offered": "2026-11-02T13:47:04-05:00",
-   "result": {
-    "post_id": "6ae8daae4e55e026087b9ac5",
-    "status": "scheduled",
-    "at": "2026-11-02T13:47:13-05:00"
-   }
-  },
-  {
-   "id": "045",
+   "id": "046",
    "platform": "youtube",
-   "offered": "2026-11-02T13:47:13-05:00",
+   "offered": "2026-11-03T07:02:21-05:00",
    "result": {
-    "post_id": "6ae8dab7a1cb4345beff10de",
+    "post_id": "6ae9cd5247205d2c39986263",
     "status": "scheduled",
-    "at": "2026-11-02T13:47:24-05:00"
+    "at": "2026-11-03T07:02:29-05:00"
    }
   },
   {
-   "id": "045",
+   "id": "046",
    "platform": "tiktok",
-   "offered": "2026-11-02T13:47:24-05:00",
+   "offered": "2026-11-03T07:02:29-05:00",
    "result": {
-    "post_id": "6ae8dac24e55e026087b9edb",
+    "post_id": "6ae9cd5af81926b9329438a2",
     "status": "scheduled",
-    "at": "2026-11-02T13:47:34-05:00"
+    "at": "2026-11-03T07:02:37-05:00"
+   }
+  },
+  {
+   "id": "047",
+   "platform": "youtube",
+   "offered": "2026-11-03T07:02:37-05:00",
+   "result": {
+    "post_id": "6ae9cd62e9a91b5943cfae41",
+    "status": "scheduled",
+    "at": "2026-11-03T07:02:45-05:00"
    }
   }
  ]
