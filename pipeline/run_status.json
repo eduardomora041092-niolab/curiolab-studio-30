@@ -1,46 +1,5 @@
 {
- "run_id": "f6273d",
- "started": "2026-11-03T06:39:00-05:00",
- "stages": {
-  "reconcile": {
-   "status": "PASS",
-   "msg": "ocupados 6/10, crear 0, en espera 0",
-   "at": "2026-11-03T06:43:47-05:00"
-  },
-  "metrics": {
-   "status": "PASS",
-   "msg": "26 posts capturados",
-   "at": "2026-11-03T06:44:45-05:00"
-  },
-  "production_048": {
-   "status": "PASS",
-   "msg": "27.933 s",
-   "at": "2026-11-03T06:55:12-05:00"
-  },
-  "production_046": {
-   "status": "PASS",
-   "msg": "27.4 s",
-   "at": "2026-11-03T06:55:13-05:00"
-  },
-  "production_047": {
-   "status": "PASS",
-   "msg": "27.667 s",
-   "at": "2026-11-03T06:55:14-05:00"
-  },
-  "pre-create": {
-   "status": "PASS",
-   "msg": "ocupados 6/10, crear 3, en espera 3",
-   "at": "2026-11-03T07:02:18-05:00"
-  },
-  "scheduling": {
-   "status": "PASS",
-   "msg": "3 creados y registrados de 3 autorizados",
-   "at": "2026-11-03T07:02:45-05:00"
-  },
-  "confirm": {
-   "status": "PASS",
-   "msg": "ocupados 9/10, crear 0, en espera 3",
-   "at": "2026-11-03T07:05:54-05:00"
-  }
- }
+ "run_id": "b19d40",
+ "started": "2026-11-03T13:40:54-05:00",
+ "stages": {}
 }
