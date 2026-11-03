@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-03T07:05-05:00",
+ "actualizado": "2026-11-03T13:53-05:00",
  "estados": {
-  "PUBLISHED": 42,
-  "PRODUCED": 6,
+  "PUBLISHED": 44,
+  "PRODUCED": 4,
   "PLANNED": 42
  },
  "costo_real_usd": 0,
@@ -2686,19 +2686,19 @@
    "fecha": "2026-11-03",
    "titulo": "¿Cómo hace chispa un encendedor de clic?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ae87c346e3fc29500237eec",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-02T07:04:06-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/2QSvk9vihz8",
+     "recorded": "2026-11-03T13:46:23-05:00"
     },
     "tiktok": {
      "post_id": "6ae87c3a6ee21de9577aad0e",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-02T07:04:12-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7703945671795051790",
+     "recorded": "2026-11-03T13:46:23-05:00"
     }
    },
    "qa": {
@@ -2777,19 +2777,19 @@
    "fecha": "2026-11-03",
    "titulo": "¿Cómo apaga el fuego un extintor?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ae87c416c56e41b99527de8",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-02T07:04:19-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/z1qdjL4NedQ",
+     "recorded": "2026-11-03T13:46:23-05:00"
     },
     "tiktok": {
      "post_id": "6ae8daae4e55e026087b9ac5",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-02T13:47:13-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7704007330509212941",
+     "recorded": "2026-11-03T13:46:23-05:00"
     }
    },
    "qa": {
@@ -3060,6 +3060,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-11-03T07:02:45-05:00"
+    },
+    "tiktok": {
+     "post_id": "6aea2cc9416853438d32002c",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-03T13:49:49-05:00"
     }
    },
    "qa": {
@@ -3142,7 +3148,20 @@
    "titulo": "¿Cómo se forma el granizo?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6aea2cd35a920686c6c5462a",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-03T13:49:58-05:00"
+    },
+    "tiktok": {
+     "post_id": "6aea2cdf5a920686c6c54fa0",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-03T13:50:11-05:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 27.933,
@@ -3215,7 +3234,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-048/CurioLab_048.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 27933
   },
   "049": {
    "fecha": "2026-11-05",

@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-03T07:02:18-05:00",
+ "generated": "2026-11-03T13:49:32-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 0,
+ "occupied": 5,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,17 @@
  "reconciled": [],
  "create": [
   {
-   "id": "046",
-   "platform": "youtube",
-   "channelId": "6ad73b1a778b240e2f677dbf",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-04T09:00:00-05:00",
-   "text": "Gira la manilla y el pestillo se esconde. ¿Cómo funciona el picaporte de una puerta?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-046/CurioLab_046.mp4",
-    "title": "CurioLab_046.mp4"
-   },
-   "metadata": {
-    "youtube": {
-     "title": "¿Cómo funciona el picaporte de una puerta?",
-     "categoryId": "27",
-     "privacy": "public",
-     "madeForKids": false,
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "046",
+   "id": "047",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-04T09:00:00-05:00",
-   "text": "Gira la manilla y el pestillo se esconde. ¿Cómo funciona el picaporte de una puerta?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-04T13:00:00-05:00",
+   "text": "Cada apretón lanza una nube fina. ¿Cómo funciona un pulverizador de gatillo?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-046/CurioLab_046.mp4",
-    "title": "CurioLab_046.mp4",
-    "thumbnailOffset": 2111
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-047/CurioLab_047.mp4",
+    "title": "CurioLab_047.mp4",
+    "thumbnailOffset": 2453
    },
    "metadata": {
     "tiktok": {
@@ -69,62 +47,62 @@
    }
   },
   {
-   "id": "047",
+   "id": "048",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-04T13:00:00-05:00",
-   "text": "Cada apretón lanza una nube fina. ¿Cómo funciona un pulverizador de gatillo?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-04T18:00:00-05:00",
+   "text": "Hielo que cae en pleno verano. ¿Cómo se forma el granizo?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-047/CurioLab_047.mp4",
-    "title": "CurioLab_047.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-048/CurioLab_048.mp4",
+    "title": "CurioLab_048.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Cómo funciona un pulverizador de gatillo?",
+     "title": "¿Cómo se forma el granizo?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  }
- ],
- "waiting": [
-  {
-   "id": "047",
-   "platform": "tiktok",
-   "dueAt": "2026-11-04T13:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "048",
-   "platform": "youtube",
-   "dueAt": "2026-11-04T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
   },
   {
    "id": "048",
    "platform": "tiktok",
+   "channelId": "6ad739bd778b240e2f677654",
+   "reason": "nuevo",
+   "mode": "customScheduled",
    "dueAt": "2026-11-04T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
+   "text": "Hielo que cae en pleno verano. ¿Cómo se forma el granizo?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-048/CurioLab_048.mp4",
+    "title": "CurioLab_048.mp4",
+    "thumbnailOffset": 2517
+   },
+   "metadata": {
+    "tiktok": {
+     "isAiGenerated": true
+    }
+   }
   }
  ],
+ "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261103T070218_pre-create_463cae87e843/",
+   "file": "evidence/buffer/20261103T134932_pre-create_2e3dd2049b53/",
    "files": {
-    "account.json": "a73f3fc88e5a7cedb8a7d4c662490191f8c73c96f4f1cbfb262cb34e303672dc",
-    "errors.json": "9d39bcbae7f81256bfc572b9c3b369499ada1fab1fbfc6df615f722b4388de57",
-    "open.json": "d0e5615370c46c9c1bb14b65be6304f7bdbb48f5c1c09ebb55067d99cf170eee",
-    "recent.json": "f44dc13abfd9dc11a56b34f0878cc4d3fab3cd5a926b9b02c9c8b709e7b2e3b2"
+    "account.json": "012405d5b54310758459accdc09e5ee5845cdc9cf925c174b73cf2c2ce0d5657",
+    "errors.json": "c9613570eec2e9ac02ca4f96ae87e16446812a680ccecb2aad8b1cbfae6740ea",
+    "open.json": "97416ccc244b3d0c20d3550ed78c9c535df68c7ed4608fb8622f665b988f4fc8",
+    "recent.json": "eaf0ae712304390c624cfc0bd8edd01c89542efb43d10da3945abb87d47f3501"
    },
-   "nonce": "463cae87e843",
-   "nonce_issued": "2026-11-03T06:59:32-05:00",
-   "buffer_time": "2026-11-03T06:59:46-05:00",
+   "nonce": "2e3dd2049b53",
+   "nonce_issued": "2026-11-03T13:47:00-05:00",
+   "buffer_time": "2026-11-03T13:47:08-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -134,36 +112,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-03T07:12:18-05:00",
+ "valid_until": "2026-11-03T13:59:32-05:00",
  "offered": [
   {
-   "id": "046",
-   "platform": "youtube",
-   "offered": "2026-11-03T07:02:21-05:00",
-   "result": {
-    "post_id": "6ae9cd5247205d2c39986263",
-    "status": "scheduled",
-    "at": "2026-11-03T07:02:29-05:00"
-   }
-  },
-  {
-   "id": "046",
-   "platform": "tiktok",
-   "offered": "2026-11-03T07:02:29-05:00",
-   "result": {
-    "post_id": "6ae9cd5af81926b9329438a2",
-    "status": "scheduled",
-    "at": "2026-11-03T07:02:37-05:00"
-   }
-  },
-  {
    "id": "047",
-   "platform": "youtube",
-   "offered": "2026-11-03T07:02:37-05:00",
+   "platform": "tiktok",
+   "offered": "2026-11-03T13:49:37-05:00",
    "result": {
-    "post_id": "6ae9cd62e9a91b5943cfae41",
+    "post_id": "6aea2cc9416853438d32002c",
     "status": "scheduled",
-    "at": "2026-11-03T07:02:45-05:00"
+    "at": "2026-11-03T13:49:49-05:00"
+   }
+  },
+  {
+   "id": "048",
+   "platform": "youtube",
+   "offered": "2026-11-03T13:49:49-05:00",
+   "result": {
+    "post_id": "6aea2cd35a920686c6c5462a",
+    "status": "scheduled",
+    "at": "2026-11-03T13:49:58-05:00"
+   }
+  },
+  {
+   "id": "048",
+   "platform": "tiktok",
+   "offered": "2026-11-03T13:49:58-05:00",
+   "result": {
+    "post_id": "6aea2cdf5a920686c6c54fa0",
+    "status": "scheduled",
+    "at": "2026-11-03T13:50:11-05:00"
    }
   }
  ]
