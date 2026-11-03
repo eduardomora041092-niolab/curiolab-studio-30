@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-03T13:53-05:00",
+ "actualizado": "2026-11-03T18:49-05:00",
  "estados": {
-  "PUBLISHED": 44,
-  "PRODUCED": 4,
+  "PUBLISHED": 45,
+  "PRODUCED": 3,
   "PLANNED": 42
  },
  "costo_real_usd": 0,
@@ -2868,19 +2868,19 @@
    "fecha": "2026-11-03",
    "titulo": "¿Cómo cambia de color un camaleón?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ae8dab7a1cb4345beff10de",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-02T13:47:24-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/v8t_0UvZ6sU",
+     "recorded": "2026-11-03T18:43:32-05:00"
     },
     "tiktok": {
      "post_id": "6ae8dac24e55e026087b9edb",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-02T13:47:34-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7704084141142314254",
+     "recorded": "2026-11-03T18:43:32-05:00"
     }
    },
    "qa": {

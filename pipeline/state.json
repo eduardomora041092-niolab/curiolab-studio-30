@@ -2726,19 +2726,19 @@
    "duration_ms": 26100
   },
   "045": {
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ae8dab7a1cb4345beff10de",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-02T13:47:24-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/v8t_0UvZ6sU",
+     "recorded": "2026-11-03T18:43:32-05:00"
     },
     "tiktok": {
      "post_id": "6ae8dac24e55e026087b9edb",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-02T13:47:34-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7704084141142314254",
+     "recorded": "2026-11-03T18:43:32-05:00"
     }
    },
    "qa": {

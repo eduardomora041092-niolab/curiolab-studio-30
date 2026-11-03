@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-03T13:53-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-03T18:49-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 42
-- **PRODUCED**: 4
-- **PUBLISHED**: 44
+- **PRODUCED**: 3
+- **PUBLISHED**: 45
 
 ## Vídeos con actividad
 
@@ -56,7 +56,7 @@ Actualizado: 2026-11-03T13:53-05:00 (America/New_York) · Costo real: US$0
 | 042 | 2026-11-02 | ¿Cómo brillan las luciérnagas? | PUBLISHED | https://www.youtube.com/shorts/nvYFZaSDSp8 | https://tiktok.com/@curiolabstudio30/video/7703713079195929870 | PASS 25.933 s -15.6 LUFS |
 | 043 | 2026-11-03 | ¿Cómo hace chispa un encendedor de clic? | PUBLISHED | https://www.youtube.com/shorts/2QSvk9vihz8 | https://tiktok.com/@curiolabstudio30/video/7703945671795051790 | PASS 25.867 s -15.7 LUFS |
 | 044 | 2026-11-03 | ¿Cómo apaga el fuego un extintor? | PUBLISHED | https://www.youtube.com/shorts/z1qdjL4NedQ | https://tiktok.com/@curiolabstudio30/video/7704007330509212941 | PASS 26.1 s -15.8 LUFS |
-| 045 | 2026-11-03 | ¿Cómo cambia de color un camaleón? | PRODUCED | — | — | PASS 25.933 s -15.7 LUFS |
+| 045 | 2026-11-03 | ¿Cómo cambia de color un camaleón? | PUBLISHED | https://www.youtube.com/shorts/v8t_0UvZ6sU | https://tiktok.com/@curiolabstudio30/video/7704084141142314254 | PASS 25.933 s -15.7 LUFS |
 | 046 | 2026-11-04 | ¿Cómo funciona el picaporte de una puerta? | PRODUCED | — | — | PASS 27.4 s -15.6 LUFS |
 | 047 | 2026-11-04 | ¿Cómo funciona un pulverizador de gatillo? | PRODUCED | — | — | PASS 27.667 s -15.8 LUFS |
 | 048 | 2026-11-04 | ¿Cómo se forma el granizo? | PRODUCED | — | — | PASS 27.933 s -15.5 LUFS |
@@ -107,7 +107,7 @@ Actualizado: 2026-11-03T13:53-05:00 (America/New_York) · Costo real: US$0
 - 042 · 2026-11-02 · Ciencia · ¿Cómo brillan las luciérnagas? · PUBLISHED
 - 043 · 2026-11-03 · Mecanismo · ¿Cómo hace chispa un encendedor de clic? · PUBLISHED
 - 044 · 2026-11-03 · Mecanismo · ¿Cómo apaga el fuego un extintor? · PUBLISHED
-- 045 · 2026-11-03 · Ciencia · ¿Cómo cambia de color un camaleón? · PRODUCED
+- 045 · 2026-11-03 · Ciencia · ¿Cómo cambia de color un camaleón? · PUBLISHED
 - 046 · 2026-11-04 · Mecanismo · ¿Cómo funciona el picaporte de una puerta? · PRODUCED
 - 047 · 2026-11-04 · Mecanismo · ¿Cómo funciona un pulverizador de gatillo? · PRODUCED
 - 048 · 2026-11-04 · Ciencia · ¿Cómo se forma el granizo? · PRODUCED
