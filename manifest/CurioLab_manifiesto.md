@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-04T13:49-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-04T18:51-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 39
-- **PRODUCED**: 4
-- **PUBLISHED**: 47
+- **PRODUCED**: 3
+- **PUBLISHED**: 48
 
 ## Vídeos con actividad
 
@@ -59,7 +59,7 @@ Actualizado: 2026-11-04T13:49-05:00 (America/New_York) · Costo real: US$0
 | 045 | 2026-11-03 | ¿Cómo cambia de color un camaleón? | PUBLISHED | https://www.youtube.com/shorts/v8t_0UvZ6sU | https://tiktok.com/@curiolabstudio30/video/7704084141142314254 | PASS 25.933 s -15.7 LUFS |
 | 046 | 2026-11-04 | ¿Cómo funciona el picaporte de una puerta? | PUBLISHED | https://www.youtube.com/shorts/oE0hLa06sOU | https://tiktok.com/@curiolabstudio30/video/7704316783292845325 | PASS 27.4 s -15.6 LUFS |
 | 047 | 2026-11-04 | ¿Cómo funciona un pulverizador de gatillo? | PUBLISHED | https://www.youtube.com/shorts/tattFQlqAN8 | https://tiktok.com/@curiolabstudio30/video/7704378640942763278 | PASS 27.667 s -15.8 LUFS |
-| 048 | 2026-11-04 | ¿Cómo se forma el granizo? | PRODUCED | — | — | PASS 27.933 s -15.5 LUFS |
+| 048 | 2026-11-04 | ¿Cómo se forma el granizo? | PUBLISHED | https://www.youtube.com/shorts/ByTO4aZISOs | https://tiktok.com/@curiolabstudio30/video/7704455368088325389 | PASS 27.933 s -15.5 LUFS |
 | 049 | 2026-11-05 | ¿Cómo sale el líquido de un aerosol? | PRODUCED | — | — | PASS 26.067 s -15.6 LUFS |
 | 050 | 2026-11-05 | ¿Cómo mezcla agua fría y caliente un grifo monomando? | PRODUCED | — | — | PASS 29.6 s -15.9 LUFS |
 | 051 | 2026-11-05 | ¿Por qué vemos siempre la misma cara de la Luna? | PRODUCED | — | — | PASS 28.667 s -15.9 LUFS |
@@ -113,7 +113,7 @@ Actualizado: 2026-11-04T13:49-05:00 (America/New_York) · Costo real: US$0
 - 045 · 2026-11-03 · Ciencia · ¿Cómo cambia de color un camaleón? · PUBLISHED
 - 046 · 2026-11-04 · Mecanismo · ¿Cómo funciona el picaporte de una puerta? · PUBLISHED
 - 047 · 2026-11-04 · Mecanismo · ¿Cómo funciona un pulverizador de gatillo? · PUBLISHED
-- 048 · 2026-11-04 · Ciencia · ¿Cómo se forma el granizo? · PRODUCED
+- 048 · 2026-11-04 · Ciencia · ¿Cómo se forma el granizo? · PUBLISHED
 - 049 · 2026-11-05 · Mecanismo · ¿Cómo sale el líquido de un aerosol? · PRODUCED
 - 050 · 2026-11-05 · Mecanismo · ¿Cómo mezcla agua fría y caliente un grifo monomando? · PRODUCED
 - 051 · 2026-11-05 · Ciencia · ¿Por qué vemos siempre la misma cara de la Luna? · PRODUCED
