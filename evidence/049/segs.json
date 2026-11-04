@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "¿Por qué sale el líquido solo al presionar un aerosol?",
+  "start": 0.0,
+  "end": 2.88
+ },
+ {
+  "i": 1,
+  "text": "Dentro del bote hay líquido y un gas a presión.",
+  "start": 3.13,
+  "end": 5.711
+ },
+ {
+  "i": 2,
+  "text": "Ese gas empuja con fuerza sobre la superficie del líquido.",
+  "start": 5.961,
+  "end": 9.353
+ },
+ {
+  "i": 3,
+  "text": "Un tubo va desde el fondo hasta una válvula en la tapa.",
+  "start": 9.603,
+  "end": 12.59
+ },
+ {
+  "i": 4,
+  "text": "Al presionar el botón, la válvula se abre.",
+  "start": 12.84,
+  "end": 15.208
+ },
+ {
+  "i": 5,
+  "text": "El gas empuja el líquido por el tubo y sale por la boquilla.",
+  "start": 15.458,
+  "end": 18.743
+ },
+ {
+  "i": 6,
+  "text": "Al soltar, un muelle cierra la válvula y el bote queda sellado.",
+  "start": 18.993,
+  "end": 22.151
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para descubrir cómo funcionan más cosas.",
+  "start": 22.401,
+  "end": 25.067
+ }
+]

@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-03T13:49:32-05:00",
+ "generated": "2026-11-04T07:04:47-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 5,
- "free_after_plan": 1,
+ "occupied": 6,
+ "free_after_plan": 0,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,20 @@
  "reconciled": [],
  "create": [
   {
-   "id": "047",
-   "platform": "tiktok",
-   "channelId": "6ad739bd778b240e2f677654",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-04T13:00:00-05:00",
-   "text": "Cada apretón lanza una nube fina. ¿Cómo funciona un pulverizador de gatillo?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-047/CurioLab_047.mp4",
-    "title": "CurioLab_047.mp4",
-    "thumbnailOffset": 2453
-   },
-   "metadata": {
-    "tiktok": {
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "048",
+   "id": "049",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-04T18:00:00-05:00",
-   "text": "Hielo que cae en pleno verano. ¿Cómo se forma el granizo?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "dueAt": "2026-11-05T09:00:00-05:00",
+   "text": "Presionas y sale solo. ¿Cómo sale el líquido de un aerosol?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-048/CurioLab_048.mp4",
-    "title": "CurioLab_048.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-049/CurioLab_049.mp4",
+    "title": "CurioLab_049.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Cómo se forma el granizo?",
+     "title": "¿Cómo sale el líquido de un aerosol?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
@@ -69,40 +50,81 @@
    }
   },
   {
-   "id": "048",
+   "id": "049",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-04T18:00:00-05:00",
-   "text": "Hielo que cae en pleno verano. ¿Cómo se forma el granizo?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "dueAt": "2026-11-05T09:00:00-05:00",
+   "text": "Presionas y sale solo. ¿Cómo sale el líquido de un aerosol?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-048/CurioLab_048.mp4",
-    "title": "CurioLab_048.mp4",
-    "thumbnailOffset": 2517
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-049/CurioLab_049.mp4",
+    "title": "CurioLab_049.mp4",
+    "thumbnailOffset": 2730
    },
    "metadata": {
     "tiktok": {
      "isAiGenerated": true
     }
    }
+  },
+  {
+   "id": "050",
+   "platform": "youtube",
+   "channelId": "6ad73b1a778b240e2f677dbf",
+   "reason": "nuevo",
+   "mode": "customScheduled",
+   "dueAt": "2026-11-05T13:00:00-05:00",
+   "text": "Una sola palanca controla todo. ¿Cómo mezcla agua fría y caliente un grifo monomando?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-050/CurioLab_050.mp4",
+    "title": "CurioLab_050.mp4"
+   },
+   "metadata": {
+    "youtube": {
+     "title": "¿Cómo mezcla agua fría y caliente un grifo monomando?",
+     "categoryId": "27",
+     "privacy": "public",
+     "madeForKids": false,
+     "isAiGenerated": true
+    }
+   }
   }
  ],
- "waiting": [],
+ "waiting": [
+  {
+   "id": "050",
+   "platform": "tiktok",
+   "dueAt": "2026-11-05T13:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "051",
+   "platform": "youtube",
+   "dueAt": "2026-11-05T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "051",
+   "platform": "tiktok",
+   "dueAt": "2026-11-05T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  }
+ ],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261103T134932_pre-create_2e3dd2049b53/",
+   "file": "evidence/buffer/20261104T070447_pre-create_d312d3a0a194/",
    "files": {
-    "account.json": "012405d5b54310758459accdc09e5ee5845cdc9cf925c174b73cf2c2ce0d5657",
-    "errors.json": "c9613570eec2e9ac02ca4f96ae87e16446812a680ccecb2aad8b1cbfae6740ea",
-    "open.json": "97416ccc244b3d0c20d3550ed78c9c535df68c7ed4608fb8622f665b988f4fc8",
-    "recent.json": "eaf0ae712304390c624cfc0bd8edd01c89542efb43d10da3945abb87d47f3501"
+    "account.json": "011597843e8a2332731aa6e276b942e62c60a2216fc055586fbccb8346391d9e",
+    "errors.json": "d714684db58761a3ac9cc5909164ce626a9ebe1951554a75b0924944b00e8424",
+    "open.json": "c4147feb3cfa49cc7e2bb8713f79aa4c0f91d7e4f62604a11e68f001a5faae27",
+    "recent.json": "8630525a8ad6fe909f6c1e292ef8b34abd5d20463c4828e849af5e9c121f3eb7"
    },
-   "nonce": "2e3dd2049b53",
-   "nonce_issued": "2026-11-03T13:47:00-05:00",
-   "buffer_time": "2026-11-03T13:47:08-05:00",
+   "nonce": "d312d3a0a194",
+   "nonce_issued": "2026-11-04T07:02:03-05:00",
+   "buffer_time": "2026-11-04T07:02:13-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -112,36 +134,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-03T13:59:32-05:00",
+ "valid_until": "2026-11-04T07:14:47-05:00",
  "offered": [
   {
-   "id": "047",
-   "platform": "tiktok",
-   "offered": "2026-11-03T13:49:37-05:00",
-   "result": {
-    "post_id": "6aea2cc9416853438d32002c",
-    "status": "scheduled",
-    "at": "2026-11-03T13:49:49-05:00"
-   }
-  },
-  {
-   "id": "048",
+   "id": "049",
    "platform": "youtube",
-   "offered": "2026-11-03T13:49:49-05:00",
+   "offered": "2026-11-04T07:04:49-05:00",
    "result": {
-    "post_id": "6aea2cd35a920686c6c5462a",
+    "post_id": "6aeb1f66dabf2501c0931fe7",
     "status": "scheduled",
-    "at": "2026-11-03T13:49:58-05:00"
+    "at": "2026-11-04T07:04:57-05:00"
    }
   },
   {
-   "id": "048",
+   "id": "049",
    "platform": "tiktok",
-   "offered": "2026-11-03T13:49:58-05:00",
+   "offered": "2026-11-04T07:04:57-05:00",
    "result": {
-    "post_id": "6aea2cdf5a920686c6c54fa0",
+    "post_id": "6aeb1f6e5531e58bd74e06ed",
     "status": "scheduled",
-    "at": "2026-11-03T13:50:11-05:00"
+    "at": "2026-11-04T07:05:04-05:00"
+   }
+  },
+  {
+   "id": "050",
+   "platform": "youtube",
+   "offered": "2026-11-04T07:05:05-05:00",
+   "result": {
+    "post_id": "6aeb1f7689e513be292a6645",
+    "status": "scheduled",
+    "at": "2026-11-04T07:05:13-05:00"
    }
   }
  ]

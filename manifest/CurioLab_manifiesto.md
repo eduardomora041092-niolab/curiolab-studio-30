@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-03T18:49-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-04T07:08-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 42
-- **PRODUCED**: 3
+- **PLANNED**: 39
+- **PRODUCED**: 6
 - **PUBLISHED**: 45
 
 ## Vídeos con actividad
@@ -60,6 +60,9 @@ Actualizado: 2026-11-03T18:49-05:00 (America/New_York) · Costo real: US$0
 | 046 | 2026-11-04 | ¿Cómo funciona el picaporte de una puerta? | PRODUCED | — | — | PASS 27.4 s -15.6 LUFS |
 | 047 | 2026-11-04 | ¿Cómo funciona un pulverizador de gatillo? | PRODUCED | — | — | PASS 27.667 s -15.8 LUFS |
 | 048 | 2026-11-04 | ¿Cómo se forma el granizo? | PRODUCED | — | — | PASS 27.933 s -15.5 LUFS |
+| 049 | 2026-11-05 | ¿Cómo sale el líquido de un aerosol? | PRODUCED | — | — | PASS 26.067 s -15.6 LUFS |
+| 050 | 2026-11-05 | ¿Cómo mezcla agua fría y caliente un grifo monomando? | PRODUCED | — | — | PASS 29.6 s -15.9 LUFS |
+| 051 | 2026-11-05 | ¿Por qué vemos siempre la misma cara de la Luna? | PRODUCED | — | — | PASS 28.667 s -15.9 LUFS |
 
 ## Calendario completo
 
@@ -111,9 +114,9 @@ Actualizado: 2026-11-03T18:49-05:00 (America/New_York) · Costo real: US$0
 - 046 · 2026-11-04 · Mecanismo · ¿Cómo funciona el picaporte de una puerta? · PRODUCED
 - 047 · 2026-11-04 · Mecanismo · ¿Cómo funciona un pulverizador de gatillo? · PRODUCED
 - 048 · 2026-11-04 · Ciencia · ¿Cómo se forma el granizo? · PRODUCED
-- 049 · 2026-11-05 · Mecanismo · ¿Cómo sale el líquido de un aerosol? · PLANNED
-- 050 · 2026-11-05 · Mecanismo · ¿Cómo mezcla agua fría y caliente un grifo monomando? · PLANNED
-- 051 · 2026-11-05 · Ciencia · ¿Por qué vemos siempre la misma cara de la Luna? · PLANNED
+- 049 · 2026-11-05 · Mecanismo · ¿Cómo sale el líquido de un aerosol? · PRODUCED
+- 050 · 2026-11-05 · Mecanismo · ¿Cómo mezcla agua fría y caliente un grifo monomando? · PRODUCED
+- 051 · 2026-11-05 · Ciencia · ¿Por qué vemos siempre la misma cara de la Luna? · PRODUCED
 - 052 · 2026-11-06 · Mecanismo · ¿Por qué las tijeras cortan? · PLANNED
 - 053 · 2026-11-06 · Mecanismo · ¿Cómo funciona un cortaúñas? · PLANNED
 - 054 · 2026-11-06 · Ciencia · ¿Por qué erupciona un volcán? · PLANNED
