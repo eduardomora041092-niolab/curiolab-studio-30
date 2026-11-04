@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-04T07:04:47-05:00",
+ "generated": "2026-11-04T13:46:10-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 0,
+ "occupied": 5,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,17 @@
  "reconciled": [],
  "create": [
   {
-   "id": "049",
-   "platform": "youtube",
-   "channelId": "6ad73b1a778b240e2f677dbf",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-05T09:00:00-05:00",
-   "text": "Presionas y sale solo. ¿Cómo sale el líquido de un aerosol?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-049/CurioLab_049.mp4",
-    "title": "CurioLab_049.mp4"
-   },
-   "metadata": {
-    "youtube": {
-     "title": "¿Cómo sale el líquido de un aerosol?",
-     "categoryId": "27",
-     "privacy": "public",
-     "madeForKids": false,
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "049",
+   "id": "050",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-05T09:00:00-05:00",
-   "text": "Presionas y sale solo. ¿Cómo sale el líquido de un aerosol?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-05T13:00:00-05:00",
+   "text": "Una sola palanca controla todo. ¿Cómo mezcla agua fría y caliente un grifo monomando?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-049/CurioLab_049.mp4",
-    "title": "CurioLab_049.mp4",
-    "thumbnailOffset": 2730
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-050/CurioLab_050.mp4",
+    "title": "CurioLab_050.mp4",
+    "thumbnailOffset": 2943
    },
    "metadata": {
     "tiktok": {
@@ -69,62 +47,62 @@
    }
   },
   {
-   "id": "050",
+   "id": "051",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-05T13:00:00-05:00",
-   "text": "Una sola palanca controla todo. ¿Cómo mezcla agua fría y caliente un grifo monomando?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-05T18:00:00-05:00",
+   "text": "La Luna sí gira… al mismo ritmo. ¿Por qué vemos siempre la misma cara de la Luna?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-050/CurioLab_050.mp4",
-    "title": "CurioLab_050.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-051/CurioLab_051.mp4",
+    "title": "CurioLab_051.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Cómo mezcla agua fría y caliente un grifo monomando?",
+     "title": "¿Por qué vemos siempre la misma cara de la Luna?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  }
- ],
- "waiting": [
-  {
-   "id": "050",
-   "platform": "tiktok",
-   "dueAt": "2026-11-05T13:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "051",
-   "platform": "youtube",
-   "dueAt": "2026-11-05T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
   },
   {
    "id": "051",
    "platform": "tiktok",
+   "channelId": "6ad739bd778b240e2f677654",
+   "reason": "nuevo",
+   "mode": "customScheduled",
    "dueAt": "2026-11-05T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
+   "text": "La Luna sí gira… al mismo ritmo. ¿Por qué vemos siempre la misma cara de la Luna?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-051/CurioLab_051.mp4",
+    "title": "CurioLab_051.mp4",
+    "thumbnailOffset": 2218
+   },
+   "metadata": {
+    "tiktok": {
+     "isAiGenerated": true
+    }
+   }
   }
  ],
+ "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261104T070447_pre-create_d312d3a0a194/",
+   "file": "evidence/buffer/20261104T134610_pre-create_a3745120ade4/",
    "files": {
-    "account.json": "011597843e8a2332731aa6e276b942e62c60a2216fc055586fbccb8346391d9e",
-    "errors.json": "d714684db58761a3ac9cc5909164ce626a9ebe1951554a75b0924944b00e8424",
-    "open.json": "c4147feb3cfa49cc7e2bb8713f79aa4c0f91d7e4f62604a11e68f001a5faae27",
-    "recent.json": "8630525a8ad6fe909f6c1e292ef8b34abd5d20463c4828e849af5e9c121f3eb7"
+    "account.json": "9ccb51150623c68343be17d23c5381aaec200ce3aff17111d2de8821db998364",
+    "errors.json": "933c3e1756b6039d8629f21bdb4030f27a16cb1b0fc3cedd89cbc389091f1b8e",
+    "open.json": "ac7326b0f6a8272e3b234e26bbefada44fff9f39a86893bc4e7bf685a82a1544",
+    "recent.json": "18f285c84dae489ebc7f771d7444c6176bd66585e0bc45174faddc7c3e04589e"
    },
-   "nonce": "d312d3a0a194",
-   "nonce_issued": "2026-11-04T07:02:03-05:00",
-   "buffer_time": "2026-11-04T07:02:13-05:00",
+   "nonce": "a3745120ade4",
+   "nonce_issued": "2026-11-04T13:43:40-05:00",
+   "buffer_time": "2026-11-04T13:46:03-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -134,36 +112,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-04T07:14:47-05:00",
+ "valid_until": "2026-11-04T13:56:10-05:00",
  "offered": [
   {
-   "id": "049",
-   "platform": "youtube",
-   "offered": "2026-11-04T07:04:49-05:00",
-   "result": {
-    "post_id": "6aeb1f66dabf2501c0931fe7",
-    "status": "scheduled",
-    "at": "2026-11-04T07:04:57-05:00"
-   }
-  },
-  {
-   "id": "049",
-   "platform": "tiktok",
-   "offered": "2026-11-04T07:04:57-05:00",
-   "result": {
-    "post_id": "6aeb1f6e5531e58bd74e06ed",
-    "status": "scheduled",
-    "at": "2026-11-04T07:05:04-05:00"
-   }
-  },
-  {
    "id": "050",
-   "platform": "youtube",
-   "offered": "2026-11-04T07:05:05-05:00",
+   "platform": "tiktok",
+   "offered": "2026-11-04T13:46:10-05:00",
    "result": {
-    "post_id": "6aeb1f7689e513be292a6645",
+    "post_id": "6aeb7d77ed27fe14cf9e2849",
     "status": "scheduled",
-    "at": "2026-11-04T07:05:13-05:00"
+    "at": "2026-11-04T13:46:17-05:00"
+   }
+  },
+  {
+   "id": "051",
+   "platform": "youtube",
+   "offered": "2026-11-04T13:46:17-05:00",
+   "result": {
+    "post_id": "6aeb7d7e600b02e62720f943",
+    "status": "scheduled",
+    "at": "2026-11-04T13:46:25-05:00"
+   }
+  },
+  {
+   "id": "051",
+   "platform": "tiktok",
+   "offered": "2026-11-04T13:46:25-05:00",
+   "result": {
+    "post_id": "6aeb7d85ed27fe14cf9e2ba1",
+    "status": "scheduled",
+    "at": "2026-11-04T13:46:32-05:00"
    }
   }
  ]

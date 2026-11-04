@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-04T07:08-05:00",
+ "actualizado": "2026-11-04T13:49-05:00",
  "estados": {
-  "PUBLISHED": 45,
-  "PRODUCED": 6,
+  "PUBLISHED": 47,
+  "PRODUCED": 4,
   "PLANNED": 39
  },
  "costo_real_usd": 0,
@@ -2959,19 +2959,19 @@
    "fecha": "2026-11-04",
    "titulo": "¿Cómo funciona el picaporte de una puerta?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ae9cd5247205d2c39986263",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-03T07:02:29-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/oE0hLa06sOU",
+     "recorded": "2026-11-04T13:43:17-05:00"
     },
     "tiktok": {
      "post_id": "6ae9cd5af81926b9329438a2",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-03T07:02:37-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7704316783292845325",
+     "recorded": "2026-11-04T13:43:17-05:00"
     }
    },
    "qa": {
@@ -3053,19 +3053,19 @@
    "fecha": "2026-11-04",
    "titulo": "¿Cómo funciona un pulverizador de gatillo?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6ae9cd62e9a91b5943cfae41",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-03T07:02:45-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/tattFQlqAN8",
+     "recorded": "2026-11-04T13:43:17-05:00"
     },
     "tiktok": {
      "post_id": "6aea2cc9416853438d32002c",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-03T13:49:49-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7704378640942763278",
+     "recorded": "2026-11-04T13:43:17-05:00"
     }
    },
    "qa": {
@@ -3345,6 +3345,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-11-04T07:05:13-05:00"
+    },
+    "tiktok": {
+     "post_id": "6aeb7d77ed27fe14cf9e2849",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-04T13:46:17-05:00"
     }
    },
    "qa": {
@@ -3430,7 +3436,20 @@
    "titulo": "¿Por qué vemos siempre la misma cara de la Luna?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6aeb7d7e600b02e62720f943",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-04T13:46:25-05:00"
+    },
+    "tiktok": {
+     "post_id": "6aeb7d85ed27fe14cf9e2ba1",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-04T13:46:32-05:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 28.667,
@@ -3506,7 +3525,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-051/CurioLab_051.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 28667
   },
   "052": {
    "fecha": "2026-11-06",
