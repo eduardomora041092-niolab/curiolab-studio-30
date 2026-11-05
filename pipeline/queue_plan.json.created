@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-05T07:01:52-05:00",
+ "generated": "2026-11-05T13:46:52-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 0,
+ "occupied": 5,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,17 @@
  "reconciled": [],
  "create": [
   {
-   "id": "052",
-   "platform": "youtube",
-   "channelId": "6ad73b1a778b240e2f677dbf",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-06T09:00:00-05:00",
-   "text": "Dos cuchillas que no se tocan… hasta el punto exacto. ¿Por qué las tijeras cortan?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-052/CurioLab_052.mp4",
-    "title": "CurioLab_052.mp4"
-   },
-   "metadata": {
-    "youtube": {
-     "title": "¿Por qué las tijeras cortan?",
-     "categoryId": "27",
-     "privacy": "public",
-     "madeForKids": false,
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "052",
+   "id": "053",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-06T09:00:00-05:00",
-   "text": "Dos cuchillas que no se tocan… hasta el punto exacto. ¿Por qué las tijeras cortan?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-06T13:00:00-05:00",
+   "text": "Dos palancas en un objeto diminuto. ¿Cómo funciona un cortaúñas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-052/CurioLab_052.mp4",
-    "title": "CurioLab_052.mp4",
-    "thumbnailOffset": 2858
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-053/CurioLab_053.mp4",
+    "title": "CurioLab_053.mp4",
+    "thumbnailOffset": 2431
    },
    "metadata": {
     "tiktok": {
@@ -69,62 +47,62 @@
    }
   },
   {
-   "id": "053",
+   "id": "054",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-06T13:00:00-05:00",
-   "text": "Dos palancas en un objeto diminuto. ¿Cómo funciona un cortaúñas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-06T18:00:00-05:00",
+   "text": "Roca fundida con gases a presión. ¿Por qué erupciona un volcán?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-053/CurioLab_053.mp4",
-    "title": "CurioLab_053.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-054/CurioLab_054.mp4",
+    "title": "CurioLab_054.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Cómo funciona un cortaúñas?",
+     "title": "¿Por qué erupciona un volcán?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  }
- ],
- "waiting": [
-  {
-   "id": "053",
-   "platform": "tiktok",
-   "dueAt": "2026-11-06T13:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "054",
-   "platform": "youtube",
-   "dueAt": "2026-11-06T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
   },
   {
    "id": "054",
    "platform": "tiktok",
+   "channelId": "6ad739bd778b240e2f677654",
+   "reason": "nuevo",
+   "mode": "customScheduled",
    "dueAt": "2026-11-06T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
+   "text": "Roca fundida con gases a presión. ¿Por qué erupciona un volcán?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-054/CurioLab_054.mp4",
+    "title": "CurioLab_054.mp4",
+    "thumbnailOffset": 2111
+   },
+   "metadata": {
+    "tiktok": {
+     "isAiGenerated": true
+    }
+   }
   }
  ],
+ "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261105T070152_pre-create_4a6d60e2b52f/",
+   "file": "evidence/buffer/20261105T134652_pre-create_691ddcfe1a48/",
    "files": {
-    "account.json": "32ade97c16e35c9cc956122ecbd7e37eade9941efc8cc8689f4a341b5f14e4f4",
-    "errors.json": "994bf33eef05306d6416073fb692f9e3d2fde87bedf482c61047a03dfeff8f61",
-    "open.json": "98a351afa9db478fa444a3370ea45f888cab66d4d5541941e9292d8caba688e2",
-    "recent.json": "b4991d7ac7d26e26e3742ab7b6e11d6aec95123ce6730ce1ba0a1bfab85eef12"
+    "account.json": "0eee388678cc1605f837a1c6517dd28e85146687c72750c6f1edd2b50354db4d",
+    "errors.json": "b536befe6504507066eed4e07a2db6214f2ddc49dd20a4c4a305fdc20430e4cc",
+    "open.json": "92c3c281e6cc17723d6b833e66a1e5c50c23abd04ce0b0845192927c331a06ef",
+    "recent.json": "c9bda3bc053cde8e9299ac91d2722c85125745fde784225a96a1bc0be42edb97"
    },
-   "nonce": "4a6d60e2b52f",
-   "nonce_issued": "2026-11-05T06:59:09-05:00",
-   "buffer_time": "2026-11-05T06:59:16-05:00",
+   "nonce": "691ddcfe1a48",
+   "nonce_issued": "2026-11-05T13:44:18-05:00",
+   "buffer_time": "2026-11-05T13:44:25-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -134,36 +112,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-05T07:11:52-05:00",
+ "valid_until": "2026-11-05T13:56:52-05:00",
  "offered": [
   {
-   "id": "052",
-   "platform": "youtube",
-   "offered": "2026-11-05T07:01:54-05:00",
-   "result": {
-    "post_id": "6aec705e116678f57f209223",
-    "status": "scheduled",
-    "at": "2026-11-05T07:02:40-05:00"
-   }
-  },
-  {
-   "id": "052",
-   "platform": "tiktok",
-   "offered": "2026-11-05T07:02:41-05:00",
-   "result": {
-    "post_id": "6aec70658e858b1f0efbc7c0",
-    "status": "scheduled",
-    "at": "2026-11-05T07:02:47-05:00"
-   }
-  },
-  {
    "id": "053",
-   "platform": "youtube",
-   "offered": "2026-11-05T07:02:47-05:00",
+   "platform": "tiktok",
+   "offered": "2026-11-05T13:46:55-05:00",
    "result": {
-    "post_id": "6aec706ca622b08bbb8577b2",
+    "post_id": "6aeccf244070500dc301e559",
     "status": "scheduled",
-    "at": "2026-11-05T07:02:54-05:00"
+    "at": "2026-11-05T13:47:03-05:00"
+   }
+  },
+  {
+   "id": "054",
+   "platform": "youtube",
+   "offered": "2026-11-05T13:47:03-05:00",
+   "result": {
+    "post_id": "6aeccf2c8b048fefeb684e73",
+    "status": "scheduled",
+    "at": "2026-11-05T13:47:10-05:00"
+   }
+  },
+  {
+   "id": "054",
+   "platform": "tiktok",
+   "offered": "2026-11-05T13:47:10-05:00",
+   "result": {
+    "post_id": "6aeccf33217b5aff6548bc98",
+    "status": "scheduled",
+    "at": "2026-11-05T13:47:18-05:00"
    }
   }
  ]

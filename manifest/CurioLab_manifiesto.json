@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-05T07:06-05:00",
+ "actualizado": "2026-11-05T13:50-05:00",
  "estados": {
-  "PUBLISHED": 48,
-  "PRODUCED": 6,
+  "PUBLISHED": 50,
+  "PRODUCED": 4,
   "PLANNED": 36
  },
  "costo_real_usd": 0,
@@ -3241,19 +3241,19 @@
    "fecha": "2026-11-05",
    "titulo": "¿Cómo sale el líquido de un aerosol?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6aeb1f66dabf2501c0931fe7",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-04T07:04:57-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/a4QuozPCV1s",
+     "recorded": "2026-11-05T13:43:56-05:00"
     },
     "tiktok": {
      "post_id": "6aeb1f6e5531e58bd74e06ed",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-04T07:05:04-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7704687735675555086",
+     "recorded": "2026-11-05T13:43:56-05:00"
     }
    },
    "qa": {
@@ -3338,19 +3338,19 @@
    "fecha": "2026-11-05",
    "titulo": "¿Cómo mezcla agua fría y caliente un grifo monomando?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6aeb1f7689e513be292a6645",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-04T07:05:13-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/HTicQobcabk",
+     "recorded": "2026-11-05T13:43:56-05:00"
     },
     "tiktok": {
      "post_id": "6aeb7d77ed27fe14cf9e2849",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-04T13:46:17-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7704749433161927949",
+     "recorded": "2026-11-05T13:43:56-05:00"
     }
    },
    "qa": {
@@ -3639,6 +3639,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-11-05T07:02:54-05:00"
+    },
+    "tiktok": {
+     "post_id": "6aeccf244070500dc301e559",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-05T13:47:03-05:00"
     }
    },
    "qa": {
@@ -3727,7 +3733,20 @@
    "titulo": "¿Por qué erupciona un volcán?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6aeccf2c8b048fefeb684e73",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-05T13:47:10-05:00"
+    },
+    "tiktok": {
+     "post_id": "6aeccf33217b5aff6548bc98",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-05T13:47:18-05:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 26.533,
@@ -3806,7 +3825,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-054/CurioLab_054.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 26533
   },
   "055": {
    "fecha": "2026-11-07",
