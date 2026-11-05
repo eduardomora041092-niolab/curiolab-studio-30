@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-05T13:50-05:00",
+ "actualizado": "2026-11-05T18:48-05:00",
  "estados": {
-  "PUBLISHED": 50,
-  "PRODUCED": 4,
+  "PUBLISHED": 51,
+  "PRODUCED": 3,
   "PLANNED": 36
  },
  "costo_real_usd": 0,
@@ -3435,19 +3435,19 @@
    "fecha": "2026-11-05",
    "titulo": "¿Por qué vemos siempre la misma cara de la Luna?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6aeb7d7e600b02e62720f943",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-04T13:46:25-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/xMC6PWaIO5I",
+     "recorded": "2026-11-05T18:42:48-05:00"
     },
     "tiktok": {
      "post_id": "6aeb7d85ed27fe14cf9e2ba1",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-04T13:46:32-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7704826466487323917",
+     "recorded": "2026-11-05T18:42:48-05:00"
     }
    },
    "qa": {

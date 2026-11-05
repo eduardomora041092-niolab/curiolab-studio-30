@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-05T13:50-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-05T18:48-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 36
-- **PRODUCED**: 4
-- **PUBLISHED**: 50
+- **PRODUCED**: 3
+- **PUBLISHED**: 51
 
 ## Vídeos con actividad
 
@@ -62,7 +62,7 @@ Actualizado: 2026-11-05T13:50-05:00 (America/New_York) · Costo real: US$0
 | 048 | 2026-11-04 | ¿Cómo se forma el granizo? | PUBLISHED | https://www.youtube.com/shorts/ByTO4aZISOs | https://tiktok.com/@curiolabstudio30/video/7704455368088325389 | PASS 27.933 s -15.5 LUFS |
 | 049 | 2026-11-05 | ¿Cómo sale el líquido de un aerosol? | PUBLISHED | https://www.youtube.com/shorts/a4QuozPCV1s | https://tiktok.com/@curiolabstudio30/video/7704687735675555086 | PASS 26.067 s -15.6 LUFS |
 | 050 | 2026-11-05 | ¿Cómo mezcla agua fría y caliente un grifo monomando? | PUBLISHED | https://www.youtube.com/shorts/HTicQobcabk | https://tiktok.com/@curiolabstudio30/video/7704749433161927949 | PASS 29.6 s -15.9 LUFS |
-| 051 | 2026-11-05 | ¿Por qué vemos siempre la misma cara de la Luna? | PRODUCED | — | — | PASS 28.667 s -15.9 LUFS |
+| 051 | 2026-11-05 | ¿Por qué vemos siempre la misma cara de la Luna? | PUBLISHED | https://www.youtube.com/shorts/xMC6PWaIO5I | https://tiktok.com/@curiolabstudio30/video/7704826466487323917 | PASS 28.667 s -15.9 LUFS |
 | 052 | 2026-11-06 | ¿Por qué las tijeras cortan? | PRODUCED | — | — | PASS 27.267 s -15.8 LUFS |
 | 053 | 2026-11-06 | ¿Cómo funciona un cortaúñas? | PRODUCED | — | — | PASS 25.633 s -15.7 LUFS |
 | 054 | 2026-11-06 | ¿Por qué erupciona un volcán? | PRODUCED | — | — | PASS 26.533 s -15.8 LUFS |
@@ -119,7 +119,7 @@ Actualizado: 2026-11-05T13:50-05:00 (America/New_York) · Costo real: US$0
 - 048 · 2026-11-04 · Ciencia · ¿Cómo se forma el granizo? · PUBLISHED
 - 049 · 2026-11-05 · Mecanismo · ¿Cómo sale el líquido de un aerosol? · PUBLISHED
 - 050 · 2026-11-05 · Mecanismo · ¿Cómo mezcla agua fría y caliente un grifo monomando? · PUBLISHED
-- 051 · 2026-11-05 · Ciencia · ¿Por qué vemos siempre la misma cara de la Luna? · PRODUCED
+- 051 · 2026-11-05 · Ciencia · ¿Por qué vemos siempre la misma cara de la Luna? · PUBLISHED
 - 052 · 2026-11-06 · Mecanismo · ¿Por qué las tijeras cortan? · PRODUCED
 - 053 · 2026-11-06 · Mecanismo · ¿Cómo funciona un cortaúñas? · PRODUCED
 - 054 · 2026-11-06 · Ciencia · ¿Por qué erupciona un volcán? · PRODUCED
