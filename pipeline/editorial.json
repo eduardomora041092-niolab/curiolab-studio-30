@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T18:44:35-05:00",
+ "updated": "2026-11-05T06:43:21-05:00",
  "rules": {
   "target_max_s": 33.0,
   "hook_max_words": 12,
@@ -8,9 +8,9 @@
   "applies_from": "046"
  },
  "reasons": [
-  "R1: proporción media vista (visionado medio / duración) mediana TikTok 34% en 45 vídeos (umbral 40 %/50 %) → duración máx 33 s, gancho ≤ 12 palabras",
-  "R2: 3 comentarios en 90 publicaciones medidas → pregunta en el texto: no",
-  "R3: visionado medio TikTok Mecanismo 9.4 s, Ciencia 8.8 s → categoría débil: ninguna"
+  "R1: proporción media vista (visionado medio / duración) mediana TikTok 33% en 46 vídeos (umbral 40 %/50 %) → duración máx 33 s, gancho ≤ 12 palabras",
+  "R2: 3 comentarios en 92 publicaciones medidas → pregunta en el texto: no",
+  "R3: visionado medio TikTok Mecanismo 8.9 s, Ciencia 8.8 s → categoría débil: ninguna"
  ],
  "evaluation": {
   "R1": {
@@ -423,7 +423,7 @@
    "slot": 1,
    "duration_s": 26.867,
    "tt_views": 288.0,
-   "yt_views": 969.0,
+   "yt_views": 975.0,
    "tt_avg_watch_s": 10.16,
    "tt_retention": 0.378,
    "comments": 1.0,
@@ -434,10 +434,10 @@
    "categoria": "Mecanismo",
    "slot": 2,
    "duration_s": 26.3,
-   "tt_views": 303.0,
-   "yt_views": 994.0,
-   "tt_avg_watch_s": 8.49,
-   "tt_retention": 0.323,
+   "tt_views": 304.0,
+   "yt_views": 1008.0,
+   "tt_avg_watch_s": 8.46,
+   "tt_retention": 0.322,
    "comments": 0.0,
    "comment_metrics": 2
   },
@@ -447,7 +447,7 @@
    "slot": 3,
    "duration_s": 26.433,
    "tt_views": 251.0,
-   "yt_views": 1008.0,
+   "yt_views": 1009.0,
    "tt_avg_watch_s": 7.26,
    "tt_retention": 0.275,
    "comments": 0.0,
@@ -459,7 +459,7 @@
    "slot": 1,
    "duration_s": 26.333,
    "tt_views": 267.0,
-   "yt_views": 965.0,
+   "yt_views": 971.0,
    "tt_avg_watch_s": 9.58,
    "tt_retention": 0.364,
    "comments": 0.0,
@@ -471,7 +471,7 @@
    "slot": 2,
    "duration_s": 26.6,
    "tt_views": 243.0,
-   "yt_views": 1013.0,
+   "yt_views": 1031.0,
    "tt_avg_watch_s": 20.73,
    "tt_retention": 0.779,
    "comments": 0.0,
@@ -494,10 +494,10 @@
    "categoria": "Mecanismo",
    "slot": 1,
    "duration_s": 25.833,
-   "tt_views": 291.0,
-   "yt_views": 1153.0,
-   "tt_avg_watch_s": 11.94,
-   "tt_retention": 0.462,
+   "tt_views": 294.0,
+   "yt_views": 1156.0,
+   "tt_avg_watch_s": 12.22,
+   "tt_retention": 0.473,
    "comments": 0.0,
    "comment_metrics": 2
   },
@@ -506,10 +506,10 @@
    "categoria": "Mecanismo",
    "slot": 2,
    "duration_s": 26.5,
-   "tt_views": 270.0,
-   "yt_views": 1002.0,
-   "tt_avg_watch_s": 8.7,
-   "tt_retention": 0.328,
+   "tt_views": 273.0,
+   "yt_views": 1026.0,
+   "tt_avg_watch_s": 8.81,
+   "tt_retention": 0.332,
    "comments": 0.0,
    "comment_metrics": 2
   },
@@ -518,10 +518,10 @@
    "categoria": "Ciencia",
    "slot": 3,
    "duration_s": 25.933,
-   "tt_views": 238.0,
-   "yt_views": 1012.0,
-   "tt_avg_watch_s": 10.7,
-   "tt_retention": 0.413,
+   "tt_views": 263.0,
+   "yt_views": 1018.0,
+   "tt_avg_watch_s": 10.44,
+   "tt_retention": 0.403,
    "comments": 0.0,
    "comment_metrics": 2
   },
@@ -530,10 +530,10 @@
    "categoria": "Mecanismo",
    "slot": 1,
    "duration_s": 25.867,
-   "tt_views": 158.0,
-   "yt_views": 828.0,
-   "tt_avg_watch_s": 9.74,
-   "tt_retention": 0.377,
+   "tt_views": 285.0,
+   "yt_views": 972.0,
+   "tt_avg_watch_s": 8.73,
+   "tt_retention": 0.337,
    "comments": 0.0,
    "comment_metrics": 2
   },
@@ -543,7 +543,7 @@
    "slot": 2,
    "duration_s": 26.1,
    "tt_views": 274.0,
-   "yt_views": 689.0,
+   "yt_views": 1079.0,
    "tt_avg_watch_s": 9.2,
    "tt_retention": 0.352,
    "comments": 0.0,
@@ -559,6 +559,18 @@
    "tt_avg_watch_s": 8.0,
    "tt_retention": 0.308,
    "comments": 1.0,
+   "comment_metrics": 2
+  },
+  {
+   "id": "046",
+   "categoria": "Mecanismo",
+   "slot": 1,
+   "duration_s": 27.4,
+   "tt_views": 123.0,
+   "yt_views": 183.0,
+   "tt_avg_watch_s": 6.33,
+   "tt_retention": 0.231,
+   "comments": 0.0,
    "comment_metrics": 2
   }
  ],
@@ -607,7 +619,8 @@
   "042",
   "043",
   "044",
-  "045"
+  "045",
+  "046"
  ],
  "experiment": {
   "name": "gancho_en_accion",

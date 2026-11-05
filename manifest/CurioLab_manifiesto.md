@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-04T18:51-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-05T07:06-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 39
-- **PRODUCED**: 3
+- **PLANNED**: 36
+- **PRODUCED**: 6
 - **PUBLISHED**: 48
 
 ## Vídeos con actividad
@@ -63,6 +63,9 @@ Actualizado: 2026-11-04T18:51-05:00 (America/New_York) · Costo real: US$0
 | 049 | 2026-11-05 | ¿Cómo sale el líquido de un aerosol? | PRODUCED | — | — | PASS 26.067 s -15.6 LUFS |
 | 050 | 2026-11-05 | ¿Cómo mezcla agua fría y caliente un grifo monomando? | PRODUCED | — | — | PASS 29.6 s -15.9 LUFS |
 | 051 | 2026-11-05 | ¿Por qué vemos siempre la misma cara de la Luna? | PRODUCED | — | — | PASS 28.667 s -15.9 LUFS |
+| 052 | 2026-11-06 | ¿Por qué las tijeras cortan? | PRODUCED | — | — | PASS 27.267 s -15.8 LUFS |
+| 053 | 2026-11-06 | ¿Cómo funciona un cortaúñas? | PRODUCED | — | — | PASS 25.633 s -15.7 LUFS |
+| 054 | 2026-11-06 | ¿Por qué erupciona un volcán? | PRODUCED | — | — | PASS 26.533 s -15.8 LUFS |
 
 ## Calendario completo
 
@@ -117,9 +120,9 @@ Actualizado: 2026-11-04T18:51-05:00 (America/New_York) · Costo real: US$0
 - 049 · 2026-11-05 · Mecanismo · ¿Cómo sale el líquido de un aerosol? · PRODUCED
 - 050 · 2026-11-05 · Mecanismo · ¿Cómo mezcla agua fría y caliente un grifo monomando? · PRODUCED
 - 051 · 2026-11-05 · Ciencia · ¿Por qué vemos siempre la misma cara de la Luna? · PRODUCED
-- 052 · 2026-11-06 · Mecanismo · ¿Por qué las tijeras cortan? · PLANNED
-- 053 · 2026-11-06 · Mecanismo · ¿Cómo funciona un cortaúñas? · PLANNED
-- 054 · 2026-11-06 · Ciencia · ¿Por qué erupciona un volcán? · PLANNED
+- 052 · 2026-11-06 · Mecanismo · ¿Por qué las tijeras cortan? · PRODUCED
+- 053 · 2026-11-06 · Mecanismo · ¿Cómo funciona un cortaúñas? · PRODUCED
+- 054 · 2026-11-06 · Ciencia · ¿Por qué erupciona un volcán? · PRODUCED
 - 055 · 2026-11-07 · Mecanismo · ¿Cómo funciona un inflador de bicicleta? · PLANNED
 - 056 · 2026-11-07 · Mecanismo · ¿Cómo funciona la válvula de un neumático? · PLANNED
 - 057 · 2026-11-07 · Ciencia · ¿Por qué ocurren los terremotos? · PLANNED

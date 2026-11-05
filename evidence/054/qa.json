@@ -1,0 +1,136 @@
+{
+ "id": "054",
+ "file": "/home/claude/curiolab/out/CurioLab_054.mp4",
+ "duration_s": 26.533,
+ "lufs": -15.8,
+ "video": {
+  "codec_name": "h264",
+  "codec_type": "video",
+  "width": 1080,
+  "height": 1920,
+  "r_frame_rate": "30/1"
+ },
+ "checks": {
+  "resolution_1080x1920": true,
+  "fps_30": true,
+  "video_h264": true,
+  "audio_aac": true,
+  "duration_25_35s": true,
+  "duration_matches_narration": true,
+  "one_scene_per_line": true,
+  "segments_ordered": true,
+  "narration_ends_before_video": true,
+  "loudness_-17_to_-12_LUFS": true
+ },
+ "all_pass": true,
+ "sync_sheet": "/home/claude/curiolab/work/054/final_sheet.png",
+ "segments": [
+  {
+   "i": 0,
+   "text": "¿Qué hace que un volcán entre en erupción?",
+   "start": 0.0,
+   "end": 2.261
+  },
+  {
+   "i": 1,
+   "text": "Bajo el volcán hay una cámara con magma: roca fundida.",
+   "start": 2.511,
+   "end": 5.69
+  },
+  {
+   "i": 2,
+   "text": "El magma es menos denso que la roca y tiende a subir.",
+   "start": 5.94,
+   "end": 9.033
+  },
+  {
+   "i": 3,
+   "text": "Lleva gases disueltos, como vapor de agua, a mucha presión.",
+   "start": 9.283,
+   "end": 12.633
+  },
+  {
+   "i": 4,
+   "text": "Al subir, la presión baja y los gases forman burbujas.",
+   "start": 12.883,
+   "end": 16.019
+  },
+  {
+   "i": 5,
+   "text": "Las burbujas crecen y empujan el magma hacia arriba.",
+   "start": 16.269,
+   "end": 19.277
+  },
+  {
+   "i": 6,
+   "text": "Si la roca de encima cede, el magma sale: es la erupción.",
+   "start": 19.527,
+   "end": 22.62
+  },
+  {
+   "i": 7,
+   "text": "Sígueme para descubrir cómo funcionan más cosas.",
+   "start": 22.87,
+   "end": 25.537
+  }
+ ],
+ "editorial": {
+  "duration_s": 26.533,
+  "target_max_s": 33.0,
+  "duration_ok": true,
+  "hook_words": 8,
+  "hook_max_words": 12,
+  "hook_ok": true,
+  "rules_updated": "2026-11-05T06:43:21-05:00",
+  "measured": [
+   "001",
+   "002",
+   "003",
+   "004",
+   "005",
+   "006",
+   "007",
+   "008",
+   "009",
+   "010",
+   "011",
+   "012",
+   "013",
+   "014",
+   "015",
+   "016",
+   "017",
+   "018",
+   "019",
+   "020",
+   "021",
+   "022",
+   "023",
+   "024",
+   "025",
+   "026",
+   "027",
+   "028",
+   "029",
+   "030",
+   "031",
+   "032",
+   "033",
+   "034",
+   "035",
+   "036",
+   "037",
+   "038",
+   "039",
+   "040",
+   "041",
+   "042",
+   "043",
+   "044",
+   "045",
+   "046"
+  ],
+  "experiment": "gancho_en_accion",
+  "hook_question_ok": true
+ }
+}

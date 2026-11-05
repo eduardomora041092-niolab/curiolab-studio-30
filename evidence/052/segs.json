@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "¿Cómo cortan las tijeras si sus hojas apenas se tocan?",
+  "start": 0.0,
+  "end": 3.008
+ },
+ {
+  "i": 1,
+  "text": "Son dos palancas unidas en el centro por un eje.",
+  "start": 3.258,
+  "end": 6.01
+ },
+ {
+  "i": 2,
+  "text": "Al cerrar los mangos, cada hoja gira sobre ese eje.",
+  "start": 6.26,
+  "end": 9.119
+ },
+ {
+  "i": 3,
+  "text": "Las hojas se cruzan y se tocan en un solo punto.",
+  "start": 9.369,
+  "end": 12.227
+ },
+ {
+  "i": 4,
+  "text": "Ahí empujan el papel en sentidos opuestos y lo parten.",
+  "start": 12.477,
+  "end": 15.677
+ },
+ {
+  "i": 5,
+  "text": "Al seguir cerrando, ese punto de corte avanza hacia la punta.",
+  "start": 15.927,
+  "end": 19.426
+ },
+ {
+  "i": 6,
+  "text": "Cerca del eje cortan con más fuerza: ahí se corta mejor lo duro.",
+  "start": 19.676,
+  "end": 23.367
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para descubrir cómo funcionan más cosas.",
+  "start": 23.617,
+  "end": 26.283
+ }
+]
