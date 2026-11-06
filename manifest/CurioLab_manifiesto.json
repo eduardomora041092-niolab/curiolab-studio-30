@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-06T07:11-05:00",
+ "actualizado": "2026-11-06T13:49-05:00",
  "estados": {
-  "PUBLISHED": 51,
-  "PRODUCED": 6,
+  "PUBLISHED": 53,
+  "PRODUCED": 4,
   "PLANNED": 33
  },
  "costo_real_usd": 0,
@@ -3532,19 +3532,19 @@
    "fecha": "2026-11-06",
    "titulo": "¿Por qué las tijeras cortan?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6aec705e116678f57f209223",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-05T07:02:40-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/1RlV3ta5r-U",
+     "recorded": "2026-11-06T13:43:25-05:00"
     },
     "tiktok": {
      "post_id": "6aec70658e858b1f0efbc7c0",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-05T07:02:47-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7705058878848912653",
+     "recorded": "2026-11-06T13:43:25-05:00"
     }
    },
    "qa": {
@@ -3632,19 +3632,19 @@
    "fecha": "2026-11-06",
    "titulo": "¿Cómo funciona un cortaúñas?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6aec706ca622b08bbb8577b2",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-05T07:02:54-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/Hzi30B4mg_E",
+     "recorded": "2026-11-06T13:43:25-05:00"
     },
     "tiktok": {
      "post_id": "6aeccf244070500dc301e559",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-05T13:47:03-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7705120343953853709",
+     "recorded": "2026-11-06T13:43:25-05:00"
     }
    },
    "qa": {
@@ -3942,6 +3942,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-11-06T07:08:41-05:00"
+    },
+    "tiktok": {
+     "post_id": "6aee2086a7751de7c99f8935",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-06T13:46:32-05:00"
     }
    },
    "qa": {
@@ -4033,7 +4039,20 @@
    "titulo": "¿Por qué ocurren los terremotos?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6aee208da7751de7c99f8b5b",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-06T13:46:39-05:00"
+    },
+    "tiktok": {
+     "post_id": "6aee2093af7e526d43d593b5",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-06T13:46:46-05:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 26.7,
@@ -4115,7 +4134,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-057/CurioLab_057.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 26700
   },
   "058": {
    "fecha": "2026-11-08",

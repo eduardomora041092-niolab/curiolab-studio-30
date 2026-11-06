@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-06T07:08:14-05:00",
+ "generated": "2026-11-06T13:46:23-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 0,
+ "occupied": 5,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,17 @@
  "reconciled": [],
  "create": [
   {
-   "id": "055",
-   "platform": "youtube",
-   "channelId": "6ad73b1a778b240e2f677dbf",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-07T09:00:00-05:00",
-   "text": "Bombeas y el aire no vuelve atrás. ¿Cómo funciona un inflador de bicicleta?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-055/CurioLab_055.mp4",
-    "title": "CurioLab_055.mp4"
-   },
-   "metadata": {
-    "youtube": {
-     "title": "¿Cómo funciona un inflador de bicicleta?",
-     "categoryId": "27",
-     "privacy": "public",
-     "madeForKids": false,
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "055",
+   "id": "056",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-07T09:00:00-05:00",
-   "text": "Bombeas y el aire no vuelve atrás. ¿Cómo funciona un inflador de bicicleta?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-07T13:00:00-05:00",
+   "text": "El aire entra, pero no sale. ¿Cómo funciona la válvula de un neumático?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-055/CurioLab_055.mp4",
-    "title": "CurioLab_055.mp4",
-    "thumbnailOffset": 2431
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-056/CurioLab_056.mp4",
+    "title": "CurioLab_056.mp4",
+    "thumbnailOffset": 2282
    },
    "metadata": {
     "tiktok": {
@@ -69,62 +47,62 @@
    }
   },
   {
-   "id": "056",
+   "id": "057",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-07T13:00:00-05:00",
-   "text": "El aire entra, pero no sale. ¿Cómo funciona la válvula de un neumático?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-07T18:00:00-05:00",
+   "text": "El suelo bajo tus pies se mueve. ¿Por qué ocurren los terremotos?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-056/CurioLab_056.mp4",
-    "title": "CurioLab_056.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-057/CurioLab_057.mp4",
+    "title": "CurioLab_057.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Cómo funciona la válvula de un neumático?",
+     "title": "¿Por qué ocurren los terremotos?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  }
- ],
- "waiting": [
-  {
-   "id": "056",
-   "platform": "tiktok",
-   "dueAt": "2026-11-07T13:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "057",
-   "platform": "youtube",
-   "dueAt": "2026-11-07T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
   },
   {
    "id": "057",
    "platform": "tiktok",
+   "channelId": "6ad739bd778b240e2f677654",
+   "reason": "nuevo",
+   "mode": "customScheduled",
    "dueAt": "2026-11-07T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
+   "text": "El suelo bajo tus pies se mueve. ¿Por qué ocurren los terremotos?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-057/CurioLab_057.mp4",
+    "title": "CurioLab_057.mp4",
+    "thumbnailOffset": 2538
+   },
+   "metadata": {
+    "tiktok": {
+     "isAiGenerated": true
+    }
+   }
   }
  ],
+ "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261106T070814_pre-create_91abe7cc431e/",
+   "file": "evidence/buffer/20261106T134623_pre-create_3244b5dcd7b9/",
    "files": {
-    "account.json": "f98fa09a42af6df378b73865e97b4215ca332eecc547afeb2eb99bee62afa93e",
-    "errors.json": "ee729ebcf57da510fc04f0830b71f27c9ba80f62eed52a64253263611c2d8d49",
-    "open.json": "1a66d961d7162699728f5b1a896db2834a1d7bb35f09031b0198fee95ef0724b",
-    "recent.json": "c0530027d54d14df4636e86db29b9839df064fe125b87e240a37fa03cdca4642"
+    "account.json": "2f500fcf5b14bb015516ca5be205763955c848eda6a195f022a4bc71bf9d22db",
+    "errors.json": "338f37f479c602faed5ad2e128a29347c922bb940b404e6caa8ff6242402aa15",
+    "open.json": "e78ac532bb7a8a7430a32267ae40960ca85765ca4ee456af9ef4aa2db0bfffaf",
+    "recent.json": "442f2da1c28d88221b2e0d37dd33a8e4186a9e913db179a01da9faaa6c7aabdf"
    },
-   "nonce": "91abe7cc431e",
-   "nonce_issued": "2026-11-06T07:05:35-05:00",
-   "buffer_time": "2026-11-06T07:05:42-05:00",
+   "nonce": "3244b5dcd7b9",
+   "nonce_issued": "2026-11-06T13:43:51-05:00",
+   "buffer_time": "2026-11-06T13:43:57-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -134,36 +112,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-06T07:18:14-05:00",
+ "valid_until": "2026-11-06T13:56:23-05:00",
  "offered": [
   {
-   "id": "055",
-   "platform": "youtube",
-   "offered": "2026-11-06T07:08:17-05:00",
-   "result": {
-    "post_id": "6aedc337f6d00f3472ad6c2e",
-    "status": "scheduled",
-    "at": "2026-11-06T07:08:25-05:00"
-   }
-  },
-  {
-   "id": "055",
-   "platform": "tiktok",
-   "offered": "2026-11-06T07:08:25-05:00",
-   "result": {
-    "post_id": "6aedc33ee45c1855cb3846b2",
-    "status": "scheduled",
-    "at": "2026-11-06T07:08:32-05:00"
-   }
-  },
-  {
    "id": "056",
-   "platform": "youtube",
-   "offered": "2026-11-06T07:08:32-05:00",
+   "platform": "tiktok",
+   "offered": "2026-11-06T13:46:25-05:00",
    "result": {
-    "post_id": "6aedc3460b0f6e64a0b98c1a",
+    "post_id": "6aee2086a7751de7c99f8935",
     "status": "scheduled",
-    "at": "2026-11-06T07:08:41-05:00"
+    "at": "2026-11-06T13:46:32-05:00"
+   }
+  },
+  {
+   "id": "057",
+   "platform": "youtube",
+   "offered": "2026-11-06T13:46:32-05:00",
+   "result": {
+    "post_id": "6aee208da7751de7c99f8b5b",
+    "status": "scheduled",
+    "at": "2026-11-06T13:46:39-05:00"
+   }
+  },
+  {
+   "id": "057",
+   "platform": "tiktok",
+   "offered": "2026-11-06T13:46:39-05:00",
+   "result": {
+    "post_id": "6aee2093af7e526d43d593b5",
+    "status": "scheduled",
+    "at": "2026-11-06T13:46:46-05:00"
    }
   }
  ]
