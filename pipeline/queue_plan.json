@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-05T18:48:30-05:00",
+ "generated": "2026-11-06T07:11:50-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 3,
+ "occupied": 9,
+ "free_after_plan": 0,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 0,
-   "sent": 3,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 0,
-   "sent": 3,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   }
@@ -27,21 +27,40 @@
  ],
  "reconciled": [],
  "create": [],
- "waiting": [],
+ "waiting": [
+  {
+   "id": "056",
+   "platform": "tiktok",
+   "dueAt": "2026-11-07T13:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "057",
+   "platform": "youtube",
+   "dueAt": "2026-11-07T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "057",
+   "platform": "tiktok",
+   "dueAt": "2026-11-07T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  }
+ ],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261105T184830_confirm_bb0af91ff4cb/",
+   "file": "evidence/buffer/20261106T071150_confirm_0697c69bca21/",
    "files": {
-    "account.json": "5b81f4614878d7a3a9c88dcae504612319ca957aa1fea694ec8788f37e409955",
-    "errors.json": "63f824444b5bec39e4c580b42b24956251f012c7ddd1d40bf8447bcc42fe9825",
-    "open.json": "822506f8a4c56455fb61926b737d1f81f6e5eb695fa29a8924fd4dc59a10d4d7",
-    "recent.json": "8674cfd3ac14c346b246f5645f64393ff835136c0bc3d0f471264736ce783167"
+    "account.json": "4ff866874796200c26f433e3f2a339bc7391c3b4fad96b31bb3e02db687a40a2",
+    "errors.json": "d089f37c9993552f196c7fc7a3f776fa31d4b65d2d614c688a84e9730bc08694",
+    "open.json": "32fe58e9d1785cdcf8a4f111af0280386e97399563d4d59f1e681e35419a0b5c",
+    "recent.json": "fec81843b25745ad13adfe9cbf63b9817563fbb7b4446970d36a415c37105c02"
    },
-   "nonce": "bb0af91ff4cb",
-   "nonce_issued": "2026-11-05T18:45:49-05:00",
-   "buffer_time": "2026-11-05T18:45:55-05:00",
+   "nonce": "0697c69bca21",
+   "nonce_issued": "2026-11-06T07:08:41-05:00",
+   "buffer_time": "2026-11-06T07:08:47-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,

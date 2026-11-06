@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-05T13:46:52-05:00",
+ "generated": "2026-11-06T07:08:14-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 5,
- "free_after_plan": 1,
+ "occupied": 6,
+ "free_after_plan": 0,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,16 +28,38 @@
  "reconciled": [],
  "create": [
   {
-   "id": "053",
+   "id": "055",
+   "platform": "youtube",
+   "channelId": "6ad73b1a778b240e2f677dbf",
+   "reason": "nuevo",
+   "mode": "customScheduled",
+   "dueAt": "2026-11-07T09:00:00-05:00",
+   "text": "Bombeas y el aire no vuelve atrás. ¿Cómo funciona un inflador de bicicleta?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-055/CurioLab_055.mp4",
+    "title": "CurioLab_055.mp4"
+   },
+   "metadata": {
+    "youtube": {
+     "title": "¿Cómo funciona un inflador de bicicleta?",
+     "categoryId": "27",
+     "privacy": "public",
+     "madeForKids": false,
+     "isAiGenerated": true
+    }
+   }
+  },
+  {
+   "id": "055",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-06T13:00:00-05:00",
-   "text": "Dos palancas en un objeto diminuto. ¿Cómo funciona un cortaúñas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-07T09:00:00-05:00",
+   "text": "Bombeas y el aire no vuelve atrás. ¿Cómo funciona un inflador de bicicleta?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-053/CurioLab_053.mp4",
-    "title": "CurioLab_053.mp4",
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-055/CurioLab_055.mp4",
+    "title": "CurioLab_055.mp4",
     "thumbnailOffset": 2431
    },
    "metadata": {
@@ -47,62 +69,62 @@
    }
   },
   {
-   "id": "054",
+   "id": "056",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-06T18:00:00-05:00",
-   "text": "Roca fundida con gases a presión. ¿Por qué erupciona un volcán?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "dueAt": "2026-11-07T13:00:00-05:00",
+   "text": "El aire entra, pero no sale. ¿Cómo funciona la válvula de un neumático?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-054/CurioLab_054.mp4",
-    "title": "CurioLab_054.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-056/CurioLab_056.mp4",
+    "title": "CurioLab_056.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Por qué erupciona un volcán?",
+     "title": "¿Cómo funciona la válvula de un neumático?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  },
-  {
-   "id": "054",
-   "platform": "tiktok",
-   "channelId": "6ad739bd778b240e2f677654",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-06T18:00:00-05:00",
-   "text": "Roca fundida con gases a presión. ¿Por qué erupciona un volcán?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-054/CurioLab_054.mp4",
-    "title": "CurioLab_054.mp4",
-    "thumbnailOffset": 2111
-   },
-   "metadata": {
-    "tiktok": {
-     "isAiGenerated": true
-    }
-   }
   }
  ],
- "waiting": [],
+ "waiting": [
+  {
+   "id": "056",
+   "platform": "tiktok",
+   "dueAt": "2026-11-07T13:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "057",
+   "platform": "youtube",
+   "dueAt": "2026-11-07T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "057",
+   "platform": "tiktok",
+   "dueAt": "2026-11-07T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  }
+ ],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261105T134652_pre-create_691ddcfe1a48/",
+   "file": "evidence/buffer/20261106T070814_pre-create_91abe7cc431e/",
    "files": {
-    "account.json": "0eee388678cc1605f837a1c6517dd28e85146687c72750c6f1edd2b50354db4d",
-    "errors.json": "b536befe6504507066eed4e07a2db6214f2ddc49dd20a4c4a305fdc20430e4cc",
-    "open.json": "92c3c281e6cc17723d6b833e66a1e5c50c23abd04ce0b0845192927c331a06ef",
-    "recent.json": "c9bda3bc053cde8e9299ac91d2722c85125745fde784225a96a1bc0be42edb97"
+    "account.json": "f98fa09a42af6df378b73865e97b4215ca332eecc547afeb2eb99bee62afa93e",
+    "errors.json": "ee729ebcf57da510fc04f0830b71f27c9ba80f62eed52a64253263611c2d8d49",
+    "open.json": "1a66d961d7162699728f5b1a896db2834a1d7bb35f09031b0198fee95ef0724b",
+    "recent.json": "c0530027d54d14df4636e86db29b9839df064fe125b87e240a37fa03cdca4642"
    },
-   "nonce": "691ddcfe1a48",
-   "nonce_issued": "2026-11-05T13:44:18-05:00",
-   "buffer_time": "2026-11-05T13:44:25-05:00",
+   "nonce": "91abe7cc431e",
+   "nonce_issued": "2026-11-06T07:05:35-05:00",
+   "buffer_time": "2026-11-06T07:05:42-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -112,36 +134,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-05T13:56:52-05:00",
+ "valid_until": "2026-11-06T07:18:14-05:00",
  "offered": [
   {
-   "id": "053",
-   "platform": "tiktok",
-   "offered": "2026-11-05T13:46:55-05:00",
-   "result": {
-    "post_id": "6aeccf244070500dc301e559",
-    "status": "scheduled",
-    "at": "2026-11-05T13:47:03-05:00"
-   }
-  },
-  {
-   "id": "054",
+   "id": "055",
    "platform": "youtube",
-   "offered": "2026-11-05T13:47:03-05:00",
+   "offered": "2026-11-06T07:08:17-05:00",
    "result": {
-    "post_id": "6aeccf2c8b048fefeb684e73",
+    "post_id": "6aedc337f6d00f3472ad6c2e",
     "status": "scheduled",
-    "at": "2026-11-05T13:47:10-05:00"
+    "at": "2026-11-06T07:08:25-05:00"
    }
   },
   {
-   "id": "054",
+   "id": "055",
    "platform": "tiktok",
-   "offered": "2026-11-05T13:47:10-05:00",
+   "offered": "2026-11-06T07:08:25-05:00",
    "result": {
-    "post_id": "6aeccf33217b5aff6548bc98",
+    "post_id": "6aedc33ee45c1855cb3846b2",
     "status": "scheduled",
-    "at": "2026-11-05T13:47:18-05:00"
+    "at": "2026-11-06T07:08:32-05:00"
+   }
+  },
+  {
+   "id": "056",
+   "platform": "youtube",
+   "offered": "2026-11-06T07:08:32-05:00",
+   "result": {
+    "post_id": "6aedc3460b0f6e64a0b98c1a",
+    "status": "scheduled",
+    "at": "2026-11-06T07:08:41-05:00"
    }
   }
  ]

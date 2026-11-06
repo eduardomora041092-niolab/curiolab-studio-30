@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-05T18:48-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-06T07:11-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 36
-- **PRODUCED**: 3
+- **PLANNED**: 33
+- **PRODUCED**: 6
 - **PUBLISHED**: 51
 
 ## Vídeos con actividad
@@ -66,6 +66,9 @@ Actualizado: 2026-11-05T18:48-05:00 (America/New_York) · Costo real: US$0
 | 052 | 2026-11-06 | ¿Por qué las tijeras cortan? | PRODUCED | — | — | PASS 27.267 s -15.8 LUFS |
 | 053 | 2026-11-06 | ¿Cómo funciona un cortaúñas? | PRODUCED | — | — | PASS 25.633 s -15.7 LUFS |
 | 054 | 2026-11-06 | ¿Por qué erupciona un volcán? | PRODUCED | — | — | PASS 26.533 s -15.8 LUFS |
+| 055 | 2026-11-07 | ¿Cómo funciona un inflador de bicicleta? | PRODUCED | — | — | PASS 26.467 s -15.7 LUFS |
+| 056 | 2026-11-07 | ¿Cómo funciona la válvula de un neumático? | PRODUCED | — | — | PASS 26.467 s -15.8 LUFS |
+| 057 | 2026-11-07 | ¿Por qué ocurren los terremotos? | PRODUCED | — | — | PASS 26.7 s -15.7 LUFS |
 
 ## Calendario completo
 
@@ -123,9 +126,9 @@ Actualizado: 2026-11-05T18:48-05:00 (America/New_York) · Costo real: US$0
 - 052 · 2026-11-06 · Mecanismo · ¿Por qué las tijeras cortan? · PRODUCED
 - 053 · 2026-11-06 · Mecanismo · ¿Cómo funciona un cortaúñas? · PRODUCED
 - 054 · 2026-11-06 · Ciencia · ¿Por qué erupciona un volcán? · PRODUCED
-- 055 · 2026-11-07 · Mecanismo · ¿Cómo funciona un inflador de bicicleta? · PLANNED
-- 056 · 2026-11-07 · Mecanismo · ¿Cómo funciona la válvula de un neumático? · PLANNED
-- 057 · 2026-11-07 · Ciencia · ¿Por qué ocurren los terremotos? · PLANNED
+- 055 · 2026-11-07 · Mecanismo · ¿Cómo funciona un inflador de bicicleta? · PRODUCED
+- 056 · 2026-11-07 · Mecanismo · ¿Cómo funciona la válvula de un neumático? · PRODUCED
+- 057 · 2026-11-07 · Ciencia · ¿Por qué ocurren los terremotos? · PRODUCED
 - 058 · 2026-11-08 · Mecanismo · ¿Cómo funciona una escalera mecánica? · PLANNED
 - 059 · 2026-11-08 · Mecanismo · ¿Por qué gira el brazo del lavavajillas? · PLANNED
 - 060 · 2026-11-08 · Ciencia · ¿Por qué la sal derrite el hielo? · PLANNED

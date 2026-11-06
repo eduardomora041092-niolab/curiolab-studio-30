@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "¿Por qué el aire de un inflador no vuelve atrás?",
+  "start": 0.0,
+  "end": 2.581
+ },
+ {
+  "i": 1,
+  "text": "Por dentro tiene un cilindro, un pistón y una válvula.",
+  "start": 2.831,
+  "end": 5.733
+ },
+ {
+  "i": 2,
+  "text": "Al bajar el mango, el pistón comprime el aire del cilindro.",
+  "start": 5.983,
+  "end": 9.161
+ },
+ {
+  "i": 3,
+  "text": "La presión sube, abre la válvula y el aire pasa a la rueda.",
+  "start": 9.411,
+  "end": 12.697
+ },
+ {
+  "i": 4,
+  "text": "Al subir el pistón, la válvula se cierra sola.",
+  "start": 12.947,
+  "end": 15.613
+ },
+ {
+  "i": 5,
+  "text": "Mientras, entra aire nuevo en el cilindro para el siguiente bombeo.",
+  "start": 15.863,
+  "end": 19.405
+ },
+ {
+  "i": 6,
+  "text": "Así, cada bombeo mete un poco más de aire en la rueda.",
+  "start": 19.655,
+  "end": 22.556
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para descubrir cómo funcionan más cosas.",
+  "start": 22.806,
+  "end": 25.473
+ }
+]
