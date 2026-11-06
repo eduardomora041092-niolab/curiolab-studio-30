@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-06T13:49-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-06T18:46-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 33
-- **PRODUCED**: 4
-- **PUBLISHED**: 53
+- **PRODUCED**: 3
+- **PUBLISHED**: 54
 
 ## Vídeos con actividad
 
@@ -65,7 +65,7 @@ Actualizado: 2026-11-06T13:49-05:00 (America/New_York) · Costo real: US$0
 | 051 | 2026-11-05 | ¿Por qué vemos siempre la misma cara de la Luna? | PUBLISHED | https://www.youtube.com/shorts/xMC6PWaIO5I | https://tiktok.com/@curiolabstudio30/video/7704826466487323917 | PASS 28.667 s -15.9 LUFS |
 | 052 | 2026-11-06 | ¿Por qué las tijeras cortan? | PUBLISHED | https://www.youtube.com/shorts/1RlV3ta5r-U | https://tiktok.com/@curiolabstudio30/video/7705058878848912653 | PASS 27.267 s -15.8 LUFS |
 | 053 | 2026-11-06 | ¿Cómo funciona un cortaúñas? | PUBLISHED | https://www.youtube.com/shorts/Hzi30B4mg_E | https://tiktok.com/@curiolabstudio30/video/7705120343953853709 | PASS 25.633 s -15.7 LUFS |
-| 054 | 2026-11-06 | ¿Por qué erupciona un volcán? | PRODUCED | — | — | PASS 26.533 s -15.8 LUFS |
+| 054 | 2026-11-06 | ¿Por qué erupciona un volcán? | PUBLISHED | https://www.youtube.com/shorts/acx3hn11GEY | https://tiktok.com/@curiolabstudio30/video/7705197458946608398 | PASS 26.533 s -15.8 LUFS |
 | 055 | 2026-11-07 | ¿Cómo funciona un inflador de bicicleta? | PRODUCED | — | — | PASS 26.467 s -15.7 LUFS |
 | 056 | 2026-11-07 | ¿Cómo funciona la válvula de un neumático? | PRODUCED | — | — | PASS 26.467 s -15.8 LUFS |
 | 057 | 2026-11-07 | ¿Por qué ocurren los terremotos? | PRODUCED | — | — | PASS 26.7 s -15.7 LUFS |
@@ -125,7 +125,7 @@ Actualizado: 2026-11-06T13:49-05:00 (America/New_York) · Costo real: US$0
 - 051 · 2026-11-05 · Ciencia · ¿Por qué vemos siempre la misma cara de la Luna? · PUBLISHED
 - 052 · 2026-11-06 · Mecanismo · ¿Por qué las tijeras cortan? · PUBLISHED
 - 053 · 2026-11-06 · Mecanismo · ¿Cómo funciona un cortaúñas? · PUBLISHED
-- 054 · 2026-11-06 · Ciencia · ¿Por qué erupciona un volcán? · PRODUCED
+- 054 · 2026-11-06 · Ciencia · ¿Por qué erupciona un volcán? · PUBLISHED
 - 055 · 2026-11-07 · Mecanismo · ¿Cómo funciona un inflador de bicicleta? · PRODUCED
 - 056 · 2026-11-07 · Mecanismo · ¿Cómo funciona la válvula de un neumático? · PRODUCED
 - 057 · 2026-11-07 · Ciencia · ¿Por qué ocurren los terremotos? · PRODUCED

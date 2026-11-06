@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-06T13:49-05:00",
+ "actualizado": "2026-11-06T18:46-05:00",
  "estados": {
-  "PUBLISHED": 53,
-  "PRODUCED": 4,
+  "PUBLISHED": 54,
+  "PRODUCED": 3,
   "PLANNED": 33
  },
  "costo_real_usd": 0,
@@ -3732,19 +3732,19 @@
    "fecha": "2026-11-06",
    "titulo": "¿Por qué erupciona un volcán?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6aeccf2c8b048fefeb684e73",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-05T13:47:10-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/acx3hn11GEY",
+     "recorded": "2026-11-06T18:43:25-05:00"
     },
     "tiktok": {
      "post_id": "6aeccf33217b5aff6548bc98",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-05T13:47:18-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7705197458946608398",
+     "recorded": "2026-11-06T18:43:25-05:00"
     }
    },
    "qa": {
