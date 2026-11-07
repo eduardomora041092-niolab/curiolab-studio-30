@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-07T13:49-05:00",
+ "actualizado": "2026-11-07T18:48-05:00",
  "estados": {
-  "PUBLISHED": 56,
-  "PRODUCED": 4,
+  "PUBLISHED": 57,
+  "PRODUCED": 3,
   "PLANNED": 30
  },
  "costo_real_usd": 0,
@@ -4038,19 +4038,19 @@
    "fecha": "2026-11-07",
    "titulo": "¿Por qué ocurren los terremotos?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6aee208da7751de7c99f8b5b",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-06T13:46:39-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/o2hcvHjuOn8",
+     "recorded": "2026-11-07T18:43:06-05:00"
     },
     "tiktok": {
      "post_id": "6aee2093af7e526d43d593b5",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-06T13:46:46-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7705568436105137421",
+     "recorded": "2026-11-07T18:43:06-05:00"
     }
    },
    "qa": {
