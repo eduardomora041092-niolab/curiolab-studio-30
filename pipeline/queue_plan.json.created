@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-07T06:59:01-05:00",
+ "generated": "2026-11-07T13:46:29-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 0,
+ "occupied": 5,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,17 @@
  "reconciled": [],
  "create": [
   {
-   "id": "058",
-   "platform": "youtube",
-   "channelId": "6ad73b1a778b240e2f677dbf",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-08T09:00:00-05:00",
-   "text": "Los escalones aparecen y desaparecen. ¿Cómo funciona una escalera mecánica?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-058/CurioLab_058.mp4",
-    "title": "CurioLab_058.mp4"
-   },
-   "metadata": {
-    "youtube": {
-     "title": "¿Cómo funciona una escalera mecánica?",
-     "categoryId": "27",
-     "privacy": "public",
-     "madeForKids": false,
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "058",
+   "id": "059",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-08T09:00:00-05:00",
-   "text": "Los escalones aparecen y desaparecen. ¿Cómo funciona una escalera mecánica?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-08T13:00:00-05:00",
+   "text": "No tiene motor propio, pero gira. ¿Por qué gira el brazo del lavavajillas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-058/CurioLab_058.mp4",
-    "title": "CurioLab_058.mp4",
-    "thumbnailOffset": 2858
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-059/CurioLab_059.mp4",
+    "title": "CurioLab_059.mp4",
+    "thumbnailOffset": 2773
    },
    "metadata": {
     "tiktok": {
@@ -69,62 +47,62 @@
    }
   },
   {
-   "id": "059",
+   "id": "060",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-08T13:00:00-05:00",
-   "text": "No tiene motor propio, pero gira. ¿Por qué gira el brazo del lavavajillas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-08T18:00:00-05:00",
+   "text": "La sal no calienta el hielo. ¿Por qué la sal derrite el hielo?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-059/CurioLab_059.mp4",
-    "title": "CurioLab_059.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-060/CurioLab_060.mp4",
+    "title": "CurioLab_060.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Por qué gira el brazo del lavavajillas?",
+     "title": "¿Por qué la sal derrite el hielo?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  }
- ],
- "waiting": [
-  {
-   "id": "059",
-   "platform": "tiktok",
-   "dueAt": "2026-11-08T13:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "060",
-   "platform": "youtube",
-   "dueAt": "2026-11-08T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
   },
   {
    "id": "060",
    "platform": "tiktok",
+   "channelId": "6ad739bd778b240e2f677654",
+   "reason": "nuevo",
+   "mode": "customScheduled",
    "dueAt": "2026-11-08T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
+   "text": "La sal no calienta el hielo. ¿Por qué la sal derrite el hielo?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-060/CurioLab_060.mp4",
+    "title": "CurioLab_060.mp4",
+    "thumbnailOffset": 2367
+   },
+   "metadata": {
+    "tiktok": {
+     "isAiGenerated": true
+    }
+   }
   }
  ],
+ "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261107T065901_pre-create_67bfcbfa3a0c/",
+   "file": "evidence/buffer/20261107T134629_pre-create_ff04b051cdc1/",
    "files": {
-    "account.json": "bf8a76a151c39ce48566191a015ca84b85007bfd795e9396245cc3bdbdb879b8",
-    "errors.json": "f8cd7a72115b22ccc8d21f1c9da1cd29de92dc8441284b992c03fb92ad045513",
-    "open.json": "4be98881fbb186b31140cfa555af9b7255bf24a90067c77fdfad51b2a0ca381f",
-    "recent.json": "b2222ce31b67fc7df956febff0253499f68ac08bc02a34585fe28a64edc79c0b"
+    "account.json": "435cd91c433f5dcf6a6e0154de576b4eb580fbcc26f99ebe3269fb5b75457e1e",
+    "errors.json": "8c05427498a9d05ca19253f1a260854f30afa48236d566f49e10844c430e78dc",
+    "open.json": "c55aca928a0bec96ac496d5cb7fe5e2ea4e6639f3e88b5e4a2d98f88c9eb79f8",
+    "recent.json": "74cdac2bbd145211cf10ebb853016680fbb99ff913f92445ab9ba13dac045726"
    },
-   "nonce": "67bfcbfa3a0c",
-   "nonce_issued": "2026-11-07T06:56:18-05:00",
-   "buffer_time": "2026-11-07T06:56:24-05:00",
+   "nonce": "ff04b051cdc1",
+   "nonce_issued": "2026-11-07T13:44:01-05:00",
+   "buffer_time": "2026-11-07T13:46:21-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -134,36 +112,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-07T07:09:01-05:00",
+ "valid_until": "2026-11-07T13:56:29-05:00",
  "offered": [
   {
-   "id": "058",
-   "platform": "youtube",
-   "offered": "2026-11-07T06:59:02-05:00",
-   "result": {
-    "post_id": "6aef128b004e4879a752b15c",
-    "status": "scheduled",
-    "at": "2026-11-07T06:59:09-05:00"
-   }
-  },
-  {
-   "id": "058",
-   "platform": "tiktok",
-   "offered": "2026-11-07T06:59:09-05:00",
-   "result": {
-    "post_id": "6aef1291d6bbae6fa1849574",
-    "status": "scheduled",
-    "at": "2026-11-07T06:59:15-05:00"
-   }
-  },
-  {
    "id": "059",
-   "platform": "youtube",
-   "offered": "2026-11-07T06:59:15-05:00",
+   "platform": "tiktok",
+   "offered": "2026-11-07T13:46:31-05:00",
    "result": {
-    "post_id": "6aef1298d6bbae6fa184969d",
+    "post_id": "6aef720b9214322f680d2088",
     "status": "scheduled",
-    "at": "2026-11-07T06:59:22-05:00"
+    "at": "2026-11-07T13:46:38-05:00"
+   }
+  },
+  {
+   "id": "060",
+   "platform": "youtube",
+   "offered": "2026-11-07T13:46:38-05:00",
+   "result": {
+    "post_id": "6aef7212562f2e6de97525de",
+    "status": "scheduled",
+    "at": "2026-11-07T13:46:45-05:00"
+   }
+  },
+  {
+   "id": "060",
+   "platform": "tiktok",
+   "offered": "2026-11-07T13:46:45-05:00",
+   "result": {
+    "post_id": "6aef72199214322f680d2309",
+    "status": "scheduled",
+    "at": "2026-11-07T13:46:52-05:00"
    }
   }
  ]
