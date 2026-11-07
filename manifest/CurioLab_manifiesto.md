@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-06T18:46-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-07T07:02-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 33
-- **PRODUCED**: 3
+- **PLANNED**: 30
+- **PRODUCED**: 6
 - **PUBLISHED**: 54
 
 ## Vídeos con actividad
@@ -69,6 +69,9 @@ Actualizado: 2026-11-06T18:46-05:00 (America/New_York) · Costo real: US$0
 | 055 | 2026-11-07 | ¿Cómo funciona un inflador de bicicleta? | PRODUCED | — | — | PASS 26.467 s -15.7 LUFS |
 | 056 | 2026-11-07 | ¿Cómo funciona la válvula de un neumático? | PRODUCED | — | — | PASS 26.467 s -15.8 LUFS |
 | 057 | 2026-11-07 | ¿Por qué ocurren los terremotos? | PRODUCED | — | — | PASS 26.7 s -15.7 LUFS |
+| 058 | 2026-11-08 | ¿Cómo funciona una escalera mecánica? | PRODUCED | — | — | PASS 27.9 s -15.5 LUFS |
+| 059 | 2026-11-08 | ¿Por qué gira el brazo del lavavajillas? | PRODUCED | — | — | PASS 26.767 s -15.6 LUFS |
+| 060 | 2026-11-08 | ¿Por qué la sal derrite el hielo? | PRODUCED | — | — | PASS 27.433 s -15.6 LUFS |
 
 ## Calendario completo
 
@@ -129,9 +132,9 @@ Actualizado: 2026-11-06T18:46-05:00 (America/New_York) · Costo real: US$0
 - 055 · 2026-11-07 · Mecanismo · ¿Cómo funciona un inflador de bicicleta? · PRODUCED
 - 056 · 2026-11-07 · Mecanismo · ¿Cómo funciona la válvula de un neumático? · PRODUCED
 - 057 · 2026-11-07 · Ciencia · ¿Por qué ocurren los terremotos? · PRODUCED
-- 058 · 2026-11-08 · Mecanismo · ¿Cómo funciona una escalera mecánica? · PLANNED
-- 059 · 2026-11-08 · Mecanismo · ¿Por qué gira el brazo del lavavajillas? · PLANNED
-- 060 · 2026-11-08 · Ciencia · ¿Por qué la sal derrite el hielo? · PLANNED
+- 058 · 2026-11-08 · Mecanismo · ¿Cómo funciona una escalera mecánica? · PRODUCED
+- 059 · 2026-11-08 · Mecanismo · ¿Por qué gira el brazo del lavavajillas? · PRODUCED
+- 060 · 2026-11-08 · Ciencia · ¿Por qué la sal derrite el hielo? · PRODUCED
 - 061 · 2026-11-09 · Mecanismo · ¿Cómo convierte un panel solar la luz en electricidad? · PLANNED
 - 062 · 2026-11-09 · Mecanismo · ¿Cómo se recarga una batería de litio? · PLANNED
 - 063 · 2026-11-09 · Ciencia · ¿Por qué la cebolla te hace llorar? · PLANNED

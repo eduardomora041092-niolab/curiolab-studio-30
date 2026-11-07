@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-06T13:46:23-05:00",
+ "generated": "2026-11-07T06:59:01-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 5,
- "free_after_plan": 1,
+ "occupied": 6,
+ "free_after_plan": 0,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,20 @@
  "reconciled": [],
  "create": [
   {
-   "id": "056",
-   "platform": "tiktok",
-   "channelId": "6ad739bd778b240e2f677654",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-07T13:00:00-05:00",
-   "text": "El aire entra, pero no sale. ¿Cómo funciona la válvula de un neumático?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-056/CurioLab_056.mp4",
-    "title": "CurioLab_056.mp4",
-    "thumbnailOffset": 2282
-   },
-   "metadata": {
-    "tiktok": {
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "057",
+   "id": "058",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-07T18:00:00-05:00",
-   "text": "El suelo bajo tus pies se mueve. ¿Por qué ocurren los terremotos?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "dueAt": "2026-11-08T09:00:00-05:00",
+   "text": "Los escalones aparecen y desaparecen. ¿Cómo funciona una escalera mecánica?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-057/CurioLab_057.mp4",
-    "title": "CurioLab_057.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-058/CurioLab_058.mp4",
+    "title": "CurioLab_058.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Por qué ocurren los terremotos?",
+     "title": "¿Cómo funciona una escalera mecánica?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
@@ -69,40 +50,81 @@
    }
   },
   {
-   "id": "057",
+   "id": "058",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-07T18:00:00-05:00",
-   "text": "El suelo bajo tus pies se mueve. ¿Por qué ocurren los terremotos?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "dueAt": "2026-11-08T09:00:00-05:00",
+   "text": "Los escalones aparecen y desaparecen. ¿Cómo funciona una escalera mecánica?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-057/CurioLab_057.mp4",
-    "title": "CurioLab_057.mp4",
-    "thumbnailOffset": 2538
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-058/CurioLab_058.mp4",
+    "title": "CurioLab_058.mp4",
+    "thumbnailOffset": 2858
    },
    "metadata": {
     "tiktok": {
      "isAiGenerated": true
     }
    }
+  },
+  {
+   "id": "059",
+   "platform": "youtube",
+   "channelId": "6ad73b1a778b240e2f677dbf",
+   "reason": "nuevo",
+   "mode": "customScheduled",
+   "dueAt": "2026-11-08T13:00:00-05:00",
+   "text": "No tiene motor propio, pero gira. ¿Por qué gira el brazo del lavavajillas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-059/CurioLab_059.mp4",
+    "title": "CurioLab_059.mp4"
+   },
+   "metadata": {
+    "youtube": {
+     "title": "¿Por qué gira el brazo del lavavajillas?",
+     "categoryId": "27",
+     "privacy": "public",
+     "madeForKids": false,
+     "isAiGenerated": true
+    }
+   }
   }
  ],
- "waiting": [],
+ "waiting": [
+  {
+   "id": "059",
+   "platform": "tiktok",
+   "dueAt": "2026-11-08T13:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "060",
+   "platform": "youtube",
+   "dueAt": "2026-11-08T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "060",
+   "platform": "tiktok",
+   "dueAt": "2026-11-08T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  }
+ ],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261106T134623_pre-create_3244b5dcd7b9/",
+   "file": "evidence/buffer/20261107T065901_pre-create_67bfcbfa3a0c/",
    "files": {
-    "account.json": "2f500fcf5b14bb015516ca5be205763955c848eda6a195f022a4bc71bf9d22db",
-    "errors.json": "338f37f479c602faed5ad2e128a29347c922bb940b404e6caa8ff6242402aa15",
-    "open.json": "e78ac532bb7a8a7430a32267ae40960ca85765ca4ee456af9ef4aa2db0bfffaf",
-    "recent.json": "442f2da1c28d88221b2e0d37dd33a8e4186a9e913db179a01da9faaa6c7aabdf"
+    "account.json": "bf8a76a151c39ce48566191a015ca84b85007bfd795e9396245cc3bdbdb879b8",
+    "errors.json": "f8cd7a72115b22ccc8d21f1c9da1cd29de92dc8441284b992c03fb92ad045513",
+    "open.json": "4be98881fbb186b31140cfa555af9b7255bf24a90067c77fdfad51b2a0ca381f",
+    "recent.json": "b2222ce31b67fc7df956febff0253499f68ac08bc02a34585fe28a64edc79c0b"
    },
-   "nonce": "3244b5dcd7b9",
-   "nonce_issued": "2026-11-06T13:43:51-05:00",
-   "buffer_time": "2026-11-06T13:43:57-05:00",
+   "nonce": "67bfcbfa3a0c",
+   "nonce_issued": "2026-11-07T06:56:18-05:00",
+   "buffer_time": "2026-11-07T06:56:24-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -112,36 +134,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-06T13:56:23-05:00",
+ "valid_until": "2026-11-07T07:09:01-05:00",
  "offered": [
   {
-   "id": "056",
-   "platform": "tiktok",
-   "offered": "2026-11-06T13:46:25-05:00",
-   "result": {
-    "post_id": "6aee2086a7751de7c99f8935",
-    "status": "scheduled",
-    "at": "2026-11-06T13:46:32-05:00"
-   }
-  },
-  {
-   "id": "057",
+   "id": "058",
    "platform": "youtube",
-   "offered": "2026-11-06T13:46:32-05:00",
+   "offered": "2026-11-07T06:59:02-05:00",
    "result": {
-    "post_id": "6aee208da7751de7c99f8b5b",
+    "post_id": "6aef128b004e4879a752b15c",
     "status": "scheduled",
-    "at": "2026-11-06T13:46:39-05:00"
+    "at": "2026-11-07T06:59:09-05:00"
    }
   },
   {
-   "id": "057",
+   "id": "058",
    "platform": "tiktok",
-   "offered": "2026-11-06T13:46:39-05:00",
+   "offered": "2026-11-07T06:59:09-05:00",
    "result": {
-    "post_id": "6aee2093af7e526d43d593b5",
+    "post_id": "6aef1291d6bbae6fa1849574",
     "status": "scheduled",
-    "at": "2026-11-06T13:46:46-05:00"
+    "at": "2026-11-07T06:59:15-05:00"
+   }
+  },
+  {
+   "id": "059",
+   "platform": "youtube",
+   "offered": "2026-11-07T06:59:15-05:00",
+   "result": {
+    "post_id": "6aef1298d6bbae6fa184969d",
+    "status": "scheduled",
+    "at": "2026-11-07T06:59:22-05:00"
    }
   }
  ]
