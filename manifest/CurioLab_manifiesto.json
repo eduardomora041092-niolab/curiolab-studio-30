@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-08T13:49-05:00",
+ "actualizado": "2026-11-08T18:49-05:00",
  "estados": {
-  "PUBLISHED": 59,
-  "PRODUCED": 4,
+  "PUBLISHED": 60,
+  "PRODUCED": 3,
   "PLANNED": 27
  },
  "costo_real_usd": 0,
@@ -4353,19 +4353,19 @@
    "fecha": "2026-11-08",
    "titulo": "¿Por qué la sal derrite el hielo?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6aef7212562f2e6de97525de",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-07T13:46:45-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/FJM28rLp5MQ",
+     "recorded": "2026-11-08T18:43:53-05:00"
     },
     "tiktok": {
      "post_id": "6aef72199214322f680d2309",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-07T13:46:52-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7705939534483098894",
+     "recorded": "2026-11-08T18:43:53-05:00"
     }
    },
    "qa": {

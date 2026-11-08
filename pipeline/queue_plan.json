@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-08T13:49:38-05:00",
+ "generated": "2026-11-08T18:49:31-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 8,
- "free_after_plan": 1,
+ "occupied": 6,
+ "free_after_plan": 3,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 0,
+   "sent": 3,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 0,
+   "sent": 3,
    "limit": null,
    "isAtLimit": null
   }
@@ -32,16 +32,16 @@
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261108T134938_confirm_744e1e8f171f/",
+   "file": "evidence/buffer/20261108T184931_confirm_10c5e96a42d5/",
    "files": {
-    "account.json": "6e1192247555f42c7226ba211372b3c9043d2f0aa4cb9440b4237175800075fe",
-    "errors.json": "ce94058c6774c10136e33d6cee0578e386332886e0fb39e5d64f7b3fd0f4d695",
-    "open.json": "48ebf81091306c7e3b547875b2ef968bc99c3991b5bbf2921dffff4fbdddc1fa",
-    "recent.json": "f7c837d288b97ea47b0fde85672919aae0bb6158fc099f25eff0ec0a9298ea7b"
+    "account.json": "1033acd22431eb3dd1a7c8eb17c14688a13088e34190baa19e98a9bc6fde91c4",
+    "errors.json": "dd9d3123b0a48cbd8ea27bfaa3072bea33eb19c0f4edb956bd36a47f86c5e53d",
+    "open.json": "fdc28396fe0c06330b8fb315d9f0ddcc9319c4c0392db745408ee8420894ae78",
+    "recent.json": "cc9a36ad989bbb89032525a3c89519073f165404bbee8f482121c3b7440a7211"
    },
-   "nonce": "744e1e8f171f",
-   "nonce_issued": "2026-11-08T13:46:42-05:00",
-   "buffer_time": "2026-11-08T13:46:48-05:00",
+   "nonce": "10c5e96a42d5",
+   "nonce_issued": "2026-11-08T18:46:52-05:00",
+   "buffer_time": "2026-11-08T18:46:58-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,

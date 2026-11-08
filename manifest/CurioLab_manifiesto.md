@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-08T13:49-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-08T18:49-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 27
-- **PRODUCED**: 4
-- **PUBLISHED**: 59
+- **PRODUCED**: 3
+- **PUBLISHED**: 60
 
 ## Vídeos con actividad
 
@@ -71,7 +71,7 @@ Actualizado: 2026-11-08T13:49-05:00 (America/New_York) · Costo real: US$0
 | 057 | 2026-11-07 | ¿Por qué ocurren los terremotos? | PUBLISHED | https://www.youtube.com/shorts/o2hcvHjuOn8 | https://tiktok.com/@curiolabstudio30/video/7705568436105137421 | PASS 26.7 s -15.7 LUFS |
 | 058 | 2026-11-08 | ¿Cómo funciona una escalera mecánica? | PUBLISHED | https://www.youtube.com/shorts/uSSz_5MsYEY | https://tiktok.com/@curiolabstudio30/video/7705800167177424141 | PASS 27.9 s -15.5 LUFS |
 | 059 | 2026-11-08 | ¿Por qué gira el brazo del lavavajillas? | PUBLISHED | https://www.youtube.com/shorts/tJuE4uujVQ8 | https://tiktok.com/@curiolabstudio30/video/7705862429950905614 | PASS 26.767 s -15.6 LUFS |
-| 060 | 2026-11-08 | ¿Por qué la sal derrite el hielo? | PRODUCED | — | — | PASS 27.433 s -15.6 LUFS |
+| 060 | 2026-11-08 | ¿Por qué la sal derrite el hielo? | PUBLISHED | https://www.youtube.com/shorts/FJM28rLp5MQ | https://tiktok.com/@curiolabstudio30/video/7705939534483098894 | PASS 27.433 s -15.6 LUFS |
 | 061 | 2026-11-09 | ¿Cómo convierte un panel solar la luz en electricidad? | PRODUCED | — | — | PASS 28.6 s -15.6 LUFS |
 | 062 | 2026-11-09 | ¿Cómo se recarga una batería de litio? | PRODUCED | — | — | PASS 28.033 s -15.8 LUFS |
 | 063 | 2026-11-09 | ¿Por qué la cebolla te hace llorar? | PRODUCED | — | — | PASS 25.9 s -15.8 LUFS |
@@ -137,7 +137,7 @@ Actualizado: 2026-11-08T13:49-05:00 (America/New_York) · Costo real: US$0
 - 057 · 2026-11-07 · Ciencia · ¿Por qué ocurren los terremotos? · PUBLISHED
 - 058 · 2026-11-08 · Mecanismo · ¿Cómo funciona una escalera mecánica? · PUBLISHED
 - 059 · 2026-11-08 · Mecanismo · ¿Por qué gira el brazo del lavavajillas? · PUBLISHED
-- 060 · 2026-11-08 · Ciencia · ¿Por qué la sal derrite el hielo? · PRODUCED
+- 060 · 2026-11-08 · Ciencia · ¿Por qué la sal derrite el hielo? · PUBLISHED
 - 061 · 2026-11-09 · Mecanismo · ¿Cómo convierte un panel solar la luz en electricidad? · PRODUCED
 - 062 · 2026-11-09 · Mecanismo · ¿Cómo se recarga una batería de litio? · PRODUCED
 - 063 · 2026-11-09 · Ciencia · ¿Por qué la cebolla te hace llorar? · PRODUCED
