@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-08T07:05-05:00",
+ "actualizado": "2026-11-08T13:49-05:00",
  "estados": {
-  "PUBLISHED": 57,
-  "PRODUCED": 6,
+  "PUBLISHED": 59,
+  "PRODUCED": 4,
   "PLANNED": 27
  },
  "costo_real_usd": 0,
@@ -4141,19 +4141,19 @@
    "fecha": "2026-11-08",
    "titulo": "¿Cómo funciona una escalera mecánica?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6aef128b004e4879a752b15c",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-07T06:59:09-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/uSSz_5MsYEY",
+     "recorded": "2026-11-08T13:43:36-05:00"
     },
     "tiktok": {
      "post_id": "6aef1291d6bbae6fa1849574",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-07T06:59:15-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7705800167177424141",
+     "recorded": "2026-11-08T13:43:36-05:00"
     }
    },
    "qa": {
@@ -4247,19 +4247,19 @@
    "fecha": "2026-11-08",
    "titulo": "¿Por qué gira el brazo del lavavajillas?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6aef1298d6bbae6fa184969d",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-07T06:59:22-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/tJuE4uujVQ8",
+     "recorded": "2026-11-08T13:43:36-05:00"
     },
     "tiktok": {
      "post_id": "6aef720b9214322f680d2088",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-07T13:46:38-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7705862429950905614",
+     "recorded": "2026-11-08T13:43:36-05:00"
     }
    },
    "qa": {
@@ -4575,6 +4575,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-11-08T07:02:22-05:00"
+    },
+    "tiktok": {
+     "post_id": "6af0c3849214322f686e8e7e",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-08T13:46:30-05:00"
     }
    },
    "qa": {
@@ -4672,7 +4678,20 @@
    "titulo": "¿Por qué la cebolla te hace llorar?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6af0c38ad6bbae6fa1062089",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-08T13:46:36-05:00"
+    },
+    "tiktok": {
+     "post_id": "6af0c390229bf05dafcb73f8",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-08T13:46:42-05:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 25.9,
@@ -4760,7 +4779,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-063/CurioLab_063.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 25900
   },
   "064": {
    "fecha": "2026-11-10",

@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-08T07:01:56-05:00",
+ "generated": "2026-11-08T13:46:24-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 0,
+ "occupied": 5,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,17 @@
  "reconciled": [],
  "create": [
   {
-   "id": "061",
-   "platform": "youtube",
-   "channelId": "6ad73b1a778b240e2f677dbf",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-09T09:00:00-05:00",
-   "text": "La luz empuja electrones. ¿Cómo convierte un panel solar la luz en electricidad?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-061/CurioLab_061.mp4",
-    "title": "CurioLab_061.mp4"
-   },
-   "metadata": {
-    "youtube": {
-     "title": "¿Cómo convierte un panel solar la luz en electricidad?",
-     "categoryId": "27",
-     "privacy": "public",
-     "madeForKids": false,
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "061",
+   "id": "062",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-09T09:00:00-05:00",
-   "text": "La luz empuja electrones. ¿Cómo convierte un panel solar la luz en electricidad?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-09T13:00:00-05:00",
+   "text": "Los iones viajan de un lado a otro. ¿Cómo se recarga una batería de litio?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-061/CurioLab_061.mp4",
-    "title": "CurioLab_061.mp4",
-    "thumbnailOffset": 2773
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-062/CurioLab_062.mp4",
+    "title": "CurioLab_062.mp4",
+    "thumbnailOffset": 2090
    },
    "metadata": {
     "tiktok": {
@@ -69,62 +47,62 @@
    }
   },
   {
-   "id": "062",
+   "id": "063",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-09T13:00:00-05:00",
-   "text": "Los iones viajan de un lado a otro. ¿Cómo se recarga una batería de litio?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-09T18:00:00-05:00",
+   "text": "Es una defensa química de la cebolla. ¿Por qué la cebolla te hace llorar?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-062/CurioLab_062.mp4",
-    "title": "CurioLab_062.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-063/CurioLab_063.mp4",
+    "title": "CurioLab_063.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Cómo se recarga una batería de litio?",
+     "title": "¿Por qué la cebolla te hace llorar?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  }
- ],
- "waiting": [
-  {
-   "id": "062",
-   "platform": "tiktok",
-   "dueAt": "2026-11-09T13:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "063",
-   "platform": "youtube",
-   "dueAt": "2026-11-09T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
   },
   {
    "id": "063",
    "platform": "tiktok",
+   "channelId": "6ad739bd778b240e2f677654",
+   "reason": "nuevo",
+   "mode": "customScheduled",
    "dueAt": "2026-11-09T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
+   "text": "Es una defensa química de la cebolla. ¿Por qué la cebolla te hace llorar?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-063/CurioLab_063.mp4",
+    "title": "CurioLab_063.mp4",
+    "thumbnailOffset": 1983
+   },
+   "metadata": {
+    "tiktok": {
+     "isAiGenerated": true
+    }
+   }
   }
  ],
+ "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261108T070156_pre-create_cad01fe68245/",
+   "file": "evidence/buffer/20261108T134624_pre-create_3250ce59ed45/",
    "files": {
-    "account.json": "0a060030bb0fc8125cd19fadf661217b567d66e6d258a364290344871211eacf",
-    "errors.json": "088da32d5a0e24eacb13038040c5b189816ecf865f106235b82e8c5c2ce88352",
-    "open.json": "41c004ee4ebe873e99231398b2c60f73f25275ed56a749fe9b91bc33e084eb61",
-    "recent.json": "336de39ae6b9257b3e4d1cefec383cdc97d390913acfe9ed74707089810e21e0"
+    "account.json": "dd9c21356560e647ebeb546c28cb85e613a53cf86cc2b8d98daaecf8574bdfd6",
+    "errors.json": "52bcb30dac999dea364d6f4adb9fc90b10ff598d754a654801e51affbadf2ce0",
+    "open.json": "0db85b05a5c4835984730df28ff6ebe7b2cc5708b463b2aadbff758ff1e1bd33",
+    "recent.json": "3e9d94215e6b4c4da756abdb4a131ce2df994ecad08ce7cd7381ab92e905b81e"
    },
-   "nonce": "cad01fe68245",
-   "nonce_issued": "2026-11-08T06:59:16-05:00",
-   "buffer_time": "2026-11-08T07:01:49-05:00",
+   "nonce": "3250ce59ed45",
+   "nonce_issued": "2026-11-08T13:43:56-05:00",
+   "buffer_time": "2026-11-08T13:44:02-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -134,36 +112,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-08T07:11:56-05:00",
+ "valid_until": "2026-11-08T13:56:24-05:00",
  "offered": [
   {
-   "id": "061",
-   "platform": "youtube",
-   "offered": "2026-11-08T07:01:59-05:00",
-   "result": {
-    "post_id": "6af064bd562f2e6de9b73e91",
-    "status": "scheduled",
-    "at": "2026-11-08T07:02:07-05:00"
-   }
-  },
-  {
-   "id": "061",
-   "platform": "tiktok",
-   "offered": "2026-11-08T07:02:07-05:00",
-   "result": {
-    "post_id": "6af064c4562f2e6de9b7419a",
-    "status": "scheduled",
-    "at": "2026-11-08T07:02:14-05:00"
-   }
-  },
-  {
    "id": "062",
-   "platform": "youtube",
-   "offered": "2026-11-08T07:02:14-05:00",
+   "platform": "tiktok",
+   "offered": "2026-11-08T13:46:24-05:00",
    "result": {
-    "post_id": "6af064cb9214322f684f4ca5",
+    "post_id": "6af0c3849214322f686e8e7e",
     "status": "scheduled",
-    "at": "2026-11-08T07:02:22-05:00"
+    "at": "2026-11-08T13:46:30-05:00"
+   }
+  },
+  {
+   "id": "063",
+   "platform": "youtube",
+   "offered": "2026-11-08T13:46:30-05:00",
+   "result": {
+    "post_id": "6af0c38ad6bbae6fa1062089",
+    "status": "scheduled",
+    "at": "2026-11-08T13:46:36-05:00"
+   }
+  },
+  {
+   "id": "063",
+   "platform": "tiktok",
+   "offered": "2026-11-08T13:46:36-05:00",
+   "result": {
+    "post_id": "6af0c390229bf05dafcb73f8",
+    "status": "scheduled",
+    "at": "2026-11-08T13:46:42-05:00"
    }
   }
  ]
