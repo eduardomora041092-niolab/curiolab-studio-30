@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-07T18:48-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-08T07:05-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 30
-- **PRODUCED**: 3
+- **PLANNED**: 27
+- **PRODUCED**: 6
 - **PUBLISHED**: 57
 
 ## Vídeos con actividad
@@ -72,6 +72,9 @@ Actualizado: 2026-11-07T18:48-05:00 (America/New_York) · Costo real: US$0
 | 058 | 2026-11-08 | ¿Cómo funciona una escalera mecánica? | PRODUCED | — | — | PASS 27.9 s -15.5 LUFS |
 | 059 | 2026-11-08 | ¿Por qué gira el brazo del lavavajillas? | PRODUCED | — | — | PASS 26.767 s -15.6 LUFS |
 | 060 | 2026-11-08 | ¿Por qué la sal derrite el hielo? | PRODUCED | — | — | PASS 27.433 s -15.6 LUFS |
+| 061 | 2026-11-09 | ¿Cómo convierte un panel solar la luz en electricidad? | PRODUCED | — | — | PASS 28.6 s -15.6 LUFS |
+| 062 | 2026-11-09 | ¿Cómo se recarga una batería de litio? | PRODUCED | — | — | PASS 28.033 s -15.8 LUFS |
+| 063 | 2026-11-09 | ¿Por qué la cebolla te hace llorar? | PRODUCED | — | — | PASS 25.9 s -15.8 LUFS |
 
 ## Calendario completo
 
@@ -135,9 +138,9 @@ Actualizado: 2026-11-07T18:48-05:00 (America/New_York) · Costo real: US$0
 - 058 · 2026-11-08 · Mecanismo · ¿Cómo funciona una escalera mecánica? · PRODUCED
 - 059 · 2026-11-08 · Mecanismo · ¿Por qué gira el brazo del lavavajillas? · PRODUCED
 - 060 · 2026-11-08 · Ciencia · ¿Por qué la sal derrite el hielo? · PRODUCED
-- 061 · 2026-11-09 · Mecanismo · ¿Cómo convierte un panel solar la luz en electricidad? · PLANNED
-- 062 · 2026-11-09 · Mecanismo · ¿Cómo se recarga una batería de litio? · PLANNED
-- 063 · 2026-11-09 · Ciencia · ¿Por qué la cebolla te hace llorar? · PLANNED
+- 061 · 2026-11-09 · Mecanismo · ¿Cómo convierte un panel solar la luz en electricidad? · PRODUCED
+- 062 · 2026-11-09 · Mecanismo · ¿Cómo se recarga una batería de litio? · PRODUCED
+- 063 · 2026-11-09 · Ciencia · ¿Por qué la cebolla te hace llorar? · PRODUCED
 - 064 · 2026-11-10 · Mecanismo · ¿Cómo carga el móvil sin cables? · PLANNED
 - 065 · 2026-11-10 · Mecanismo · ¿Cómo sabe el GPS dónde estás? · PLANNED
 - 066 · 2026-11-10 · Ciencia · ¿Por qué brillan los ojos de los gatos en la oscuridad? · PLANNED

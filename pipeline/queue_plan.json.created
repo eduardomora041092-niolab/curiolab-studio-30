@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-07T13:46:29-05:00",
+ "generated": "2026-11-08T07:01:56-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 5,
- "free_after_plan": 1,
+ "occupied": 6,
+ "free_after_plan": 0,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,16 +28,38 @@
  "reconciled": [],
  "create": [
   {
-   "id": "059",
+   "id": "061",
+   "platform": "youtube",
+   "channelId": "6ad73b1a778b240e2f677dbf",
+   "reason": "nuevo",
+   "mode": "customScheduled",
+   "dueAt": "2026-11-09T09:00:00-05:00",
+   "text": "La luz empuja electrones. ¿Cómo convierte un panel solar la luz en electricidad?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-061/CurioLab_061.mp4",
+    "title": "CurioLab_061.mp4"
+   },
+   "metadata": {
+    "youtube": {
+     "title": "¿Cómo convierte un panel solar la luz en electricidad?",
+     "categoryId": "27",
+     "privacy": "public",
+     "madeForKids": false,
+     "isAiGenerated": true
+    }
+   }
+  },
+  {
+   "id": "061",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-08T13:00:00-05:00",
-   "text": "No tiene motor propio, pero gira. ¿Por qué gira el brazo del lavavajillas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-09T09:00:00-05:00",
+   "text": "La luz empuja electrones. ¿Cómo convierte un panel solar la luz en electricidad?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-059/CurioLab_059.mp4",
-    "title": "CurioLab_059.mp4",
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-061/CurioLab_061.mp4",
+    "title": "CurioLab_061.mp4",
     "thumbnailOffset": 2773
    },
    "metadata": {
@@ -47,62 +69,62 @@
    }
   },
   {
-   "id": "060",
+   "id": "062",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-08T18:00:00-05:00",
-   "text": "La sal no calienta el hielo. ¿Por qué la sal derrite el hielo?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "dueAt": "2026-11-09T13:00:00-05:00",
+   "text": "Los iones viajan de un lado a otro. ¿Cómo se recarga una batería de litio?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-060/CurioLab_060.mp4",
-    "title": "CurioLab_060.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-062/CurioLab_062.mp4",
+    "title": "CurioLab_062.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Por qué la sal derrite el hielo?",
+     "title": "¿Cómo se recarga una batería de litio?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  },
-  {
-   "id": "060",
-   "platform": "tiktok",
-   "channelId": "6ad739bd778b240e2f677654",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-08T18:00:00-05:00",
-   "text": "La sal no calienta el hielo. ¿Por qué la sal derrite el hielo?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-060/CurioLab_060.mp4",
-    "title": "CurioLab_060.mp4",
-    "thumbnailOffset": 2367
-   },
-   "metadata": {
-    "tiktok": {
-     "isAiGenerated": true
-    }
-   }
   }
  ],
- "waiting": [],
+ "waiting": [
+  {
+   "id": "062",
+   "platform": "tiktok",
+   "dueAt": "2026-11-09T13:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "063",
+   "platform": "youtube",
+   "dueAt": "2026-11-09T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "063",
+   "platform": "tiktok",
+   "dueAt": "2026-11-09T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  }
+ ],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261107T134629_pre-create_ff04b051cdc1/",
+   "file": "evidence/buffer/20261108T070156_pre-create_cad01fe68245/",
    "files": {
-    "account.json": "435cd91c433f5dcf6a6e0154de576b4eb580fbcc26f99ebe3269fb5b75457e1e",
-    "errors.json": "8c05427498a9d05ca19253f1a260854f30afa48236d566f49e10844c430e78dc",
-    "open.json": "c55aca928a0bec96ac496d5cb7fe5e2ea4e6639f3e88b5e4a2d98f88c9eb79f8",
-    "recent.json": "74cdac2bbd145211cf10ebb853016680fbb99ff913f92445ab9ba13dac045726"
+    "account.json": "0a060030bb0fc8125cd19fadf661217b567d66e6d258a364290344871211eacf",
+    "errors.json": "088da32d5a0e24eacb13038040c5b189816ecf865f106235b82e8c5c2ce88352",
+    "open.json": "41c004ee4ebe873e99231398b2c60f73f25275ed56a749fe9b91bc33e084eb61",
+    "recent.json": "336de39ae6b9257b3e4d1cefec383cdc97d390913acfe9ed74707089810e21e0"
    },
-   "nonce": "ff04b051cdc1",
-   "nonce_issued": "2026-11-07T13:44:01-05:00",
-   "buffer_time": "2026-11-07T13:46:21-05:00",
+   "nonce": "cad01fe68245",
+   "nonce_issued": "2026-11-08T06:59:16-05:00",
+   "buffer_time": "2026-11-08T07:01:49-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -112,36 +134,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-07T13:56:29-05:00",
+ "valid_until": "2026-11-08T07:11:56-05:00",
  "offered": [
   {
-   "id": "059",
-   "platform": "tiktok",
-   "offered": "2026-11-07T13:46:31-05:00",
-   "result": {
-    "post_id": "6aef720b9214322f680d2088",
-    "status": "scheduled",
-    "at": "2026-11-07T13:46:38-05:00"
-   }
-  },
-  {
-   "id": "060",
+   "id": "061",
    "platform": "youtube",
-   "offered": "2026-11-07T13:46:38-05:00",
+   "offered": "2026-11-08T07:01:59-05:00",
    "result": {
-    "post_id": "6aef7212562f2e6de97525de",
+    "post_id": "6af064bd562f2e6de9b73e91",
     "status": "scheduled",
-    "at": "2026-11-07T13:46:45-05:00"
+    "at": "2026-11-08T07:02:07-05:00"
    }
   },
   {
-   "id": "060",
+   "id": "061",
    "platform": "tiktok",
-   "offered": "2026-11-07T13:46:45-05:00",
+   "offered": "2026-11-08T07:02:07-05:00",
    "result": {
-    "post_id": "6aef72199214322f680d2309",
+    "post_id": "6af064c4562f2e6de9b7419a",
     "status": "scheduled",
-    "at": "2026-11-07T13:46:52-05:00"
+    "at": "2026-11-08T07:02:14-05:00"
+   }
+  },
+  {
+   "id": "062",
+   "platform": "youtube",
+   "offered": "2026-11-08T07:02:14-05:00",
+   "result": {
+    "post_id": "6af064cb9214322f684f4ca5",
+    "status": "scheduled",
+    "at": "2026-11-08T07:02:22-05:00"
    }
   }
  ]
