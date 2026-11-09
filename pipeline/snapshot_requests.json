@@ -1063,5 +1063,41 @@
   "since": "2026-11-07T18:47:21Z",
   "dir": "/tmp/curiolab_snap/confirm_0b547d3bd349",
   "used": "2026-11-09T13:50:20-05:00"
+ },
+ {
+  "nonce": "4fbebed1bb91",
+  "mode": "mcp",
+  "issued": "2026-11-09T18:42:24-05:00",
+  "purpose": "reconcile",
+  "since": "2026-11-04T23:42:24Z",
+  "dir": "/tmp/curiolab_snap/reconcile_4fbebed1bb91",
+  "used": null
+ },
+ {
+  "nonce": "0388142c4857",
+  "mode": "mcp",
+  "issued": "2026-11-09T18:52:58-05:00",
+  "purpose": "reconcile",
+  "since": "2026-11-04T23:52:58Z",
+  "dir": "/tmp/curiolab_snap/reconcile_0388142c4857",
+  "used": "2026-11-09T18:53:41-05:00"
+ },
+ {
+  "nonce": "44e3a8e6c3a1",
+  "mode": "mcp",
+  "issued": "2026-11-09T18:53:57-05:00",
+  "purpose": "pre-create",
+  "since": "2026-11-07T23:53:57Z",
+  "dir": "/tmp/curiolab_snap/pre-create_44e3a8e6c3a1",
+  "used": "2026-11-09T18:54:20-05:00"
+ },
+ {
+  "nonce": "9d903620751f",
+  "mode": "mcp",
+  "issued": "2026-11-09T18:54:22-05:00",
+  "purpose": "confirm",
+  "since": "2026-11-07T23:54:22Z",
+  "dir": "/tmp/curiolab_snap/confirm_9d903620751f",
+  "used": "2026-11-09T18:54:34-05:00"
  }
 ]

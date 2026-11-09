@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T13:44:14-05:00",
+ "updated": "2026-11-09T18:53:52-05:00",
  "rules": {
   "target_max_s": 33.0,
   "hook_max_words": 12,
@@ -8,8 +8,8 @@
   "applies_from": "046"
  },
  "reasons": [
-  "R1: proporción media vista (visionado medio / duración) mediana TikTok 34% en 59 vídeos (umbral 40 %/50 %) → duración máx 33 s, gancho ≤ 12 palabras",
-  "R2: 7 comentarios en 118 publicaciones medidas → pregunta en el texto: no",
+  "R1: proporción media vista (visionado medio / duración) mediana TikTok 34% en 60 vídeos (umbral 40 %/50 %) → duración máx 33 s, gancho ≤ 12 palabras",
+  "R2: 7 comentarios en 120 publicaciones medidas → pregunta en el texto: no",
   "R3: visionado medio TikTok Mecanismo 9.1 s, Ciencia 9.0 s → categoría débil: ninguna"
  ],
  "evaluation": {
@@ -662,9 +662,9 @@
    "categoria": "Ciencia",
    "slot": 3,
    "duration_s": 26.533,
-   "tt_views": 263.0,
-   "yt_views": 1161.0,
-   "tt_avg_watch_s": 9.08,
+   "tt_views": 264.0,
+   "yt_views": 1180.0,
+   "tt_avg_watch_s": 9.07,
    "tt_retention": 0.342,
    "comments": 1.0,
    "comment_metrics": 2
@@ -728,6 +728,18 @@
    "tt_retention": 0.33,
    "comments": 1.0,
    "comment_metrics": 2
+  },
+  {
+   "id": "060",
+   "categoria": "Ciencia",
+   "slot": 3,
+   "duration_s": 27.433,
+   "tt_views": 260.0,
+   "yt_views": 803.0,
+   "tt_avg_watch_s": 9.91,
+   "tt_retention": 0.361,
+   "comments": 0.0,
+   "comment_metrics": 2
   }
  ],
  "videos_measured": [
@@ -789,7 +801,8 @@
   "056",
   "057",
   "058",
-  "059"
+  "059",
+  "060"
  ],
  "experiment": {
   "name": "gancho_en_accion",
