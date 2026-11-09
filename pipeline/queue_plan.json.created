@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-09T07:00:08-05:00",
+ "generated": "2026-11-09T13:46:57-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 0,
+ "occupied": 5,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,17 @@
  "reconciled": [],
  "create": [
   {
-   "id": "064",
-   "platform": "youtube",
-   "channelId": "6ad73b1a778b240e2f677dbf",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-10T09:00:00-05:00",
-   "text": "Lo apoyas y empieza a cargar. ¿Cómo carga el móvil sin cables?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-064/CurioLab_064.mp4",
-    "title": "CurioLab_064.mp4"
-   },
-   "metadata": {
-    "youtube": {
-     "title": "¿Cómo carga el móvil sin cables?",
-     "categoryId": "27",
-     "privacy": "public",
-     "madeForKids": false,
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "064",
+   "id": "065",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-10T09:00:00-05:00",
-   "text": "Lo apoyas y empieza a cargar. ¿Cómo carga el móvil sin cables?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-10T13:00:00-05:00",
+   "text": "Satélites que no saben que existes. ¿Cómo sabe el GPS dónde estás?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-064/CurioLab_064.mp4",
-    "title": "CurioLab_064.mp4",
-    "thumbnailOffset": 1770
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-065/CurioLab_065.mp4",
+    "title": "CurioLab_065.mp4",
+    "thumbnailOffset": 1855
    },
    "metadata": {
     "tiktok": {
@@ -69,62 +47,62 @@
    }
   },
   {
-   "id": "065",
+   "id": "066",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-10T13:00:00-05:00",
-   "text": "Satélites que no saben que existes. ¿Cómo sabe el GPS dónde estás?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-10T18:00:00-05:00",
+   "text": "Tienen un espejo dentro del ojo. ¿Por qué brillan los ojos de los gatos en la oscuridad?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-065/CurioLab_065.mp4",
-    "title": "CurioLab_065.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-066/CurioLab_066.mp4",
+    "title": "CurioLab_066.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Cómo sabe el GPS dónde estás?",
+     "title": "¿Por qué brillan los ojos de los gatos en la oscuridad?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  }
- ],
- "waiting": [
-  {
-   "id": "065",
-   "platform": "tiktok",
-   "dueAt": "2026-11-10T13:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "066",
-   "platform": "youtube",
-   "dueAt": "2026-11-10T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
   },
   {
    "id": "066",
    "platform": "tiktok",
+   "channelId": "6ad739bd778b240e2f677654",
+   "reason": "nuevo",
+   "mode": "customScheduled",
    "dueAt": "2026-11-10T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
+   "text": "Tienen un espejo dentro del ojo. ¿Por qué brillan los ojos de los gatos en la oscuridad?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-066/CurioLab_066.mp4",
+    "title": "CurioLab_066.mp4",
+    "thumbnailOffset": 2666
+   },
+   "metadata": {
+    "tiktok": {
+     "isAiGenerated": true
+    }
+   }
   }
  ],
+ "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261109T070008_pre-create_1bcd6b11e207/",
+   "file": "evidence/buffer/20261109T134657_pre-create_7bd7cdfb8713/",
    "files": {
-    "account.json": "012fecef1510563abeb34b67d71bd412cf47a0bc327e8ad132b2ab2424344a72",
-    "errors.json": "418128cbc1815e6fca1321f97c4cc7b65b85a65d46249b51fc89e08c5b3b6da5",
-    "open.json": "0bf14dcdffa0ad800f8679080a3958cdb382477d4ab2ffe5f9b210dc6ec4d1d8",
-    "recent.json": "493625103f826581f3dce9f14c90e620a0764917dd63dd4f7ee0f4e9252bef49"
+    "account.json": "9c3e4d5d672aa2aa9eacd4f2d18fb72e7fa72e034e18196211a955ed6fa1b91b",
+    "errors.json": "af98ec82c6f8a0ad17c50bdb6b311e74aa8cd8d2d33c0f48db5318877c42bbf8",
+    "open.json": "0815d25f36d6d241f65badcbf28980ec5dc130a039a1c962385da6bffb6b16a9",
+    "recent.json": "16681a4f55fdbf516192d2db4927b554f001ebb73374f0f27dded8d610db1cda"
    },
-   "nonce": "1bcd6b11e207",
-   "nonce_issued": "2026-11-09T06:57:27-05:00",
-   "buffer_time": "2026-11-09T06:57:33-05:00",
+   "nonce": "7bd7cdfb8713",
+   "nonce_issued": "2026-11-09T13:44:23-05:00",
+   "buffer_time": "2026-11-09T13:44:32-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -134,36 +112,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-09T07:10:08-05:00",
+ "valid_until": "2026-11-09T13:56:57-05:00",
  "offered": [
   {
-   "id": "064",
-   "platform": "youtube",
-   "offered": "2026-11-09T07:00:10-05:00",
-   "result": {
-    "post_id": "6af1b5d2e94d5fc5f0f475ae",
-    "status": "scheduled",
-    "at": "2026-11-09T07:00:20-05:00"
-   }
-  },
-  {
-   "id": "064",
-   "platform": "tiktok",
-   "offered": "2026-11-09T07:00:20-05:00",
-   "result": {
-    "post_id": "6af1b5d9e94d5fc5f0f4843e",
-    "status": "scheduled",
-    "at": "2026-11-09T07:00:28-05:00"
-   }
-  },
-  {
    "id": "065",
-   "platform": "youtube",
-   "offered": "2026-11-09T07:00:28-05:00",
+   "platform": "tiktok",
+   "offered": "2026-11-09T13:46:59-05:00",
    "result": {
-    "post_id": "6af1b5e38a471bd245b64f55",
+    "post_id": "6af2152829d3f56e691a648a",
     "status": "scheduled",
-    "at": "2026-11-09T07:00:38-05:00"
+    "at": "2026-11-09T13:47:06-05:00"
+   }
+  },
+  {
+   "id": "066",
+   "platform": "youtube",
+   "offered": "2026-11-09T13:47:06-05:00",
+   "result": {
+    "post_id": "6af2152fa16d1f1c1e92e472",
+    "status": "scheduled",
+    "at": "2026-11-09T13:47:13-05:00"
+   }
+  },
+  {
+   "id": "066",
+   "platform": "tiktok",
+   "offered": "2026-11-09T13:47:13-05:00",
+   "result": {
+    "post_id": "6af2153629d3f56e691a6795",
+    "status": "scheduled",
+    "at": "2026-11-09T13:47:21-05:00"
    }
   }
  ]

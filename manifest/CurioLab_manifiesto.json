@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-09T07:03-05:00",
+ "actualizado": "2026-11-09T13:50-05:00",
  "estados": {
-  "PUBLISHED": 60,
-  "PRODUCED": 6,
+  "PUBLISHED": 62,
+  "PRODUCED": 4,
   "PLANNED": 24
  },
  "costo_real_usd": 0,
@@ -4459,19 +4459,19 @@
    "fecha": "2026-11-09",
    "titulo": "¿Cómo convierte un panel solar la luz en electricidad?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af064bd562f2e6de9b73e91",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-08T07:02:07-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/xcjZwj7q9BU",
+     "recorded": "2026-11-09T13:44:00-05:00"
     },
     "tiktok": {
      "post_id": "6af064c4562f2e6de9b7419a",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-08T07:02:14-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7706172005078306062",
+     "recorded": "2026-11-09T13:44:00-05:00"
     }
    },
    "qa": {
@@ -4568,19 +4568,19 @@
    "fecha": "2026-11-09",
    "titulo": "¿Cómo se recarga una batería de litio?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af064cb9214322f684f4ca5",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-08T07:02:22-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/4ngc8XOBD7I",
+     "recorded": "2026-11-09T13:44:00-05:00"
     },
     "tiktok": {
      "post_id": "6af0c3849214322f686e8e7e",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-08T13:46:30-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7706233688006200590",
+     "recorded": "2026-11-09T13:44:00-05:00"
     }
    },
    "qa": {
@@ -4905,6 +4905,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-11-09T07:00:38-05:00"
+    },
+    "tiktok": {
+     "post_id": "6af2152829d3f56e691a648a",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-09T13:47:06-05:00"
     }
    },
    "qa": {
@@ -5005,7 +5011,20 @@
    "titulo": "¿Por qué brillan los ojos de los gatos en la oscuridad?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6af2152fa16d1f1c1e92e472",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-09T13:47:13-05:00"
+    },
+    "tiktok": {
+     "post_id": "6af2153629d3f56e691a6795",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-09T13:47:21-05:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 25.867,
@@ -5096,7 +5115,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-066/CurioLab_066.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 25867
   },
   "067": {
    "fecha": "2026-11-11",

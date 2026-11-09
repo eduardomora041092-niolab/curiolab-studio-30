@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-09T07:03-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-09T13:50-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 24
-- **PRODUCED**: 6
-- **PUBLISHED**: 60
+- **PRODUCED**: 4
+- **PUBLISHED**: 62
 
 ## Vídeos con actividad
 
@@ -72,8 +72,8 @@ Actualizado: 2026-11-09T07:03-05:00 (America/New_York) · Costo real: US$0
 | 058 | 2026-11-08 | ¿Cómo funciona una escalera mecánica? | PUBLISHED | https://www.youtube.com/shorts/uSSz_5MsYEY | https://tiktok.com/@curiolabstudio30/video/7705800167177424141 | PASS 27.9 s -15.5 LUFS |
 | 059 | 2026-11-08 | ¿Por qué gira el brazo del lavavajillas? | PUBLISHED | https://www.youtube.com/shorts/tJuE4uujVQ8 | https://tiktok.com/@curiolabstudio30/video/7705862429950905614 | PASS 26.767 s -15.6 LUFS |
 | 060 | 2026-11-08 | ¿Por qué la sal derrite el hielo? | PUBLISHED | https://www.youtube.com/shorts/FJM28rLp5MQ | https://tiktok.com/@curiolabstudio30/video/7705939534483098894 | PASS 27.433 s -15.6 LUFS |
-| 061 | 2026-11-09 | ¿Cómo convierte un panel solar la luz en electricidad? | PRODUCED | — | — | PASS 28.6 s -15.6 LUFS |
-| 062 | 2026-11-09 | ¿Cómo se recarga una batería de litio? | PRODUCED | — | — | PASS 28.033 s -15.8 LUFS |
+| 061 | 2026-11-09 | ¿Cómo convierte un panel solar la luz en electricidad? | PUBLISHED | https://www.youtube.com/shorts/xcjZwj7q9BU | https://tiktok.com/@curiolabstudio30/video/7706172005078306062 | PASS 28.6 s -15.6 LUFS |
+| 062 | 2026-11-09 | ¿Cómo se recarga una batería de litio? | PUBLISHED | https://www.youtube.com/shorts/4ngc8XOBD7I | https://tiktok.com/@curiolabstudio30/video/7706233688006200590 | PASS 28.033 s -15.8 LUFS |
 | 063 | 2026-11-09 | ¿Por qué la cebolla te hace llorar? | PRODUCED | — | — | PASS 25.9 s -15.8 LUFS |
 | 064 | 2026-11-10 | ¿Cómo carga el móvil sin cables? | PRODUCED | — | — | PASS 26.833 s -15.9 LUFS |
 | 065 | 2026-11-10 | ¿Cómo sabe el GPS dónde estás? | PRODUCED | — | — | PASS 28.467 s -15.6 LUFS |
@@ -141,8 +141,8 @@ Actualizado: 2026-11-09T07:03-05:00 (America/New_York) · Costo real: US$0
 - 058 · 2026-11-08 · Mecanismo · ¿Cómo funciona una escalera mecánica? · PUBLISHED
 - 059 · 2026-11-08 · Mecanismo · ¿Por qué gira el brazo del lavavajillas? · PUBLISHED
 - 060 · 2026-11-08 · Ciencia · ¿Por qué la sal derrite el hielo? · PUBLISHED
-- 061 · 2026-11-09 · Mecanismo · ¿Cómo convierte un panel solar la luz en electricidad? · PRODUCED
-- 062 · 2026-11-09 · Mecanismo · ¿Cómo se recarga una batería de litio? · PRODUCED
+- 061 · 2026-11-09 · Mecanismo · ¿Cómo convierte un panel solar la luz en electricidad? · PUBLISHED
+- 062 · 2026-11-09 · Mecanismo · ¿Cómo se recarga una batería de litio? · PUBLISHED
 - 063 · 2026-11-09 · Ciencia · ¿Por qué la cebolla te hace llorar? · PRODUCED
 - 064 · 2026-11-10 · Mecanismo · ¿Cómo carga el móvil sin cables? · PRODUCED
 - 065 · 2026-11-10 · Mecanismo · ¿Cómo sabe el GPS dónde estás? · PRODUCED
