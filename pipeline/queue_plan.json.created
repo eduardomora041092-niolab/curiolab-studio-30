@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-08T13:46:24-05:00",
+ "generated": "2026-11-09T07:00:08-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 5,
- "free_after_plan": 1,
+ "occupied": 6,
+ "free_after_plan": 0,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,20 @@
  "reconciled": [],
  "create": [
   {
-   "id": "062",
-   "platform": "tiktok",
-   "channelId": "6ad739bd778b240e2f677654",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-09T13:00:00-05:00",
-   "text": "Los iones viajan de un lado a otro. ¿Cómo se recarga una batería de litio?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-062/CurioLab_062.mp4",
-    "title": "CurioLab_062.mp4",
-    "thumbnailOffset": 2090
-   },
-   "metadata": {
-    "tiktok": {
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "063",
+   "id": "064",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-09T18:00:00-05:00",
-   "text": "Es una defensa química de la cebolla. ¿Por qué la cebolla te hace llorar?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "dueAt": "2026-11-10T09:00:00-05:00",
+   "text": "Lo apoyas y empieza a cargar. ¿Cómo carga el móvil sin cables?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-063/CurioLab_063.mp4",
-    "title": "CurioLab_063.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-064/CurioLab_064.mp4",
+    "title": "CurioLab_064.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Por qué la cebolla te hace llorar?",
+     "title": "¿Cómo carga el móvil sin cables?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
@@ -69,40 +50,81 @@
    }
   },
   {
-   "id": "063",
+   "id": "064",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-09T18:00:00-05:00",
-   "text": "Es una defensa química de la cebolla. ¿Por qué la cebolla te hace llorar?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "dueAt": "2026-11-10T09:00:00-05:00",
+   "text": "Lo apoyas y empieza a cargar. ¿Cómo carga el móvil sin cables?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-063/CurioLab_063.mp4",
-    "title": "CurioLab_063.mp4",
-    "thumbnailOffset": 1983
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-064/CurioLab_064.mp4",
+    "title": "CurioLab_064.mp4",
+    "thumbnailOffset": 1770
    },
    "metadata": {
     "tiktok": {
      "isAiGenerated": true
     }
    }
+  },
+  {
+   "id": "065",
+   "platform": "youtube",
+   "channelId": "6ad73b1a778b240e2f677dbf",
+   "reason": "nuevo",
+   "mode": "customScheduled",
+   "dueAt": "2026-11-10T13:00:00-05:00",
+   "text": "Satélites que no saben que existes. ¿Cómo sabe el GPS dónde estás?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-065/CurioLab_065.mp4",
+    "title": "CurioLab_065.mp4"
+   },
+   "metadata": {
+    "youtube": {
+     "title": "¿Cómo sabe el GPS dónde estás?",
+     "categoryId": "27",
+     "privacy": "public",
+     "madeForKids": false,
+     "isAiGenerated": true
+    }
+   }
   }
  ],
- "waiting": [],
+ "waiting": [
+  {
+   "id": "065",
+   "platform": "tiktok",
+   "dueAt": "2026-11-10T13:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "066",
+   "platform": "youtube",
+   "dueAt": "2026-11-10T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "066",
+   "platform": "tiktok",
+   "dueAt": "2026-11-10T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  }
+ ],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261108T134624_pre-create_3250ce59ed45/",
+   "file": "evidence/buffer/20261109T070008_pre-create_1bcd6b11e207/",
    "files": {
-    "account.json": "dd9c21356560e647ebeb546c28cb85e613a53cf86cc2b8d98daaecf8574bdfd6",
-    "errors.json": "52bcb30dac999dea364d6f4adb9fc90b10ff598d754a654801e51affbadf2ce0",
-    "open.json": "0db85b05a5c4835984730df28ff6ebe7b2cc5708b463b2aadbff758ff1e1bd33",
-    "recent.json": "3e9d94215e6b4c4da756abdb4a131ce2df994ecad08ce7cd7381ab92e905b81e"
+    "account.json": "012fecef1510563abeb34b67d71bd412cf47a0bc327e8ad132b2ab2424344a72",
+    "errors.json": "418128cbc1815e6fca1321f97c4cc7b65b85a65d46249b51fc89e08c5b3b6da5",
+    "open.json": "0bf14dcdffa0ad800f8679080a3958cdb382477d4ab2ffe5f9b210dc6ec4d1d8",
+    "recent.json": "493625103f826581f3dce9f14c90e620a0764917dd63dd4f7ee0f4e9252bef49"
    },
-   "nonce": "3250ce59ed45",
-   "nonce_issued": "2026-11-08T13:43:56-05:00",
-   "buffer_time": "2026-11-08T13:44:02-05:00",
+   "nonce": "1bcd6b11e207",
+   "nonce_issued": "2026-11-09T06:57:27-05:00",
+   "buffer_time": "2026-11-09T06:57:33-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -112,36 +134,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-08T13:56:24-05:00",
+ "valid_until": "2026-11-09T07:10:08-05:00",
  "offered": [
   {
-   "id": "062",
-   "platform": "tiktok",
-   "offered": "2026-11-08T13:46:24-05:00",
-   "result": {
-    "post_id": "6af0c3849214322f686e8e7e",
-    "status": "scheduled",
-    "at": "2026-11-08T13:46:30-05:00"
-   }
-  },
-  {
-   "id": "063",
+   "id": "064",
    "platform": "youtube",
-   "offered": "2026-11-08T13:46:30-05:00",
+   "offered": "2026-11-09T07:00:10-05:00",
    "result": {
-    "post_id": "6af0c38ad6bbae6fa1062089",
+    "post_id": "6af1b5d2e94d5fc5f0f475ae",
     "status": "scheduled",
-    "at": "2026-11-08T13:46:36-05:00"
+    "at": "2026-11-09T07:00:20-05:00"
    }
   },
   {
-   "id": "063",
+   "id": "064",
    "platform": "tiktok",
-   "offered": "2026-11-08T13:46:36-05:00",
+   "offered": "2026-11-09T07:00:20-05:00",
    "result": {
-    "post_id": "6af0c390229bf05dafcb73f8",
+    "post_id": "6af1b5d9e94d5fc5f0f4843e",
     "status": "scheduled",
-    "at": "2026-11-08T13:46:42-05:00"
+    "at": "2026-11-09T07:00:28-05:00"
+   }
+  },
+  {
+   "id": "065",
+   "platform": "youtube",
+   "offered": "2026-11-09T07:00:28-05:00",
+   "result": {
+    "post_id": "6af1b5e38a471bd245b64f55",
+    "status": "scheduled",
+    "at": "2026-11-09T07:00:38-05:00"
    }
   }
  ]

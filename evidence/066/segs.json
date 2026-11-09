@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "¿Por qué brillan los ojos de los gatos en la oscuridad?",
+  "start": 0.0,
+  "end": 2.816
+ },
+ {
+  "i": 1,
+  "text": "No producen luz propia: solo reflejan la que les llega.",
+  "start": 3.066,
+  "end": 6.159
+ },
+ {
+  "i": 2,
+  "text": "Detrás de la retina tienen una capa que funciona como un espejo.",
+  "start": 6.409,
+  "end": 9.801
+ },
+ {
+  "i": 3,
+  "text": "Se llama tapetum lucidum.",
+  "start": 10.051,
+  "end": 11.673
+ },
+ {
+  "i": 4,
+  "text": "La luz atraviesa la retina y esa capa la devuelve.",
+  "start": 11.923,
+  "end": 14.973
+ },
+ {
+  "i": 5,
+  "text": "Así la retina capta la luz dos veces y ve mejor de noche.",
+  "start": 15.223,
+  "end": 18.53
+ },
+ {
+  "i": 6,
+  "text": "Parte de esa luz sale del ojo, y por eso lo vemos brillar.",
+  "start": 18.78,
+  "end": 21.959
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para descubrir cómo funcionan más cosas.",
+  "start": 22.209,
+  "end": 24.875
+ }
+]

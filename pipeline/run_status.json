@@ -1,5 +1,46 @@
 {
  "run_id": "468bf6",
  "started": "2026-11-09T06:39:24-05:00",
- "stages": {}
+ "stages": {
+  "reconcile": {
+   "status": "PASS",
+   "msg": "ocupados 6/10, crear 0, en espera 0",
+   "at": "2026-11-09T06:43:54-05:00"
+  },
+  "metrics": {
+   "status": "PASS",
+   "msg": "26 posts capturados",
+   "at": "2026-11-09T06:44:27-05:00"
+  },
+  "production_064": {
+   "status": "PASS",
+   "msg": "26.833 s",
+   "at": "2026-11-09T06:47:58-05:00"
+  },
+  "production_065": {
+   "status": "PASS",
+   "msg": "28.467 s",
+   "at": "2026-11-09T06:50:14-05:00"
+  },
+  "production_066": {
+   "status": "PASS",
+   "msg": "25.867 s",
+   "at": "2026-11-09T06:53:58-05:00"
+  },
+  "pre-create": {
+   "status": "PASS",
+   "msg": "ocupados 6/10, crear 3, en espera 3",
+   "at": "2026-11-09T07:00:08-05:00"
+  },
+  "scheduling": {
+   "status": "PASS",
+   "msg": "3 creados y registrados de 3 autorizados",
+   "at": "2026-11-09T07:00:38-05:00"
+  },
+  "confirm": {
+   "status": "PASS",
+   "msg": "ocupados 9/10, crear 0, en espera 3",
+   "at": "2026-11-09T07:03:50-05:00"
+  }
+ }
 }

@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-08T18:49-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-09T07:03-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 27
-- **PRODUCED**: 3
+- **PLANNED**: 24
+- **PRODUCED**: 6
 - **PUBLISHED**: 60
 
 ## Vídeos con actividad
@@ -75,6 +75,9 @@ Actualizado: 2026-11-08T18:49-05:00 (America/New_York) · Costo real: US$0
 | 061 | 2026-11-09 | ¿Cómo convierte un panel solar la luz en electricidad? | PRODUCED | — | — | PASS 28.6 s -15.6 LUFS |
 | 062 | 2026-11-09 | ¿Cómo se recarga una batería de litio? | PRODUCED | — | — | PASS 28.033 s -15.8 LUFS |
 | 063 | 2026-11-09 | ¿Por qué la cebolla te hace llorar? | PRODUCED | — | — | PASS 25.9 s -15.8 LUFS |
+| 064 | 2026-11-10 | ¿Cómo carga el móvil sin cables? | PRODUCED | — | — | PASS 26.833 s -15.9 LUFS |
+| 065 | 2026-11-10 | ¿Cómo sabe el GPS dónde estás? | PRODUCED | — | — | PASS 28.467 s -15.6 LUFS |
+| 066 | 2026-11-10 | ¿Por qué brillan los ojos de los gatos en la oscuridad? | PRODUCED | — | — | PASS 25.867 s -15.7 LUFS |
 
 ## Calendario completo
 
@@ -141,9 +144,9 @@ Actualizado: 2026-11-08T18:49-05:00 (America/New_York) · Costo real: US$0
 - 061 · 2026-11-09 · Mecanismo · ¿Cómo convierte un panel solar la luz en electricidad? · PRODUCED
 - 062 · 2026-11-09 · Mecanismo · ¿Cómo se recarga una batería de litio? · PRODUCED
 - 063 · 2026-11-09 · Ciencia · ¿Por qué la cebolla te hace llorar? · PRODUCED
-- 064 · 2026-11-10 · Mecanismo · ¿Cómo carga el móvil sin cables? · PLANNED
-- 065 · 2026-11-10 · Mecanismo · ¿Cómo sabe el GPS dónde estás? · PLANNED
-- 066 · 2026-11-10 · Ciencia · ¿Por qué brillan los ojos de los gatos en la oscuridad? · PLANNED
+- 064 · 2026-11-10 · Mecanismo · ¿Cómo carga el móvil sin cables? · PRODUCED
+- 065 · 2026-11-10 · Mecanismo · ¿Cómo sabe el GPS dónde estás? · PRODUCED
+- 066 · 2026-11-10 · Ciencia · ¿Por qué brillan los ojos de los gatos en la oscuridad? · PRODUCED
 - 067 · 2026-11-11 · Mecanismo · ¿Cómo lee un escáner el código de barras? · PLANNED
 - 068 · 2026-11-11 · Mecanismo · ¿Cómo funciona un abrelatas? · PLANNED
 - 069 · 2026-11-11 · Ciencia · ¿Por qué titilan las estrellas? · PLANNED
