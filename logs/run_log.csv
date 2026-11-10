@@ -768,3 +768,4 @@ timestamp_local,level,message
 2026-11-09T18:54:20-05:00,INFO,"etapa pre-create: PASS ocupados 6/10, crear 0, en espera 0"
 2026-11-09T18:54:20-05:00,INFO,etapa scheduling: PASS 0 creados y registrados de 0 autorizados
 2026-11-09T18:54:34-05:00,INFO,"etapa confirm: PASS ocupados 6/10, crear 0, en espera 0"
+2026-11-10T06:38:19-05:00,WARN,lock caducado desde 2026-11-09T18:42:21-05:00 retomado
