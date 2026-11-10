@@ -769,3 +769,24 @@ timestamp_local,level,message
 2026-11-09T18:54:20-05:00,INFO,etapa scheduling: PASS 0 creados y registrados de 0 autorizados
 2026-11-09T18:54:34-05:00,INFO,"etapa confirm: PASS ocupados 6/10, crear 0, en espera 0"
 2026-11-10T06:38:19-05:00,WARN,lock caducado desde 2026-11-09T18:42:21-05:00 retomado
+2026-11-10T06:42:39-05:00,INFO,"etapa reconcile: PASS ocupados 6/10, crear 0, en espera 0"
+2026-11-10T06:42:39-05:00,WARN,etapa metrics: PENDING 26 capturas pendientes
+2026-11-10T06:43:23-05:00,INFO,metrics appended for 26 posts
+2026-11-10T06:43:23-05:00,INFO,etapa metrics: PASS 26 posts capturados
+2026-11-10T06:51:26-05:00,INFO,069 QA all_pass=True
+2026-11-10T06:51:26-05:00,INFO,etapa production_069: PASS 28.067 s
+2026-11-10T06:51:30-05:00,INFO,067 QA all_pass=True
+2026-11-10T06:51:30-05:00,INFO,etapa production_067: PASS 29.467 s
+2026-11-10T06:51:33-05:00,INFO,068 QA all_pass=True
+2026-11-10T06:51:33-05:00,INFO,etapa production_068: PASS 29.833 s
+2026-11-10T06:56:17-05:00,INFO,067 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-067/CurioLab_067.mp4
+2026-11-10T06:57:23-05:00,INFO,068 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-068/CurioLab_068.mp4
+2026-11-10T06:58:29-05:00,INFO,069 hosted https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-069/CurioLab_069.mp4
+2026-11-10T07:01:11-05:00,INFO,"en espera por capacidad: 068 tiktok (cola de Buffer llena), 069 youtube (cola de Buffer llena), 069 tiktok (cola de Buffer llena)"
+2026-11-10T07:01:11-05:00,INFO,"etapa pre-create: PASS ocupados 6/10, crear 3, en espera 3"
+2026-11-10T07:01:18-05:00,INFO,067 youtube 6af3078bcbbac94e1ea5043b scheduled 
+2026-11-10T07:01:24-05:00,INFO,067 tiktok 6af30792cbbac94e1ea50898 scheduled 
+2026-11-10T07:01:31-05:00,INFO,068 youtube 6af30799b77a05a0562f0ac4 scheduled 
+2026-11-10T07:01:31-05:00,INFO,etapa scheduling: PASS 3 creados y registrados de 3 autorizados
+2026-11-10T07:04:48-05:00,INFO,"en espera por capacidad: 068 tiktok (cola de Buffer llena), 069 youtube (cola de Buffer llena), 069 tiktok (cola de Buffer llena)"
+2026-11-10T07:04:48-05:00,INFO,"etapa confirm: PASS ocupados 9/10, crear 0, en espera 3"

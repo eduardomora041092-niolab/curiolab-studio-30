@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T18:53:52-05:00",
+ "updated": "2026-11-10T06:43:23-05:00",
  "rules": {
   "target_max_s": 33.0,
   "hook_max_words": 12,
@@ -9,7 +9,7 @@
  },
  "reasons": [
   "R1: proporción media vista (visionado medio / duración) mediana TikTok 34% en 60 vídeos (umbral 40 %/50 %) → duración máx 33 s, gancho ≤ 12 palabras",
-  "R2: 7 comentarios en 120 publicaciones medidas → pregunta en el texto: no",
+  "R2: 7 comentarios en 122 publicaciones medidas → pregunta en el texto: no",
   "R3: visionado medio TikTok Mecanismo 9.1 s, Ciencia 9.0 s → categoría débil: ninguna"
  ],
  "evaluation": {
@@ -603,7 +603,7 @@
    "slot": 1,
    "duration_s": 26.067,
    "tt_views": 297.0,
-   "yt_views": 992.0,
+   "yt_views": 993.0,
    "tt_avg_watch_s": 12.27,
    "tt_retention": 0.471,
    "comments": 0.0,
@@ -615,7 +615,7 @@
    "slot": 2,
    "duration_s": 29.6,
    "tt_views": 279.0,
-   "yt_views": 1003.0,
+   "yt_views": 1013.0,
    "tt_avg_watch_s": 9.01,
    "tt_retention": 0.304,
    "comments": 0.0,
@@ -639,7 +639,7 @@
    "slot": 1,
    "duration_s": 27.267,
    "tt_views": 279.0,
-   "yt_views": 1238.0,
+   "yt_views": 1270.0,
    "tt_avg_watch_s": 11.72,
    "tt_retention": 0.43,
    "comments": 0.0,
@@ -675,7 +675,7 @@
    "slot": 1,
    "duration_s": 26.467,
    "tt_views": 286.0,
-   "yt_views": 984.0,
+   "yt_views": 1013.0,
    "tt_avg_watch_s": 10.74,
    "tt_retention": 0.406,
    "comments": 0.0,
@@ -687,7 +687,7 @@
    "slot": 2,
    "duration_s": 26.467,
    "tt_views": 297.0,
-   "yt_views": 946.0,
+   "yt_views": 947.0,
    "tt_avg_watch_s": 13.76,
    "tt_retention": 0.52,
    "comments": 0.0,
@@ -698,10 +698,10 @@
    "categoria": "Ciencia",
    "slot": 3,
    "duration_s": 26.7,
-   "tt_views": 267.0,
-   "yt_views": 1169.0,
-   "tt_avg_watch_s": 6.88,
-   "tt_retention": 0.258,
+   "tt_views": 269.0,
+   "yt_views": 1213.0,
+   "tt_avg_watch_s": 6.87,
+   "tt_retention": 0.257,
    "comments": 0.0,
    "comment_metrics": 2
   },
@@ -711,7 +711,7 @@
    "slot": 1,
    "duration_s": 27.9,
    "tt_views": 293.0,
-   "yt_views": 127.0,
+   "yt_views": 1084.0,
    "tt_avg_watch_s": 9.11,
    "tt_retention": 0.327,
    "comments": 0.0,
@@ -738,6 +738,18 @@
    "yt_views": 803.0,
    "tt_avg_watch_s": 9.91,
    "tt_retention": 0.361,
+   "comments": 0.0,
+   "comment_metrics": 2
+  },
+  {
+   "id": "061",
+   "categoria": "Mecanismo",
+   "slot": 1,
+   "duration_s": 28.6,
+   "tt_views": 0.0,
+   "yt_views": 13.0,
+   "tt_avg_watch_s": 0.0,
+   "tt_retention": null,
    "comments": 0.0,
    "comment_metrics": 2
   }
@@ -802,7 +814,8 @@
   "057",
   "058",
   "059",
-  "060"
+  "060",
+  "061"
  ],
  "experiment": {
   "name": "gancho_en_accion",

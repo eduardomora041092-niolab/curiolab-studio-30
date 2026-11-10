@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-09T13:46:57-05:00",
+ "generated": "2026-11-10T07:01:11-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 5,
- "free_after_plan": 1,
+ "occupied": 6,
+ "free_after_plan": 0,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,20 @@
  "reconciled": [],
  "create": [
   {
-   "id": "065",
-   "platform": "tiktok",
-   "channelId": "6ad739bd778b240e2f677654",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-10T13:00:00-05:00",
-   "text": "Satélites que no saben que existes. ¿Cómo sabe el GPS dónde estás?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-065/CurioLab_065.mp4",
-    "title": "CurioLab_065.mp4",
-    "thumbnailOffset": 1855
-   },
-   "metadata": {
-    "tiktok": {
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "066",
+   "id": "067",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-10T18:00:00-05:00",
-   "text": "Tienen un espejo dentro del ojo. ¿Por qué brillan los ojos de los gatos en la oscuridad?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "dueAt": "2026-11-11T09:00:00-05:00",
+   "text": "Unas rayas guardan un número. ¿Cómo lee un escáner el código de barras?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-066/CurioLab_066.mp4",
-    "title": "CurioLab_066.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-067/CurioLab_067.mp4",
+    "title": "CurioLab_067.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Por qué brillan los ojos de los gatos en la oscuridad?",
+     "title": "¿Cómo lee un escáner el código de barras?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
@@ -69,40 +50,81 @@
    }
   },
   {
-   "id": "066",
+   "id": "067",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-10T18:00:00-05:00",
-   "text": "Tienen un espejo dentro del ojo. ¿Por qué brillan los ojos de los gatos en la oscuridad?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "dueAt": "2026-11-11T09:00:00-05:00",
+   "text": "Unas rayas guardan un número. ¿Cómo lee un escáner el código de barras?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-066/CurioLab_066.mp4",
-    "title": "CurioLab_066.mp4",
-    "thumbnailOffset": 2666
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-067/CurioLab_067.mp4",
+    "title": "CurioLab_067.mp4",
+    "thumbnailOffset": 1962
    },
    "metadata": {
     "tiktok": {
      "isAiGenerated": true
     }
    }
+  },
+  {
+   "id": "068",
+   "platform": "youtube",
+   "channelId": "6ad73b1a778b240e2f677dbf",
+   "reason": "nuevo",
+   "mode": "customScheduled",
+   "dueAt": "2026-11-11T13:00:00-05:00",
+   "text": "Corta el metal sin esfuerzo. ¿Cómo funciona un abrelatas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-068/CurioLab_068.mp4",
+    "title": "CurioLab_068.mp4"
+   },
+   "metadata": {
+    "youtube": {
+     "title": "¿Cómo funciona un abrelatas?",
+     "categoryId": "27",
+     "privacy": "public",
+     "madeForKids": false,
+     "isAiGenerated": true
+    }
+   }
   }
  ],
- "waiting": [],
+ "waiting": [
+  {
+   "id": "068",
+   "platform": "tiktok",
+   "dueAt": "2026-11-11T13:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "069",
+   "platform": "youtube",
+   "dueAt": "2026-11-11T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "069",
+   "platform": "tiktok",
+   "dueAt": "2026-11-11T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  }
+ ],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261109T134657_pre-create_7bd7cdfb8713/",
+   "file": "evidence/buffer/20261110T070111_pre-create_1ad9c945afde/",
    "files": {
-    "account.json": "9c3e4d5d672aa2aa9eacd4f2d18fb72e7fa72e034e18196211a955ed6fa1b91b",
-    "errors.json": "af98ec82c6f8a0ad17c50bdb6b311e74aa8cd8d2d33c0f48db5318877c42bbf8",
-    "open.json": "0815d25f36d6d241f65badcbf28980ec5dc130a039a1c962385da6bffb6b16a9",
-    "recent.json": "16681a4f55fdbf516192d2db4927b554f001ebb73374f0f27dded8d610db1cda"
+    "account.json": "104a0d1b49b9db318e859a7ab62c1787049342a8aadcd24e2dea1a7e6826a1eb",
+    "errors.json": "6a30375a21447d9a3c3287986e41ce6a67f95eb98fc833a0dc2ce9f64aa5ace2",
+    "open.json": "7e982c11ff4f53e7dc3b65066130b90469d4963c65400e6830627dd04e0c770c",
+    "recent.json": "b4d226ab4e6602b6a0b50648c6db6a7e213ad0988d59b4469e9a00df81ae5ca8"
    },
-   "nonce": "7bd7cdfb8713",
-   "nonce_issued": "2026-11-09T13:44:23-05:00",
-   "buffer_time": "2026-11-09T13:44:32-05:00",
+   "nonce": "1ad9c945afde",
+   "nonce_issued": "2026-11-10T06:58:31-05:00",
+   "buffer_time": "2026-11-10T07:01:04-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -112,36 +134,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-09T13:56:57-05:00",
+ "valid_until": "2026-11-10T07:11:11-05:00",
  "offered": [
   {
-   "id": "065",
-   "platform": "tiktok",
-   "offered": "2026-11-09T13:46:59-05:00",
-   "result": {
-    "post_id": "6af2152829d3f56e691a648a",
-    "status": "scheduled",
-    "at": "2026-11-09T13:47:06-05:00"
-   }
-  },
-  {
-   "id": "066",
+   "id": "067",
    "platform": "youtube",
-   "offered": "2026-11-09T13:47:06-05:00",
+   "offered": "2026-11-10T07:01:11-05:00",
    "result": {
-    "post_id": "6af2152fa16d1f1c1e92e472",
+    "post_id": "6af3078bcbbac94e1ea5043b",
     "status": "scheduled",
-    "at": "2026-11-09T13:47:13-05:00"
+    "at": "2026-11-10T07:01:18-05:00"
    }
   },
   {
-   "id": "066",
+   "id": "067",
    "platform": "tiktok",
-   "offered": "2026-11-09T13:47:13-05:00",
+   "offered": "2026-11-10T07:01:18-05:00",
    "result": {
-    "post_id": "6af2153629d3f56e691a6795",
+    "post_id": "6af30792cbbac94e1ea50898",
     "status": "scheduled",
-    "at": "2026-11-09T13:47:21-05:00"
+    "at": "2026-11-10T07:01:24-05:00"
+   }
+  },
+  {
+   "id": "068",
+   "platform": "youtube",
+   "offered": "2026-11-10T07:01:24-05:00",
+   "result": {
+    "post_id": "6af30799b77a05a0562f0ac4",
+    "status": "scheduled",
+    "at": "2026-11-10T07:01:31-05:00"
    }
   }
  ]

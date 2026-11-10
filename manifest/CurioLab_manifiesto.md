@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-09T18:54-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-10T07:04-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 24
-- **PRODUCED**: 3
+- **PLANNED**: 21
+- **PRODUCED**: 6
 - **PUBLISHED**: 63
 
 ## Vídeos con actividad
@@ -78,6 +78,9 @@ Actualizado: 2026-11-09T18:54-05:00 (America/New_York) · Costo real: US$0
 | 064 | 2026-11-10 | ¿Cómo carga el móvil sin cables? | PRODUCED | — | — | PASS 26.833 s -15.9 LUFS |
 | 065 | 2026-11-10 | ¿Cómo sabe el GPS dónde estás? | PRODUCED | — | — | PASS 28.467 s -15.6 LUFS |
 | 066 | 2026-11-10 | ¿Por qué brillan los ojos de los gatos en la oscuridad? | PRODUCED | — | — | PASS 25.867 s -15.7 LUFS |
+| 067 | 2026-11-11 | ¿Cómo lee un escáner el código de barras? | PRODUCED | — | — | PASS 29.467 s -15.7 LUFS |
+| 068 | 2026-11-11 | ¿Cómo funciona un abrelatas? | PRODUCED | — | — | PASS 29.833 s -15.5 LUFS |
+| 069 | 2026-11-11 | ¿Por qué titilan las estrellas? | PRODUCED | — | — | PASS 28.067 s -15.8 LUFS |
 
 ## Calendario completo
 
@@ -147,9 +150,9 @@ Actualizado: 2026-11-09T18:54-05:00 (America/New_York) · Costo real: US$0
 - 064 · 2026-11-10 · Mecanismo · ¿Cómo carga el móvil sin cables? · PRODUCED
 - 065 · 2026-11-10 · Mecanismo · ¿Cómo sabe el GPS dónde estás? · PRODUCED
 - 066 · 2026-11-10 · Ciencia · ¿Por qué brillan los ojos de los gatos en la oscuridad? · PRODUCED
-- 067 · 2026-11-11 · Mecanismo · ¿Cómo lee un escáner el código de barras? · PLANNED
-- 068 · 2026-11-11 · Mecanismo · ¿Cómo funciona un abrelatas? · PLANNED
-- 069 · 2026-11-11 · Ciencia · ¿Por qué titilan las estrellas? · PLANNED
+- 067 · 2026-11-11 · Mecanismo · ¿Cómo lee un escáner el código de barras? · PRODUCED
+- 068 · 2026-11-11 · Mecanismo · ¿Cómo funciona un abrelatas? · PRODUCED
+- 069 · 2026-11-11 · Ciencia · ¿Por qué titilan las estrellas? · PRODUCED
 - 070 · 2026-11-12 · Mecanismo · ¿Cómo cambia de marcha una bicicleta? · PLANNED
 - 071 · 2026-11-12 · Mecanismo · ¿Cómo sabe una puerta automática que llegas? · PLANNED
 - 072 · 2026-11-12 · Ciencia · ¿Por qué los copos de nieve tienen seis puntas? · PLANNED
