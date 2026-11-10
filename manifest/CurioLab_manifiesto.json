@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-10T13:50-05:00",
+ "actualizado": "2026-11-10T18:50-05:00",
  "estados": {
-  "PUBLISHED": 65,
-  "PRODUCED": 4,
+  "PUBLISHED": 66,
+  "PRODUCED": 3,
   "PLANNED": 21
  },
  "costo_real_usd": 0,
@@ -5010,19 +5010,19 @@
    "fecha": "2026-11-10",
    "titulo": "¿Por qué brillan los ojos de los gatos en la oscuridad?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af2152fa16d1f1c1e92e472",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-09T13:47:13-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/_I4pqF8GCQc",
+     "recorded": "2026-11-10T18:44:25-05:00"
     },
     "tiktok": {
      "post_id": "6af2153629d3f56e691a6795",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-09T13:47:21-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7706681726906535181",
+     "recorded": "2026-11-10T18:44:25-05:00"
     }
    },
    "qa": {

@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-10T13:50-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-10T18:50-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 21
-- **PRODUCED**: 4
-- **PUBLISHED**: 65
+- **PRODUCED**: 3
+- **PUBLISHED**: 66
 
 ## Vídeos con actividad
 
@@ -77,7 +77,7 @@ Actualizado: 2026-11-10T13:50-05:00 (America/New_York) · Costo real: US$0
 | 063 | 2026-11-09 | ¿Por qué la cebolla te hace llorar? | PUBLISHED | https://www.youtube.com/shorts/oq23zOIDnvs | https://tiktok.com/@curiolabstudio30/video/7706310584299523341 | PASS 25.9 s -15.8 LUFS |
 | 064 | 2026-11-10 | ¿Cómo carga el móvil sin cables? | PUBLISHED | https://www.youtube.com/shorts/G2bh2NnIny0 | https://tiktok.com/@curiolabstudio30/video/7706543130211781902 | PASS 26.833 s -15.9 LUFS |
 | 065 | 2026-11-10 | ¿Cómo sabe el GPS dónde estás? | PUBLISHED | https://www.youtube.com/shorts/QoaTZvcEt2g | https://tiktok.com/@curiolabstudio30/video/7706604688157805838 | PASS 28.467 s -15.6 LUFS |
-| 066 | 2026-11-10 | ¿Por qué brillan los ojos de los gatos en la oscuridad? | PRODUCED | — | — | PASS 25.867 s -15.7 LUFS |
+| 066 | 2026-11-10 | ¿Por qué brillan los ojos de los gatos en la oscuridad? | PUBLISHED | https://www.youtube.com/shorts/_I4pqF8GCQc | https://tiktok.com/@curiolabstudio30/video/7706681726906535181 | PASS 25.867 s -15.7 LUFS |
 | 067 | 2026-11-11 | ¿Cómo lee un escáner el código de barras? | PRODUCED | — | — | PASS 29.467 s -15.7 LUFS |
 | 068 | 2026-11-11 | ¿Cómo funciona un abrelatas? | PRODUCED | — | — | PASS 29.833 s -15.5 LUFS |
 | 069 | 2026-11-11 | ¿Por qué titilan las estrellas? | PRODUCED | — | — | PASS 28.067 s -15.8 LUFS |
@@ -149,7 +149,7 @@ Actualizado: 2026-11-10T13:50-05:00 (America/New_York) · Costo real: US$0
 - 063 · 2026-11-09 · Ciencia · ¿Por qué la cebolla te hace llorar? · PUBLISHED
 - 064 · 2026-11-10 · Mecanismo · ¿Cómo carga el móvil sin cables? · PUBLISHED
 - 065 · 2026-11-10 · Mecanismo · ¿Cómo sabe el GPS dónde estás? · PUBLISHED
-- 066 · 2026-11-10 · Ciencia · ¿Por qué brillan los ojos de los gatos en la oscuridad? · PRODUCED
+- 066 · 2026-11-10 · Ciencia · ¿Por qué brillan los ojos de los gatos en la oscuridad? · PUBLISHED
 - 067 · 2026-11-11 · Mecanismo · ¿Cómo lee un escáner el código de barras? · PRODUCED
 - 068 · 2026-11-11 · Mecanismo · ¿Cómo funciona un abrelatas? · PRODUCED
 - 069 · 2026-11-11 · Ciencia · ¿Por qué titilan las estrellas? · PRODUCED
