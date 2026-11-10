@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-10T07:04-05:00",
+ "actualizado": "2026-11-10T13:50-05:00",
  "estados": {
-  "PUBLISHED": 63,
-  "PRODUCED": 6,
+  "PUBLISHED": 65,
+  "PRODUCED": 4,
   "PLANNED": 21
  },
  "costo_real_usd": 0,
@@ -4786,19 +4786,19 @@
    "fecha": "2026-11-10",
    "titulo": "¿Cómo carga el móvil sin cables?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af1b5d2e94d5fc5f0f475ae",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-09T07:00:20-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/G2bh2NnIny0",
+     "recorded": "2026-11-10T13:43:46-05:00"
     },
     "tiktok": {
      "post_id": "6af1b5d9e94d5fc5f0f4843e",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-09T07:00:28-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7706543130211781902",
+     "recorded": "2026-11-10T13:43:46-05:00"
     }
    },
    "qa": {
@@ -4898,19 +4898,19 @@
    "fecha": "2026-11-10",
    "titulo": "¿Cómo sabe el GPS dónde estás?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af1b5e38a471bd245b64f55",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-09T07:00:38-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/QoaTZvcEt2g",
+     "recorded": "2026-11-10T13:43:46-05:00"
     },
     "tiktok": {
      "post_id": "6af2152829d3f56e691a648a",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-09T13:47:06-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7706604688157805838",
+     "recorded": "2026-11-10T13:43:46-05:00"
     }
    },
    "qa": {
@@ -5244,6 +5244,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-11-10T07:01:31-05:00"
+    },
+    "tiktok": {
+     "post_id": "6af3669dfcc41cfe14cc2f47",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-10T13:46:56-05:00"
     }
    },
    "qa": {
@@ -5347,7 +5353,20 @@
    "titulo": "¿Por qué titilan las estrellas?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6af366a56a5c5003d8dd2368",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-10T13:47:03-05:00"
+    },
+    "tiktok": {
+     "post_id": "6af366ac736c651a4304af49",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-10T13:47:11-05:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 28.067,
@@ -5441,7 +5460,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-069/CurioLab_069.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 28067
   },
   "070": {
    "fecha": "2026-11-12",

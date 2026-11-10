@@ -790,3 +790,18 @@ timestamp_local,level,message
 2026-11-10T07:01:31-05:00,INFO,etapa scheduling: PASS 3 creados y registrados de 3 autorizados
 2026-11-10T07:04:48-05:00,INFO,"en espera por capacidad: 068 tiktok (cola de Buffer llena), 069 youtube (cola de Buffer llena), 069 tiktok (cola de Buffer llena)"
 2026-11-10T07:04:48-05:00,INFO,"etapa confirm: PASS ocupados 9/10, crear 0, en espera 3"
+2026-11-10T13:43:46-05:00,INFO,conciliado 064 tiktok 6af1b5d9e94d5fc5f0f4843e sent https://tiktok.com/@curiolabstudio30/video/7706543130211781902
+2026-11-10T13:43:46-05:00,INFO,conciliado 064 youtube 6af1b5d2e94d5fc5f0f475ae sent https://www.youtube.com/shorts/G2bh2NnIny0
+2026-11-10T13:43:46-05:00,INFO,conciliado 065 tiktok 6af2152829d3f56e691a648a sent https://tiktok.com/@curiolabstudio30/video/7706604688157805838
+2026-11-10T13:43:46-05:00,INFO,conciliado 065 youtube 6af1b5e38a471bd245b64f55 sent https://www.youtube.com/shorts/QoaTZvcEt2g
+2026-11-10T13:43:46-05:00,INFO,"etapa reconcile: PASS ocupados 5/10, crear 3, en espera 0"
+2026-11-10T13:43:49-05:00,WARN,etapa metrics: PENDING 4 capturas pendientes
+2026-11-10T13:43:59-05:00,INFO,metrics appended for 4 posts
+2026-11-10T13:43:59-05:00,INFO,etapa metrics: PASS 4 posts capturados
+2026-11-10T13:44:16-05:00,INFO,etapa production: SKIP 068 y 069 ya producidos (QA PASS) y alojados en media-068/media-069; nada nuevo con fecha <= mañana
+2026-11-10T13:46:48-05:00,INFO,"etapa pre-create: PASS ocupados 5/10, crear 3, en espera 0"
+2026-11-10T13:46:56-05:00,INFO,068 tiktok 6af3669dfcc41cfe14cc2f47 scheduled 
+2026-11-10T13:47:03-05:00,INFO,069 youtube 6af366a56a5c5003d8dd2368 scheduled 
+2026-11-10T13:47:11-05:00,INFO,069 tiktok 6af366ac736c651a4304af49 scheduled 
+2026-11-10T13:47:11-05:00,INFO,etapa scheduling: PASS 3 creados y registrados de 3 autorizados
+2026-11-10T13:50:11-05:00,INFO,"etapa confirm: PASS ocupados 8/10, crear 0, en espera 0"

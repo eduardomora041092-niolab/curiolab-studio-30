@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-10T07:01:11-05:00",
+ "generated": "2026-11-10T13:46:48-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 0,
+ "occupied": 5,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,17 @@
  "reconciled": [],
  "create": [
   {
-   "id": "067",
-   "platform": "youtube",
-   "channelId": "6ad73b1a778b240e2f677dbf",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-11T09:00:00-05:00",
-   "text": "Unas rayas guardan un número. ¿Cómo lee un escáner el código de barras?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-067/CurioLab_067.mp4",
-    "title": "CurioLab_067.mp4"
-   },
-   "metadata": {
-    "youtube": {
-     "title": "¿Cómo lee un escáner el código de barras?",
-     "categoryId": "27",
-     "privacy": "public",
-     "madeForKids": false,
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "067",
+   "id": "068",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-11T09:00:00-05:00",
-   "text": "Unas rayas guardan un número. ¿Cómo lee un escáner el código de barras?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-11T13:00:00-05:00",
+   "text": "Corta el metal sin esfuerzo. ¿Cómo funciona un abrelatas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-067/CurioLab_067.mp4",
-    "title": "CurioLab_067.mp4",
-    "thumbnailOffset": 1962
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-068/CurioLab_068.mp4",
+    "title": "CurioLab_068.mp4",
+    "thumbnailOffset": 2389
    },
    "metadata": {
     "tiktok": {
@@ -69,62 +47,62 @@
    }
   },
   {
-   "id": "068",
+   "id": "069",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-11T13:00:00-05:00",
-   "text": "Corta el metal sin esfuerzo. ¿Cómo funciona un abrelatas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-11T18:00:00-05:00",
+   "text": "Las estrellas no parpadean: es nuestro aire. ¿Por qué titilan las estrellas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-068/CurioLab_068.mp4",
-    "title": "CurioLab_068.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-069/CurioLab_069.mp4",
+    "title": "CurioLab_069.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Cómo funciona un abrelatas?",
+     "title": "¿Por qué titilan las estrellas?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  }
- ],
- "waiting": [
-  {
-   "id": "068",
-   "platform": "tiktok",
-   "dueAt": "2026-11-11T13:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "069",
-   "platform": "youtube",
-   "dueAt": "2026-11-11T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
   },
   {
    "id": "069",
    "platform": "tiktok",
+   "channelId": "6ad739bd778b240e2f677654",
+   "reason": "nuevo",
+   "mode": "customScheduled",
    "dueAt": "2026-11-11T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
+   "text": "Las estrellas no parpadean: es nuestro aire. ¿Por qué titilan las estrellas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-069/CurioLab_069.mp4",
+    "title": "CurioLab_069.mp4",
+    "thumbnailOffset": 1599
+   },
+   "metadata": {
+    "tiktok": {
+     "isAiGenerated": true
+    }
+   }
   }
  ],
+ "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261110T070111_pre-create_1ad9c945afde/",
+   "file": "evidence/buffer/20261110T134648_pre-create_173f1ecf7dea/",
    "files": {
-    "account.json": "104a0d1b49b9db318e859a7ab62c1787049342a8aadcd24e2dea1a7e6826a1eb",
-    "errors.json": "6a30375a21447d9a3c3287986e41ce6a67f95eb98fc833a0dc2ce9f64aa5ace2",
-    "open.json": "7e982c11ff4f53e7dc3b65066130b90469d4963c65400e6830627dd04e0c770c",
-    "recent.json": "b4d226ab4e6602b6a0b50648c6db6a7e213ad0988d59b4469e9a00df81ae5ca8"
+    "account.json": "84e7685dd5a8cdf011f51d5f259334e1637d262b40bfff630e5cc46b422bc519",
+    "errors.json": "e96b274728804bec24707db2bacd3326c210a9460f3c6947bd26363dbd2081e0",
+    "open.json": "e43116d29db562f6240cb0a7b8d19d442bda61139004d10a0e9a9658573cd132",
+    "recent.json": "fa746c2ac58026d75bc87990f4e7c0894ceda2309b9e16199168760734a9b416"
    },
-   "nonce": "1ad9c945afde",
-   "nonce_issued": "2026-11-10T06:58:31-05:00",
-   "buffer_time": "2026-11-10T07:01:04-05:00",
+   "nonce": "173f1ecf7dea",
+   "nonce_issued": "2026-11-10T13:44:16-05:00",
+   "buffer_time": "2026-11-10T13:44:24-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -134,36 +112,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-10T07:11:11-05:00",
+ "valid_until": "2026-11-10T13:56:48-05:00",
  "offered": [
   {
-   "id": "067",
-   "platform": "youtube",
-   "offered": "2026-11-10T07:01:11-05:00",
-   "result": {
-    "post_id": "6af3078bcbbac94e1ea5043b",
-    "status": "scheduled",
-    "at": "2026-11-10T07:01:18-05:00"
-   }
-  },
-  {
-   "id": "067",
-   "platform": "tiktok",
-   "offered": "2026-11-10T07:01:18-05:00",
-   "result": {
-    "post_id": "6af30792cbbac94e1ea50898",
-    "status": "scheduled",
-    "at": "2026-11-10T07:01:24-05:00"
-   }
-  },
-  {
    "id": "068",
-   "platform": "youtube",
-   "offered": "2026-11-10T07:01:24-05:00",
+   "platform": "tiktok",
+   "offered": "2026-11-10T13:46:48-05:00",
    "result": {
-    "post_id": "6af30799b77a05a0562f0ac4",
+    "post_id": "6af3669dfcc41cfe14cc2f47",
     "status": "scheduled",
-    "at": "2026-11-10T07:01:31-05:00"
+    "at": "2026-11-10T13:46:56-05:00"
+   }
+  },
+  {
+   "id": "069",
+   "platform": "youtube",
+   "offered": "2026-11-10T13:46:56-05:00",
+   "result": {
+    "post_id": "6af366a56a5c5003d8dd2368",
+    "status": "scheduled",
+    "at": "2026-11-10T13:47:03-05:00"
+   }
+  },
+  {
+   "id": "069",
+   "platform": "tiktok",
+   "offered": "2026-11-10T13:47:03-05:00",
+   "result": {
+    "post_id": "6af366ac736c651a4304af49",
+    "status": "scheduled",
+    "at": "2026-11-10T13:47:11-05:00"
    }
   }
  ]
