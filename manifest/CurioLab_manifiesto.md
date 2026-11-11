@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-10T18:50-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-11T07:02-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 21
-- **PRODUCED**: 3
+- **PLANNED**: 18
+- **PRODUCED**: 6
 - **PUBLISHED**: 66
 
 ## Vídeos con actividad
@@ -81,6 +81,9 @@ Actualizado: 2026-11-10T18:50-05:00 (America/New_York) · Costo real: US$0
 | 067 | 2026-11-11 | ¿Cómo lee un escáner el código de barras? | PRODUCED | — | — | PASS 29.467 s -15.7 LUFS |
 | 068 | 2026-11-11 | ¿Cómo funciona un abrelatas? | PRODUCED | — | — | PASS 29.833 s -15.5 LUFS |
 | 069 | 2026-11-11 | ¿Por qué titilan las estrellas? | PRODUCED | — | — | PASS 28.067 s -15.8 LUFS |
+| 070 | 2026-11-12 | ¿Cómo cambia de marcha una bicicleta? | PRODUCED | — | — | PASS 30.367 s -15.5 LUFS |
+| 071 | 2026-11-12 | ¿Cómo sabe una puerta automática que llegas? | PRODUCED | — | — | PASS 29.233 s -15.6 LUFS |
+| 072 | 2026-11-12 | ¿Por qué los copos de nieve tienen seis puntas? | PRODUCED | — | — | PASS 29.967 s -15.8 LUFS |
 
 ## Calendario completo
 
@@ -153,9 +156,9 @@ Actualizado: 2026-11-10T18:50-05:00 (America/New_York) · Costo real: US$0
 - 067 · 2026-11-11 · Mecanismo · ¿Cómo lee un escáner el código de barras? · PRODUCED
 - 068 · 2026-11-11 · Mecanismo · ¿Cómo funciona un abrelatas? · PRODUCED
 - 069 · 2026-11-11 · Ciencia · ¿Por qué titilan las estrellas? · PRODUCED
-- 070 · 2026-11-12 · Mecanismo · ¿Cómo cambia de marcha una bicicleta? · PLANNED
-- 071 · 2026-11-12 · Mecanismo · ¿Cómo sabe una puerta automática que llegas? · PLANNED
-- 072 · 2026-11-12 · Ciencia · ¿Por qué los copos de nieve tienen seis puntas? · PLANNED
+- 070 · 2026-11-12 · Mecanismo · ¿Cómo cambia de marcha una bicicleta? · PRODUCED
+- 071 · 2026-11-12 · Mecanismo · ¿Cómo sabe una puerta automática que llegas? · PRODUCED
+- 072 · 2026-11-12 · Ciencia · ¿Por qué los copos de nieve tienen seis puntas? · PRODUCED
 - 073 · 2026-11-13 · Mecanismo · ¿Cómo imprime una impresora de tinta? · PLANNED
 - 074 · 2026-11-13 · Mecanismo · ¿Cómo cancelan el ruido unos auriculares? · PLANNED
 - 075 · 2026-11-13 · Ciencia · ¿Cómo se forma una nube? · PLANNED

@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "¿Cómo sabe una puerta automática que te acercas?",
+  "start": 0.0,
+  "end": 2.688
+ },
+ {
+  "i": 1,
+  "text": "Encima de la puerta hay un sensor que vigila la entrada.",
+  "start": 2.938,
+  "end": 6.031
+ },
+ {
+  "i": 2,
+  "text": "Muchos envían ondas invisibles, de radio o infrarrojas, hacia delante.",
+  "start": 6.281,
+  "end": 10.313
+ },
+ {
+  "i": 3,
+  "text": "Cuando caminas, las ondas rebotan en ti y vuelven cambiadas.",
+  "start": 10.563,
+  "end": 13.955
+ },
+ {
+  "i": 4,
+  "text": "El sensor nota ese cambio y avisa al controlador de la puerta.",
+  "start": 14.205,
+  "end": 17.789
+ },
+ {
+  "i": 5,
+  "text": "Un motor mueve una correa que desliza las hojas hacia los lados.",
+  "start": 18.039,
+  "end": 21.517
+ },
+ {
+  "i": 6,
+  "text": "Otro sensor comprueba que no hay nadie en medio antes de cerrar.",
+  "start": 21.767,
+  "end": 25.329
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para descubrir cómo funcionan más cosas.",
+  "start": 25.579,
+  "end": 28.246
+ }
+]

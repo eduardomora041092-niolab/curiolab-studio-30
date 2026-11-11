@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T18:44:37-05:00",
+ "updated": "2026-11-11T06:44:02-05:00",
  "rules": {
   "target_max_s": 33.0,
   "hook_max_words": 12,
@@ -8,9 +8,9 @@
   "applies_from": "046"
  },
  "reasons": [
-  "R1: proporción media vista (visionado medio / duración) mediana TikTok 34% en 62 vídeos (umbral 40 %/50 %) → duración máx 33 s, gancho ≤ 12 palabras",
-  "R2: 7 comentarios en 126 publicaciones medidas → pregunta en el texto: no",
-  "R3: visionado medio TikTok Mecanismo 9.1 s, Ciencia 9.0 s → categoría débil: ninguna"
+  "R1: proporción media vista (visionado medio / duración) mediana TikTok 34% en 64 vídeos (umbral 40 %/50 %) → duración máx 33 s, gancho ≤ 12 palabras",
+  "R2: 7 comentarios en 128 publicaciones medidas → pregunta en el texto: no",
+  "R3: visionado medio TikTok Mecanismo 9.1 s, Ciencia 8.9 s → categoría débil: ninguna"
  ],
  "evaluation": {
   "R1": {
@@ -638,10 +638,10 @@
    "categoria": "Mecanismo",
    "slot": 1,
    "duration_s": 27.267,
-   "tt_views": 279.0,
-   "yt_views": 1270.0,
-   "tt_avg_watch_s": 11.72,
-   "tt_retention": 0.43,
+   "tt_views": 280.0,
+   "yt_views": 1283.0,
+   "tt_avg_watch_s": 11.7,
+   "tt_retention": 0.429,
    "comments": 0.0,
    "comment_metrics": 2
   },
@@ -650,10 +650,10 @@
    "categoria": "Mecanismo",
    "slot": 2,
    "duration_s": 25.633,
-   "tt_views": 281.0,
-   "yt_views": 1053.0,
-   "tt_avg_watch_s": 9.19,
-   "tt_retention": 0.359,
+   "tt_views": 283.0,
+   "yt_views": 1058.0,
+   "tt_avg_watch_s": 9.1,
+   "tt_retention": 0.355,
    "comments": 1.0,
    "comment_metrics": 2
   },
@@ -662,10 +662,10 @@
    "categoria": "Ciencia",
    "slot": 3,
    "duration_s": 26.533,
-   "tt_views": 264.0,
-   "yt_views": 1180.0,
-   "tt_avg_watch_s": 9.07,
-   "tt_retention": 0.342,
+   "tt_views": 268.0,
+   "yt_views": 1182.0,
+   "tt_avg_watch_s": 8.92,
+   "tt_retention": 0.336,
    "comments": 1.0,
    "comment_metrics": 2
   },
@@ -674,9 +674,9 @@
    "categoria": "Mecanismo",
    "slot": 1,
    "duration_s": 26.467,
-   "tt_views": 286.0,
-   "yt_views": 1013.0,
-   "tt_avg_watch_s": 10.74,
+   "tt_views": 289.0,
+   "yt_views": 1014.0,
+   "tt_avg_watch_s": 10.75,
    "tt_retention": 0.406,
    "comments": 0.0,
    "comment_metrics": 2
@@ -710,10 +710,10 @@
    "categoria": "Mecanismo",
    "slot": 1,
    "duration_s": 27.9,
-   "tt_views": 293.0,
-   "yt_views": 1084.0,
-   "tt_avg_watch_s": 9.11,
-   "tt_retention": 0.327,
+   "tt_views": 297.0,
+   "yt_views": 1117.0,
+   "tt_avg_watch_s": 9.06,
+   "tt_retention": 0.325,
    "comments": 0.0,
    "comment_metrics": 2
   },
@@ -722,10 +722,10 @@
    "categoria": "Mecanismo",
    "slot": 2,
    "duration_s": 26.767,
-   "tt_views": 282.0,
-   "yt_views": 1006.0,
-   "tt_avg_watch_s": 8.83,
-   "tt_retention": 0.33,
+   "tt_views": 285.0,
+   "yt_views": 1002.0,
+   "tt_avg_watch_s": 8.76,
+   "tt_retention": 0.327,
    "comments": 1.0,
    "comment_metrics": 2
   },
@@ -734,10 +734,10 @@
    "categoria": "Ciencia",
    "slot": 3,
    "duration_s": 27.433,
-   "tt_views": 260.0,
-   "yt_views": 803.0,
-   "tt_avg_watch_s": 9.91,
-   "tt_retention": 0.361,
+   "tt_views": 267.0,
+   "yt_views": 843.0,
+   "tt_avg_watch_s": 10.02,
+   "tt_retention": 0.365,
    "comments": 0.0,
    "comment_metrics": 2
   },
@@ -746,10 +746,10 @@
    "categoria": "Mecanismo",
    "slot": 1,
    "duration_s": 28.6,
-   "tt_views": 0.0,
-   "yt_views": 13.0,
-   "tt_avg_watch_s": 0.0,
-   "tt_retention": null,
+   "tt_views": 251.0,
+   "yt_views": 143.0,
+   "tt_avg_watch_s": 8.76,
+   "tt_retention": 0.306,
    "comments": 0.0,
    "comment_metrics": 2
   },
@@ -758,10 +758,10 @@
    "categoria": "Mecanismo",
    "slot": 2,
    "duration_s": 28.033,
-   "tt_views": 265.0,
+   "tt_views": 267.0,
    "yt_views": 57.0,
-   "tt_avg_watch_s": 8.95,
-   "tt_retention": 0.319,
+   "tt_avg_watch_s": 8.9,
+   "tt_retention": 0.317,
    "comments": 0.0,
    "comment_metrics": 2
   },
@@ -774,6 +774,18 @@
    "yt_views": 71.0,
    "tt_avg_watch_s": 6.99,
    "tt_retention": 0.27,
+   "comments": 0.0,
+   "comment_metrics": 2
+  },
+  {
+   "id": "064",
+   "categoria": "Mecanismo",
+   "slot": 1,
+   "duration_s": 26.833,
+   "tt_views": 275.0,
+   "yt_views": 0.0,
+   "tt_avg_watch_s": 8.91,
+   "tt_retention": 0.332,
    "comments": 0.0,
    "comment_metrics": 2
   }
@@ -841,7 +853,8 @@
   "060",
   "061",
   "062",
-  "063"
+  "063",
+  "064"
  ],
  "experiment": {
   "name": "gancho_en_accion",
