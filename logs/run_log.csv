@@ -849,3 +849,12 @@ timestamp_local,level,message
 2026-11-11T13:47:14-05:00,INFO,072 tiktok 6af4b82f80cc5d8ca3210418 scheduled 
 2026-11-11T13:47:14-05:00,INFO,etapa scheduling: PASS 3 creados y registrados de 3 autorizados
 2026-11-11T13:50:12-05:00,INFO,"etapa confirm: PASS ocupados 8/10, crear 0, en espera 0"
+2026-11-11T18:43:25-05:00,INFO,conciliado 069 tiktok 6af366ac736c651a4304af49 sent https://tiktok.com/@curiolabstudio30/video/7707053148875066638
+2026-11-11T18:43:25-05:00,INFO,conciliado 069 youtube 6af366a56a5c5003d8dd2368 sent https://www.youtube.com/shorts/4P346FDG5yo
+2026-11-11T18:43:25-05:00,INFO,"etapa reconcile: PASS ocupados 6/10, crear 0, en espera 0"
+2026-11-11T18:43:28-05:00,WARN,etapa metrics: PENDING 4 capturas pendientes
+2026-11-11T18:43:37-05:00,INFO,metrics appended for 4 posts
+2026-11-11T18:43:37-05:00,INFO,etapa metrics: PASS 4 posts capturados
+2026-11-11T18:45:46-05:00,INFO,"etapa pre-create: PASS ocupados 6/10, crear 0, en espera 0"
+2026-11-11T18:45:46-05:00,INFO,etapa scheduling: PASS 0 creados y registrados de 0 autorizados
+2026-11-11T18:46:08-05:00,INFO,"etapa confirm: PASS ocupados 6/10, crear 0, en espera 0"
