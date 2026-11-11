@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-11T07:02-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-11T13:50-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 18
-- **PRODUCED**: 6
-- **PUBLISHED**: 66
+- **PRODUCED**: 4
+- **PUBLISHED**: 68
 
 ## Vídeos con actividad
 
@@ -78,8 +78,8 @@ Actualizado: 2026-11-11T07:02-05:00 (America/New_York) · Costo real: US$0
 | 064 | 2026-11-10 | ¿Cómo carga el móvil sin cables? | PUBLISHED | https://www.youtube.com/shorts/G2bh2NnIny0 | https://tiktok.com/@curiolabstudio30/video/7706543130211781902 | PASS 26.833 s -15.9 LUFS |
 | 065 | 2026-11-10 | ¿Cómo sabe el GPS dónde estás? | PUBLISHED | https://www.youtube.com/shorts/QoaTZvcEt2g | https://tiktok.com/@curiolabstudio30/video/7706604688157805838 | PASS 28.467 s -15.6 LUFS |
 | 066 | 2026-11-10 | ¿Por qué brillan los ojos de los gatos en la oscuridad? | PUBLISHED | https://www.youtube.com/shorts/_I4pqF8GCQc | https://tiktok.com/@curiolabstudio30/video/7706681726906535181 | PASS 25.867 s -15.7 LUFS |
-| 067 | 2026-11-11 | ¿Cómo lee un escáner el código de barras? | PRODUCED | — | — | PASS 29.467 s -15.7 LUFS |
-| 068 | 2026-11-11 | ¿Cómo funciona un abrelatas? | PRODUCED | — | — | PASS 29.833 s -15.5 LUFS |
+| 067 | 2026-11-11 | ¿Cómo lee un escáner el código de barras? | PUBLISHED | https://www.youtube.com/shorts/DgLUesH3Ay0 | https://tiktok.com/@curiolabstudio30/video/7706914311440059678 | PASS 29.467 s -15.7 LUFS |
+| 068 | 2026-11-11 | ¿Cómo funciona un abrelatas? | PUBLISHED | https://www.youtube.com/shorts/Jdm76KQjLQE | https://tiktok.com/@curiolabstudio30/video/7706976264011173134 | PASS 29.833 s -15.5 LUFS |
 | 069 | 2026-11-11 | ¿Por qué titilan las estrellas? | PRODUCED | — | — | PASS 28.067 s -15.8 LUFS |
 | 070 | 2026-11-12 | ¿Cómo cambia de marcha una bicicleta? | PRODUCED | — | — | PASS 30.367 s -15.5 LUFS |
 | 071 | 2026-11-12 | ¿Cómo sabe una puerta automática que llegas? | PRODUCED | — | — | PASS 29.233 s -15.6 LUFS |
@@ -153,8 +153,8 @@ Actualizado: 2026-11-11T07:02-05:00 (America/New_York) · Costo real: US$0
 - 064 · 2026-11-10 · Mecanismo · ¿Cómo carga el móvil sin cables? · PUBLISHED
 - 065 · 2026-11-10 · Mecanismo · ¿Cómo sabe el GPS dónde estás? · PUBLISHED
 - 066 · 2026-11-10 · Ciencia · ¿Por qué brillan los ojos de los gatos en la oscuridad? · PUBLISHED
-- 067 · 2026-11-11 · Mecanismo · ¿Cómo lee un escáner el código de barras? · PRODUCED
-- 068 · 2026-11-11 · Mecanismo · ¿Cómo funciona un abrelatas? · PRODUCED
+- 067 · 2026-11-11 · Mecanismo · ¿Cómo lee un escáner el código de barras? · PUBLISHED
+- 068 · 2026-11-11 · Mecanismo · ¿Cómo funciona un abrelatas? · PUBLISHED
 - 069 · 2026-11-11 · Ciencia · ¿Por qué titilan las estrellas? · PRODUCED
 - 070 · 2026-11-12 · Mecanismo · ¿Cómo cambia de marcha una bicicleta? · PRODUCED
 - 071 · 2026-11-12 · Mecanismo · ¿Cómo sabe una puerta automática que llegas? · PRODUCED

@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-11T07:02-05:00",
+ "actualizado": "2026-11-11T13:50-05:00",
  "estados": {
-  "PUBLISHED": 66,
-  "PRODUCED": 6,
+  "PUBLISHED": 68,
+  "PRODUCED": 4,
   "PLANNED": 18
  },
  "costo_real_usd": 0,
@@ -5122,19 +5122,19 @@
    "fecha": "2026-11-11",
    "titulo": "¿Cómo lee un escáner el código de barras?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af3078bcbbac94e1ea5043b",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-10T07:01:18-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/DgLUesH3Ay0",
+     "recorded": "2026-11-11T13:44:04-05:00"
     },
     "tiktok": {
      "post_id": "6af30792cbbac94e1ea50898",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-10T07:01:24-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7706914311440059678",
+     "recorded": "2026-11-11T13:44:04-05:00"
     }
    },
    "qa": {
@@ -5237,19 +5237,19 @@
    "fecha": "2026-11-11",
    "titulo": "¿Cómo funciona un abrelatas?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af30799b77a05a0562f0ac4",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-10T07:01:31-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/Jdm76KQjLQE",
+     "recorded": "2026-11-11T13:44:04-05:00"
     },
     "tiktok": {
      "post_id": "6af3669dfcc41cfe14cc2f47",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-10T13:46:56-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7706976264011173134",
+     "recorded": "2026-11-11T13:44:04-05:00"
     }
    },
    "qa": {
@@ -5592,6 +5592,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-11-11T06:58:48-05:00"
+    },
+    "tiktok": {
+     "post_id": "6af4b821f0d62ba60e2af618",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-11T13:46:59-05:00"
     }
    },
    "qa": {
@@ -5698,7 +5704,20 @@
    "titulo": "¿Por qué los copos de nieve tienen seis puntas?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6af4b8280113073f856efb5b",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-11T13:47:06-05:00"
+    },
+    "tiktok": {
+     "post_id": "6af4b82f80cc5d8ca3210418",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-11T13:47:14-05:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 29.967,
@@ -5795,7 +5814,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-072/CurioLab_072.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 29967
   },
   "073": {
    "fecha": "2026-11-13",
