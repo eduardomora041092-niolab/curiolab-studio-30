@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-12T13:48-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-12T18:40-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 15
-- **PRODUCED**: 4
-- **PUBLISHED**: 71
+- **PRODUCED**: 3
+- **PUBLISHED**: 72
 
 ## Vídeos con actividad
 
@@ -83,7 +83,7 @@ Actualizado: 2026-11-12T13:48-05:00 (America/New_York) · Costo real: US$0
 | 069 | 2026-11-11 | ¿Por qué titilan las estrellas? | PUBLISHED | https://www.youtube.com/shorts/4P346FDG5yo | https://tiktok.com/@curiolabstudio30/video/7707053148875066638 | PASS 28.067 s -15.8 LUFS |
 | 070 | 2026-11-12 | ¿Cómo cambia de marcha una bicicleta? | PUBLISHED | https://www.youtube.com/shorts/AQovOd_rtbU | https://tiktok.com/@curiolabstudio30/video/7707285448904707341 | PASS 30.367 s -15.5 LUFS |
 | 071 | 2026-11-12 | ¿Cómo sabe una puerta automática que llegas? | PUBLISHED | https://www.youtube.com/shorts/D_OOOOJ_6Jo | https://tiktok.com/@curiolabstudio30/video/7707347049347353869 | PASS 29.233 s -15.6 LUFS |
-| 072 | 2026-11-12 | ¿Por qué los copos de nieve tienen seis puntas? | PRODUCED | — | — | PASS 29.967 s -15.8 LUFS |
+| 072 | 2026-11-12 | ¿Por qué los copos de nieve tienen seis puntas? | PUBLISHED | https://www.youtube.com/shorts/ByzfTEvYmes | https://tiktok.com/@curiolabstudio30/video/7707424054717795597 | PASS 29.967 s -15.8 LUFS |
 | 073 | 2026-11-13 | ¿Cómo imprime una impresora de tinta? | PRODUCED | — | — | PASS 27.633 s -15.8 LUFS |
 | 074 | 2026-11-13 | ¿Cómo cancelan el ruido unos auriculares? | PRODUCED | — | — | PASS 27.467 s -15.7 LUFS |
 | 075 | 2026-11-13 | ¿Cómo se forma una nube? | PRODUCED | — | — | PASS 26.6 s -15.7 LUFS |
@@ -161,7 +161,7 @@ Actualizado: 2026-11-12T13:48-05:00 (America/New_York) · Costo real: US$0
 - 069 · 2026-11-11 · Ciencia · ¿Por qué titilan las estrellas? · PUBLISHED
 - 070 · 2026-11-12 · Mecanismo · ¿Cómo cambia de marcha una bicicleta? · PUBLISHED
 - 071 · 2026-11-12 · Mecanismo · ¿Cómo sabe una puerta automática que llegas? · PUBLISHED
-- 072 · 2026-11-12 · Ciencia · ¿Por qué los copos de nieve tienen seis puntas? · PRODUCED
+- 072 · 2026-11-12 · Ciencia · ¿Por qué los copos de nieve tienen seis puntas? · PUBLISHED
 - 073 · 2026-11-13 · Mecanismo · ¿Cómo imprime una impresora de tinta? · PRODUCED
 - 074 · 2026-11-13 · Mecanismo · ¿Cómo cancelan el ruido unos auriculares? · PRODUCED
 - 075 · 2026-11-13 · Ciencia · ¿Cómo se forma una nube? · PRODUCED

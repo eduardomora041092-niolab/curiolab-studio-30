@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-12T13:48-05:00",
+ "actualizado": "2026-11-12T18:40-05:00",
  "estados": {
-  "PUBLISHED": 71,
-  "PRODUCED": 4,
+  "PUBLISHED": 72,
+  "PRODUCED": 3,
   "PLANNED": 15
  },
  "costo_real_usd": 0,
@@ -5703,19 +5703,19 @@
    "fecha": "2026-11-12",
    "titulo": "¿Por qué los copos de nieve tienen seis puntas?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af4b8280113073f856efb5b",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-11T13:47:06-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/ByzfTEvYmes",
+     "recorded": "2026-11-12T18:39:15-05:00"
     },
     "tiktok": {
      "post_id": "6af4b82f80cc5d8ca3210418",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-11T13:47:14-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7707424054717795597",
+     "recorded": "2026-11-12T18:39:15-05:00"
     }
    },
    "qa": {
