@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-12T06:57:12-05:00",
+ "generated": "2026-11-12T13:45:32-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 0,
+ "occupied": 5,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,17 @@
  "reconciled": [],
  "create": [
   {
-   "id": "073",
-   "platform": "youtube",
-   "channelId": "6ad73b1a778b240e2f677dbf",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-13T09:00:00-05:00",
-   "text": "Gotas más pequeñas que un cabello. ¿Cómo imprime una impresora de tinta?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-073/CurioLab_073.mp4",
-    "title": "CurioLab_073.mp4"
-   },
-   "metadata": {
-    "youtube": {
-     "title": "¿Cómo imprime una impresora de tinta?",
-     "categoryId": "27",
-     "privacy": "public",
-     "madeForKids": false,
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "073",
+   "id": "074",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-13T09:00:00-05:00",
-   "text": "Gotas más pequeñas que un cabello. ¿Cómo imprime una impresora de tinta?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-13T13:00:00-05:00",
+   "text": "Silencio creado con más sonido. ¿Cómo cancelan el ruido unos auriculares?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-073/CurioLab_073.mp4",
-    "title": "CurioLab_073.mp4",
-    "thumbnailOffset": 1855
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-074/CurioLab_074.mp4",
+    "title": "CurioLab_074.mp4",
+    "thumbnailOffset": 2879
    },
    "metadata": {
     "tiktok": {
@@ -69,62 +47,62 @@
    }
   },
   {
-   "id": "074",
+   "id": "075",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-13T13:00:00-05:00",
-   "text": "Silencio creado con más sonido. ¿Cómo cancelan el ruido unos auriculares?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-13T18:00:00-05:00",
+   "text": "Una nube pesa toneladas y flota. ¿Cómo se forma una nube?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-074/CurioLab_074.mp4",
-    "title": "CurioLab_074.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-075/CurioLab_075.mp4",
+    "title": "CurioLab_075.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Cómo cancelan el ruido unos auriculares?",
+     "title": "¿Cómo se forma una nube?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  }
- ],
- "waiting": [
-  {
-   "id": "074",
-   "platform": "tiktok",
-   "dueAt": "2026-11-13T13:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "075",
-   "platform": "youtube",
-   "dueAt": "2026-11-13T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
   },
   {
    "id": "075",
    "platform": "tiktok",
+   "channelId": "6ad739bd778b240e2f677654",
+   "reason": "nuevo",
+   "mode": "customScheduled",
    "dueAt": "2026-11-13T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
+   "text": "Una nube pesa toneladas y flota. ¿Cómo se forma una nube?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-075/CurioLab_075.mp4",
+    "title": "CurioLab_075.mp4",
+    "thumbnailOffset": 1813
+   },
+   "metadata": {
+    "tiktok": {
+     "isAiGenerated": true
+    }
+   }
   }
  ],
+ "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261112T065712_pre-create_40b3b0ff9ee3/",
+   "file": "evidence/buffer/20261112T134532_pre-create_49476d801ffa/",
    "files": {
-    "account.json": "016b7aa036dc574cbe84a03658a53fac6ac7f47d18a73e76c0a7d62741dac5f7",
-    "errors.json": "65259557b333af3a802bcb91fd34436eab5c4e6616ceecfcd86dbf16f85424ba",
-    "open.json": "ca76bee28accaee624f47193b2a82e9d8607c0b24ecb8dafc5555b183a736b6b",
-    "recent.json": "d9f51d2e8768eeb1995d6c84270daab18313ca2df1ef4ae54cbedbc5850ddd32"
+    "account.json": "5ec642667cbf3ebd2e44df7ffe96312c308da4102cef7c15648d6e894e248fa1",
+    "errors.json": "f6a5d3a2646a6ccc828cc60b2b1e29ab1911500cc37001e93485c070720eafa8",
+    "open.json": "37ce7f9d1ffdb68dec87b9571d10aa4a7541b5fc81b82199d948bc17c9c32a11",
+    "recent.json": "444be2ce5b8d2d062c2b6081c58c97f9d5d29b803c6eda05464c3ba01f7dba11"
    },
-   "nonce": "40b3b0ff9ee3",
-   "nonce_issued": "2026-11-12T06:54:32-05:00",
-   "buffer_time": "2026-11-12T06:54:38-05:00",
+   "nonce": "49476d801ffa",
+   "nonce_issued": "2026-11-12T13:43:05-05:00",
+   "buffer_time": "2026-11-12T13:43:12-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -134,36 +112,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-12T07:07:12-05:00",
+ "valid_until": "2026-11-12T13:55:32-05:00",
  "offered": [
   {
-   "id": "073",
-   "platform": "youtube",
-   "offered": "2026-11-12T06:57:15-05:00",
-   "result": {
-    "post_id": "6af5a9a0c6319c29c493eaa5",
-    "status": "scheduled",
-    "at": "2026-11-12T06:57:21-05:00"
-   }
-  },
-  {
-   "id": "073",
-   "platform": "tiktok",
-   "offered": "2026-11-12T06:57:21-05:00",
-   "result": {
-    "post_id": "6af5a9a609e869a662dd5d98",
-    "status": "scheduled",
-    "at": "2026-11-12T06:57:27-05:00"
-   }
-  },
-  {
    "id": "074",
-   "platform": "youtube",
-   "offered": "2026-11-12T06:57:27-05:00",
+   "platform": "tiktok",
+   "offered": "2026-11-12T13:45:33-05:00",
    "result": {
-    "post_id": "6af5a9ac4926d8280f0ca5da",
+    "post_id": "6af60952f8af1d04bbd500d7",
     "status": "scheduled",
-    "at": "2026-11-12T06:57:34-05:00"
+    "at": "2026-11-12T13:45:39-05:00"
+   }
+  },
+  {
+   "id": "075",
+   "platform": "youtube",
+   "offered": "2026-11-12T13:45:39-05:00",
+   "result": {
+    "post_id": "6af609589c94386efd1c1cad",
+    "status": "scheduled",
+    "at": "2026-11-12T13:45:46-05:00"
+   }
+  },
+  {
+   "id": "075",
+   "platform": "tiktok",
+   "offered": "2026-11-12T13:45:46-05:00",
+   "result": {
+    "post_id": "6af6095e68b55f457c16ebe5",
+    "status": "scheduled",
+    "at": "2026-11-12T13:45:53-05:00"
    }
   }
  ]

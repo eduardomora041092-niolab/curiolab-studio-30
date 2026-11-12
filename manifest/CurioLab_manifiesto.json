@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-12T07:00-05:00",
+ "actualizado": "2026-11-12T13:48-05:00",
  "estados": {
-  "PUBLISHED": 69,
-  "PRODUCED": 6,
+  "PUBLISHED": 71,
+  "PRODUCED": 4,
   "PLANNED": 15
  },
  "costo_real_usd": 0,
@@ -5467,19 +5467,19 @@
    "fecha": "2026-11-12",
    "titulo": "¿Cómo cambia de marcha una bicicleta?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af45867aedd7b5946264b02",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-11T06:58:34-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/AQovOd_rtbU",
+     "recorded": "2026-11-12T13:42:46-05:00"
     },
     "tiktok": {
      "post_id": "6af4586e42a5c8fca244a32a",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-11T06:58:40-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7707285448904707341",
+     "recorded": "2026-11-12T13:42:46-05:00"
     }
    },
    "qa": {
@@ -5585,19 +5585,19 @@
    "fecha": "2026-11-12",
    "titulo": "¿Cómo sabe una puerta automática que llegas?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af45875aedd7b5946264cc9",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-11T06:58:48-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/D_OOOOJ_6Jo",
+     "recorded": "2026-11-12T13:42:46-05:00"
     },
     "tiktok": {
      "post_id": "6af4b821f0d62ba60e2af618",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-11T13:46:59-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7707347049347353869",
+     "recorded": "2026-11-12T13:42:46-05:00"
     }
    },
    "qa": {
@@ -5949,6 +5949,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-11-12T06:57:34-05:00"
+    },
+    "tiktok": {
+     "post_id": "6af60952f8af1d04bbd500d7",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-12T13:45:39-05:00"
     }
    },
    "qa": {
@@ -6058,7 +6064,20 @@
    "titulo": "¿Cómo se forma una nube?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6af609589c94386efd1c1cad",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-12T13:45:46-05:00"
+    },
+    "tiktok": {
+     "post_id": "6af6095e68b55f457c16ebe5",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-12T13:45:53-05:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 26.6,
@@ -6158,7 +6177,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-075/CurioLab_075.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 26600
   },
   "076": {
    "fecha": "2026-11-14",
