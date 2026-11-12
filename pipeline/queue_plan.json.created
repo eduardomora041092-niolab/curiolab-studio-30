@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-11T13:46:52-05:00",
+ "generated": "2026-11-12T06:57:12-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 5,
- "free_after_plan": 1,
+ "occupied": 6,
+ "free_after_plan": 0,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,20 @@
  "reconciled": [],
  "create": [
   {
-   "id": "071",
-   "platform": "tiktok",
-   "channelId": "6ad739bd778b240e2f677654",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-12T13:00:00-05:00",
-   "text": "Se abre antes de que la toques. ¿Cómo sabe una puerta automática que llegas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-071/CurioLab_071.mp4",
-    "title": "CurioLab_071.mp4",
-    "thumbnailOffset": 2538
-   },
-   "metadata": {
-    "tiktok": {
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "072",
+   "id": "073",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-12T18:00:00-05:00",
-   "text": "Todos distintos, pero todos con seis brazos. ¿Por qué los copos de nieve tienen seis puntas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "dueAt": "2026-11-13T09:00:00-05:00",
+   "text": "Gotas más pequeñas que un cabello. ¿Cómo imprime una impresora de tinta?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-072/CurioLab_072.mp4",
-    "title": "CurioLab_072.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-073/CurioLab_073.mp4",
+    "title": "CurioLab_073.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Por qué los copos de nieve tienen seis puntas?",
+     "title": "¿Cómo imprime una impresora de tinta?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
@@ -69,40 +50,81 @@
    }
   },
   {
-   "id": "072",
+   "id": "073",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-12T18:00:00-05:00",
-   "text": "Todos distintos, pero todos con seis brazos. ¿Por qué los copos de nieve tienen seis puntas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "dueAt": "2026-11-13T09:00:00-05:00",
+   "text": "Gotas más pequeñas que un cabello. ¿Cómo imprime una impresora de tinta?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-072/CurioLab_072.mp4",
-    "title": "CurioLab_072.mp4",
-    "thumbnailOffset": 2410
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-073/CurioLab_073.mp4",
+    "title": "CurioLab_073.mp4",
+    "thumbnailOffset": 1855
    },
    "metadata": {
     "tiktok": {
      "isAiGenerated": true
     }
    }
+  },
+  {
+   "id": "074",
+   "platform": "youtube",
+   "channelId": "6ad73b1a778b240e2f677dbf",
+   "reason": "nuevo",
+   "mode": "customScheduled",
+   "dueAt": "2026-11-13T13:00:00-05:00",
+   "text": "Silencio creado con más sonido. ¿Cómo cancelan el ruido unos auriculares?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-074/CurioLab_074.mp4",
+    "title": "CurioLab_074.mp4"
+   },
+   "metadata": {
+    "youtube": {
+     "title": "¿Cómo cancelan el ruido unos auriculares?",
+     "categoryId": "27",
+     "privacy": "public",
+     "madeForKids": false,
+     "isAiGenerated": true
+    }
+   }
   }
  ],
- "waiting": [],
+ "waiting": [
+  {
+   "id": "074",
+   "platform": "tiktok",
+   "dueAt": "2026-11-13T13:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "075",
+   "platform": "youtube",
+   "dueAt": "2026-11-13T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "075",
+   "platform": "tiktok",
+   "dueAt": "2026-11-13T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  }
+ ],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261111T134652_pre-create_801b4937ff23/",
+   "file": "evidence/buffer/20261112T065712_pre-create_40b3b0ff9ee3/",
    "files": {
-    "account.json": "6d732e719b1e8755df0fcca0c1c608b120457d8c8ee4ff107230c2b8f900215c",
-    "errors.json": "57c58b941365bc987e16e5e244d07228fa6bdb2ad9f710fc3fa904be6c8e6484",
-    "open.json": "34df351d5f99006a725325037ae4fc12e6b83386b7e47edd8de0bc81adfaaea0",
-    "recent.json": "c94dd95c1cdee5f3704a8e5b4fdcbc2ff341a269da0f62e648e4ad0ba2b29376"
+    "account.json": "016b7aa036dc574cbe84a03658a53fac6ac7f47d18a73e76c0a7d62741dac5f7",
+    "errors.json": "65259557b333af3a802bcb91fd34436eab5c4e6616ceecfcd86dbf16f85424ba",
+    "open.json": "ca76bee28accaee624f47193b2a82e9d8607c0b24ecb8dafc5555b183a736b6b",
+    "recent.json": "d9f51d2e8768eeb1995d6c84270daab18313ca2df1ef4ae54cbedbc5850ddd32"
    },
-   "nonce": "801b4937ff23",
-   "nonce_issued": "2026-11-11T13:44:24-05:00",
-   "buffer_time": "2026-11-11T13:44:30-05:00",
+   "nonce": "40b3b0ff9ee3",
+   "nonce_issued": "2026-11-12T06:54:32-05:00",
+   "buffer_time": "2026-11-12T06:54:38-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -112,36 +134,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-11T13:56:52-05:00",
+ "valid_until": "2026-11-12T07:07:12-05:00",
  "offered": [
   {
-   "id": "071",
-   "platform": "tiktok",
-   "offered": "2026-11-11T13:46:52-05:00",
-   "result": {
-    "post_id": "6af4b821f0d62ba60e2af618",
-    "status": "scheduled",
-    "at": "2026-11-11T13:46:59-05:00"
-   }
-  },
-  {
-   "id": "072",
+   "id": "073",
    "platform": "youtube",
-   "offered": "2026-11-11T13:46:59-05:00",
+   "offered": "2026-11-12T06:57:15-05:00",
    "result": {
-    "post_id": "6af4b8280113073f856efb5b",
+    "post_id": "6af5a9a0c6319c29c493eaa5",
     "status": "scheduled",
-    "at": "2026-11-11T13:47:06-05:00"
+    "at": "2026-11-12T06:57:21-05:00"
    }
   },
   {
-   "id": "072",
+   "id": "073",
    "platform": "tiktok",
-   "offered": "2026-11-11T13:47:06-05:00",
+   "offered": "2026-11-12T06:57:21-05:00",
    "result": {
-    "post_id": "6af4b82f80cc5d8ca3210418",
+    "post_id": "6af5a9a609e869a662dd5d98",
     "status": "scheduled",
-    "at": "2026-11-11T13:47:14-05:00"
+    "at": "2026-11-12T06:57:27-05:00"
+   }
+  },
+  {
+   "id": "074",
+   "platform": "youtube",
+   "offered": "2026-11-12T06:57:27-05:00",
+   "result": {
+    "post_id": "6af5a9ac4926d8280f0ca5da",
+    "status": "scheduled",
+    "at": "2026-11-12T06:57:34-05:00"
    }
   }
  ]

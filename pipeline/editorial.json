@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T18:43:38-05:00",
+ "updated": "2026-11-12T06:43:26-05:00",
  "rules": {
   "target_max_s": 33.0,
   "hook_max_words": 12,
@@ -8,9 +8,9 @@
   "applies_from": "046"
  },
  "reasons": [
-  "R1: proporción media vista (visionado medio / duración) mediana TikTok 34% en 66 vídeos (umbral 40 %/50 %) → duración máx 33 s, gancho ≤ 12 palabras",
-  "R2: 7 comentarios en 132 publicaciones medidas → pregunta en el texto: no",
-  "R3: visionado medio TikTok Mecanismo 9.0 s, Ciencia 9.0 s → categoría débil: ninguna"
+  "R1: proporción media vista (visionado medio / duración) mediana TikTok 34% en 67 vídeos (umbral 40 %/50 %) → duración máx 33 s, gancho ≤ 12 palabras",
+  "R2: 8 comentarios en 134 publicaciones medidas → pregunta en el texto: no",
+  "R3: visionado medio TikTok Mecanismo 9.1 s, Ciencia 9.0 s → categoría débil: ninguna"
  ],
  "evaluation": {
   "R1": {
@@ -674,10 +674,10 @@
    "categoria": "Mecanismo",
    "slot": 1,
    "duration_s": 26.467,
-   "tt_views": 289.0,
-   "yt_views": 1014.0,
-   "tt_avg_watch_s": 10.75,
-   "tt_retention": 0.406,
+   "tt_views": 290.0,
+   "yt_views": 1028.0,
+   "tt_avg_watch_s": 10.79,
+   "tt_retention": 0.408,
    "comments": 0.0,
    "comment_metrics": 2
   },
@@ -687,7 +687,7 @@
    "slot": 2,
    "duration_s": 26.467,
    "tt_views": 297.0,
-   "yt_views": 954.0,
+   "yt_views": 980.0,
    "tt_avg_watch_s": 13.76,
    "tt_retention": 0.52,
    "comments": 0.0,
@@ -699,7 +699,7 @@
    "slot": 3,
    "duration_s": 26.7,
    "tt_views": 269.0,
-   "yt_views": 1217.0,
+   "yt_views": 1249.0,
    "tt_avg_watch_s": 6.87,
    "tt_retention": 0.257,
    "comments": 0.0,
@@ -711,7 +711,7 @@
    "slot": 1,
    "duration_s": 27.9,
    "tt_views": 297.0,
-   "yt_views": 1117.0,
+   "yt_views": 1150.0,
    "tt_avg_watch_s": 9.06,
    "tt_retention": 0.325,
    "comments": 0.0,
@@ -724,8 +724,8 @@
    "duration_s": 26.767,
    "tt_views": 285.0,
    "yt_views": 1002.0,
-   "tt_avg_watch_s": 8.76,
-   "tt_retention": 0.327,
+   "tt_avg_watch_s": 8.78,
+   "tt_retention": 0.328,
    "comments": 1.0,
    "comment_metrics": 2
   },
@@ -747,7 +747,7 @@
    "slot": 1,
    "duration_s": 28.6,
    "tt_views": 251.0,
-   "yt_views": 143.0,
+   "yt_views": 249.0,
    "tt_avg_watch_s": 8.76,
    "tt_retention": 0.306,
    "comments": 0.0,
@@ -759,7 +759,7 @@
    "slot": 2,
    "duration_s": 28.033,
    "tt_views": 267.0,
-   "yt_views": 57.0,
+   "yt_views": 137.0,
    "tt_avg_watch_s": 8.9,
    "tt_retention": 0.317,
    "comments": 0.0,
@@ -771,7 +771,7 @@
    "slot": 3,
    "duration_s": 25.9,
    "tt_views": 288.0,
-   "yt_views": 71.0,
+   "yt_views": 99.0,
    "tt_avg_watch_s": 6.99,
    "tt_retention": 0.27,
    "comments": 0.0,
@@ -782,11 +782,11 @@
    "categoria": "Mecanismo",
    "slot": 1,
    "duration_s": 26.833,
-   "tt_views": 275.0,
-   "yt_views": 0.0,
-   "tt_avg_watch_s": 8.91,
-   "tt_retention": 0.332,
-   "comments": 0.0,
+   "tt_views": 276.0,
+   "yt_views": 898.0,
+   "tt_avg_watch_s": 8.88,
+   "tt_retention": 0.331,
+   "comments": 1.0,
    "comment_metrics": 2
   },
   {
@@ -794,10 +794,10 @@
    "categoria": "Mecanismo",
    "slot": 2,
    "duration_s": 28.467,
-   "tt_views": 268.0,
+   "tt_views": 270.0,
    "yt_views": 922.0,
-   "tt_avg_watch_s": 8.35,
-   "tt_retention": 0.293,
+   "tt_avg_watch_s": 9.7,
+   "tt_retention": 0.341,
    "comments": 0.0,
    "comment_metrics": 2
   },
@@ -806,10 +806,22 @@
    "categoria": "Ciencia",
    "slot": 3,
    "duration_s": 25.867,
-   "tt_views": 236.0,
+   "tt_views": 238.0,
    "yt_views": 430.0,
-   "tt_avg_watch_s": 19.82,
-   "tt_retention": 0.766,
+   "tt_avg_watch_s": 19.32,
+   "tt_retention": 0.747,
+   "comments": 0.0,
+   "comment_metrics": 2
+  },
+  {
+   "id": "067",
+   "categoria": "Mecanismo",
+   "slot": 1,
+   "duration_s": 29.467,
+   "tt_views": 266.0,
+   "yt_views": 0.0,
+   "tt_avg_watch_s": 11.12,
+   "tt_retention": 0.377,
    "comments": 0.0,
    "comment_metrics": 2
   }
@@ -880,7 +892,8 @@
   "063",
   "064",
   "065",
-  "066"
+  "066",
+  "067"
  ],
  "experiment": {
   "name": "gancho_en_accion",
