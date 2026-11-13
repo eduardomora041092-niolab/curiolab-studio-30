@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-12T13:45:32-05:00",
+ "generated": "2026-11-13T07:00:50-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 5,
- "free_after_plan": 1,
+ "occupied": 6,
+ "free_after_plan": 0,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,20 @@
  "reconciled": [],
  "create": [
   {
-   "id": "074",
-   "platform": "tiktok",
-   "channelId": "6ad739bd778b240e2f677654",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-13T13:00:00-05:00",
-   "text": "Silencio creado con más sonido. ¿Cómo cancelan el ruido unos auriculares?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-074/CurioLab_074.mp4",
-    "title": "CurioLab_074.mp4",
-    "thumbnailOffset": 2879
-   },
-   "metadata": {
-    "tiktok": {
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "075",
+   "id": "076",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-13T18:00:00-05:00",
-   "text": "Una nube pesa toneladas y flota. ¿Cómo se forma una nube?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "dueAt": "2026-11-14T09:00:00-05:00",
+   "text": "Luz que tus ojos no ven. ¿Cómo funciona un mando a distancia?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-075/CurioLab_075.mp4",
-    "title": "CurioLab_075.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-076/CurioLab_076.mp4",
+    "title": "CurioLab_076.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Cómo se forma una nube?",
+     "title": "¿Cómo funciona un mando a distancia?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
@@ -69,40 +50,81 @@
    }
   },
   {
-   "id": "075",
+   "id": "076",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-13T18:00:00-05:00",
-   "text": "Una nube pesa toneladas y flota. ¿Cómo se forma una nube?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "dueAt": "2026-11-14T09:00:00-05:00",
+   "text": "Luz que tus ojos no ven. ¿Cómo funciona un mando a distancia?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-075/CurioLab_075.mp4",
-    "title": "CurioLab_075.mp4",
-    "thumbnailOffset": 1813
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-076/CurioLab_076.mp4",
+    "title": "CurioLab_076.mp4",
+    "thumbnailOffset": 2431
    },
    "metadata": {
     "tiktok": {
      "isAiGenerated": true
     }
    }
+  },
+  {
+   "id": "077",
+   "platform": "youtube",
+   "channelId": "6ad73b1a778b240e2f677dbf",
+   "reason": "nuevo",
+   "mode": "customScheduled",
+   "dueAt": "2026-11-14T13:00:00-05:00",
+   "text": "El motor no levanta todo el peso. ¿Por qué un ascensor necesita contrapeso?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-077/CurioLab_077.mp4",
+    "title": "CurioLab_077.mp4"
+   },
+   "metadata": {
+    "youtube": {
+     "title": "¿Por qué un ascensor necesita contrapeso?",
+     "categoryId": "27",
+     "privacy": "public",
+     "madeForKids": false,
+     "isAiGenerated": true
+    }
+   }
   }
  ],
- "waiting": [],
+ "waiting": [
+  {
+   "id": "077",
+   "platform": "tiktok",
+   "dueAt": "2026-11-14T13:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "078",
+   "platform": "youtube",
+   "dueAt": "2026-11-14T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "078",
+   "platform": "tiktok",
+   "dueAt": "2026-11-14T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  }
+ ],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261112T134532_pre-create_49476d801ffa/",
+   "file": "evidence/buffer/20261113T070050_pre-create_48086e41751c/",
    "files": {
-    "account.json": "5ec642667cbf3ebd2e44df7ffe96312c308da4102cef7c15648d6e894e248fa1",
-    "errors.json": "f6a5d3a2646a6ccc828cc60b2b1e29ab1911500cc37001e93485c070720eafa8",
-    "open.json": "37ce7f9d1ffdb68dec87b9571d10aa4a7541b5fc81b82199d948bc17c9c32a11",
-    "recent.json": "444be2ce5b8d2d062c2b6081c58c97f9d5d29b803c6eda05464c3ba01f7dba11"
+    "account.json": "8587920708a4b747491743e9b9881a6deebb0de164cb75043f8107a06e53f339",
+    "errors.json": "c3155dfec63b1c65253a4410395e7e2c550f7234912a6b046c5284776c71bdf5",
+    "open.json": "e3ca155b9b0a10a41f13982ca1fba7e90d4014a262afdbbefc3a25f0cf588bbb",
+    "recent.json": "18707ac40253d3c92c66f780886114e8c1960f51b0b4247bb6f3279148a6579b"
    },
-   "nonce": "49476d801ffa",
-   "nonce_issued": "2026-11-12T13:43:05-05:00",
-   "buffer_time": "2026-11-12T13:43:12-05:00",
+   "nonce": "48086e41751c",
+   "nonce_issued": "2026-11-13T06:58:10-05:00",
+   "buffer_time": "2026-11-13T06:58:16-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -112,36 +134,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-12T13:55:32-05:00",
+ "valid_until": "2026-11-13T07:10:50-05:00",
  "offered": [
   {
-   "id": "074",
-   "platform": "tiktok",
-   "offered": "2026-11-12T13:45:33-05:00",
-   "result": {
-    "post_id": "6af60952f8af1d04bbd500d7",
-    "status": "scheduled",
-    "at": "2026-11-12T13:45:39-05:00"
-   }
-  },
-  {
-   "id": "075",
+   "id": "076",
    "platform": "youtube",
-   "offered": "2026-11-12T13:45:39-05:00",
+   "offered": "2026-11-13T07:00:52-05:00",
    "result": {
-    "post_id": "6af609589c94386efd1c1cad",
+    "post_id": "6af6fbf97828e7ae1b097360",
     "status": "scheduled",
-    "at": "2026-11-12T13:45:46-05:00"
+    "at": "2026-11-13T07:00:58-05:00"
    }
   },
   {
-   "id": "075",
+   "id": "076",
    "platform": "tiktok",
-   "offered": "2026-11-12T13:45:46-05:00",
+   "offered": "2026-11-13T07:00:58-05:00",
    "result": {
-    "post_id": "6af6095e68b55f457c16ebe5",
+    "post_id": "6af6fbff7828e7ae1b097ce6",
     "status": "scheduled",
-    "at": "2026-11-12T13:45:53-05:00"
+    "at": "2026-11-13T07:01:05-05:00"
+   }
+  },
+  {
+   "id": "077",
+   "platform": "youtube",
+   "offered": "2026-11-13T07:01:05-05:00",
+   "result": {
+    "post_id": "6af6fc06bd1182b0d3efa137",
+    "status": "scheduled",
+    "at": "2026-11-13T07:01:12-05:00"
    }
   }
  ]

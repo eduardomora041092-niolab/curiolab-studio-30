@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-12T18:40-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-13T07:04-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 15
-- **PRODUCED**: 3
+- **PLANNED**: 12
+- **PRODUCED**: 6
 - **PUBLISHED**: 72
 
 ## Vídeos con actividad
@@ -87,6 +87,9 @@ Actualizado: 2026-11-12T18:40-05:00 (America/New_York) · Costo real: US$0
 | 073 | 2026-11-13 | ¿Cómo imprime una impresora de tinta? | PRODUCED | — | — | PASS 27.633 s -15.8 LUFS |
 | 074 | 2026-11-13 | ¿Cómo cancelan el ruido unos auriculares? | PRODUCED | — | — | PASS 27.467 s -15.7 LUFS |
 | 075 | 2026-11-13 | ¿Cómo se forma una nube? | PRODUCED | — | — | PASS 26.6 s -15.7 LUFS |
+| 076 | 2026-11-14 | ¿Cómo funciona un mando a distancia? | PRODUCED | — | — | PASS 30.067 s -15.6 LUFS |
+| 077 | 2026-11-14 | ¿Por qué un ascensor necesita contrapeso? | PRODUCED | — | — | PASS 29.367 s -15.7 LUFS |
+| 078 | 2026-11-14 | ¿Por qué cambian de color las hojas en otoño? | PRODUCED | — | — | PASS 30.667 s -15.7 LUFS |
 
 ## Calendario completo
 
@@ -165,9 +168,9 @@ Actualizado: 2026-11-12T18:40-05:00 (America/New_York) · Costo real: US$0
 - 073 · 2026-11-13 · Mecanismo · ¿Cómo imprime una impresora de tinta? · PRODUCED
 - 074 · 2026-11-13 · Mecanismo · ¿Cómo cancelan el ruido unos auriculares? · PRODUCED
 - 075 · 2026-11-13 · Ciencia · ¿Cómo se forma una nube? · PRODUCED
-- 076 · 2026-11-14 · Mecanismo · ¿Cómo funciona un mando a distancia? · PLANNED
-- 077 · 2026-11-14 · Mecanismo · ¿Por qué un ascensor necesita contrapeso? · PLANNED
-- 078 · 2026-11-14 · Ciencia · ¿Por qué cambian de color las hojas en otoño? · PLANNED
+- 076 · 2026-11-14 · Mecanismo · ¿Cómo funciona un mando a distancia? · PRODUCED
+- 077 · 2026-11-14 · Mecanismo · ¿Por qué un ascensor necesita contrapeso? · PRODUCED
+- 078 · 2026-11-14 · Ciencia · ¿Por qué cambian de color las hojas en otoño? · PRODUCED
 - 079 · 2026-11-15 · Mecanismo · ¿Por qué la rueda de la bici gira sin pedalear? · PLANNED
 - 080 · 2026-11-15 · Mecanismo · ¿Cómo funciona un sacacorchos de alas? · PLANNED
 - 081 · 2026-11-15 · Ciencia · ¿Qué es el eco? · PLANNED
