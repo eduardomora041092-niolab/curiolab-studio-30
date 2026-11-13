@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-13T07:04-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-13T13:50-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 12
-- **PRODUCED**: 6
-- **PUBLISHED**: 72
+- **PRODUCED**: 4
+- **PUBLISHED**: 74
 
 ## Vídeos con actividad
 
@@ -84,8 +84,8 @@ Actualizado: 2026-11-13T07:04-05:00 (America/New_York) · Costo real: US$0
 | 070 | 2026-11-12 | ¿Cómo cambia de marcha una bicicleta? | PUBLISHED | https://www.youtube.com/shorts/AQovOd_rtbU | https://tiktok.com/@curiolabstudio30/video/7707285448904707341 | PASS 30.367 s -15.5 LUFS |
 | 071 | 2026-11-12 | ¿Cómo sabe una puerta automática que llegas? | PUBLISHED | https://www.youtube.com/shorts/D_OOOOJ_6Jo | https://tiktok.com/@curiolabstudio30/video/7707347049347353869 | PASS 29.233 s -15.6 LUFS |
 | 072 | 2026-11-12 | ¿Por qué los copos de nieve tienen seis puntas? | PUBLISHED | https://www.youtube.com/shorts/ByzfTEvYmes | https://tiktok.com/@curiolabstudio30/video/7707424054717795597 | PASS 29.967 s -15.8 LUFS |
-| 073 | 2026-11-13 | ¿Cómo imprime una impresora de tinta? | PRODUCED | — | — | PASS 27.633 s -15.8 LUFS |
-| 074 | 2026-11-13 | ¿Cómo cancelan el ruido unos auriculares? | PRODUCED | — | — | PASS 27.467 s -15.7 LUFS |
+| 073 | 2026-11-13 | ¿Cómo imprime una impresora de tinta? | PUBLISHED | https://www.youtube.com/shorts/BQPhK8q2mV0 | https://tiktok.com/@curiolabstudio30/video/7707656348275592461 | PASS 27.633 s -15.8 LUFS |
+| 074 | 2026-11-13 | ¿Cómo cancelan el ruido unos auriculares? | PUBLISHED | https://www.youtube.com/shorts/8SA_EvsxSfM | https://tiktok.com/@curiolabstudio30/video/7707717958528666894 | PASS 27.467 s -15.7 LUFS |
 | 075 | 2026-11-13 | ¿Cómo se forma una nube? | PRODUCED | — | — | PASS 26.6 s -15.7 LUFS |
 | 076 | 2026-11-14 | ¿Cómo funciona un mando a distancia? | PRODUCED | — | — | PASS 30.067 s -15.6 LUFS |
 | 077 | 2026-11-14 | ¿Por qué un ascensor necesita contrapeso? | PRODUCED | — | — | PASS 29.367 s -15.7 LUFS |
@@ -165,8 +165,8 @@ Actualizado: 2026-11-13T07:04-05:00 (America/New_York) · Costo real: US$0
 - 070 · 2026-11-12 · Mecanismo · ¿Cómo cambia de marcha una bicicleta? · PUBLISHED
 - 071 · 2026-11-12 · Mecanismo · ¿Cómo sabe una puerta automática que llegas? · PUBLISHED
 - 072 · 2026-11-12 · Ciencia · ¿Por qué los copos de nieve tienen seis puntas? · PUBLISHED
-- 073 · 2026-11-13 · Mecanismo · ¿Cómo imprime una impresora de tinta? · PRODUCED
-- 074 · 2026-11-13 · Mecanismo · ¿Cómo cancelan el ruido unos auriculares? · PRODUCED
+- 073 · 2026-11-13 · Mecanismo · ¿Cómo imprime una impresora de tinta? · PUBLISHED
+- 074 · 2026-11-13 · Mecanismo · ¿Cómo cancelan el ruido unos auriculares? · PUBLISHED
 - 075 · 2026-11-13 · Ciencia · ¿Cómo se forma una nube? · PRODUCED
 - 076 · 2026-11-14 · Mecanismo · ¿Cómo funciona un mando a distancia? · PRODUCED
 - 077 · 2026-11-14 · Mecanismo · ¿Por qué un ascensor necesita contrapeso? · PRODUCED

@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-13T07:00:50-05:00",
+ "generated": "2026-11-13T13:46:41-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 0,
+ "occupied": 5,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,17 @@
  "reconciled": [],
  "create": [
   {
-   "id": "076",
-   "platform": "youtube",
-   "channelId": "6ad73b1a778b240e2f677dbf",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-14T09:00:00-05:00",
-   "text": "Luz que tus ojos no ven. ¿Cómo funciona un mando a distancia?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-076/CurioLab_076.mp4",
-    "title": "CurioLab_076.mp4"
-   },
-   "metadata": {
-    "youtube": {
-     "title": "¿Cómo funciona un mando a distancia?",
-     "categoryId": "27",
-     "privacy": "public",
-     "madeForKids": false,
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "076",
+   "id": "077",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-14T09:00:00-05:00",
-   "text": "Luz que tus ojos no ven. ¿Cómo funciona un mando a distancia?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-14T13:00:00-05:00",
+   "text": "El motor no levanta todo el peso. ¿Por qué un ascensor necesita contrapeso?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-076/CurioLab_076.mp4",
-    "title": "CurioLab_076.mp4",
-    "thumbnailOffset": 2431
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-077/CurioLab_077.mp4",
+    "title": "CurioLab_077.mp4",
+    "thumbnailOffset": 2282
    },
    "metadata": {
     "tiktok": {
@@ -69,62 +47,62 @@
    }
   },
   {
-   "id": "077",
+   "id": "078",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-14T13:00:00-05:00",
-   "text": "El motor no levanta todo el peso. ¿Por qué un ascensor necesita contrapeso?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-14T18:00:00-05:00",
+   "text": "El amarillo siempre estuvo ahí. ¿Por qué cambian de color las hojas en otoño?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-077/CurioLab_077.mp4",
-    "title": "CurioLab_077.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-078/CurioLab_078.mp4",
+    "title": "CurioLab_078.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Por qué un ascensor necesita contrapeso?",
+     "title": "¿Por qué cambian de color las hojas en otoño?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  }
- ],
- "waiting": [
-  {
-   "id": "077",
-   "platform": "tiktok",
-   "dueAt": "2026-11-14T13:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "078",
-   "platform": "youtube",
-   "dueAt": "2026-11-14T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
   },
   {
    "id": "078",
    "platform": "tiktok",
+   "channelId": "6ad739bd778b240e2f677654",
+   "reason": "nuevo",
+   "mode": "customScheduled",
    "dueAt": "2026-11-14T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
+   "text": "El amarillo siempre estuvo ahí. ¿Por qué cambian de color las hojas en otoño?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-078/CurioLab_078.mp4",
+    "title": "CurioLab_078.mp4",
+    "thumbnailOffset": 2261
+   },
+   "metadata": {
+    "tiktok": {
+     "isAiGenerated": true
+    }
+   }
   }
  ],
+ "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261113T070050_pre-create_48086e41751c/",
+   "file": "evidence/buffer/20261113T134641_pre-create_e68af3156652/",
    "files": {
-    "account.json": "8587920708a4b747491743e9b9881a6deebb0de164cb75043f8107a06e53f339",
-    "errors.json": "c3155dfec63b1c65253a4410395e7e2c550f7234912a6b046c5284776c71bdf5",
-    "open.json": "e3ca155b9b0a10a41f13982ca1fba7e90d4014a262afdbbefc3a25f0cf588bbb",
-    "recent.json": "18707ac40253d3c92c66f780886114e8c1960f51b0b4247bb6f3279148a6579b"
+    "account.json": "12dbf2e67ecba4eb50a63b3ec137be378cb026f0e448cfb84b625b61e1b1afb0",
+    "errors.json": "0b1ef15a5ee9bf62d0d9777e1b8e51baf833eae6c2185742b60e1d92858c3029",
+    "open.json": "a59b0745153bb5b1ac62e89dff8b8578473947b9171b387beac222cd7b254412",
+    "recent.json": "232938cb8c7801c6d3c3886c0bb2bbc7fecdab271fc5819f46587ffb2f984f25"
    },
-   "nonce": "48086e41751c",
-   "nonce_issued": "2026-11-13T06:58:10-05:00",
-   "buffer_time": "2026-11-13T06:58:16-05:00",
+   "nonce": "e68af3156652",
+   "nonce_issued": "2026-11-13T13:44:14-05:00",
+   "buffer_time": "2026-11-13T13:44:19-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -134,36 +112,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-13T07:10:50-05:00",
+ "valid_until": "2026-11-13T13:56:41-05:00",
  "offered": [
   {
-   "id": "076",
-   "platform": "youtube",
-   "offered": "2026-11-13T07:00:52-05:00",
-   "result": {
-    "post_id": "6af6fbf97828e7ae1b097360",
-    "status": "scheduled",
-    "at": "2026-11-13T07:00:58-05:00"
-   }
-  },
-  {
-   "id": "076",
-   "platform": "tiktok",
-   "offered": "2026-11-13T07:00:58-05:00",
-   "result": {
-    "post_id": "6af6fbff7828e7ae1b097ce6",
-    "status": "scheduled",
-    "at": "2026-11-13T07:01:05-05:00"
-   }
-  },
-  {
    "id": "077",
-   "platform": "youtube",
-   "offered": "2026-11-13T07:01:05-05:00",
+   "platform": "tiktok",
+   "offered": "2026-11-13T13:46:43-05:00",
    "result": {
-    "post_id": "6af6fc06bd1182b0d3efa137",
+    "post_id": "6af75b17397bcb7d1091454a",
     "status": "scheduled",
-    "at": "2026-11-13T07:01:12-05:00"
+    "at": "2026-11-13T13:46:49-05:00"
+   }
+  },
+  {
+   "id": "078",
+   "platform": "youtube",
+   "offered": "2026-11-13T13:46:49-05:00",
+   "result": {
+    "post_id": "6af75b1deea5d89b92e087a9",
+    "status": "scheduled",
+    "at": "2026-11-13T13:46:55-05:00"
+   }
+  },
+  {
+   "id": "078",
+   "platform": "tiktok",
+   "offered": "2026-11-13T13:46:55-05:00",
+   "result": {
+    "post_id": "6af75b23eea5d89b92e088e0",
+    "status": "scheduled",
+    "at": "2026-11-13T13:47:02-05:00"
    }
   }
  ]

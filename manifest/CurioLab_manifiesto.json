@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-13T07:04-05:00",
+ "actualizado": "2026-11-13T13:50-05:00",
  "estados": {
-  "PUBLISHED": 72,
-  "PRODUCED": 6,
+  "PUBLISHED": 74,
+  "PRODUCED": 4,
   "PLANNED": 12
  },
  "costo_real_usd": 0,
@@ -5821,19 +5821,19 @@
    "fecha": "2026-11-13",
    "titulo": "¿Cómo imprime una impresora de tinta?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af5a9a0c6319c29c493eaa5",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-12T06:57:21-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/BQPhK8q2mV0",
+     "recorded": "2026-11-13T13:43:53-05:00"
     },
     "tiktok": {
      "post_id": "6af5a9a609e869a662dd5d98",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-12T06:57:27-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7707656348275592461",
+     "recorded": "2026-11-13T13:43:53-05:00"
     }
    },
    "qa": {
@@ -5942,19 +5942,19 @@
    "fecha": "2026-11-13",
    "titulo": "¿Cómo cancelan el ruido unos auriculares?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af5a9ac4926d8280f0ca5da",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-12T06:57:34-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/8SA_EvsxSfM",
+     "recorded": "2026-11-13T13:43:53-05:00"
     },
     "tiktok": {
      "post_id": "6af60952f8af1d04bbd500d7",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-12T13:45:39-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7707717958528666894",
+     "recorded": "2026-11-13T13:43:53-05:00"
     }
    },
    "qa": {
@@ -6315,6 +6315,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-11-13T07:01:12-05:00"
+    },
+    "tiktok": {
+     "post_id": "6af75b17397bcb7d1091454a",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-13T13:46:49-05:00"
     }
    },
    "qa": {
@@ -6427,7 +6433,20 @@
    "titulo": "¿Por qué cambian de color las hojas en otoño?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6af75b1deea5d89b92e087a9",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-13T13:46:55-05:00"
+    },
+    "tiktok": {
+     "post_id": "6af75b23eea5d89b92e088e0",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-13T13:47:02-05:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 30.667,
@@ -6530,7 +6549,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-078/CurioLab_078.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 30667
   },
   "079": {
    "fecha": "2026-11-15",
