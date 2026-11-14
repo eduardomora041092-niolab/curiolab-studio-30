@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-14T07:02-05:00",
+ "actualizado": "2026-11-14T13:49-05:00",
  "estados": {
-  "PUBLISHED": 75,
-  "PRODUCED": 6,
+  "PUBLISHED": 77,
+  "PRODUCED": 4,
   "PLANNED": 9
  },
  "costo_real_usd": 0,
@@ -6184,19 +6184,19 @@
    "fecha": "2026-11-14",
    "titulo": "¿Cómo funciona un mando a distancia?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af6fbf97828e7ae1b097360",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-13T07:00:58-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/3B9308sxgYw",
+     "recorded": "2026-11-14T13:42:43-05:00"
     },
     "tiktok": {
      "post_id": "6af6fbff7828e7ae1b097ce6",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-13T07:01:05-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7708027549875588365",
+     "recorded": "2026-11-14T13:42:43-05:00"
     }
    },
    "qa": {
@@ -6308,19 +6308,19 @@
    "fecha": "2026-11-14",
    "titulo": "¿Por qué un ascensor necesita contrapeso?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af6fc06bd1182b0d3efa137",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-13T07:01:12-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/Li0FnadhDzI",
+     "recorded": "2026-11-14T13:42:43-05:00"
     },
     "tiktok": {
      "post_id": "6af75b17397bcb7d1091454a",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-13T13:46:49-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7708088879756086542",
+     "recorded": "2026-11-14T13:42:43-05:00"
     }
    },
    "qa": {
@@ -6690,6 +6690,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-11-14T06:59:10-05:00"
+    },
+    "tiktok": {
+     "post_id": "6af8ac59918fe79d2e9a0e63",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-14T13:45:47-05:00"
     }
    },
    "qa": {
@@ -6805,7 +6811,20 @@
    "titulo": "¿Qué es el eco?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6af8ac5fe5a113497aa024f4",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-14T13:45:53-05:00"
+    },
+    "tiktok": {
+     "post_id": "6af8ac6576c23bf1c7340809",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-14T13:45:59-05:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 29.433,
@@ -6911,7 +6930,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-081/CurioLab_081.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 29433
   },
   "082": {
    "fecha": "2026-11-16",

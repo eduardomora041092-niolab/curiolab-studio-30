@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-14T06:58:45-05:00",
+ "generated": "2026-11-14T13:45:40-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 0,
+ "occupied": 5,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,17 @@
  "reconciled": [],
  "create": [
   {
-   "id": "079",
-   "platform": "youtube",
-   "channelId": "6ad73b1a778b240e2f677dbf",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-15T09:00:00-05:00",
-   "text": "Dejas de pedalear y la rueda sigue. ¿Por qué la rueda de la bici gira sin pedalear?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-079/CurioLab_079.mp4",
-    "title": "CurioLab_079.mp4"
-   },
-   "metadata": {
-    "youtube": {
-     "title": "¿Por qué la rueda de la bici gira sin pedalear?",
-     "categoryId": "27",
-     "privacy": "public",
-     "madeForKids": false,
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "079",
+   "id": "080",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-15T09:00:00-05:00",
-   "text": "Dejas de pedalear y la rueda sigue. ¿Por qué la rueda de la bici gira sin pedalear?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-15T13:00:00-05:00",
+   "text": "Las alas suben solas. ¿Cómo funciona un sacacorchos de alas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-079/CurioLab_079.mp4",
-    "title": "CurioLab_079.mp4",
-    "thumbnailOffset": 2687
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-080/CurioLab_080.mp4",
+    "title": "CurioLab_080.mp4",
+    "thumbnailOffset": 2453
    },
    "metadata": {
     "tiktok": {
@@ -69,62 +47,62 @@
    }
   },
   {
-   "id": "080",
+   "id": "081",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-15T13:00:00-05:00",
-   "text": "Las alas suben solas. ¿Cómo funciona un sacacorchos de alas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-15T18:00:00-05:00",
+   "text": "Tu voz vuelve a ti. ¿Qué es el eco?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-080/CurioLab_080.mp4",
-    "title": "CurioLab_080.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-081/CurioLab_081.mp4",
+    "title": "CurioLab_081.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Cómo funciona un sacacorchos de alas?",
+     "title": "¿Qué es el eco?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  }
- ],
- "waiting": [
-  {
-   "id": "080",
-   "platform": "tiktok",
-   "dueAt": "2026-11-15T13:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "081",
-   "platform": "youtube",
-   "dueAt": "2026-11-15T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
   },
   {
    "id": "081",
    "platform": "tiktok",
+   "channelId": "6ad739bd778b240e2f677654",
+   "reason": "nuevo",
+   "mode": "customScheduled",
    "dueAt": "2026-11-15T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
+   "text": "Tu voz vuelve a ti. ¿Qué es el eco?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-081/CurioLab_081.mp4",
+    "title": "CurioLab_081.mp4",
+    "thumbnailOffset": 2922
+   },
+   "metadata": {
+    "tiktok": {
+     "isAiGenerated": true
+    }
+   }
   }
  ],
+ "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261114T065845_pre-create_ccedf2934cb9/",
+   "file": "evidence/buffer/20261114T134540_pre-create_cf2ba0a2acb0/",
    "files": {
-    "account.json": "e93f73e5145a4407b65770e9ef70adfa842a8fa43f1b13b7c3846633ed6c3139",
-    "errors.json": "37696e8f0cb9f2d218cc1f669c673e0cc916a25622d6ab6696d767adcf888a55",
-    "open.json": "8919e20b8f599623095d2f505ec9fde5024a3b37985da105a9982bc314856b81",
-    "recent.json": "3589af04b340cc4d76367a7d06fa4fd1d04de06434b14d6f0826946d1f28c2a3"
+    "account.json": "853c19a493e6864ed79a08a526e792be2eed3cf893d6b54f86029302f8359300",
+    "errors.json": "f4d7a75445ac58a91f2425805f8b9ce1a9e1e5de30005b3e4389c9a5539d837d",
+    "open.json": "c28b579562103562bf31d2e1aec87c0e8c1a44447c37580216b3cc60f9eccbac",
+    "recent.json": "3e642fe0edc2d6ad433e2931e63fb1277418c1ec0256fde2ade79328ee445910"
    },
-   "nonce": "ccedf2934cb9",
-   "nonce_issued": "2026-11-14T06:56:06-05:00",
-   "buffer_time": "2026-11-14T06:56:13-05:00",
+   "nonce": "cf2ba0a2acb0",
+   "nonce_issued": "2026-11-14T13:43:05-05:00",
+   "buffer_time": "2026-11-14T13:45:32-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -134,36 +112,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-14T07:08:45-05:00",
+ "valid_until": "2026-11-14T13:55:40-05:00",
  "offered": [
   {
-   "id": "079",
-   "platform": "youtube",
-   "offered": "2026-11-14T06:58:48-05:00",
-   "result": {
-    "post_id": "6af84cfd78196a0a975f0ff2",
-    "status": "scheduled",
-    "at": "2026-11-14T06:58:56-05:00"
-   }
-  },
-  {
-   "id": "079",
-   "platform": "tiktok",
-   "offered": "2026-11-14T06:58:56-05:00",
-   "result": {
-    "post_id": "6af84d05d16af15d4d117d3e",
-    "status": "scheduled",
-    "at": "2026-11-14T06:59:03-05:00"
-   }
-  },
-  {
    "id": "080",
-   "platform": "youtube",
-   "offered": "2026-11-14T06:59:03-05:00",
+   "platform": "tiktok",
+   "offered": "2026-11-14T13:45:40-05:00",
    "result": {
-    "post_id": "6af84d0bbb36d0090909fdc6",
+    "post_id": "6af8ac59918fe79d2e9a0e63",
     "status": "scheduled",
-    "at": "2026-11-14T06:59:10-05:00"
+    "at": "2026-11-14T13:45:47-05:00"
+   }
+  },
+  {
+   "id": "081",
+   "platform": "youtube",
+   "offered": "2026-11-14T13:45:47-05:00",
+   "result": {
+    "post_id": "6af8ac5fe5a113497aa024f4",
+    "status": "scheduled",
+    "at": "2026-11-14T13:45:53-05:00"
+   }
+  },
+  {
+   "id": "081",
+   "platform": "tiktok",
+   "offered": "2026-11-14T13:45:53-05:00",
+   "result": {
+    "post_id": "6af8ac6576c23bf1c7340809",
+    "status": "scheduled",
+    "at": "2026-11-14T13:45:59-05:00"
    }
   }
  ]
