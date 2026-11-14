@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-14T13:49-05:00",
+ "actualizado": "2026-11-14T18:50-05:00",
  "estados": {
-  "PUBLISHED": 77,
-  "PRODUCED": 4,
+  "PUBLISHED": 78,
+  "PRODUCED": 3,
   "PLANNED": 9
  },
  "costo_real_usd": 0,
@@ -6432,19 +6432,19 @@
    "fecha": "2026-11-14",
    "titulo": "¿Por qué cambian de color las hojas en otoño?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af75b1deea5d89b92e087a9",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-13T13:46:55-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/Fn7ZIZznhtU",
+     "recorded": "2026-11-14T18:44:10-05:00"
     },
     "tiktok": {
      "post_id": "6af75b23eea5d89b92e088e0",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-13T13:47:02-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7708165938595597582",
+     "recorded": "2026-11-14T18:44:10-05:00"
     }
    },
    "qa": {
