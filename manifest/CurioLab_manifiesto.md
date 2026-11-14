@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-13T18:49-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-14T07:02-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 12
-- **PRODUCED**: 3
+- **PLANNED**: 9
+- **PRODUCED**: 6
 - **PUBLISHED**: 75
 
 ## Vídeos con actividad
@@ -90,6 +90,9 @@ Actualizado: 2026-11-13T18:49-05:00 (America/New_York) · Costo real: US$0
 | 076 | 2026-11-14 | ¿Cómo funciona un mando a distancia? | PRODUCED | — | — | PASS 30.067 s -15.6 LUFS |
 | 077 | 2026-11-14 | ¿Por qué un ascensor necesita contrapeso? | PRODUCED | — | — | PASS 29.367 s -15.7 LUFS |
 | 078 | 2026-11-14 | ¿Por qué cambian de color las hojas en otoño? | PRODUCED | — | — | PASS 30.667 s -15.7 LUFS |
+| 079 | 2026-11-15 | ¿Por qué la rueda de la bici gira sin pedalear? | PRODUCED | — | — | PASS 29.733 s -15.7 LUFS |
+| 080 | 2026-11-15 | ¿Cómo funciona un sacacorchos de alas? | PRODUCED | — | — | PASS 28.2 s -15.7 LUFS |
+| 081 | 2026-11-15 | ¿Qué es el eco? | PRODUCED | — | — | PASS 29.433 s -15.7 LUFS |
 
 ## Calendario completo
 
@@ -171,9 +174,9 @@ Actualizado: 2026-11-13T18:49-05:00 (America/New_York) · Costo real: US$0
 - 076 · 2026-11-14 · Mecanismo · ¿Cómo funciona un mando a distancia? · PRODUCED
 - 077 · 2026-11-14 · Mecanismo · ¿Por qué un ascensor necesita contrapeso? · PRODUCED
 - 078 · 2026-11-14 · Ciencia · ¿Por qué cambian de color las hojas en otoño? · PRODUCED
-- 079 · 2026-11-15 · Mecanismo · ¿Por qué la rueda de la bici gira sin pedalear? · PLANNED
-- 080 · 2026-11-15 · Mecanismo · ¿Cómo funciona un sacacorchos de alas? · PLANNED
-- 081 · 2026-11-15 · Ciencia · ¿Qué es el eco? · PLANNED
+- 079 · 2026-11-15 · Mecanismo · ¿Por qué la rueda de la bici gira sin pedalear? · PRODUCED
+- 080 · 2026-11-15 · Mecanismo · ¿Cómo funciona un sacacorchos de alas? · PRODUCED
+- 081 · 2026-11-15 · Ciencia · ¿Qué es el eco? · PRODUCED
 - 082 · 2026-11-16 · Mecanismo · ¿Cómo muele un molinillo de pimienta? · PLANNED
 - 083 · 2026-11-16 · Mecanismo · ¿Cómo sube el agua una bomba manual? · PLANNED
 - 084 · 2026-11-16 · Ciencia · ¿Por qué el agua hierve antes en la montaña? · PLANNED

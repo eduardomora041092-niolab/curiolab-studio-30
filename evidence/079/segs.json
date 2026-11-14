@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "¿Por qué la rueda de la bici gira aunque no pedalees?",
+  "start": 0.0,
+  "end": 2.837
+ },
+ {
+  "i": 1,
+  "text": "Dentro del buje trasero hay un mecanismo llamado rueda libre.",
+  "start": 3.087,
+  "end": 6.586
+ },
+ {
+  "i": 2,
+  "text": "El piñón lleva unas pequeñas uñas, y la rueda, un anillo de dientes.",
+  "start": 6.836,
+  "end": 10.505
+ },
+ {
+  "i": 3,
+  "text": "Unos muelles empujan las uñas contra los dientes.",
+  "start": 10.755,
+  "end": 13.529
+ },
+ {
+  "i": 4,
+  "text": "Al pedalear, las uñas se enganchan y arrastran la rueda.",
+  "start": 13.779,
+  "end": 16.829
+ },
+ {
+  "i": 5,
+  "text": "Si dejas de pedalear, los dientes inclinados empujan las uñas hacia abajo y pasan por encima.",
+  "start": 17.079,
+  "end": 22.263
+ },
+ {
+  "i": 6,
+  "text": "Ese roce es el clic clic que oyes al bajar sin pedalear.",
+  "start": 22.513,
+  "end": 25.82
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para descubrir cómo funcionan más cosas.",
+  "start": 26.07,
+  "end": 28.737
+ }
+]
