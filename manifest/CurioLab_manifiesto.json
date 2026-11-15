@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-15T07:00-05:00",
+ "actualizado": "2026-11-15T13:50-05:00",
  "estados": {
-  "PUBLISHED": 78,
-  "PRODUCED": 6,
+  "PUBLISHED": 80,
+  "PRODUCED": 4,
   "PLANNED": 6
  },
  "costo_real_usd": 0,
@@ -6556,19 +6556,19 @@
    "fecha": "2026-11-15",
    "titulo": "¿Por qué la rueda de la bici gira sin pedalear?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af84cfd78196a0a975f0ff2",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-14T06:58:56-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/avh8SjzadfM",
+     "recorded": "2026-11-15T13:44:10-05:00"
     },
     "tiktok": {
      "post_id": "6af84d05d16af15d4d117d3e",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-14T06:59:03-05:00"
+     "status": "sent",
+     "url": "https://www.tiktok.com/@curiolabstudio30/video/7708397953936805133?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+     "recorded": "2026-11-15T13:44:10-05:00"
     }
    },
    "qa": {
@@ -6683,19 +6683,19 @@
    "fecha": "2026-11-15",
    "titulo": "¿Cómo funciona un sacacorchos de alas?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af84d0bbb36d0090909fdc6",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-14T06:59:10-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/7sGnA6wDe2A",
+     "recorded": "2026-11-15T13:44:10-05:00"
     },
     "tiktok": {
      "post_id": "6af8ac59918fe79d2e9a0e63",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-14T13:45:47-05:00"
+     "status": "sent",
+     "url": "https://www.tiktok.com/@curiolabstudio30/video/7708459916041800974?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+     "recorded": "2026-11-15T13:44:10-05:00"
     }
    },
    "qa": {
@@ -7074,6 +7074,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-11-15T06:56:43-05:00"
+    },
+    "tiktok": {
+     "post_id": "6af9fe30ee359588b546e295",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-15T13:47:14-05:00"
     }
    },
    "qa": {
@@ -7192,7 +7198,20 @@
    "titulo": "¿Por qué el agua hierve antes en la montaña?",
    "categoria": "Ciencia",
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6af9fe37e5a113497a080449",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-15T13:47:21-05:00"
+    },
+    "tiktok": {
+     "post_id": "6af9fe3e55ad64be504f23e0",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-15T13:47:28-05:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 27.133,
@@ -7301,7 +7320,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-084/CurioLab_084.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 27133
   },
   "085": {
    "fecha": "2026-11-17",
