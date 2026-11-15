@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-15T13:50-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-15T18:48-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 6
-- **PRODUCED**: 4
-- **PUBLISHED**: 80
+- **PRODUCED**: 3
+- **PUBLISHED**: 81
 
 ## Vídeos con actividad
 
@@ -92,7 +92,7 @@ Actualizado: 2026-11-15T13:50-05:00 (America/New_York) · Costo real: US$0
 | 078 | 2026-11-14 | ¿Por qué cambian de color las hojas en otoño? | PUBLISHED | https://www.youtube.com/shorts/Fn7ZIZznhtU | https://tiktok.com/@curiolabstudio30/video/7708165938595597582 | PASS 30.667 s -15.7 LUFS |
 | 079 | 2026-11-15 | ¿Por qué la rueda de la bici gira sin pedalear? | PUBLISHED | https://www.youtube.com/shorts/avh8SjzadfM | https://www.tiktok.com/@curiolabstudio30/video/7708397953936805133?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | PASS 29.733 s -15.7 LUFS |
 | 080 | 2026-11-15 | ¿Cómo funciona un sacacorchos de alas? | PUBLISHED | https://www.youtube.com/shorts/7sGnA6wDe2A | https://www.tiktok.com/@curiolabstudio30/video/7708459916041800974?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | PASS 28.2 s -15.7 LUFS |
-| 081 | 2026-11-15 | ¿Qué es el eco? | PRODUCED | — | — | PASS 29.433 s -15.7 LUFS |
+| 081 | 2026-11-15 | ¿Qué es el eco? | PUBLISHED | https://www.youtube.com/shorts/OAOtnPN4YeI | https://tiktok.com/@curiolabstudio30/video/7708537177587682574 | PASS 29.433 s -15.7 LUFS |
 | 082 | 2026-11-16 | ¿Cómo muele un molinillo de pimienta? | PRODUCED | — | — | PASS 25.033 s -15.8 LUFS |
 | 083 | 2026-11-16 | ¿Cómo sube el agua una bomba manual? | PRODUCED | — | — | PASS 26.967 s -15.6 LUFS |
 | 084 | 2026-11-16 | ¿Por qué el agua hierve antes en la montaña? | PRODUCED | — | — | PASS 27.133 s -15.6 LUFS |
@@ -179,7 +179,7 @@ Actualizado: 2026-11-15T13:50-05:00 (America/New_York) · Costo real: US$0
 - 078 · 2026-11-14 · Ciencia · ¿Por qué cambian de color las hojas en otoño? · PUBLISHED
 - 079 · 2026-11-15 · Mecanismo · ¿Por qué la rueda de la bici gira sin pedalear? · PUBLISHED
 - 080 · 2026-11-15 · Mecanismo · ¿Cómo funciona un sacacorchos de alas? · PUBLISHED
-- 081 · 2026-11-15 · Ciencia · ¿Qué es el eco? · PRODUCED
+- 081 · 2026-11-15 · Ciencia · ¿Qué es el eco? · PUBLISHED
 - 082 · 2026-11-16 · Mecanismo · ¿Cómo muele un molinillo de pimienta? · PRODUCED
 - 083 · 2026-11-16 · Mecanismo · ¿Cómo sube el agua una bomba manual? · PRODUCED
 - 084 · 2026-11-16 · Ciencia · ¿Por qué el agua hierve antes en la montaña? · PRODUCED

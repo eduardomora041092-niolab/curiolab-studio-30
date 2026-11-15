@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-15T13:50-05:00",
+ "actualizado": "2026-11-15T18:48-05:00",
  "estados": {
-  "PUBLISHED": 80,
-  "PRODUCED": 4,
+  "PUBLISHED": 81,
+  "PRODUCED": 3,
   "PLANNED": 6
  },
  "costo_real_usd": 0,
@@ -6810,19 +6810,19 @@
    "fecha": "2026-11-15",
    "titulo": "¿Qué es el eco?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af8ac5fe5a113497aa024f4",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-14T13:45:53-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/OAOtnPN4YeI",
+     "recorded": "2026-11-15T18:43:02-05:00"
     },
     "tiktok": {
      "post_id": "6af8ac6576c23bf1c7340809",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-14T13:45:59-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7708537177587682574",
+     "recorded": "2026-11-15T18:43:02-05:00"
     }
    },
    "qa": {

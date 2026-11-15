@@ -1,5 +1,31 @@
 {
  "run_id": "7d10af",
  "started": "2026-11-15T18:38:12-05:00",
- "stages": {}
+ "stages": {
+  "reconcile": {
+   "status": "PASS",
+   "msg": "ocupados 6/10, crear 0, en espera 0",
+   "at": "2026-11-15T18:43:02-05:00"
+  },
+  "metrics": {
+   "status": "PASS",
+   "msg": "4 posts capturados",
+   "at": "2026-11-15T18:43:12-05:00"
+  },
+  "pre-create": {
+   "status": "PASS",
+   "msg": "ocupados 6/10, crear 0, en espera 0",
+   "at": "2026-11-15T18:46:01-05:00"
+  },
+  "scheduling": {
+   "status": "PASS",
+   "msg": "0 creados y registrados de 0 autorizados",
+   "at": "2026-11-15T18:46:01-05:00"
+  },
+  "confirm": {
+   "status": "PASS",
+   "msg": "ocupados 6/10, crear 0, en espera 0",
+   "at": "2026-11-15T18:48:43-05:00"
+  }
+ }
 }
