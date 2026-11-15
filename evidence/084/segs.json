@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "¿Por qué el agua hierve antes en lo alto de una montaña?",
+  "start": 0.0,
+  "end": 2.88
+ },
+ {
+  "i": 1,
+  "text": "Hierve cuando su vapor empuja tan fuerte como el aire que la rodea.",
+  "start": 3.13,
+  "end": 6.714
+ },
+ {
+  "i": 2,
+  "text": "Al calentarla, el vapor empuja cada vez más.",
+  "start": 6.964,
+  "end": 9.695
+ },
+ {
+  "i": 3,
+  "text": "Arriba, en la montaña, hay menos aire encima: menos presión.",
+  "start": 9.945,
+  "end": 13.273
+ },
+ {
+  "i": 4,
+  "text": "Así el vapor la iguala antes, por debajo de cien grados.",
+  "start": 13.523,
+  "end": 16.509
+ },
+ {
+  "i": 5,
+  "text": "Por eso, allí la pasta tarda más en cocerse.",
+  "start": 16.759,
+  "end": 19.469
+ },
+ {
+  "i": 6,
+  "text": "La olla a presión hace lo contrario: el agua hierve más caliente.",
+  "start": 19.719,
+  "end": 23.239
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para descubrir cómo funcionan más cosas.",
+  "start": 23.489,
+  "end": 26.155
+ }
+]

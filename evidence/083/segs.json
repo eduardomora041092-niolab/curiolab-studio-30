@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "¿Cómo sube el agua del pozo con solo mover una palanca?",
+  "start": 0.0,
+  "end": 3.072
+ },
+ {
+  "i": 1,
+  "text": "El tubo tiene un pistón y dos válvulas de un solo sentido.",
+  "start": 3.322,
+  "end": 6.522
+ },
+ {
+  "i": 2,
+  "text": "Al bajar la manija, el pistón sube y debajo baja la presión.",
+  "start": 6.772,
+  "end": 10.143
+ },
+ {
+  "i": 3,
+  "text": "La presión del aire empuja el agua del pozo hacia arriba.",
+  "start": 10.393,
+  "end": 13.571
+ },
+ {
+  "i": 4,
+  "text": "Al bajar el pistón, la válvula de abajo se cierra.",
+  "start": 13.821,
+  "end": 16.573
+ },
+ {
+  "i": 5,
+  "text": "El agua pasa por la válvula del pistón y queda encima.",
+  "start": 16.823,
+  "end": 19.831
+ },
+ {
+  "i": 6,
+  "text": "En la siguiente subida, el pistón la saca por el caño.",
+  "start": 20.081,
+  "end": 23.068
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para descubrir cómo funcionan más cosas.",
+  "start": 23.318,
+  "end": 25.985
+ }
+]

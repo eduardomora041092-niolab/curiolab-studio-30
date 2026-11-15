@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-14T18:50-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-15T07:00-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 9
-- **PRODUCED**: 3
+- **PLANNED**: 6
+- **PRODUCED**: 6
 - **PUBLISHED**: 78
 
 ## Vídeos con actividad
@@ -93,6 +93,9 @@ Actualizado: 2026-11-14T18:50-05:00 (America/New_York) · Costo real: US$0
 | 079 | 2026-11-15 | ¿Por qué la rueda de la bici gira sin pedalear? | PRODUCED | — | — | PASS 29.733 s -15.7 LUFS |
 | 080 | 2026-11-15 | ¿Cómo funciona un sacacorchos de alas? | PRODUCED | — | — | PASS 28.2 s -15.7 LUFS |
 | 081 | 2026-11-15 | ¿Qué es el eco? | PRODUCED | — | — | PASS 29.433 s -15.7 LUFS |
+| 082 | 2026-11-16 | ¿Cómo muele un molinillo de pimienta? | PRODUCED | — | — | PASS 25.033 s -15.8 LUFS |
+| 083 | 2026-11-16 | ¿Cómo sube el agua una bomba manual? | PRODUCED | — | — | PASS 26.967 s -15.6 LUFS |
+| 084 | 2026-11-16 | ¿Por qué el agua hierve antes en la montaña? | PRODUCED | — | — | PASS 27.133 s -15.6 LUFS |
 
 ## Calendario completo
 
@@ -177,9 +180,9 @@ Actualizado: 2026-11-14T18:50-05:00 (America/New_York) · Costo real: US$0
 - 079 · 2026-11-15 · Mecanismo · ¿Por qué la rueda de la bici gira sin pedalear? · PRODUCED
 - 080 · 2026-11-15 · Mecanismo · ¿Cómo funciona un sacacorchos de alas? · PRODUCED
 - 081 · 2026-11-15 · Ciencia · ¿Qué es el eco? · PRODUCED
-- 082 · 2026-11-16 · Mecanismo · ¿Cómo muele un molinillo de pimienta? · PLANNED
-- 083 · 2026-11-16 · Mecanismo · ¿Cómo sube el agua una bomba manual? · PLANNED
-- 084 · 2026-11-16 · Ciencia · ¿Por qué el agua hierve antes en la montaña? · PLANNED
+- 082 · 2026-11-16 · Mecanismo · ¿Cómo muele un molinillo de pimienta? · PRODUCED
+- 083 · 2026-11-16 · Mecanismo · ¿Cómo sube el agua una bomba manual? · PRODUCED
+- 084 · 2026-11-16 · Ciencia · ¿Por qué el agua hierve antes en la montaña? · PRODUCED
 - 085 · 2026-11-17 · Mecanismo · ¿Cómo funciona un secador de pelo? · PLANNED
 - 086 · 2026-11-17 · Mecanismo · ¿Cómo aspira una aspiradora? · PLANNED
 - 087 · 2026-11-17 · Ciencia · ¿Cómo flota un barco de acero? · PLANNED

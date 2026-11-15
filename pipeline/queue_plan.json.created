@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-14T13:45:40-05:00",
+ "generated": "2026-11-15T06:56:18-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 5,
- "free_after_plan": 1,
+ "occupied": 6,
+ "free_after_plan": 0,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 3,
+   "sent": 0,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,20 @@
  "reconciled": [],
  "create": [
   {
-   "id": "080",
-   "platform": "tiktok",
-   "channelId": "6ad739bd778b240e2f677654",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-15T13:00:00-05:00",
-   "text": "Las alas suben solas. ¿Cómo funciona un sacacorchos de alas?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-080/CurioLab_080.mp4",
-    "title": "CurioLab_080.mp4",
-    "thumbnailOffset": 2453
-   },
-   "metadata": {
-    "tiktok": {
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "081",
+   "id": "082",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-15T18:00:00-05:00",
-   "text": "Tu voz vuelve a ti. ¿Qué es el eco?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "dueAt": "2026-11-16T09:00:00-05:00",
+   "text": "Girar y moler en un solo gesto. ¿Cómo muele un molinillo de pimienta?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-081/CurioLab_081.mp4",
-    "title": "CurioLab_081.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-082/CurioLab_082.mp4",
+    "title": "CurioLab_082.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Qué es el eco?",
+     "title": "¿Cómo muele un molinillo de pimienta?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
@@ -69,40 +50,81 @@
    }
   },
   {
-   "id": "081",
+   "id": "082",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-15T18:00:00-05:00",
-   "text": "Tu voz vuelve a ti. ¿Qué es el eco?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "dueAt": "2026-11-16T09:00:00-05:00",
+   "text": "Girar y moler en un solo gesto. ¿Cómo muele un molinillo de pimienta?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-081/CurioLab_081.mp4",
-    "title": "CurioLab_081.mp4",
-    "thumbnailOffset": 2922
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-082/CurioLab_082.mp4",
+    "title": "CurioLab_082.mp4",
+    "thumbnailOffset": 3007
    },
    "metadata": {
     "tiktok": {
      "isAiGenerated": true
     }
    }
+  },
+  {
+   "id": "083",
+   "platform": "youtube",
+   "channelId": "6ad73b1a778b240e2f677dbf",
+   "reason": "nuevo",
+   "mode": "customScheduled",
+   "dueAt": "2026-11-16T13:00:00-05:00",
+   "text": "Subes la palanca y el agua sube contigo. ¿Cómo sube el agua una bomba manual?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-083/CurioLab_083.mp4",
+    "title": "CurioLab_083.mp4"
+   },
+   "metadata": {
+    "youtube": {
+     "title": "¿Cómo sube el agua una bomba manual?",
+     "categoryId": "27",
+     "privacy": "public",
+     "madeForKids": false,
+     "isAiGenerated": true
+    }
+   }
   }
  ],
- "waiting": [],
+ "waiting": [
+  {
+   "id": "083",
+   "platform": "tiktok",
+   "dueAt": "2026-11-16T13:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "084",
+   "platform": "youtube",
+   "dueAt": "2026-11-16T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  },
+  {
+   "id": "084",
+   "platform": "tiktok",
+   "dueAt": "2026-11-16T18:00:00-05:00",
+   "reason": "cola de Buffer llena"
+  }
+ ],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261114T134540_pre-create_cf2ba0a2acb0/",
+   "file": "evidence/buffer/20261115T065618_pre-create_91366e8b466c/",
    "files": {
-    "account.json": "853c19a493e6864ed79a08a526e792be2eed3cf893d6b54f86029302f8359300",
-    "errors.json": "f4d7a75445ac58a91f2425805f8b9ce1a9e1e5de30005b3e4389c9a5539d837d",
-    "open.json": "c28b579562103562bf31d2e1aec87c0e8c1a44447c37580216b3cc60f9eccbac",
-    "recent.json": "3e642fe0edc2d6ad433e2931e63fb1277418c1ec0256fde2ade79328ee445910"
+    "account.json": "86e5551afb1ee71f4f6589c19d8362a57076426d32c563b0c257e8291fdebe9f",
+    "errors.json": "c16578b65b0e26702e16eb15a08fcd42951787fd71bb7ec4c485899c0dc83917",
+    "open.json": "0e0d4d4e6f3b1bbcfd551ff02ba357da15070ea74709b66e3569afcd1ebc18c0",
+    "recent.json": "ef7cdf6d21e965015563bd873cef3be1e443af0871dd62f3683238f6e0c7d6c1"
    },
-   "nonce": "cf2ba0a2acb0",
-   "nonce_issued": "2026-11-14T13:43:05-05:00",
-   "buffer_time": "2026-11-14T13:45:32-05:00",
+   "nonce": "91366e8b466c",
+   "nonce_issued": "2026-11-15T06:53:26-05:00",
+   "buffer_time": "2026-11-15T06:53:39-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -112,36 +134,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-14T13:55:40-05:00",
+ "valid_until": "2026-11-15T07:06:18-05:00",
  "offered": [
   {
-   "id": "080",
-   "platform": "tiktok",
-   "offered": "2026-11-14T13:45:40-05:00",
-   "result": {
-    "post_id": "6af8ac59918fe79d2e9a0e63",
-    "status": "scheduled",
-    "at": "2026-11-14T13:45:47-05:00"
-   }
-  },
-  {
-   "id": "081",
+   "id": "082",
    "platform": "youtube",
-   "offered": "2026-11-14T13:45:47-05:00",
+   "offered": "2026-11-15T06:56:21-05:00",
    "result": {
-    "post_id": "6af8ac5fe5a113497aa024f4",
+    "post_id": "6af99dea76c23bf1c77898ee",
     "status": "scheduled",
-    "at": "2026-11-14T13:45:53-05:00"
+    "at": "2026-11-15T06:56:28-05:00"
    }
   },
   {
-   "id": "081",
+   "id": "082",
    "platform": "tiktok",
-   "offered": "2026-11-14T13:45:53-05:00",
+   "offered": "2026-11-15T06:56:28-05:00",
    "result": {
-    "post_id": "6af8ac6576c23bf1c7340809",
+    "post_id": "6af99df0e5a113497ae4c0d4",
     "status": "scheduled",
-    "at": "2026-11-14T13:45:59-05:00"
+    "at": "2026-11-15T06:56:35-05:00"
+   }
+  },
+  {
+   "id": "083",
+   "platform": "youtube",
+   "offered": "2026-11-15T06:56:35-05:00",
+   "result": {
+    "post_id": "6af99df9918fe79d2edddfdb",
+    "status": "scheduled",
+    "at": "2026-11-15T06:56:43-05:00"
    }
   }
  ]
