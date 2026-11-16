@@ -1585,5 +1585,32 @@
   "since": "2026-11-13T23:46:03Z",
   "dir": "/tmp/curiolab_snap/confirm_146aafbc7576",
   "used": "2026-11-15T18:48:43-05:00"
+ },
+ {
+  "nonce": "4c80d24ae023",
+  "mode": "mcp",
+  "issued": "2026-11-16T06:38:41-05:00",
+  "purpose": "reconcile",
+  "since": "2026-11-11T11:38:41Z",
+  "dir": "/tmp/curiolab_snap/reconcile_4c80d24ae023",
+  "used": "2026-11-16T06:43:08-05:00"
+ },
+ {
+  "nonce": "d4c0556701f3",
+  "mode": "mcp",
+  "issued": "2026-11-16T06:54:24-05:00",
+  "purpose": "pre-create",
+  "since": "2026-11-14T11:54:24Z",
+  "dir": "/tmp/curiolab_snap/pre-create_d4c0556701f3",
+  "used": "2026-11-16T06:57:07-05:00"
+ },
+ {
+  "nonce": "28d5e435d3fb",
+  "mode": "mcp",
+  "issued": "2026-11-16T06:57:28-05:00",
+  "purpose": "confirm",
+  "since": "2026-11-14T11:57:28Z",
+  "dir": "/tmp/curiolab_snap/confirm_28d5e435d3fb",
+  "used": "2026-11-16T07:00:38-05:00"
  }
 ]

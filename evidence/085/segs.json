@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "¿Cómo saca aire caliente un secador en solo unos segundos?",
+  "start": 0.0,
+  "end": 3.221
+ },
+ {
+  "i": 1,
+  "text": "Al encenderlo, un pequeño motor hace girar un ventilador.",
+  "start": 3.471,
+  "end": 6.799
+ },
+ {
+  "i": 2,
+  "text": "El ventilador aspira aire por la rejilla de atrás.",
+  "start": 7.049,
+  "end": 9.823
+ },
+ {
+  "i": 3,
+  "text": "Ese aire pasa por una resistencia: un hilo enrollado en espiral.",
+  "start": 10.073,
+  "end": 13.827
+ },
+ {
+  "i": 4,
+  "text": "La corriente calienta el hilo hasta ponerlo al rojo.",
+  "start": 14.077,
+  "end": 17.064
+ },
+ {
+  "i": 5,
+  "text": "El aire se lleva ese calor y sale caliente por la boquilla.",
+  "start": 17.314,
+  "end": 20.514
+ },
+ {
+  "i": 6,
+  "text": "Si se recalienta, un protector térmico corta la corriente.",
+  "start": 20.764,
+  "end": 24.156
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para descubrir cómo funcionan más cosas.",
+  "start": 24.406,
+  "end": 27.073
+ }
+]

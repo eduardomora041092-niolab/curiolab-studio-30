@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-15T18:48-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-16T07:00-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 6
-- **PRODUCED**: 3
+- **PLANNED**: 3
+- **PRODUCED**: 6
 - **PUBLISHED**: 81
 
 ## Vídeos con actividad
@@ -96,6 +96,9 @@ Actualizado: 2026-11-15T18:48-05:00 (America/New_York) · Costo real: US$0
 | 082 | 2026-11-16 | ¿Cómo muele un molinillo de pimienta? | PRODUCED | — | — | PASS 25.033 s -15.8 LUFS |
 | 083 | 2026-11-16 | ¿Cómo sube el agua una bomba manual? | PRODUCED | — | — | PASS 26.967 s -15.6 LUFS |
 | 084 | 2026-11-16 | ¿Por qué el agua hierve antes en la montaña? | PRODUCED | — | — | PASS 27.133 s -15.6 LUFS |
+| 085 | 2026-11-17 | ¿Cómo funciona un secador de pelo? | PRODUCED | — | — | PASS 28.067 s -15.7 LUFS |
+| 086 | 2026-11-17 | ¿Cómo aspira una aspiradora? | PRODUCED | — | — | PASS 25.233 s -15.6 LUFS |
+| 087 | 2026-11-17 | ¿Cómo flota un barco de acero? | PRODUCED | — | — | PASS 25.933 s -15.5 LUFS |
 
 ## Calendario completo
 
@@ -183,9 +186,9 @@ Actualizado: 2026-11-15T18:48-05:00 (America/New_York) · Costo real: US$0
 - 082 · 2026-11-16 · Mecanismo · ¿Cómo muele un molinillo de pimienta? · PRODUCED
 - 083 · 2026-11-16 · Mecanismo · ¿Cómo sube el agua una bomba manual? · PRODUCED
 - 084 · 2026-11-16 · Ciencia · ¿Por qué el agua hierve antes en la montaña? · PRODUCED
-- 085 · 2026-11-17 · Mecanismo · ¿Cómo funciona un secador de pelo? · PLANNED
-- 086 · 2026-11-17 · Mecanismo · ¿Cómo aspira una aspiradora? · PLANNED
-- 087 · 2026-11-17 · Ciencia · ¿Cómo flota un barco de acero? · PLANNED
+- 085 · 2026-11-17 · Mecanismo · ¿Cómo funciona un secador de pelo? · PRODUCED
+- 086 · 2026-11-17 · Mecanismo · ¿Cómo aspira una aspiradora? · PRODUCED
+- 087 · 2026-11-17 · Ciencia · ¿Cómo flota un barco de acero? · PRODUCED
 - 088 · 2026-11-18 · Mecanismo · ¿Cómo funciona una tecla de teclado mecánico? · PLANNED
 - 089 · 2026-11-18 · Mecanismo · ¿Cómo se ajusta una llave inglesa? · PLANNED
 - 090 · 2026-11-18 · Ciencia · ¿Cómo trepa un gecko por el cristal? · PLANNED

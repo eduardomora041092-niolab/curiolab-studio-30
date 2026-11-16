@@ -1,0 +1,50 @@
+[
+ {
+  "i": 0,
+  "text": "¿Por qué una aspiradora se traga el polvo del suelo?",
+  "start": 0.0,
+  "end": 2.773
+ },
+ {
+  "i": 1,
+  "text": "Dentro, un motor hace girar un ventilador muy rápido.",
+  "start": 3.023,
+  "end": 5.903
+ },
+ {
+  "i": 2,
+  "text": "El ventilador expulsa aire hacia fuera, por detrás.",
+  "start": 6.153,
+  "end": 8.927
+ },
+ {
+  "i": 3,
+  "text": "Así, dentro queda menos aire: la presión baja.",
+  "start": 9.177,
+  "end": 11.907
+ },
+ {
+  "i": 4,
+  "text": "Fuera, el aire tiene más presión y entra por el tubo.",
+  "start": 12.157,
+  "end": 15.08
+ },
+ {
+  "i": 5,
+  "text": "Ese aire que entra arrastra el polvo y las migas.",
+  "start": 15.33,
+  "end": 18.061
+ },
+ {
+  "i": 6,
+  "text": "Una bolsa atrapa la suciedad y deja salir el aire.",
+  "start": 18.311,
+  "end": 21.34
+ },
+ {
+  "i": 7,
+  "text": "Sígueme para descubrir cómo funcionan más cosas.",
+  "start": 21.59,
+  "end": 24.257
+ }
+]
