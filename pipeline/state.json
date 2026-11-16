@@ -6684,19 +6684,19 @@
    "duration_ms": 29433
   },
   "082": {
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af99dea76c23bf1c77898ee",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-15T06:56:28-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/IRD-fcdoZgA",
+     "recorded": "2026-11-16T13:44:25-05:00"
     },
     "tiktok": {
      "post_id": "6af99df0e5a113497ae4c0d4",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-15T06:56:35-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7708769875228970254",
+     "recorded": "2026-11-16T13:44:25-05:00"
     }
    },
    "qa": {
@@ -6811,19 +6811,19 @@
    "duration_ms": 25033
   },
   "083": {
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af99df9918fe79d2edddfdb",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-15T06:56:43-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/H8vk-MSa-Fg",
+     "recorded": "2026-11-16T13:44:25-05:00"
     },
     "tiktok": {
      "post_id": "6af9fe30ee359588b546e295",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-15T13:47:14-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7708831628017077518",
+     "recorded": "2026-11-16T13:44:25-05:00"
     }
    },
    "qa": {
@@ -7202,6 +7202,12 @@
      "status": "scheduled",
      "url": "",
      "recorded": "2026-11-16T06:57:28-05:00"
+    },
+    "tiktok": {
+     "post_id": "6afb4fc71377c0ebdd3071ad",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-16T13:47:37-05:00"
     }
    },
    "qa": {
@@ -7320,7 +7326,20 @@
   },
   "087": {
    "estado": "PRODUCED",
-   "posts": {},
+   "posts": {
+    "youtube": {
+     "post_id": "6afb4fcf08dd01805007ec14",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-16T13:47:45-05:00"
+    },
+    "tiktok": {
+     "post_id": "6afb4fd623d030fd36c12822",
+     "status": "scheduled",
+     "url": "",
+     "recorded": "2026-11-16T13:47:53-05:00"
+    }
+   },
    "qa": {
     "all_pass": true,
     "duration_s": 25.933,
@@ -7432,7 +7451,8 @@
     "editorial_pass": true
    },
    "media_url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-087/CurioLab_087.mp4",
-   "errors": []
+   "errors": [],
+   "duration_ms": 25933
   },
   "088": {
    "estado": "PLANNED",

@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-16T07:00-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-16T13:51-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 3
-- **PRODUCED**: 6
-- **PUBLISHED**: 81
+- **PRODUCED**: 4
+- **PUBLISHED**: 83
 
 ## Vídeos con actividad
 
@@ -93,8 +93,8 @@ Actualizado: 2026-11-16T07:00-05:00 (America/New_York) · Costo real: US$0
 | 079 | 2026-11-15 | ¿Por qué la rueda de la bici gira sin pedalear? | PUBLISHED | https://www.youtube.com/shorts/avh8SjzadfM | https://www.tiktok.com/@curiolabstudio30/video/7708397953936805133?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | PASS 29.733 s -15.7 LUFS |
 | 080 | 2026-11-15 | ¿Cómo funciona un sacacorchos de alas? | PUBLISHED | https://www.youtube.com/shorts/7sGnA6wDe2A | https://www.tiktok.com/@curiolabstudio30/video/7708459916041800974?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | PASS 28.2 s -15.7 LUFS |
 | 081 | 2026-11-15 | ¿Qué es el eco? | PUBLISHED | https://www.youtube.com/shorts/OAOtnPN4YeI | https://tiktok.com/@curiolabstudio30/video/7708537177587682574 | PASS 29.433 s -15.7 LUFS |
-| 082 | 2026-11-16 | ¿Cómo muele un molinillo de pimienta? | PRODUCED | — | — | PASS 25.033 s -15.8 LUFS |
-| 083 | 2026-11-16 | ¿Cómo sube el agua una bomba manual? | PRODUCED | — | — | PASS 26.967 s -15.6 LUFS |
+| 082 | 2026-11-16 | ¿Cómo muele un molinillo de pimienta? | PUBLISHED | https://www.youtube.com/shorts/IRD-fcdoZgA | https://tiktok.com/@curiolabstudio30/video/7708769875228970254 | PASS 25.033 s -15.8 LUFS |
+| 083 | 2026-11-16 | ¿Cómo sube el agua una bomba manual? | PUBLISHED | https://www.youtube.com/shorts/H8vk-MSa-Fg | https://tiktok.com/@curiolabstudio30/video/7708831628017077518 | PASS 26.967 s -15.6 LUFS |
 | 084 | 2026-11-16 | ¿Por qué el agua hierve antes en la montaña? | PRODUCED | — | — | PASS 27.133 s -15.6 LUFS |
 | 085 | 2026-11-17 | ¿Cómo funciona un secador de pelo? | PRODUCED | — | — | PASS 28.067 s -15.7 LUFS |
 | 086 | 2026-11-17 | ¿Cómo aspira una aspiradora? | PRODUCED | — | — | PASS 25.233 s -15.6 LUFS |
@@ -183,8 +183,8 @@ Actualizado: 2026-11-16T07:00-05:00 (America/New_York) · Costo real: US$0
 - 079 · 2026-11-15 · Mecanismo · ¿Por qué la rueda de la bici gira sin pedalear? · PUBLISHED
 - 080 · 2026-11-15 · Mecanismo · ¿Cómo funciona un sacacorchos de alas? · PUBLISHED
 - 081 · 2026-11-15 · Ciencia · ¿Qué es el eco? · PUBLISHED
-- 082 · 2026-11-16 · Mecanismo · ¿Cómo muele un molinillo de pimienta? · PRODUCED
-- 083 · 2026-11-16 · Mecanismo · ¿Cómo sube el agua una bomba manual? · PRODUCED
+- 082 · 2026-11-16 · Mecanismo · ¿Cómo muele un molinillo de pimienta? · PUBLISHED
+- 083 · 2026-11-16 · Mecanismo · ¿Cómo sube el agua una bomba manual? · PUBLISHED
 - 084 · 2026-11-16 · Ciencia · ¿Por qué el agua hierve antes en la montaña? · PRODUCED
 - 085 · 2026-11-17 · Mecanismo · ¿Cómo funciona un secador de pelo? · PRODUCED
 - 086 · 2026-11-17 · Mecanismo · ¿Cómo aspira una aspiradora? · PRODUCED

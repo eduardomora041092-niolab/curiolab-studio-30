@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-16T06:57:07-05:00",
+ "generated": "2026-11-16T13:47:28-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 0,
+ "occupied": 5,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,17 @@
  "reconciled": [],
  "create": [
   {
-   "id": "085",
-   "platform": "youtube",
-   "channelId": "6ad73b1a778b240e2f677dbf",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-17T09:00:00-05:00",
-   "text": "Aire caliente en segundos. ¿Cómo funciona un secador de pelo?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-085/CurioLab_085.mp4",
-    "title": "CurioLab_085.mp4"
-   },
-   "metadata": {
-    "youtube": {
-     "title": "¿Cómo funciona un secador de pelo?",
-     "categoryId": "27",
-     "privacy": "public",
-     "madeForKids": false,
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "085",
+   "id": "086",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-17T09:00:00-05:00",
-   "text": "Aire caliente en segundos. ¿Cómo funciona un secador de pelo?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-17T13:00:00-05:00",
+   "text": "No absorbe la suciedad: la empuja el aire. ¿Cómo aspira una aspiradora?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-085/CurioLab_085.mp4",
-    "title": "CurioLab_085.mp4",
-    "thumbnailOffset": 3071
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-086/CurioLab_086.mp4",
+    "title": "CurioLab_086.mp4",
+    "thumbnailOffset": 2623
    },
    "metadata": {
     "tiktok": {
@@ -69,62 +47,62 @@
    }
   },
   {
-   "id": "086",
+   "id": "087",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-17T13:00:00-05:00",
-   "text": "No absorbe la suciedad: la empuja el aire. ¿Cómo aspira una aspiradora?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-17T18:00:00-05:00",
+   "text": "Una bola de acero se hunde; un barco no. ¿Cómo flota un barco de acero?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-086/CurioLab_086.mp4",
-    "title": "CurioLab_086.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-087/CurioLab_087.mp4",
+    "title": "CurioLab_087.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Cómo aspira una aspiradora?",
+     "title": "¿Cómo flota un barco de acero?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  }
- ],
- "waiting": [
-  {
-   "id": "086",
-   "platform": "tiktok",
-   "dueAt": "2026-11-17T13:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "087",
-   "platform": "youtube",
-   "dueAt": "2026-11-17T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
   },
   {
    "id": "087",
    "platform": "tiktok",
+   "channelId": "6ad739bd778b240e2f677654",
+   "reason": "nuevo",
+   "mode": "customScheduled",
    "dueAt": "2026-11-17T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
+   "text": "Una bola de acero se hunde; un barco no. ¿Cómo flota un barco de acero?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-087/CurioLab_087.mp4",
+    "title": "CurioLab_087.mp4",
+    "thumbnailOffset": 2581
+   },
+   "metadata": {
+    "tiktok": {
+     "isAiGenerated": true
+    }
+   }
   }
  ],
+ "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261116T065707_pre-create_d4c0556701f3/",
+   "file": "evidence/buffer/20261116T134728_pre-create_f2da86f2f5ce/",
    "files": {
-    "account.json": "4e9037dd183f7f8d6e217302cbcb13f8484603e25ebe2ac3b36e3f23ed587851",
-    "errors.json": "2f8c871cb8ea9b6525c88c39cd3b161afd7653c764aeda93fbab5747a64dbc5b",
-    "open.json": "920bf20e606c42e547c3302e70afb39cf78779b1dd876df68c2539eec622667e",
-    "recent.json": "196e87fcc09291e498f1f441c983af84e28216adcf3568432a3525c923796409"
+    "account.json": "9baf3b1dabbb61bfe67e5f3143018a2d58fdb7fa17b5b876c0068aaab8d3768c",
+    "errors.json": "5a8eea9173506a182bf319ca4815c8669130e6c8dd70ecc8cc96d61e4e92c717",
+    "open.json": "c3aad4b6512c1780eefdb6a9c194b4b85c844c1b5571c8e36094498b235c2344",
+    "recent.json": "0de96f70e68d2cc4cb396cf810a81e957dc99fb58deb8b3fc1627a4e2168372a"
    },
-   "nonce": "d4c0556701f3",
-   "nonce_issued": "2026-11-16T06:54:24-05:00",
-   "buffer_time": "2026-11-16T06:54:32-05:00",
+   "nonce": "f2da86f2f5ce",
+   "nonce_issued": "2026-11-16T13:44:51-05:00",
+   "buffer_time": "2026-11-16T13:45:00-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -134,36 +112,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-16T07:07:07-05:00",
+ "valid_until": "2026-11-16T13:57:28-05:00",
  "offered": [
   {
-   "id": "085",
-   "platform": "youtube",
-   "offered": "2026-11-16T06:57:07-05:00",
-   "result": {
-    "post_id": "6afaef9837f9e5273be52c75",
-    "status": "scheduled",
-    "at": "2026-11-16T06:57:14-05:00"
-   }
-  },
-  {
-   "id": "085",
-   "platform": "tiktok",
-   "offered": "2026-11-16T06:57:14-05:00",
-   "result": {
-    "post_id": "6afaef9e37f9e5273be52e6e",
-    "status": "scheduled",
-    "at": "2026-11-16T06:57:21-05:00"
-   }
-  },
-  {
    "id": "086",
-   "platform": "youtube",
-   "offered": "2026-11-16T06:57:21-05:00",
+   "platform": "tiktok",
+   "offered": "2026-11-16T13:47:30-05:00",
    "result": {
-    "post_id": "6afaefa637f9e5273be53045",
+    "post_id": "6afb4fc71377c0ebdd3071ad",
     "status": "scheduled",
-    "at": "2026-11-16T06:57:28-05:00"
+    "at": "2026-11-16T13:47:37-05:00"
+   }
+  },
+  {
+   "id": "087",
+   "platform": "youtube",
+   "offered": "2026-11-16T13:47:38-05:00",
+   "result": {
+    "post_id": "6afb4fcf08dd01805007ec14",
+    "status": "scheduled",
+    "at": "2026-11-16T13:47:45-05:00"
+   }
+  },
+  {
+   "id": "087",
+   "platform": "tiktok",
+   "offered": "2026-11-16T13:47:45-05:00",
+   "result": {
+    "post_id": "6afb4fd623d030fd36c12822",
+    "status": "scheduled",
+    "at": "2026-11-16T13:47:53-05:00"
    }
   }
  ]
