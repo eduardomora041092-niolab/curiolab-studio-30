@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-16T13:51:00-05:00",
+ "generated": "2026-11-16T18:43:28-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 8,
- "free_after_plan": 1,
+ "occupied": 6,
+ "free_after_plan": 3,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 0,
+   "sent": 3,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 0,
+   "sent": 3,
    "limit": null,
    "isAtLimit": null
   }
@@ -25,23 +25,28 @@
  "missing_info": [
   "límite diario de publicación por canal (dailyPostingLimits): ninguna herramienta MCP de Buffer lo expone; si Buffer rechaza un create_post por ese límite, se registra como failed y el plan se detiene"
  ],
- "reconciled": [],
+ "reconciled": [
+  "084 tiktok 6af9fe3e55ad64be504f23e0 sent https://tiktok.com/@curiolabstudio30/video/7708908400653896974",
+  "084 youtube 6af9fe37e5a113497a080449 sent https://www.youtube.com/shorts/T6PqguD6O78"
+ ],
  "create": [],
  "waiting": [],
  "blocked": [],
  "warnings": [],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261116T135100_confirm_346ddc2062de/",
+   "file": "evidence/buffer/20261116T184328_reconcile_93985ab36a73/",
    "files": {
-    "account.json": "e22840c503cec2d96a6967b0c49800d5284471e8cd32d12a402864fa8d829966",
-    "errors.json": "e1d8e0e8d6bfa990abdde99beb7b2d1d92b9f4b90c0a3e7469949c316913a752",
-    "open.json": "b4bafece8cc48ff4715db1b07e19ba17bfbf4ddc6a85c7068e08e413b66119d4",
-    "recent.json": "0145f79da3003b28c9feaff2953cc84461580adad7f5a84be0f1dea20896e91d"
+    "account.json": "1860d97710a27a6fb79036facb379f9852ce5ebfc4fc59a8671347d5193017a8",
+    "errors.json": "2a663188cad557f35fdb5df483fa78b416ac0202948d7097ddf50a547bfd36a5",
+    "link_6af9fe37e5a113497a080449.json": "6f8696bd7d77b9fdb9386a4b68a002d47943393be552d0c897b91349e239525b",
+    "link_6af9fe3e55ad64be504f23e0.json": "dba4642de2b071c46b3428890038b474a2c30670bbdbc28193f971842cfc9fce",
+    "open.json": "985a9bb17ae28483bbde53301afd20ff420ac6a20567ca34ac631f1bd19e0510",
+    "recent.json": "0eb554d4a57e25a33fd2131d5695a52b7d92f14116e1414c00a4b58e1a571c89"
    },
-   "nonce": "346ddc2062de",
-   "nonce_issued": "2026-11-16T13:47:53-05:00",
-   "buffer_time": "2026-11-16T13:48:01-05:00",
+   "nonce": "93985ab36a73",
+   "nonce_issued": "2026-11-16T18:38:42-05:00",
+   "buffer_time": "2026-11-16T18:42:55-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,

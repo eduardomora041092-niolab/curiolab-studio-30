@@ -1639,5 +1639,14 @@
   "since": "2026-11-14T18:47:53Z",
   "dir": "/tmp/curiolab_snap/confirm_346ddc2062de",
   "used": "2026-11-16T13:51:00-05:00"
+ },
+ {
+  "nonce": "93985ab36a73",
+  "mode": "mcp",
+  "issued": "2026-11-16T18:38:42-05:00",
+  "purpose": "reconcile",
+  "since": "2026-11-11T23:38:42Z",
+  "dir": "/tmp/curiolab_snap/reconcile_93985ab36a73",
+  "used": "2026-11-16T18:43:28-05:00"
  }
 ]

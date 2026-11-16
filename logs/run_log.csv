@@ -1076,3 +1076,13 @@ timestamp_local,level,message
 2026-11-16T13:47:53-05:00,INFO,087 tiktok 6afb4fd623d030fd36c12822 scheduled 
 2026-11-16T13:47:53-05:00,INFO,etapa scheduling: PASS 3 creados y registrados de 3 autorizados
 2026-11-16T13:51:00-05:00,INFO,"etapa confirm: PASS ocupados 8/10, crear 0, en espera 0"
+2026-11-16T18:43:28-05:00,INFO,conciliado 084 tiktok 6af9fe3e55ad64be504f23e0 sent https://tiktok.com/@curiolabstudio30/video/7708908400653896974
+2026-11-16T18:43:28-05:00,INFO,conciliado 084 youtube 6af9fe37e5a113497a080449 sent https://www.youtube.com/shorts/T6PqguD6O78
+2026-11-16T18:43:28-05:00,INFO,"etapa reconcile: PASS ocupados 6/10, crear 0, en espera 0"
+2026-11-16T18:43:30-05:00,WARN,etapa metrics: PENDING 4 capturas pendientes
+2026-11-16T18:43:40-05:00,INFO,metrics appended for 4 posts
+2026-11-16T18:43:40-05:00,INFO,etapa metrics: PASS 4 posts capturados
+2026-11-16T18:44:01-05:00,INFO,"etapa pre-create: SKIP sin pendientes (status: pending=[], 085-087 ya programados en ambos canales); omitida para ahorrar cuota API Buffer: quedan 48/2000 peticiones del limite de 30 dias, reinicio en ~2d10h (despues del fin del experimento)"
+2026-11-16T18:44:01-05:00,INFO,"etapa scheduling: SKIP sin pendientes (status: pending=[], 085-087 ya programados en ambos canales); omitida para ahorrar cuota API Buffer: quedan 48/2000 peticiones del limite de 30 dias, reinicio en ~2d10h (despues del fin del experimento)"
+2026-11-16T18:44:01-05:00,INFO,"etapa confirm: SKIP sin pendientes (status: pending=[], 085-087 ya programados en ambos canales); omitida para ahorrar cuota API Buffer: quedan 48/2000 peticiones del limite de 30 dias, reinicio en ~2d10h (despues del fin del experimento)"
+2026-11-16T18:44:01-05:00,WARN,"Cuota API Buffer: 48 de 2000 peticiones restantes (30 dias), reinicio en ~2d10h; riesgo de no poder programar 088-090"

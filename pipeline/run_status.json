@@ -1,5 +1,31 @@
 {
  "run_id": "1ee252",
  "started": "2026-11-16T18:38:38-05:00",
- "stages": {}
+ "stages": {
+  "reconcile": {
+   "status": "PASS",
+   "msg": "ocupados 6/10, crear 0, en espera 0",
+   "at": "2026-11-16T18:43:28-05:00"
+  },
+  "metrics": {
+   "status": "PASS",
+   "msg": "4 posts capturados",
+   "at": "2026-11-16T18:43:40-05:00"
+  },
+  "pre-create": {
+   "status": "SKIP",
+   "msg": "sin pendientes (status: pending=[], 085-087 ya programados en ambos canales); omitida para ahorrar cuota API Buffer: quedan 48/2000 peticiones del limite de 30 dias, reinicio en ~2d10h (despues del fin del experimento)",
+   "at": "2026-11-16T18:44:01-05:00"
+  },
+  "scheduling": {
+   "status": "SKIP",
+   "msg": "sin pendientes (status: pending=[], 085-087 ya programados en ambos canales); omitida para ahorrar cuota API Buffer: quedan 48/2000 peticiones del limite de 30 dias, reinicio en ~2d10h (despues del fin del experimento)",
+   "at": "2026-11-16T18:44:01-05:00"
+  },
+  "confirm": {
+   "status": "SKIP",
+   "msg": "sin pendientes (status: pending=[], 085-087 ya programados en ambos canales); omitida para ahorrar cuota API Buffer: quedan 48/2000 peticiones del limite de 30 dias, reinicio en ~2d10h (despues del fin del experimento)",
+   "at": "2026-11-16T18:44:01-05:00"
+  }
+ }
 }

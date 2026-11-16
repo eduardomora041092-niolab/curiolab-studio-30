@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-16T13:51-05:00",
+ "actualizado": "2026-11-16T18:44-05:00",
  "estados": {
-  "PUBLISHED": 83,
-  "PRODUCED": 4,
+  "PUBLISHED": 84,
+  "PRODUCED": 3,
   "PLANNED": 3
  },
  "costo_real_usd": 0,
@@ -7197,19 +7197,19 @@
    "fecha": "2026-11-16",
    "titulo": "¿Por qué el agua hierve antes en la montaña?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6af9fe37e5a113497a080449",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-15T13:47:21-05:00"
+     "status": "sent",
+     "url": "https://www.youtube.com/shorts/T6PqguD6O78",
+     "recorded": "2026-11-16T18:43:28-05:00"
     },
     "tiktok": {
      "post_id": "6af9fe3e55ad64be504f23e0",
-     "status": "scheduled",
-     "url": "",
-     "recorded": "2026-11-15T13:47:28-05:00"
+     "status": "sent",
+     "url": "https://tiktok.com/@curiolabstudio30/video/7708908400653896974",
+     "recorded": "2026-11-16T18:43:28-05:00"
     }
    },
    "qa": {

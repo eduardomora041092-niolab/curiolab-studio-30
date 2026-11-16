@@ -1,12 +1,12 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-16T13:51-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-16T18:44-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
 - **PLANNED**: 3
-- **PRODUCED**: 4
-- **PUBLISHED**: 83
+- **PRODUCED**: 3
+- **PUBLISHED**: 84
 
 ## Vídeos con actividad
 
@@ -95,7 +95,7 @@ Actualizado: 2026-11-16T13:51-05:00 (America/New_York) · Costo real: US$0
 | 081 | 2026-11-15 | ¿Qué es el eco? | PUBLISHED | https://www.youtube.com/shorts/OAOtnPN4YeI | https://tiktok.com/@curiolabstudio30/video/7708537177587682574 | PASS 29.433 s -15.7 LUFS |
 | 082 | 2026-11-16 | ¿Cómo muele un molinillo de pimienta? | PUBLISHED | https://www.youtube.com/shorts/IRD-fcdoZgA | https://tiktok.com/@curiolabstudio30/video/7708769875228970254 | PASS 25.033 s -15.8 LUFS |
 | 083 | 2026-11-16 | ¿Cómo sube el agua una bomba manual? | PUBLISHED | https://www.youtube.com/shorts/H8vk-MSa-Fg | https://tiktok.com/@curiolabstudio30/video/7708831628017077518 | PASS 26.967 s -15.6 LUFS |
-| 084 | 2026-11-16 | ¿Por qué el agua hierve antes en la montaña? | PRODUCED | — | — | PASS 27.133 s -15.6 LUFS |
+| 084 | 2026-11-16 | ¿Por qué el agua hierve antes en la montaña? | PUBLISHED | https://www.youtube.com/shorts/T6PqguD6O78 | https://tiktok.com/@curiolabstudio30/video/7708908400653896974 | PASS 27.133 s -15.6 LUFS |
 | 085 | 2026-11-17 | ¿Cómo funciona un secador de pelo? | PRODUCED | — | — | PASS 28.067 s -15.7 LUFS |
 | 086 | 2026-11-17 | ¿Cómo aspira una aspiradora? | PRODUCED | — | — | PASS 25.233 s -15.6 LUFS |
 | 087 | 2026-11-17 | ¿Cómo flota un barco de acero? | PRODUCED | — | — | PASS 25.933 s -15.5 LUFS |
@@ -185,7 +185,7 @@ Actualizado: 2026-11-16T13:51-05:00 (America/New_York) · Costo real: US$0
 - 081 · 2026-11-15 · Ciencia · ¿Qué es el eco? · PUBLISHED
 - 082 · 2026-11-16 · Mecanismo · ¿Cómo muele un molinillo de pimienta? · PUBLISHED
 - 083 · 2026-11-16 · Mecanismo · ¿Cómo sube el agua una bomba manual? · PUBLISHED
-- 084 · 2026-11-16 · Ciencia · ¿Por qué el agua hierve antes en la montaña? · PRODUCED
+- 084 · 2026-11-16 · Ciencia · ¿Por qué el agua hierve antes en la montaña? · PUBLISHED
 - 085 · 2026-11-17 · Mecanismo · ¿Cómo funciona un secador de pelo? · PRODUCED
 - 086 · 2026-11-17 · Mecanismo · ¿Cómo aspira una aspiradora? · PRODUCED
 - 087 · 2026-11-17 · Ciencia · ¿Cómo flota un barco de acero? · PRODUCED
