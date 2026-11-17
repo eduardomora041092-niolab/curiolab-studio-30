@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-17T06:55:23-05:00",
+ "generated": "2026-11-17T13:46:31-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 6,
- "free_after_plan": 0,
+ "occupied": 5,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   }
@@ -28,39 +28,17 @@
  "reconciled": [],
  "create": [
   {
-   "id": "088",
-   "platform": "youtube",
-   "channelId": "6ad73b1a778b240e2f677dbf",
-   "reason": "nuevo",
-   "mode": "customScheduled",
-   "dueAt": "2026-11-18T09:00:00-05:00",
-   "text": "Cada tecla tiene su propio interruptor. ¿Cómo funciona una tecla de teclado mecánico?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
-   "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-088/CurioLab_088.mp4",
-    "title": "CurioLab_088.mp4"
-   },
-   "metadata": {
-    "youtube": {
-     "title": "¿Cómo funciona una tecla de teclado mecánico?",
-     "categoryId": "27",
-     "privacy": "public",
-     "madeForKids": false,
-     "isAiGenerated": true
-    }
-   }
-  },
-  {
-   "id": "088",
+   "id": "089",
    "platform": "tiktok",
    "channelId": "6ad739bd778b240e2f677654",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-18T09:00:00-05:00",
-   "text": "Cada tecla tiene su propio interruptor. ¿Cómo funciona una tecla de teclado mecánico?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-18T13:00:00-05:00",
+   "text": "Una llave para muchas tuercas. ¿Cómo se ajusta una llave inglesa?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-088/CurioLab_088.mp4",
-    "title": "CurioLab_088.mp4",
-    "thumbnailOffset": 2325
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-089/CurioLab_089.mp4",
+    "title": "CurioLab_089.mp4",
+    "thumbnailOffset": 3071
    },
    "metadata": {
     "tiktok": {
@@ -69,62 +47,67 @@
    }
   },
   {
-   "id": "089",
+   "id": "090",
    "platform": "youtube",
    "channelId": "6ad73b1a778b240e2f677dbf",
    "reason": "nuevo",
    "mode": "customScheduled",
-   "dueAt": "2026-11-18T13:00:00-05:00",
-   "text": "Una llave para muchas tuercas. ¿Cómo se ajusta una llave inglesa?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #ComoFunciona #Curiosidades #Ciencia #Shorts",
+   "dueAt": "2026-11-18T18:00:00-05:00",
+   "text": "Sin ventosas ni pegamento. ¿Cómo trepa un gecko por el cristal?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
    "asset": {
-    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-089/CurioLab_089.mp4",
-    "title": "CurioLab_089.mp4"
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-090/CurioLab_090.mp4",
+    "title": "CurioLab_090.mp4"
    },
    "metadata": {
     "youtube": {
-     "title": "¿Cómo se ajusta una llave inglesa?",
+     "title": "¿Cómo trepa un gecko por el cristal?",
      "categoryId": "27",
      "privacy": "public",
      "madeForKids": false,
      "isAiGenerated": true
     }
    }
-  }
- ],
- "waiting": [
-  {
-   "id": "089",
-   "platform": "tiktok",
-   "dueAt": "2026-11-18T13:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "090",
-   "platform": "youtube",
-   "dueAt": "2026-11-18T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
   },
   {
    "id": "090",
    "platform": "tiktok",
+   "channelId": "6ad739bd778b240e2f677654",
+   "reason": "nuevo",
+   "mode": "customScheduled",
    "dueAt": "2026-11-18T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
+   "text": "Sin ventosas ni pegamento. ¿Cómo trepa un gecko por el cristal?\n\nExplicado en menos de 35 segundos.\n\n#CurioLab #Ciencia #Curiosidades #Naturaleza #Shorts",
+   "asset": {
+    "url": "https://raw.githubusercontent.com/eduardomora041092-niolab/curiolab-studio-30/media-090/CurioLab_090.mp4",
+    "title": "CurioLab_090.mp4",
+    "thumbnailOffset": 2751
+   },
+   "metadata": {
+    "tiktok": {
+     "isAiGenerated": true
+    }
+   }
   }
  ],
+ "waiting": [],
  "blocked": [],
- "warnings": [],
+ "warnings": [
+  "SIN ENLACE 085 tiktok 6afaef9e37f9e5273be52e6e: sent sin externalLink (get_post 6afaef9e37f9e5273be52e6e → link_6afaef9e37f9e5273be52e6e.json); se reintenta en la próxima ejecución",
+  "SIN ENLACE 085 youtube 6afaef9837f9e5273be52c75: sent sin externalLink (get_post 6afaef9837f9e5273be52c75 → link_6afaef9837f9e5273be52c75.json); se reintenta en la próxima ejecución",
+  "SIN ENLACE 086 tiktok 6afb4fc71377c0ebdd3071ad: sent sin externalLink (get_post 6afb4fc71377c0ebdd3071ad → link_6afb4fc71377c0ebdd3071ad.json); se reintenta en la próxima ejecución",
+  "SIN ENLACE 086 youtube 6afaefa637f9e5273be53045: sent sin externalLink (get_post 6afaefa637f9e5273be53045 → link_6afaefa637f9e5273be53045.json); se reintenta en la próxima ejecución"
+ ],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261117T065523_pre-create_e85ab37863ca/",
+   "file": "evidence/buffer/20261117T134631_pre-create_4b6a2855d476/",
    "files": {
-    "account.json": "96f4f7e7c816fa81c87e17414a207e59a780ed51df733235959b7f2700b97af6",
-    "errors.json": "1363f9a8f8bede2901cdda99be3b399ed7434714b1e70aae841281d2eb021750",
-    "open.json": "e3d860bfe5043be5566c8ec545f72051dfecb6ae928aff0891cbb1480ef08a02",
-    "recent.json": "48b2b4c67cf6e23e2a8d92e68fb3b360c85c74de5032ff57319299b3b562a2c9"
+    "account.json": "13e520f6a561c419cbe1e130bb27549ab4643ab0b252ff846b31ccb62c5c06c5",
+    "errors.json": "dc8a10a866407d20363e8120564ef865abe8a125dd3e46758a1787a420e44fc7",
+    "open.json": "f39b5ebd30d346ca747d215c69089e825313a568324e12e641f89cec29eb4813",
+    "recent.json": "3ee9855b59907d83dd3cd42f071134ce6469471b688d5a4147d124c7cca97303"
    },
-   "nonce": "e85ab37863ca",
-   "nonce_issued": "2026-11-17T06:54:55-05:00",
-   "buffer_time": "2026-11-17T06:55:16-05:00",
+   "nonce": "4b6a2855d476",
+   "nonce_issued": "2026-11-17T13:43:58-05:00",
+   "buffer_time": "2026-11-17T13:44:06-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
@@ -134,36 +117,36 @@
   }
  ],
  "for_create": true,
- "valid_until": "2026-11-17T07:05:23-05:00",
+ "valid_until": "2026-11-17T13:56:31-05:00",
  "offered": [
   {
-   "id": "088",
-   "platform": "youtube",
-   "offered": "2026-11-17T06:55:23-05:00",
-   "result": {
-    "post_id": "6afc40b0b9fb95e12d030e29",
-    "status": "scheduled",
-    "at": "2026-11-17T06:55:31-05:00"
-   }
-  },
-  {
-   "id": "088",
-   "platform": "tiktok",
-   "offered": "2026-11-17T06:55:31-05:00",
-   "result": {
-    "post_id": "6afc40b79b7a21e1017a8b25",
-    "status": "scheduled",
-    "at": "2026-11-17T06:55:37-05:00"
-   }
-  },
-  {
    "id": "089",
-   "platform": "youtube",
-   "offered": "2026-11-17T06:55:37-05:00",
+   "platform": "tiktok",
+   "offered": "2026-11-17T13:46:31-05:00",
    "result": {
-    "post_id": "6afc40beb9fb95e12d03139a",
+    "post_id": "6afca10bd4c8ef4106f74802",
     "status": "scheduled",
-    "at": "2026-11-17T06:55:45-05:00"
+    "at": "2026-11-17T13:46:37-05:00"
+   }
+  },
+  {
+   "id": "090",
+   "platform": "youtube",
+   "offered": "2026-11-17T13:46:37-05:00",
+   "result": {
+    "post_id": "6afca11176241fcf0c6c303e",
+    "status": "scheduled",
+    "at": "2026-11-17T13:46:43-05:00"
+   }
+  },
+  {
+   "id": "090",
+   "platform": "tiktok",
+   "offered": "2026-11-17T13:46:43-05:00",
+   "result": {
+    "post_id": "6afca117d4c8ef4106f74c53",
+    "status": "scheduled",
+    "at": "2026-11-17T13:46:51-05:00"
    }
   }
  ]

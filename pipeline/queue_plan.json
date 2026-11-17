@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-17T06:56:21-05:00",
+ "generated": "2026-11-17T13:49:56-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 9,
- "free_after_plan": 0,
+ "occupied": 8,
+ "free_after_plan": 1,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 3,
-   "sent": 0,
+   "scheduled": 1,
+   "sent": 2,
    "limit": null,
    "isAtLimit": null
   }
@@ -27,40 +27,26 @@
  ],
  "reconciled": [],
  "create": [],
- "waiting": [
-  {
-   "id": "089",
-   "platform": "tiktok",
-   "dueAt": "2026-11-18T13:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "090",
-   "platform": "youtube",
-   "dueAt": "2026-11-18T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  },
-  {
-   "id": "090",
-   "platform": "tiktok",
-   "dueAt": "2026-11-18T18:00:00-05:00",
-   "reason": "cola de Buffer llena"
-  }
- ],
+ "waiting": [],
  "blocked": [],
- "warnings": [],
+ "warnings": [
+  "SIN ENLACE 085 tiktok 6afaef9e37f9e5273be52e6e: sent sin externalLink (get_post 6afaef9e37f9e5273be52e6e → link_6afaef9e37f9e5273be52e6e.json); se reintenta en la próxima ejecución",
+  "SIN ENLACE 085 youtube 6afaef9837f9e5273be52c75: sent sin externalLink (get_post 6afaef9837f9e5273be52c75 → link_6afaef9837f9e5273be52c75.json); se reintenta en la próxima ejecución",
+  "SIN ENLACE 086 tiktok 6afb4fc71377c0ebdd3071ad: sent sin externalLink (get_post 6afb4fc71377c0ebdd3071ad → link_6afb4fc71377c0ebdd3071ad.json); se reintenta en la próxima ejecución",
+  "SIN ENLACE 086 youtube 6afaefa637f9e5273be53045: sent sin externalLink (get_post 6afaefa637f9e5273be53045 → link_6afaefa637f9e5273be53045.json); se reintenta en la próxima ejecución"
+ ],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261117T065621_confirm_b84bac810c4f/",
+   "file": "evidence/buffer/20261117T134956_confirm_25849bb75910/",
    "files": {
-    "account.json": "f84e2e5c43cc85f369006095b16fb69f6815abcec17f9c53fafc69355a862a17",
-    "errors.json": "083b9172d5abbf1a2e587f6d97bceb4f721f49d701c9e740a0c4817b2d5a1336",
-    "open.json": "9999168d3be3c59768902e06f88db9873ea71eb60e03c65316527cac011d2a42",
-    "recent.json": "600aa2ede04725512ab166e4e0ce43019fcb90df66268a3a1733e5a9f72260f3"
+    "account.json": "47d2c0a35c6dbf9483ef1a223082257e7281f4ed79e98cfc17bcd74f033d184f",
+    "errors.json": "6451566d438bce4b1350d945ebfcce47fff1852e3b4e02787cb6cd72d32c3122",
+    "open.json": "b206116820f7c26064f1297a327465a252a1756fd5a288297f52ed2ef4610ac4",
+    "recent.json": "2233ba2b2d733eab2f5525b94c3ae44a045b8b6e7d1e1a55430662ec370a2f90"
    },
-   "nonce": "b84bac810c4f",
-   "nonce_issued": "2026-11-17T06:55:45-05:00",
-   "buffer_time": "2026-11-17T06:55:51-05:00",
+   "nonce": "25849bb75910",
+   "nonce_issued": "2026-11-17T13:46:51-05:00",
+   "buffer_time": "2026-11-17T13:46:57-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
