@@ -1,11 +1,10 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-16T18:44-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-17T06:56-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PLANNED**: 3
-- **PRODUCED**: 3
+- **PRODUCED**: 6
 - **PUBLISHED**: 84
 
 ## Vídeos con actividad
@@ -99,6 +98,9 @@ Actualizado: 2026-11-16T18:44-05:00 (America/New_York) · Costo real: US$0
 | 085 | 2026-11-17 | ¿Cómo funciona un secador de pelo? | PRODUCED | — | — | PASS 28.067 s -15.7 LUFS |
 | 086 | 2026-11-17 | ¿Cómo aspira una aspiradora? | PRODUCED | — | — | PASS 25.233 s -15.6 LUFS |
 | 087 | 2026-11-17 | ¿Cómo flota un barco de acero? | PRODUCED | — | — | PASS 25.933 s -15.5 LUFS |
+| 088 | 2026-11-18 | ¿Cómo funciona una tecla de teclado mecánico? | PRODUCED | — | — | PASS 29.0 s -15.7 LUFS |
+| 089 | 2026-11-18 | ¿Cómo se ajusta una llave inglesa? | PRODUCED | — | — | PASS 27.9 s -15.7 LUFS |
+| 090 | 2026-11-18 | ¿Cómo trepa un gecko por el cristal? | PRODUCED | — | — | PASS 28.667 s -15.7 LUFS |
 
 ## Calendario completo
 
@@ -189,6 +191,6 @@ Actualizado: 2026-11-16T18:44-05:00 (America/New_York) · Costo real: US$0
 - 085 · 2026-11-17 · Mecanismo · ¿Cómo funciona un secador de pelo? · PRODUCED
 - 086 · 2026-11-17 · Mecanismo · ¿Cómo aspira una aspiradora? · PRODUCED
 - 087 · 2026-11-17 · Ciencia · ¿Cómo flota un barco de acero? · PRODUCED
-- 088 · 2026-11-18 · Mecanismo · ¿Cómo funciona una tecla de teclado mecánico? · PLANNED
-- 089 · 2026-11-18 · Mecanismo · ¿Cómo se ajusta una llave inglesa? · PLANNED
-- 090 · 2026-11-18 · Ciencia · ¿Cómo trepa un gecko por el cristal? · PLANNED
+- 088 · 2026-11-18 · Mecanismo · ¿Cómo funciona una tecla de teclado mecánico? · PRODUCED
+- 089 · 2026-11-18 · Mecanismo · ¿Cómo se ajusta una llave inglesa? · PRODUCED
+- 090 · 2026-11-18 · Ciencia · ¿Cómo trepa un gecko por el cristal? · PRODUCED
