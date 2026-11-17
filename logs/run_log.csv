@@ -1138,3 +1138,18 @@ timestamp_local,level,message
 2026-11-17T13:49:56-05:00,WARN,SIN ENLACE 086 youtube 6afaefa637f9e5273be53045: sent sin externalLink (get_post 6afaefa637f9e5273be53045 → link_6afaefa637f9e5273be53045.json); se reintenta en la próxima ejecución
 2026-11-17T13:49:56-05:00,INFO,"etapa confirm: PASS ocupados 8/10, crear 0, en espera 0"
 2026-11-17T13:49:56-05:00,WARN,Cuota API Buffer 30 días: 13 de 2000 restantes tras confirm (reinicio ~2026-11-19 05:30 ET). Ejecuciones siguientes: solo verificación; no hay más vídeos por programar en el calendario
+2026-11-17T18:43:15-05:00,INFO,conciliado 087 tiktok 6afb4fd623d030fd36c12822 sent
+2026-11-17T18:43:15-05:00,INFO,conciliado 087 youtube 6afb4fcf08dd01805007ec14 sent
+2026-11-17T18:43:15-05:00,WARN,SIN ENLACE 085 tiktok 6afaef9e37f9e5273be52e6e: sent sin externalLink (get_post 6afaef9e37f9e5273be52e6e → link_6afaef9e37f9e5273be52e6e.json); se reintenta en la próxima ejecución
+2026-11-17T18:43:15-05:00,WARN,SIN ENLACE 085 youtube 6afaef9837f9e5273be52c75: sent sin externalLink (get_post 6afaef9837f9e5273be52c75 → link_6afaef9837f9e5273be52c75.json); se reintenta en la próxima ejecución
+2026-11-17T18:43:15-05:00,WARN,SIN ENLACE 086 tiktok 6afb4fc71377c0ebdd3071ad: sent sin externalLink (get_post 6afb4fc71377c0ebdd3071ad → link_6afb4fc71377c0ebdd3071ad.json); se reintenta en la próxima ejecución
+2026-11-17T18:43:15-05:00,WARN,SIN ENLACE 086 youtube 6afaefa637f9e5273be53045: sent sin externalLink (get_post 6afaefa637f9e5273be53045 → link_6afaefa637f9e5273be53045.json); se reintenta en la próxima ejecución
+2026-11-17T18:43:15-05:00,WARN,SIN ENLACE 087 tiktok 6afb4fd623d030fd36c12822: sent sin externalLink (get_post 6afb4fd623d030fd36c12822 → link_6afb4fd623d030fd36c12822.json); se reintenta en la próxima ejecución
+2026-11-17T18:43:15-05:00,WARN,SIN ENLACE 087 youtube 6afb4fcf08dd01805007ec14: sent sin externalLink (get_post 6afb4fcf08dd01805007ec14 → link_6afb4fcf08dd01805007ec14.json); se reintenta en la próxima ejecución
+2026-11-17T18:43:15-05:00,INFO,"etapa reconcile: PASS ocupados 6/10, crear 0, en espera 0"
+2026-11-17T18:43:17-05:00,WARN,etapa metrics: PENDING 8 capturas pendientes
+2026-11-17T18:43:28-05:00,ERROR,"etapa metrics: BLOCKED cuota API Buffer 30 días: 7 de 2000 restantes (reinicio ~2026-11-19 05:20 ET); 8 capturas pendientes (077, 078 a 72h; 083, 084 a 24h) no caben; se reservan las llamadas para verificar 088–090 y se capturan en la ejecución final"
+2026-11-17T18:43:28-05:00,INFO,"etapa pre-create: SKIP nada que crear (status pending: [], plan create: []); no se gasta cuota API Buffer (7 restantes)"
+2026-11-17T18:43:28-05:00,INFO,"etapa scheduling: SKIP nada que programar: 088, 089 y 090 ya programados en YT y TT"
+2026-11-17T18:43:28-05:00,INFO,etapa confirm: SKIP sin creaciones en esta ejecución; cuota API Buffer 7 restantes
+2026-11-17T18:43:28-05:00,WARN,Cuota API Buffer 30 días: 7 de 2000 restantes tras reconcile 18:38 (reinicio ~2026-11-19 05:20 ET). Métricas 077/078 72h y 083/084 24h no capturadas; enlaces 085–087 pendientes

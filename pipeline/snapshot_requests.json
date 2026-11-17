@@ -1702,5 +1702,14 @@
   "since": "2026-11-15T18:46:51Z",
   "dir": "/tmp/curiolab_snap/confirm_25849bb75910",
   "used": "2026-11-17T13:49:56-05:00"
+ },
+ {
+  "nonce": "daa9781ffb53",
+  "mode": "mcp",
+  "issued": "2026-11-17T18:38:26-05:00",
+  "purpose": "reconcile",
+  "since": "2026-11-12T23:38:26Z",
+  "dir": "/tmp/curiolab_snap/reconcile_daa9781ffb53",
+  "used": "2026-11-17T18:43:15-05:00"
  }
 ]

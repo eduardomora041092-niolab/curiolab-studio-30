@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-17T13:49-05:00",
+ "actualizado": "2026-11-17T18:43-05:00",
  "estados": {
-  "PUBLISHED": 86,
-  "PRODUCED": 4
+  "PUBLISHED": 87,
+  "PRODUCED": 3
  },
  "costo_real_usd": 0,
  "videos": {
@@ -7592,19 +7592,19 @@
    "fecha": "2026-11-17",
    "titulo": "¿Cómo flota un barco de acero?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6afb4fcf08dd01805007ec14",
-     "status": "scheduled",
+     "status": "sent",
      "url": "",
-     "recorded": "2026-11-16T13:47:45-05:00"
+     "recorded": "2026-11-17T18:43:15-05:00"
     },
     "tiktok": {
      "post_id": "6afb4fd623d030fd36c12822",
-     "status": "scheduled",
+     "status": "sent",
      "url": "",
-     "recorded": "2026-11-16T13:47:53-05:00"
+     "recorded": "2026-11-17T18:43:15-05:00"
     }
    },
    "qa": {

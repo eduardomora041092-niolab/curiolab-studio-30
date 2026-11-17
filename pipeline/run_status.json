@@ -1,5 +1,31 @@
 {
  "run_id": "a23293",
  "started": "2026-11-17T18:38:22-05:00",
- "stages": {}
+ "stages": {
+  "reconcile": {
+   "status": "PASS",
+   "msg": "ocupados 6/10, crear 0, en espera 0",
+   "at": "2026-11-17T18:43:15-05:00"
+  },
+  "metrics": {
+   "status": "BLOCKED",
+   "msg": "cuota API Buffer 30 días: 7 de 2000 restantes (reinicio ~2026-11-19 05:20 ET); 8 capturas pendientes (077, 078 a 72h; 083, 084 a 24h) no caben; se reservan las llamadas para verificar 088–090 y se capturan en la ejecución final",
+   "at": "2026-11-17T18:43:28-05:00"
+  },
+  "pre-create": {
+   "status": "SKIP",
+   "msg": "nada que crear (status pending: [], plan create: []); no se gasta cuota API Buffer (7 restantes)",
+   "at": "2026-11-17T18:43:28-05:00"
+  },
+  "scheduling": {
+   "status": "SKIP",
+   "msg": "nada que programar: 088, 089 y 090 ya programados en YT y TT",
+   "at": "2026-11-17T18:43:28-05:00"
+  },
+  "confirm": {
+   "status": "SKIP",
+   "msg": "sin creaciones en esta ejecución; cuota API Buffer 7 restantes",
+   "at": "2026-11-17T18:43:28-05:00"
+  }
+ }
 }

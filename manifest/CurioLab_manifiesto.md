@@ -1,11 +1,11 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-17T13:49-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-17T18:43-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PRODUCED**: 4
-- **PUBLISHED**: 86
+- **PRODUCED**: 3
+- **PUBLISHED**: 87
 
 ## Vídeos con actividad
 
@@ -97,7 +97,7 @@ Actualizado: 2026-11-17T13:49-05:00 (America/New_York) · Costo real: US$0
 | 084 | 2026-11-16 | ¿Por qué el agua hierve antes en la montaña? | PUBLISHED | https://www.youtube.com/shorts/T6PqguD6O78 | https://tiktok.com/@curiolabstudio30/video/7708908400653896974 | PASS 27.133 s -15.6 LUFS |
 | 085 | 2026-11-17 | ¿Cómo funciona un secador de pelo? | PUBLISHED | — | — | PASS 28.067 s -15.7 LUFS |
 | 086 | 2026-11-17 | ¿Cómo aspira una aspiradora? | PUBLISHED | — | — | PASS 25.233 s -15.6 LUFS |
-| 087 | 2026-11-17 | ¿Cómo flota un barco de acero? | PRODUCED | — | — | PASS 25.933 s -15.5 LUFS |
+| 087 | 2026-11-17 | ¿Cómo flota un barco de acero? | PUBLISHED | — | — | PASS 25.933 s -15.5 LUFS |
 | 088 | 2026-11-18 | ¿Cómo funciona una tecla de teclado mecánico? | PRODUCED | — | — | PASS 29.0 s -15.7 LUFS |
 | 089 | 2026-11-18 | ¿Cómo se ajusta una llave inglesa? | PRODUCED | — | — | PASS 27.9 s -15.7 LUFS |
 | 090 | 2026-11-18 | ¿Cómo trepa un gecko por el cristal? | PRODUCED | — | — | PASS 28.667 s -15.7 LUFS |
@@ -190,7 +190,7 @@ Actualizado: 2026-11-17T13:49-05:00 (America/New_York) · Costo real: US$0
 - 084 · 2026-11-16 · Ciencia · ¿Por qué el agua hierve antes en la montaña? · PUBLISHED
 - 085 · 2026-11-17 · Mecanismo · ¿Cómo funciona un secador de pelo? · PUBLISHED
 - 086 · 2026-11-17 · Mecanismo · ¿Cómo aspira una aspiradora? · PUBLISHED
-- 087 · 2026-11-17 · Ciencia · ¿Cómo flota un barco de acero? · PRODUCED
+- 087 · 2026-11-17 · Ciencia · ¿Cómo flota un barco de acero? · PUBLISHED
 - 088 · 2026-11-18 · Mecanismo · ¿Cómo funciona una tecla de teclado mecánico? · PRODUCED
 - 089 · 2026-11-18 · Mecanismo · ¿Cómo se ajusta una llave inglesa? · PRODUCED
 - 090 · 2026-11-18 · Ciencia · ¿Cómo trepa un gecko por el cristal? · PRODUCED

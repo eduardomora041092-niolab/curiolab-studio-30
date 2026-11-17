@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-17T13:49:56-05:00",
+ "generated": "2026-11-17T18:43:15-05:00",
  "limit": 10,
  "safety_margin": 1,
- "occupied": 8,
- "free_after_plan": 1,
+ "occupied": 6,
+ "free_after_plan": 3,
  "per_channel_today": [
   {
    "channelId": "6ad73b1a778b240e2f677dbf",
    "platform": "youtube",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 0,
+   "sent": 3,
    "limit": null,
    "isAtLimit": null
   },
   {
    "channelId": "6ad739bd778b240e2f677654",
    "platform": "tiktok",
-   "scheduled": 1,
-   "sent": 2,
+   "scheduled": 0,
+   "sent": 3,
    "limit": null,
    "isAtLimit": null
   }
@@ -25,7 +25,10 @@
  "missing_info": [
   "límite diario de publicación por canal (dailyPostingLimits): ninguna herramienta MCP de Buffer lo expone; si Buffer rechaza un create_post por ese límite, se registra como failed y el plan se detiene"
  ],
- "reconciled": [],
+ "reconciled": [
+  "087 tiktok 6afb4fd623d030fd36c12822 sent",
+  "087 youtube 6afb4fcf08dd01805007ec14 sent"
+ ],
  "create": [],
  "waiting": [],
  "blocked": [],
@@ -33,20 +36,22 @@
   "SIN ENLACE 085 tiktok 6afaef9e37f9e5273be52e6e: sent sin externalLink (get_post 6afaef9e37f9e5273be52e6e → link_6afaef9e37f9e5273be52e6e.json); se reintenta en la próxima ejecución",
   "SIN ENLACE 085 youtube 6afaef9837f9e5273be52c75: sent sin externalLink (get_post 6afaef9837f9e5273be52c75 → link_6afaef9837f9e5273be52c75.json); se reintenta en la próxima ejecución",
   "SIN ENLACE 086 tiktok 6afb4fc71377c0ebdd3071ad: sent sin externalLink (get_post 6afb4fc71377c0ebdd3071ad → link_6afb4fc71377c0ebdd3071ad.json); se reintenta en la próxima ejecución",
-  "SIN ENLACE 086 youtube 6afaefa637f9e5273be53045: sent sin externalLink (get_post 6afaefa637f9e5273be53045 → link_6afaefa637f9e5273be53045.json); se reintenta en la próxima ejecución"
+  "SIN ENLACE 086 youtube 6afaefa637f9e5273be53045: sent sin externalLink (get_post 6afaefa637f9e5273be53045 → link_6afaefa637f9e5273be53045.json); se reintenta en la próxima ejecución",
+  "SIN ENLACE 087 tiktok 6afb4fd623d030fd36c12822: sent sin externalLink (get_post 6afb4fd623d030fd36c12822 → link_6afb4fd623d030fd36c12822.json); se reintenta en la próxima ejecución",
+  "SIN ENLACE 087 youtube 6afb4fcf08dd01805007ec14: sent sin externalLink (get_post 6afb4fcf08dd01805007ec14 → link_6afb4fcf08dd01805007ec14.json); se reintenta en la próxima ejecución"
  ],
  "snapshots": [
   {
-   "file": "evidence/buffer/20261117T134956_confirm_25849bb75910/",
+   "file": "evidence/buffer/20261117T184315_reconcile_daa9781ffb53/",
    "files": {
-    "account.json": "47d2c0a35c6dbf9483ef1a223082257e7281f4ed79e98cfc17bcd74f033d184f",
-    "errors.json": "6451566d438bce4b1350d945ebfcce47fff1852e3b4e02787cb6cd72d32c3122",
-    "open.json": "b206116820f7c26064f1297a327465a252a1756fd5a288297f52ed2ef4610ac4",
-    "recent.json": "2233ba2b2d733eab2f5525b94c3ae44a045b8b6e7d1e1a55430662ec370a2f90"
+    "account.json": "d5229f9aca7e3e03df9d65745d897da8120bc4f97dafc0d4d7a996aaed705875",
+    "errors.json": "6ff92bb012e12f72213ff74ab54af4ededad1d60a2ba6a3ce9eca93c0a4c5a7c",
+    "open.json": "ef9055fb61f10cd39cf70b9115876ec105bae2de7887b01335b735a9283885ac",
+    "recent.json": "cee9305ecaffe3d5004d8a6aac76ade2f3794cad53ef75288acf636e8edf0f9d"
    },
-   "nonce": "25849bb75910",
-   "nonce_issued": "2026-11-17T13:46:51-05:00",
-   "buffer_time": "2026-11-17T13:46:57-05:00",
+   "nonce": "daa9781ffb53",
+   "nonce_issued": "2026-11-17T18:38:26-05:00",
+   "buffer_time": "2026-11-17T18:43:05-05:00",
    "source": "mcp",
    "pages": {
     "open": 1,
