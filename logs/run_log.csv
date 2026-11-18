@@ -1166,3 +1166,11 @@ timestamp_local,level,message
 2026-11-18T06:43:58-05:00,INFO,"etapa scheduling: SKIP nada que programar: 088, 089 y 090 ya programados en YT y TT"
 2026-11-18T06:43:58-05:00,INFO,etapa confirm: SKIP sin creaciones en esta ejecución; cuota API Buffer 3 restantes
 2026-11-18T06:43:58-05:00,WARN,Cuota API Buffer 30 días: 3 de 2000 restantes tras reconcile 06:39 (reinicio ~2026-11-19 05:09 ET). Enlaces 085–087 (6 get_post) y 26 capturas de métricas no realizados; las ejecuciones de 13:37 y 18:37 no tendrán cuota suficiente para una instantánea completa (4 llamadas)
+2026-11-18T13:39:12-05:00,ERROR,queue: instantánea incompleta: falta account.json (salida de get_account)
+2026-11-18T13:39:12-05:00,ERROR,etapa reconcile: BLOCKED instantánea incompleta: falta account.json (salida de get_account)
+2026-11-18T13:39:21-05:00,ERROR,"etapa reconcile: BLOCKED Buffer API 429: límite de 30 días agotado (0 de 2000 restantes, se reinicia en ~15h30m, ~05:08 ET 19-nov); errors.json, recent.json y get_account no se pudieron obtener"
+2026-11-18T13:39:21-05:00,ERROR,etapa metrics: BLOCKED sin instantánea de Buffer (429 límite de 30 días)
+2026-11-18T13:39:21-05:00,INFO,etapa pre-create: SKIP nada pendiente en status; Buffer sin cuota
+2026-11-18T13:39:21-05:00,INFO,etapa scheduling: SKIP nada que programar: 090 ya programado YT+TT 18:00
+2026-11-18T13:39:21-05:00,INFO,etapa confirm: SKIP sin cuota de Buffer
+2026-11-18T13:39:21-05:00,ERROR,"Buffer API 429: límite de 30 días agotado (0/2000, reinicio ~15h30m). Conciliación y métricas bloqueadas. open.json muestra 090 YT 6afca11176241fcf0c6c303e y TT 6afca117d4c8ef4106f74c53 scheduled para 2026-11-18 18:00 ET. No se aplicó ningún pago ni ampliación."
