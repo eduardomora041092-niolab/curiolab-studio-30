@@ -1,31 +1,5 @@
 {
- "run_id": "1b932a",
- "started": "2026-11-18T13:38:41-05:00",
- "stages": {
-  "reconcile": {
-   "status": "BLOCKED",
-   "msg": "Buffer API 429: límite de 30 días agotado (0 de 2000 restantes, se reinicia en ~15h30m, ~05:08 ET 19-nov); errors.json, recent.json y get_account no se pudieron obtener",
-   "at": "2026-11-18T13:39:21-05:00"
-  },
-  "metrics": {
-   "status": "BLOCKED",
-   "msg": "sin instantánea de Buffer (429 límite de 30 días)",
-   "at": "2026-11-18T13:39:21-05:00"
-  },
-  "pre-create": {
-   "status": "SKIP",
-   "msg": "nada pendiente en status; Buffer sin cuota",
-   "at": "2026-11-18T13:39:21-05:00"
-  },
-  "scheduling": {
-   "status": "SKIP",
-   "msg": "nada que programar: 090 ya programado YT+TT 18:00",
-   "at": "2026-11-18T13:39:21-05:00"
-  },
-  "confirm": {
-   "status": "SKIP",
-   "msg": "sin cuota de Buffer",
-   "at": "2026-11-18T13:39:21-05:00"
-  }
- }
+ "run_id": "2889c8",
+ "started": "2026-11-18T18:38:37-05:00",
+ "stages": {}
 }
