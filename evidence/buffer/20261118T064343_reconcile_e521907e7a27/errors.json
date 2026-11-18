@@ -1,0 +1,3 @@
+{"edges":[],"pageInfo":{"startCursor":null,"endCursor":null,"hasPreviousPage":false,"hasNextPage":false}}Note: you're close to your Buffer API rate limit.
+* 30-day limit: 5 of 2000 requests left, resets in 22h 30m.
+You can raise your Buffer API limit: https://publish.buffer.com/settings/api?cta=mcpServer-rateLimit-hint-upgrade-1&upgradePathName=mcpRateLimit-upgrade{"rateLimit":[{"remaining":148,"resetSeconds":899},{"remaining":594,"resetSeconds":43166},{"remaining":5,"resetSeconds":81010}]}

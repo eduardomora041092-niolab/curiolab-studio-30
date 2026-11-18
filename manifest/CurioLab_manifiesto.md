@@ -1,6 +1,6 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-17T18:43-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-18T06:44-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
