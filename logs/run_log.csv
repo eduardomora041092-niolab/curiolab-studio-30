@@ -1174,3 +1174,9 @@ timestamp_local,level,message
 2026-11-18T13:39:21-05:00,INFO,etapa scheduling: SKIP nada que programar: 090 ya programado YT+TT 18:00
 2026-11-18T13:39:21-05:00,INFO,etapa confirm: SKIP sin cuota de Buffer
 2026-11-18T13:39:21-05:00,ERROR,"Buffer API 429: límite de 30 días agotado (0/2000, reinicio ~15h30m). Conciliación y métricas bloqueadas. open.json muestra 090 YT 6afca11176241fcf0c6c303e y TT 6afca117d4c8ef4106f74c53 scheduled para 2026-11-18 18:00 ET. No se aplicó ningún pago ni ampliación."
+2026-11-18T18:38:55-05:00,ERROR,reconcile: Buffer list_posts HTTP 429 Too many requests (Retry-After: 37829 s; rateLimit ventana diaria remaining 0). No se reintenta ni se esquiva.
+2026-11-18T18:38:55-05:00,ERROR,etapa reconcile: BLOCKED Buffer list_posts HTTP 429 Too many requests (Retry-After: 37829 s; rateLimit ventana diaria remaining 0). No se reintenta ni se esquiva.
+2026-11-18T18:38:55-05:00,ERROR,etapa metrics: BLOCKED sin instantánea de Buffer (429)
+2026-11-18T18:38:55-05:00,INFO,etapa pre-create: SKIP nada pendiente; Buffer 429
+2026-11-18T18:38:55-05:00,INFO,etapa scheduling: SKIP status: pending []
+2026-11-18T18:38:55-05:00,ERROR,etapa confirm: BLOCKED Buffer 429
