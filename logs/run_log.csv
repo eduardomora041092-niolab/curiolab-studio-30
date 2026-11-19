@@ -1180,3 +1180,41 @@ timestamp_local,level,message
 2026-11-18T18:38:55-05:00,INFO,etapa pre-create: SKIP nada pendiente; Buffer 429
 2026-11-18T18:38:55-05:00,INFO,etapa scheduling: SKIP status: pending []
 2026-11-18T18:38:55-05:00,ERROR,etapa confirm: BLOCKED Buffer 429
+2026-11-19T06:47:56-05:00,INFO,conciliado 088 tiktok 6afc40b79b7a21e1017a8b25 sent
+2026-11-19T06:47:56-05:00,INFO,conciliado 088 youtube 6afc40b0b9fb95e12d030e29 sent
+2026-11-19T06:47:56-05:00,INFO,conciliado 089 tiktok 6afca10bd4c8ef4106f74802 sent
+2026-11-19T06:47:56-05:00,INFO,conciliado 089 youtube 6afc40beb9fb95e12d03139a sent
+2026-11-19T06:47:56-05:00,INFO,conciliado 090 tiktok 6afca117d4c8ef4106f74c53 sent
+2026-11-19T06:47:56-05:00,INFO,conciliado 090 youtube 6afca11176241fcf0c6c303e sent
+2026-11-19T06:47:56-05:00,WARN,SIN ENLACE 085 tiktok 6afaef9e37f9e5273be52e6e: sent sin externalLink (get_post 6afaef9e37f9e5273be52e6e → link_6afaef9e37f9e5273be52e6e.json); se reintenta en la próxima ejecución
+2026-11-19T06:47:56-05:00,WARN,SIN ENLACE 085 youtube 6afaef9837f9e5273be52c75: sent sin externalLink (get_post 6afaef9837f9e5273be52c75 → link_6afaef9837f9e5273be52c75.json); se reintenta en la próxima ejecución
+2026-11-19T06:47:56-05:00,WARN,SIN ENLACE 086 tiktok 6afb4fc71377c0ebdd3071ad: sent sin externalLink (get_post 6afb4fc71377c0ebdd3071ad → link_6afb4fc71377c0ebdd3071ad.json); se reintenta en la próxima ejecución
+2026-11-19T06:47:56-05:00,WARN,SIN ENLACE 086 youtube 6afaefa637f9e5273be53045: sent sin externalLink (get_post 6afaefa637f9e5273be53045 → link_6afaefa637f9e5273be53045.json); se reintenta en la próxima ejecución
+2026-11-19T06:47:56-05:00,WARN,SIN ENLACE 087 tiktok 6afb4fd623d030fd36c12822: sent sin externalLink (get_post 6afb4fd623d030fd36c12822 → link_6afb4fd623d030fd36c12822.json); se reintenta en la próxima ejecución
+2026-11-19T06:47:56-05:00,WARN,SIN ENLACE 087 youtube 6afb4fcf08dd01805007ec14: sent sin externalLink (get_post 6afb4fcf08dd01805007ec14 → link_6afb4fcf08dd01805007ec14.json); se reintenta en la próxima ejecución
+2026-11-19T06:47:56-05:00,WARN,SIN ENLACE 088 tiktok 6afc40b79b7a21e1017a8b25: sent sin externalLink (get_post 6afc40b79b7a21e1017a8b25 → link_6afc40b79b7a21e1017a8b25.json); se reintenta en la próxima ejecución
+2026-11-19T06:47:56-05:00,WARN,SIN ENLACE 088 youtube 6afc40b0b9fb95e12d030e29: sent sin externalLink (get_post 6afc40b0b9fb95e12d030e29 → link_6afc40b0b9fb95e12d030e29.json); se reintenta en la próxima ejecución
+2026-11-19T06:47:56-05:00,WARN,SIN ENLACE 089 tiktok 6afca10bd4c8ef4106f74802: sent sin externalLink (get_post 6afca10bd4c8ef4106f74802 → link_6afca10bd4c8ef4106f74802.json); se reintenta en la próxima ejecución
+2026-11-19T06:47:56-05:00,WARN,SIN ENLACE 089 youtube 6afc40beb9fb95e12d03139a: sent sin externalLink (get_post 6afc40beb9fb95e12d03139a → link_6afc40beb9fb95e12d03139a.json); se reintenta en la próxima ejecución
+2026-11-19T06:47:56-05:00,WARN,SIN ENLACE 090 tiktok 6afca117d4c8ef4106f74c53: sent sin externalLink (get_post 6afca117d4c8ef4106f74c53 → link_6afca117d4c8ef4106f74c53.json); se reintenta en la próxima ejecución
+2026-11-19T06:47:56-05:00,WARN,SIN ENLACE 090 youtube 6afca11176241fcf0c6c303e: sent sin externalLink (get_post 6afca11176241fcf0c6c303e → link_6afca11176241fcf0c6c303e.json); se reintenta en la próxima ejecución
+2026-11-19T06:47:56-05:00,INFO,"etapa reconcile: PASS ocupados 0/10, crear 0, en espera 0"
+2026-11-19T06:48:01-05:00,WARN,etapa metrics: PENDING 26 capturas pendientes
+2026-11-19T06:48:15-05:00,INFO,metrics appended for 4 posts
+2026-11-19T06:48:15-05:00,INFO,etapa metrics: PASS 4 posts capturados
+2026-11-19T06:48:24-05:00,INFO,metrics appended for 4 posts
+2026-11-19T06:48:24-05:00,INFO,etapa metrics: PASS 4 posts capturados
+2026-11-19T06:48:34-05:00,INFO,metrics appended for 4 posts
+2026-11-19T06:48:34-05:00,INFO,etapa metrics: PASS 4 posts capturados
+2026-11-19T06:48:43-05:00,INFO,metrics appended for 4 posts
+2026-11-19T06:48:43-05:00,INFO,etapa metrics: PASS 4 posts capturados
+2026-11-19T06:48:52-05:00,INFO,metrics appended for 4 posts
+2026-11-19T06:48:52-05:00,INFO,etapa metrics: PASS 4 posts capturados
+2026-11-19T06:49:01-05:00,INFO,metrics appended for 4 posts
+2026-11-19T06:49:01-05:00,INFO,etapa metrics: PASS 4 posts capturados
+2026-11-19T06:49:08-05:00,INFO,metrics appended for 2 posts
+2026-11-19T06:49:08-05:00,INFO,etapa metrics: PASS 2 posts capturados
+2026-11-19T06:49:20-05:00,INFO,experimento finalizado; tarea 'CurioLab — producción diaria' desactivada; conciliación y métricas finales hechas (26 capturas 076–088); 089/090 TT y 077–090 sin enlace en state por falta de link_*.json
+2026-11-19T06:49:26-05:00,INFO,"etapa pre-create: SKIP guard ENDED: experimento finalizado, nada que programar"
+2026-11-19T06:49:26-05:00,INFO,"etapa scheduling: SKIP guard ENDED: experimento finalizado, nada que programar"
+2026-11-19T06:49:26-05:00,INFO,"etapa confirm: SKIP guard ENDED: experimento finalizado, nada que programar"

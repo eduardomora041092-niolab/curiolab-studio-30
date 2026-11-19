@@ -1,11 +1,10 @@
 # CurioLab Studio 30 — Manifiesto maestro
 
-Actualizado: 2026-11-18T18:38-05:00 (America/New_York) · Costo real: US$0
+Actualizado: 2026-11-19T06:49-05:00 (America/New_York) · Costo real: US$0
 
 ## Estado
 
-- **PRODUCED**: 3
-- **PUBLISHED**: 87
+- **PUBLISHED**: 90
 
 ## Vídeos con actividad
 
@@ -98,9 +97,9 @@ Actualizado: 2026-11-18T18:38-05:00 (America/New_York) · Costo real: US$0
 | 085 | 2026-11-17 | ¿Cómo funciona un secador de pelo? | PUBLISHED | — | — | PASS 28.067 s -15.7 LUFS |
 | 086 | 2026-11-17 | ¿Cómo aspira una aspiradora? | PUBLISHED | — | — | PASS 25.233 s -15.6 LUFS |
 | 087 | 2026-11-17 | ¿Cómo flota un barco de acero? | PUBLISHED | — | — | PASS 25.933 s -15.5 LUFS |
-| 088 | 2026-11-18 | ¿Cómo funciona una tecla de teclado mecánico? | PRODUCED | — | — | PASS 29.0 s -15.7 LUFS |
-| 089 | 2026-11-18 | ¿Cómo se ajusta una llave inglesa? | PRODUCED | — | — | PASS 27.9 s -15.7 LUFS |
-| 090 | 2026-11-18 | ¿Cómo trepa un gecko por el cristal? | PRODUCED | — | — | PASS 28.667 s -15.7 LUFS |
+| 088 | 2026-11-18 | ¿Cómo funciona una tecla de teclado mecánico? | PUBLISHED | — | — | PASS 29.0 s -15.7 LUFS |
+| 089 | 2026-11-18 | ¿Cómo se ajusta una llave inglesa? | PUBLISHED | — | — | PASS 27.9 s -15.7 LUFS |
+| 090 | 2026-11-18 | ¿Cómo trepa un gecko por el cristal? | PUBLISHED | — | — | PASS 28.667 s -15.7 LUFS |
 
 ## Calendario completo
 
@@ -191,6 +190,6 @@ Actualizado: 2026-11-18T18:38-05:00 (America/New_York) · Costo real: US$0
 - 085 · 2026-11-17 · Mecanismo · ¿Cómo funciona un secador de pelo? · PUBLISHED
 - 086 · 2026-11-17 · Mecanismo · ¿Cómo aspira una aspiradora? · PUBLISHED
 - 087 · 2026-11-17 · Ciencia · ¿Cómo flota un barco de acero? · PUBLISHED
-- 088 · 2026-11-18 · Mecanismo · ¿Cómo funciona una tecla de teclado mecánico? · PRODUCED
-- 089 · 2026-11-18 · Mecanismo · ¿Cómo se ajusta una llave inglesa? · PRODUCED
-- 090 · 2026-11-18 · Ciencia · ¿Cómo trepa un gecko por el cristal? · PRODUCED
+- 088 · 2026-11-18 · Mecanismo · ¿Cómo funciona una tecla de teclado mecánico? · PUBLISHED
+- 089 · 2026-11-18 · Mecanismo · ¿Cómo se ajusta una llave inglesa? · PUBLISHED
+- 090 · 2026-11-18 · Ciencia · ¿Cómo trepa un gecko por el cristal? · PUBLISHED

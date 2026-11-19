@@ -1,11 +1,5 @@
 [
  {
-  "nonce": "f6f5d32c4ca0",
-  "issued": "2026-10-25T18:38:26-04:00",
-  "purpose": "reconcile",
-  "used": "2026-10-25T18:39:28-04:00"
- },
- {
   "nonce": "c0559d83ff49",
   "issued": "2026-10-26T06:38:33-04:00",
   "purpose": "reconcile",
@@ -1738,5 +1732,14 @@
   "since": "2026-11-13T23:38:41Z",
   "dir": "/tmp/curiolab_snap/reconcile_e1d72b0190c8",
   "used": null
+ },
+ {
+  "nonce": "f66da98429a1",
+  "mode": "mcp",
+  "issued": "2026-11-19T06:38:39-05:00",
+  "purpose": "reconcile",
+  "since": "2026-11-14T11:38:39Z",
+  "dir": "/tmp/curiolab_snap/reconcile_f66da98429a1",
+  "used": "2026-11-19T06:47:55-05:00"
  }
 ]

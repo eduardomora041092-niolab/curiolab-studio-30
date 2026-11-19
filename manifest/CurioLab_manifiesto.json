@@ -1,8 +1,7 @@
 {
- "actualizado": "2026-11-18T18:38-05:00",
+ "actualizado": "2026-11-19T06:49-05:00",
  "estados": {
-  "PUBLISHED": 87,
-  "PRODUCED": 3
+  "PUBLISHED": 90
  },
  "costo_real_usd": 0,
  "videos": {
@@ -7725,19 +7724,19 @@
    "fecha": "2026-11-18",
    "titulo": "¿Cómo funciona una tecla de teclado mecánico?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6afc40b0b9fb95e12d030e29",
-     "status": "scheduled",
+     "status": "sent",
      "url": "",
-     "recorded": "2026-11-17T06:55:31-05:00"
+     "recorded": "2026-11-19T06:47:55-05:00"
     },
     "tiktok": {
      "post_id": "6afc40b79b7a21e1017a8b25",
-     "status": "scheduled",
+     "status": "sent",
      "url": "",
-     "recorded": "2026-11-17T06:55:37-05:00"
+     "recorded": "2026-11-19T06:47:55-05:00"
     }
    },
    "qa": {
@@ -7861,19 +7860,19 @@
    "fecha": "2026-11-18",
    "titulo": "¿Cómo se ajusta una llave inglesa?",
    "categoria": "Mecanismo",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6afc40beb9fb95e12d03139a",
-     "status": "scheduled",
+     "status": "sent",
      "url": "",
-     "recorded": "2026-11-17T06:55:45-05:00"
+     "recorded": "2026-11-19T06:47:55-05:00"
     },
     "tiktok": {
      "post_id": "6afca10bd4c8ef4106f74802",
-     "status": "scheduled",
+     "status": "sent",
      "url": "",
-     "recorded": "2026-11-17T13:46:37-05:00"
+     "recorded": "2026-11-19T06:47:55-05:00"
     }
    },
    "qa": {
@@ -7997,19 +7996,19 @@
    "fecha": "2026-11-18",
    "titulo": "¿Cómo trepa un gecko por el cristal?",
    "categoria": "Ciencia",
-   "estado": "PRODUCED",
+   "estado": "PUBLISHED",
    "posts": {
     "youtube": {
      "post_id": "6afca11176241fcf0c6c303e",
-     "status": "scheduled",
+     "status": "sent",
      "url": "",
-     "recorded": "2026-11-17T13:46:43-05:00"
+     "recorded": "2026-11-19T06:47:55-05:00"
     },
     "tiktok": {
      "post_id": "6afca117d4c8ef4106f74c53",
-     "status": "scheduled",
+     "status": "sent",
      "url": "",
-     "recorded": "2026-11-17T13:46:51-05:00"
+     "recorded": "2026-11-19T06:47:55-05:00"
     }
    },
    "qa": {
