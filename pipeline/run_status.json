@@ -1,31 +1,5 @@
 {
- "run_id": "2889c8",
- "started": "2026-11-18T18:38:37-05:00",
- "stages": {
-  "reconcile": {
-   "status": "BLOCKED",
-   "msg": "Buffer list_posts HTTP 429 Too many requests (Retry-After: 37829 s; rateLimit ventana diaria remaining 0). No se reintenta ni se esquiva.",
-   "at": "2026-11-18T18:38:55-05:00"
-  },
-  "metrics": {
-   "status": "BLOCKED",
-   "msg": "sin instantánea de Buffer (429)",
-   "at": "2026-11-18T18:38:55-05:00"
-  },
-  "pre-create": {
-   "status": "SKIP",
-   "msg": "nada pendiente; Buffer 429",
-   "at": "2026-11-18T18:38:55-05:00"
-  },
-  "scheduling": {
-   "status": "SKIP",
-   "msg": "status: pending []",
-   "at": "2026-11-18T18:38:55-05:00"
-  },
-  "confirm": {
-   "status": "BLOCKED",
-   "msg": "Buffer 429",
-   "at": "2026-11-18T18:38:55-05:00"
-  }
- }
+ "run_id": "1ff32f",
+ "started": "2026-11-19T06:38:35-05:00",
+ "stages": {}
 }
